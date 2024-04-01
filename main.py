@@ -93,6 +93,8 @@ def read_file(file_m3u: str) -> None:
                         conn.commit()
                         print(f'Title: {title} inserido..')
 
+                        # UPDATE TB_IPTV_Lista SET  grupo  = TRIM(substring("tvg-group", 0, charindex('|', "tvg-group"))), subgrupo = TRIM(substring("tvg-group", charindex('|', "tvg-group") + 1, 128))
+
             except Exception as err:
                 print(f'Erro: {err}')
                 is_completo = False
@@ -100,7 +102,7 @@ def read_file(file_m3u: str) -> None:
 
 def get_sql() -> list:
     res = cursor.execute(
-        'SELECT TRIM(linha) as [0], TRIM(url) as [1], TRIM("tvg-name") as [2], TRIM("tvg-logo") as [3], TRIM("tvg-group") as [4], TRIM(title) as [5] FROM TB_IPTV_Lista AS A where ativo = 1 order by TRIM("tvg-group") ASC, title ASC;')
+        'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(grupo) AS [5], TRIM(subgrupo) AS [6] FROM TB_IPTV_Lista WHERE ativo = 1 ORDER BY "tvg-group" ASC, "tvg-name" ASC;')
     return res.fetchall()
 
 
@@ -110,23 +112,27 @@ def create_file(arquivo: str) -> None:
         if os.path.exists(arquivo):
             os.remove(arquivo)
 
+        head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
-            file.write(
-                '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n')
+            file.write(head)
+
             for x in obj:
                 try:
-                    url: str = x[1]
-                    name: str = x[2].replace(',', ' ')
-                    logo: str = x[3]
-                    grupo: str = x[4]
-                    title: str = x[5].replace(',', ' ')
+                    url: str = x[0]
+                    name: str = x[1].replace(',', ' ')
+                    logo: str = x[2]
+                    grupo: str = x[3]
+                    subgroup: str = x[6]
+                    title: str = x[4].replace(',', ' ')
 
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
 
-                    grupo_sub: str = f'{grupo} | {name[0:1]}'
-                    file.write(f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{
-                               logo}" tvg-group="{grupo_sub}" group-title="{grupo_sub}",{title}\n{url}\n')
+                    # grupo_sub: str = f'{grupo} | {name[0:1]}'
+
+                    file.write(
+                        f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+
                 except Exception as err:
                     print(f'Erro: {err}')
 
