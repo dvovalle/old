@@ -111,7 +111,8 @@ def create_file(arquivo: str) -> None:
             os.remove(arquivo)
 
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
-            file.write('#EXTM3U\n')
+            file.write(
+                '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n')
             for x in obj:
                 try:
                     url: str = x[1]
@@ -123,7 +124,7 @@ def create_file(arquivo: str) -> None:
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
 
-                    grupo_sub: str = f'{grupo};{name[0:1]}'
+                    grupo_sub: str = f'{grupo} | {name[0:1]}'
                     file.write(f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{
                                logo}" tvg-group="{grupo_sub}" group-title="{grupo_sub}",{title}\n{url}\n')
                 except Exception as err:
