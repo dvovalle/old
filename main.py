@@ -33,6 +33,9 @@ def extract(line: str) -> dict:
     m = re.search("group-title=\"(.*?)\"", line)
     group = m.group(1) if (m is not None) else ''
 
+    m = re.search("pltv-subgroup=\"(.*?)\"", line)
+    sub_group = m.group(1) if (m is not None) else ''
+
     m = re.search("[,](?!.*[,])(.*?)$", line)
     title = m.group(1) if (m is not None) else ''
 
@@ -40,7 +43,8 @@ def extract(line: str) -> dict:
                  "tvg-name": name,
                  "tvg-id": id,
                  "tvg-logo": logo,
-                 "tvg-group": group})
+                 "tvg-group": group,
+                 "pltv-subgroup": sub_group})
 
 
 def read_file(file_m3u: str) -> None:
@@ -50,6 +54,7 @@ def read_file(file_m3u: str) -> None:
     name: str = ''
     logo: str = ''
     group: str = ''
+    sub_group: str = ''
     title: str = ''
     num_lines: int = 0
     is_completo: bool = False
@@ -71,6 +76,7 @@ def read_file(file_m3u: str) -> None:
                         name = dict_value['tvg-name']
                         logo = dict_value['tvg-logo']
                         group = dict_value['tvg-group']
+                        sub_group = dict_value['pltv-subgroup']
                         title = dict_value['title']
 
                         if len(logo) < 4:
@@ -89,7 +95,7 @@ def read_file(file_m3u: str) -> None:
                         is_completo = False
                         url = line.strip()
                         cursor.execute(
-                            'INSERT INTO TB_IPTV_Lista (linha, url, "tvg-name", "tvg-logo", "tvg-group", ativo, title) VALUES(?, ?, ?, ?, ?, ?, ?);', (linha, url, name, logo, group, 1, title))
+                            'INSERT INTO TB_IPTV_Lista (linha, url, "tvg-name", "tvg-logo", "tvg-group", ativo, title, subgroup) VALUES(?, ?, ?, ?, ?, ?, ?, ?);', (linha, url, name, logo, group, 1, title, sub_group))
                         conn.commit()
                         print(f'Title: {title} inserido..')
 
@@ -102,7 +108,7 @@ def read_file(file_m3u: str) -> None:
 
 def get_sql() -> list:
     res = cursor.execute(
-        'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(grupo) AS [5], TRIM(subgrupo) AS [6] FROM TB_IPTV_Lista WHERE ativo = 1 ORDER BY "tvg-group" ASC, "tvg-name" ASC;')
+        'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM TB_IPTV_Lista WHERE ativo = 1 ORDER BY "tvg-group" ASC, "tvg-name" ASC;')
     return res.fetchall()
 
 
@@ -122,7 +128,7 @@ def create_file(arquivo: str) -> None:
                     name: str = x[1].replace(',', ' ')
                     logo: str = x[2]
                     grupo: str = x[3]
-                    subgroup: str = x[6]
+                    subgroup: str = x[5]
                     title: str = x[4].replace(',', ' ')
 
                     if len(name) > len(title):
@@ -131,7 +137,7 @@ def create_file(arquivo: str) -> None:
                     # grupo_sub: str = f'{grupo} | {name[0:1]}'
 
                     file.write(
-                        f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
 
                 except Exception as err:
                     print(f'Erro: {err}')
@@ -140,5 +146,5 @@ def create_file(arquivo: str) -> None:
 
 
 if __name__ == '__main__':
-    # read_file('/home/danilo/GitHub/iptv/M3UListas/tv_channels_valterversa0103_plus.m3u')
+    # read_file('/home/danilo/GitHub/iptv/M3UListas/listaNova.m3u')
     create_file(arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u')
