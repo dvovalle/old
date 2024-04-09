@@ -140,8 +140,10 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
                     # grupo_sub: str = f'{grupo} | {name[0:1]}'
 
+                    # linha: str = f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{subgroup}" pltv-subgroup="{grupo}", {title}\n{url}\n'
+
                     file.write(
-                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{subgroup}" pltv-subgroup="{grupo}", {title}\n{url}\n')
+                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}", {title}\n{url}\n')
 
                 except Exception as err:
                     print(f'******** -> Erro: {err}')
