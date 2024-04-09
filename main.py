@@ -66,7 +66,6 @@ def read_file(file_m3u: str) -> None:
         while num_lines >= count:
             try:
                 count += 1
-                print(f'Linha: {count} de {num_lines}')
                 line = file.readline()
                 if line is not None and len(line) > 0:
                     if line.find('EXTINF:') >= 0:
@@ -97,23 +96,28 @@ def read_file(file_m3u: str) -> None:
                         cursor.execute(
                             'INSERT INTO TB_IPTV_Lista (linha, url, "tvg-name", "tvg-logo", "tvg-group", ativo, title, subgroup) VALUES(?, ?, ?, ?, ?, ?, ?, ?);', (linha, url, name, logo, group, 1, title, sub_group))
                         conn.commit()
-                        print(f'Title: {title} inserido..')
+                        print(f'Title: {title} - {count} de {num_lines}')
 
                         # UPDATE TB_IPTV_Lista SET  grupo  = TRIM(substring("tvg-group", 0, charindex('|', "tvg-group"))), subgrupo = TRIM(substring("tvg-group", charindex('|', "tvg-group") + 1, 128))
 
             except Exception as err:
-                print(f'Erro: {err}')
+                print(f'******** -> Error: {err}')
                 is_completo = False
 
+        if os.path.exists(file_m3u):
+            os.remove(file_m3u)
 
-def get_sql() -> list:
-    res = cursor.execute(
-        'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM TB_IPTV_Lista WHERE ativo = 1 ORDER BY "tvg-group" ASC, "tvg-name" ASC;')
+
+def get_sql(is_full: bool) -> list:
+    command: str = 'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM TB_IPTV_Lista WHERE ativo = 1 ORDER BY "tvg-group" ASC, "tvg-name" ASC;'
+    if is_full:
+        command = 'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM TB_IPTV_Lista ORDER BY "tvg-group" ASC, "tvg-name" ASC;'
+    res = cursor.execute(command)
     return res.fetchall()
 
 
-def create_file(arquivo: str) -> None:
-    obj: list = get_sql()
+def create_file(arquivo: str, is_full: bool) -> None:
+    obj: list = get_sql(is_full=is_full)
     if obj is not None:
         if os.path.exists(arquivo):
             os.remove(arquivo)
@@ -137,14 +141,15 @@ def create_file(arquivo: str) -> None:
                     # grupo_sub: str = f'{grupo} | {name[0:1]}'
 
                     file.write(
-                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{subgroup}" pltv-subgroup="{grupo}", {title}\n{url}\n')
 
                 except Exception as err:
-                    print(f'Erro: {err}')
+                    print(f'******** -> Erro: {err}')
 
             file.close()
 
 
 if __name__ == '__main__':
-    # read_file('/home/danilo/GitHub/iptv/M3UListas/listaNova.m3u')
-    create_file(arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u')
+    # read_file('/home/danilo/GitHub/iptv/M3UListas/lista.m3u')
+    create_file(arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u',
+                is_full=False)
