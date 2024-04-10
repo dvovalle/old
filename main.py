@@ -122,9 +122,9 @@ def read_file(file_m3u: str) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM tb_iptv WHERE ativo = 1 ORDER BY grupo ASC, name ASC;'
+    command: str = 'SELECT url AS [0], id AS [1], name AS [2], logo AS [3], grupo AS [4], subgrupo AS [5], title AS [6] FROM tb_iptv where online = 1 and ativo = 1 order by grupo ASC, name ASC;'
     if is_full:
-        command = 'SELECT TRIM(url) AS [0], TRIM("tvg-name") AS [1], TRIM("tvg-logo") AS [2], TRIM("tvg-group") AS [3], TRIM(title) AS [4], TRIM(subgroup) AS [5] FROM tb_iptv ORDER BY grupo ASC, name ASC;'
+        command = 'SELECT url AS [0], id AS [1], name AS [2], logo AS [3], grupo AS [4], subgrupo AS [5], title AS [6] FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
     return res.fetchall()
 
@@ -132,8 +132,12 @@ def get_sql(is_full: bool) -> list:
 def create_file(arquivo: str, is_full: bool) -> None:
     obj: list = get_sql(is_full=is_full)
 
-    if os.path.exists(arquivo):
-        os.remove(arquivo)
+    if obj is not None:
+        try:
+            if os.path.exists(arquivo):
+                os.remove(arquivo)
+        except Exception as err:
+            print(f'******** -> Error: {err}')
 
         head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
@@ -142,11 +146,18 @@ def create_file(arquivo: str, is_full: bool) -> None:
             for x in obj:
                 try:
                     url: str = x[0]
-                    name: str = x[1].replace(',', ' ')
-                    logo: str = x[2]
-                    grupo: str = x[3]
+                    id: str = x[1]
+                    name: str = x[2].replace(',', ' ')
+                    logo: str = x[3]
+                    grupo: str = x[4]
                     subgroup: str = x[5]
-                    title: str = x[4].replace(',', ' ')
+                    title: str = x[6].replace(',', ' ')
+
+                    if id == '0' or len(id) <= 3:
+                        id = ''
+
+                    if logo == '0' or len(logo) <= 3:
+                        logo = ''
 
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
@@ -156,7 +167,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     # linha: str = f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{subgroup}" pltv-subgroup="{grupo}", {title}\n{url}\n'
 
                     file.write(
-                        f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                        f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
 
                 except Exception as err:
                     print(f'******** -> Erro: {err}')
@@ -165,5 +176,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    # create_file(arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u',is_full=False)
+    # read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
+    create_file(
+        arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u', is_full=False)
