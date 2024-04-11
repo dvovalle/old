@@ -39,3 +39,6 @@ CREATE TABLE tb_iptv (
 );
 
 ```
+
+https://siptv.app/mylist/
+https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u

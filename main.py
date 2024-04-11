@@ -154,8 +154,8 @@ def get_sql(is_full: bool) -> list:
 
 
 def create_file(arquivo: str, is_full: bool) -> None:
-    # head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
-    head: str = '#EXTM3U\n'
+    head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
+    #head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
     if is_full:
