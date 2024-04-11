@@ -202,4 +202,4 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 if __name__ == '__main__':
     #read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    create_file(arquivo=LISTA_COMPLETA, is_full=True)
+    create_file(arquivo=LISTA_COMPLETA, is_full=False)
