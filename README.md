@@ -27,3 +27,23 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u
               https://github.com/SaTecnologiacell/satecnologia.iptv-canais/blob/main/iptvlista.m3u
+
+
+```sql
+
+CREATE TABLE tb_iptv (
+	idlinha INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	origem TEXT(128) NOT NULL,
+	url TEXT(2048) NOT NULL,
+	id TEXT(512) NOT NULL,
+	name TEXT(1024) NOT NULL,
+	logo TEXT(1024) NOT NULL,
+	grupo TEXT(1024) NOT NULL,
+	subgrupo TEXT(1024) NOT NULL,
+	titulo TEXT(1024) NOT NULL,
+	ativo INTEGER DEFAULT (1) NOT NULL,
+	online INTEGER DEFAULT (1) NOT NULL,
+	CONSTRAINT ix_tb_iptv_name UNIQUE (name)
+);
+
+```

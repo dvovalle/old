@@ -2,8 +2,26 @@ import os
 import sqlite3
 import re
 
-conn = sqlite3.connect(database="iptv.db", timeout=1.0)
+conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
+
+
+def __start_backup() -> None:
+    conn_old = sqlite3.connect(database="iptv.db", timeout=2.0)
+    cursor_old = conn_old.cursor()
+    command: str = 'SELECT origem, url, id, name, logo, grupo, subgrupo, title, ativo, online FROM tb_iptv order by grupo ASC, name ASC;'
+    res = cursor_old.execute(command)
+    listold: list = res.fetchall()
+    if listold is not None:
+        for x in listold:
+            try:
+                cursor.execute(
+                    'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
+                    (x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8], x[9]))
+            except Exception as err:
+                print(f'******** -> Erro: {err}')
+
+    conn.commit()
 
 
 def get_el(texto: str, tag_name: str, ate_fim: bool) -> str:
@@ -107,8 +125,8 @@ def read_file(file_m3u: str) -> None:
                         link_pos: int = link.find('.')
                         origem = link[0:link_pos]
                         cursor.execute(
-                            'INSERT INTO tb_iptv (origem, linha, url, id, name, logo, grupo, subgrupo, title, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
-                            (origem, linha, url, id, name, logo, group, sub_group, title, 1))
+                            'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
+                            (origem, url, id, name, logo, group, sub_group, title, 1, 1))
                         print(f'Title: {title} - {count} de {num_lines}')
 
             except Exception as err:
@@ -122,9 +140,9 @@ def read_file(file_m3u: str) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT url AS [0], id AS [1], name AS [2], logo AS [3], grupo AS [4], subgrupo AS [5], title AS [6] FROM tb_iptv where online = 1 and ativo = 1 order by grupo ASC, name ASC;'
+    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv WHERE ativo = 1 and online = 1 order by grupo ASC, name ASC;'
     if is_full:
-        command = 'SELECT url AS [0], id AS [1], name AS [2], logo AS [3], grupo AS [4], subgrupo AS [5], title AS [6] FROM tb_iptv order by grupo ASC, name ASC;'
+        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
     return res.fetchall()
 
@@ -133,11 +151,8 @@ def create_file(arquivo: str, is_full: bool) -> None:
     obj: list = get_sql(is_full=is_full)
 
     if obj is not None:
-        try:
-            if os.path.exists(arquivo):
-                os.remove(arquivo)
-        except Exception as err:
-            print(f'******** -> Error: {err}')
+        if os.path.exists(arquivo):
+            os.remove(arquivo)
 
         head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
@@ -145,13 +160,13 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
             for x in obj:
                 try:
-                    url: str = x[0]
-                    id: str = x[1]
-                    name: str = x[2].replace(',', ' ')
-                    logo: str = x[3]
-                    grupo: str = x[4]
-                    subgroup: str = x[5]
-                    title: str = x[6].replace(',', ' ')
+                    url: str = str(x[0]).strip()
+                    id: str = str(x[1]).strip()
+                    name: str = str(x[2].replace(',', ' ')).strip()
+                    logo: str = str(x[3]).strip()
+                    grupo: str = str(x[4]).strip()
+                    subgroup: str = str(x[5]).strip()
+                    title: str = str(x[6].replace(',', ' ')).strip()
 
                     if id == '0' or len(id) <= 3:
                         id = ''
@@ -161,8 +176,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
-
-                    # grupo_sub: str = f'{grupo} | {name[0:1]}'
 
                     # linha: str = f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" pltv-subgroup="{subgroup}" group-title="{grupo}",{title}\n{url}\n'
                     # linha: str = f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
