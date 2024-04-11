@@ -192,7 +192,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     # linha: str = f'#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
                     file.write(
-                        f'#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                        f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
 
                 except Exception as err:
                     print(f'******** -> Erro: {err}')
@@ -201,5 +201,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
+    #read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
     create_file(arquivo=LISTA_COMPLETA, is_full=False)
