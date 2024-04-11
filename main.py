@@ -5,6 +5,8 @@ import re
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
 
+LISTA_COMPLETA: str = '/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u'
+
 
 def __start_backup() -> None:
     conn_old = sqlite3.connect(database="iptv.db", timeout=2.0)
@@ -124,10 +126,13 @@ def read_file(file_m3u: str) -> None:
                             'http://', '').replace('https://', '')
                         link_pos: int = link.find('.')
                         origem = link[0:link_pos]
-                        cursor.execute(
-                            'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
-                            (origem, url, id, name, logo, group, sub_group, title, 1, 1))
-                        print(f'Title: {title} - {count} de {num_lines}')
+                        try:
+                            cursor.execute(
+                                'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
+                                (origem, url, id, name, logo, group, sub_group, title, 1, 1))
+                            print(f'Title: {title} - {count} de {num_lines}')
+                        except Exception:
+                            is_completo = False
 
             except Exception as err:
                 print(f'******** -> Error: {err}')
@@ -140,21 +145,22 @@ def read_file(file_m3u: str) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv WHERE ativo = 1 and online = 1 order by grupo ASC, name ASC;'
+    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, idlinha FROM tb_iptv WHERE ativo = 1 and online = 1 order by grupo ASC, name ASC;'
     if is_full:
-        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv order by grupo ASC, name ASC;'
+        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, idlinha FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
     return res.fetchall()
 
 
 def create_file(arquivo: str, is_full: bool) -> None:
+    # head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
+    head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
     if obj is not None:
         if os.path.exists(arquivo):
             os.remove(arquivo)
 
-        head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
             file.write(head)
 
@@ -167,6 +173,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     grupo: str = str(x[4]).strip()
                     subgroup: str = str(x[5]).strip()
                     title: str = str(x[6].replace(',', ' ')).strip()
+                    idlinha = int(x[7])
 
                     if id == '0' or len(id) <= 3:
                         id = ''
@@ -177,11 +184,11 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
 
-                    # linha: str = f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" pltv-subgroup="{subgroup}" group-title="{grupo}",{title}\n{url}\n'
-                    # linha: str = f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+                    # linha = f'#EXTGRP:{subgroup}\n#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+                    # linha: str = f'#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
                     file.write(
-                        f'#EXTINF:-1 tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                        f'#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
 
                 except Exception as err:
                     print(f'******** -> Erro: {err}')
@@ -191,5 +198,4 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 if __name__ == '__main__':
     # read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    create_file(
-        arquivo='/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u', is_full=False)
+    create_file(arquivo=LISTA_COMPLETA, is_full=False)
