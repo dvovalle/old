@@ -6,6 +6,7 @@ conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
 
 LISTA_COMPLETA: str = '/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u'
+LISTA_ALL: str = '/home/danilo/GitHub/iptv/M3UListas/listaFULL.m3u'
 
 
 def __start_backup() -> None:
@@ -157,6 +158,9 @@ def create_file(arquivo: str, is_full: bool) -> None:
     head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
+    if is_full:
+        arquivo = LISTA_ALL
+
     if obj is not None:
         if os.path.exists(arquivo):
             os.remove(arquivo)
@@ -198,4 +202,4 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 if __name__ == '__main__':
     # read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    create_file(arquivo=LISTA_COMPLETA, is_full=False)
+    create_file(arquivo=LISTA_COMPLETA, is_full=True)
