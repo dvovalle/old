@@ -68,6 +68,12 @@ def extract(line: str) -> dict:
                  "pltv-subgroup": sub_group})
 
 
+def _exists_db(cmd:str) -> bool:
+    res = cursor.execute(cmd)
+    res_value = res.fetchone()
+    return True
+
+
 def read_file(file_m3u: str) -> None:
     count: int = 0
     linha: str = ''
@@ -128,6 +134,7 @@ def read_file(file_m3u: str) -> None:
                         link_pos: int = link.find('.')
                         origem = link[0:link_pos]
                         try:
+                            is_exists : bool = __exists_db(cmd=f"SELECT idlinha FROM tb_iptv where ativo = 1 and name = '{name}' LIMIT 1;")
                             cursor.execute(
                                 'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
                                 (origem, url, id, name, logo, group, sub_group, title, 1, 1))
@@ -201,5 +208,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    #read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    create_file(arquivo=LISTA_COMPLETA, is_full=False)
+    read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
+    # create_file(arquivo=LISTA_COMPLETA, is_full=False)
