@@ -141,8 +141,8 @@ def read_file(file_m3u: str) -> None:
 
         conn.commit()
 
-        if os.path.exists(file_m3u):
-            os.remove(file_m3u)
+        # if os.path.exists(file_m3u):
+        #    os.remove(file_m3u)
 
 
 def get_sql(is_full: bool) -> list:
