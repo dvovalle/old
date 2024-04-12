@@ -5,8 +5,9 @@ import re
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
 
-LISTA_COMPLETA: str = '/home/danilo/GitHub/iptv/M3UListas/listaCompleta.m3u'
-LISTA_ALL: str = '/home/danilo/GitHub/iptv/M3UListas/listaFULL.m3u'
+__DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+__LISTA_COMPLETA: str = f'{__DIR_PATH}/M3UListas/listaCompleta.m3u'
+__LISTA_ALL: str = f'{__DIR_PATH}/M3UListas/listaFULL.m3u'
 
 
 def __start_backup() -> None:
@@ -175,7 +176,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
     obj: list = get_sql(is_full=is_full)
 
     if is_full:
-        arquivo = LISTA_ALL
+        arquivo = __LISTA_ALL
 
     if obj is not None:
         if os.path.exists(arquivo):
@@ -215,5 +216,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u='/home/danilo/GitHub/iptv/M3UListas/002.m3u', update=False)
-    create_file(arquivo=LISTA_COMPLETA, is_full=False)
+    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/002.m3u', update=False)
+    create_file(arquivo=__LISTA_COMPLETA, is_full=False)
