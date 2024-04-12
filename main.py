@@ -215,5 +215,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u='/home/danilo/GitHub/iptv/M3UListas/002.m3u', update=False)
+    # read_file(file_m3u='/home/danilo/GitHub/iptv/M3UListas/001.m3u', update=False)
     create_file(arquivo=LISTA_COMPLETA, is_full=False)
