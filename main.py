@@ -68,13 +68,13 @@ def extract(line: str) -> dict:
                  "pltv-subgroup": sub_group})
 
 
-def _exists_db(cmd:str) -> bool:
+def _exists_db(cmd: str) -> bool:
     res = cursor.execute(cmd)
     res_value = res.fetchone()
     return True
 
 
-def read_file(file_m3u: str) -> None:
+def read_file(file_m3u: str, update: bool) -> None:
     count: int = 0
     linha: str = ''
     url: str = ''
@@ -120,13 +120,16 @@ def read_file(file_m3u: str) -> None:
                         if len(title) < 2:
                             title = '0'
 
-                        if len(name) < 2:
+                        if len(title) < 2:
+                            title = name
+
+                        if len(title) > 2:
                             name = title
 
                         if len(id) < 5:
                             id = '0'
 
-                    if is_completo and line.find('http') >= 0:
+                    if is_completo and line.find('http') == 0:
                         is_completo = False
                         url = line.strip()
                         link: str = url.replace(
@@ -134,13 +137,19 @@ def read_file(file_m3u: str) -> None:
                         link_pos: int = link.find('.')
                         origem = link[0:link_pos]
                         try:
-                            is_exists : bool = __exists_db(cmd=f"SELECT idlinha FROM tb_iptv where ativo = 1 and name = '{name}' LIMIT 1;")
                             cursor.execute(
                                 'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
                                 (origem, url, id, name, logo, group, sub_group, title, 1, 1))
-                            print(f'Title: {title} - {count} de {num_lines}')
+                            print(f'INSERT: Title: {
+                                  title} - {count} de {num_lines}')
                         except Exception:
                             is_completo = False
+                            if update:
+                                cursor.execute(
+                                    'UPDATE tb_iptv SET origem=?, url=?, id=?, logo=?, titulo=? WHERE name=?;',
+                                    (origem, url, id, logo, title, name))
+                                print(f'UPDATE: Title: {
+                                    title} - {count} de {num_lines}')
 
             except Exception as err:
                 print(f'******** -> Error: {err}')
@@ -148,8 +157,8 @@ def read_file(file_m3u: str) -> None:
 
         conn.commit()
 
-        # if os.path.exists(file_m3u):
-        #    os.remove(file_m3u)
+        if os.path.exists(file_m3u):
+            os.remove(file_m3u)
 
 
 def get_sql(is_full: bool) -> list:
@@ -161,8 +170,8 @@ def get_sql(is_full: bool) -> list:
 
 
 def create_file(arquivo: str, is_full: bool) -> None:
-    head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
-    #head: str = '#EXTM3U\n'
+    # head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
+    head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
     if is_full:
@@ -182,9 +191,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     name: str = str(x[2].replace(',', ' ')).strip()
                     logo: str = str(x[3]).strip()
                     grupo: str = str(x[4]).strip()
-                    subgroup: str = str(x[5]).strip()
                     title: str = str(x[6].replace(',', ' ')).strip()
-                    idlinha = int(x[7])
 
                     if id == '0' or len(id) <= 3:
                         id = ''
@@ -208,5 +215,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    read_file('/home/danilo/GitHub/iptv/M3UListas/001.m3u')
-    # create_file(arquivo=LISTA_COMPLETA, is_full=False)
+    # read_file(file_m3u='/home/danilo/GitHub/iptv/M3UListas/002.m3u', update=False)
+    create_file(arquivo=LISTA_COMPLETA, is_full=False)
