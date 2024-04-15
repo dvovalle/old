@@ -102,12 +102,12 @@ def read_file(file_m3u: str, update: bool) -> None:
                         is_completo = True
                         linha = line.strip()
                         dict_value = extract(line=linha)
-                        name = dict_value['tvg-name']
-                        logo = dict_value['tvg-logo']
-                        group = dict_value['tvg-group']
-                        sub_group = dict_value['pltv-subgroup']
-                        title = dict_value['title']
-                        id = dict_value['tvg-id']
+                        name = str(dict_value['tvg-name']).strip()
+                        logo = str(dict_value['tvg-logo']).strip()
+                        group = str(dict_value['tvg-group']).strip()
+                        sub_group = str(dict_value['pltv-subgroup']).strip()
+                        title = str(dict_value['title']).strip()
+                        id = str(dict_value['tvg-id']).strip()
 
                         if len(logo) < 4:
                             logo = '0'
@@ -171,8 +171,8 @@ def get_sql(is_full: bool) -> list:
 
 
 def create_file(arquivo: str, is_full: bool) -> None:
-    # head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
-    head: str = '#EXTM3U\n'
+    head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
+    # head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
     if is_full:
@@ -216,5 +216,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/002.m3u', update=False)
+    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/001.m3u', update=False)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
