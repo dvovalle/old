@@ -2,9 +2,9 @@
 sed -i '/group-title="CHILE/,+1d' /home/danilo/GitHub/iptv/M3UListas/005.m3u
 
 
-sed -i '/#EXTM3U/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
-sed -i '/##/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
-sed -i '/^[[:space:]]*$/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
+sed -i '/#EXTM3U/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
+sed -i '/##/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
+sed -i '/^[[:space:]]*$/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
 
 sed -i -e 's/#EXTINF/EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
 sed -i -e 's/EXTINF/#EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
@@ -24,21 +24,22 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 ```sql
 
 CREATE TABLE tb_iptv (
-	idlinha INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-	origem TEXT(128) NOT NULL,
 	url TEXT(2048) NOT NULL,
-	id TEXT(512) NOT NULL,
-	name TEXT(1024) NOT NULL,
-	logo TEXT(1024) NOT NULL,
-	grupo TEXT(1024) NOT NULL,
-	subgrupo TEXT(1024) NOT NULL,
-	titulo TEXT(1024) NOT NULL,
+	id TEXT(2048) NOT NULL,
+	name TEXT(2048) NOT NULL,
+	logo TEXT(2048) NOT NULL,
+	grupo TEXT(2048) NOT NULL,
+	subgrupo TEXT(2048) NOT NULL,
+	titulo TEXT(2048) NOT NULL,
 	ativo INTEGER DEFAULT (1) NOT NULL,
-	online INTEGER DEFAULT (1) NOT NULL,
-	CONSTRAINT ix_tb_iptv_name UNIQUE (name)
+	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
+	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
 );
 
 ```
 
 https://siptv.app/mylist/
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
+
+
+http://4tv.site/get.php?username=amadeu97863&password=amad97637&type=m3u_plus

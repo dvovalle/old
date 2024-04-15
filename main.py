@@ -80,7 +80,6 @@ def read_file(file_m3u: str, update: bool) -> None:
     linha: str = ''
     url: str = ''
     name: str = ''
-    origem: str = ''
     logo: str = ''
     group: str = ''
     sub_group: str = ''
@@ -134,17 +133,15 @@ def read_file(file_m3u: str, update: bool) -> None:
                         is_completo = False
                         url = line.strip()
                         try:
-                            cursor.execute(
-                                'INSERT INTO tb_iptv (url, id, name, titulo, logo, grupo, subgrupo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?);',
-                                (url, id, name, title, logo, group, sub_group, 1))
+                            cursor.execute('INSERT INTO tb_iptv (url, id, name, titulo, logo, grupo, subgrupo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?);', (
+                                url, id, name, title, logo, group, sub_group, 1))
                             print(f'INSERT: Title: {
                                   title} - {count} de {num_lines}')
                         except Exception:
                             is_completo = False
                             if update:
                                 cursor.execute(
-                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;',
-                                    (url, id, logo, title, name))
+                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;', (url, id, logo, title, name))
                                 print(f'UPDATE: Title: {
                                       title} - {count} de {num_lines}')
 
@@ -167,8 +164,8 @@ def get_sql(is_full: bool) -> list:
 
 
 def create_file(arquivo: str, is_full: bool) -> None:
-    head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
-    # head: str = '#EXTM3U\n'
+    # head: str = '#EXTM3U x-tvg-url="https://raw.githubusercontent.com/rootcoder/epgtv/main/guide.xml.gz"\n'
+    head: str = '#EXTM3U\n'
     obj: list = get_sql(is_full=is_full)
 
     if is_full:
@@ -212,5 +209,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/001.m3u', update=False)
+    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/002.m3u', update=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
