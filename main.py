@@ -133,24 +133,20 @@ def read_file(file_m3u: str, update: bool) -> None:
                     if is_completo and line.find('http') == 0:
                         is_completo = False
                         url = line.strip()
-                        link: str = url.replace(
-                            'http://', '').replace('https://', '')
-                        link_pos: int = link.find('.')
-                        origem = link[0:link_pos]
                         try:
                             cursor.execute(
-                                'INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);',
-                                (origem, url, id, name, logo, group, sub_group, title, 1, 1))
+                                'INSERT INTO tb_iptv (url, id, name, titulo, logo, grupo, subgrupo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?);',
+                                (url, id, name, title, logo, group, sub_group, 1))
                             print(f'INSERT: Title: {
                                   title} - {count} de {num_lines}')
                         except Exception:
                             is_completo = False
                             if update:
                                 cursor.execute(
-                                    'UPDATE tb_iptv SET origem=?, url=?, id=?, logo=?, titulo=? WHERE name=?;',
-                                    (origem, url, id, logo, title, name))
+                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;',
+                                    (url, id, logo, title, name))
                                 print(f'UPDATE: Title: {
-                                    title} - {count} de {num_lines}')
+                                      title} - {count} de {num_lines}')
 
             except Exception as err:
                 print(f'******** -> Error: {err}')
@@ -163,9 +159,9 @@ def read_file(file_m3u: str, update: bool) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, idlinha FROM tb_iptv WHERE ativo = 1 and online = 1 order by grupo ASC, name ASC;'
+    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, name ASC;'
     if is_full:
-        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, idlinha FROM tb_iptv order by grupo ASC, name ASC;'
+        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
     return res.fetchall()
 
