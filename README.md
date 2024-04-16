@@ -31,6 +31,7 @@ CREATE TABLE tb_iptv (
 	grupo TEXT(2048) NOT NULL,
 	subgrupo TEXT(2048) NOT NULL,
 	titulo TEXT(2048) NOT NULL,
+	tipo TEXT(1024) NOT NULL,
 	ativo INTEGER DEFAULT (1) NOT NULL,
 	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
 	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
@@ -42,4 +43,4 @@ https://siptv.app/mylist/
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 
-http://4tv.site/get.php?username=amadeu97863&password=amad97637&type=m3u_plus
+http://4tv.site/get.php?username=69754976011252&password=332702457587&type=m3u_plus

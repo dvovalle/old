@@ -133,8 +133,8 @@ def read_file(file_m3u: str, update: bool) -> None:
                         is_completo = False
                         url = line.strip()
                         try:
-                            cursor.execute('INSERT INTO tb_iptv (url, id, name, titulo, logo, grupo, subgrupo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?);', (
-                                url, id, name, title, logo, group, sub_group, 1))
+                            cursor.execute('INSERT INTO tb_iptv (url, id, name, titulo, logo, grupo, subgrupo, ativo, tipo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', (
+                                url, id, name, title, logo, group, sub_group, 1, 'Filmes'))
                             print(f'INSERT: Title: {
                                   title} - {count} de {num_lines}')
                         except Exception:
@@ -209,5 +209,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/002.m3u', update=True)
+    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/001.m3u', update=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
