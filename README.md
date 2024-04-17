@@ -2,9 +2,9 @@
 sed -i '/group-title="CHILE/,+1d' /home/danilo/GitHub/iptv/M3UListas/005.m3u
 
 
-sed -i '/#EXTM3U/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
-sed -i '/##/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
-sed -i '/^[[:space:]]*$/d' /home/danilo/GitHub/iptv/M3UListas/002.m3u
+sed -i '/#EXTM3U/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
+sed -i '/##/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
+sed -i '/^[[:space:]]*$/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
 
 sed -i -e 's/#EXTINF/EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
 sed -i -e 's/EXTINF/#EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
@@ -43,4 +43,4 @@ https://siptv.app/mylist/
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 
-http://4tv.site/get.php?username=69754976011252&password=332702457587&type=m3u_plus
+http://4tv.site/get.php?username=Valzezinho10&password=Pikadilha226789&type=m3u_plus
