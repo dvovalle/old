@@ -209,5 +209,5 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/001.m3u', update=False)
+    # read_file(file_m3u=f'{__DIR_PATH}/M3UListas/002.m3u', update=False)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
