@@ -31,8 +31,8 @@ CREATE TABLE tb_iptv (
 	grupo TEXT(2048) NOT NULL,
 	subgrupo TEXT(2048) NOT NULL,
 	titulo TEXT(2048) NOT NULL,
-	tipo TEXT(1024) NOT NULL,
-	ativo INTEGER DEFAULT (1) NOT NULL,
+	tipo TEXT(128) NOT NULL,
+	ativo INTEGER NOT NULL,
 	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
 	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
 );
