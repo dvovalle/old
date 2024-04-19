@@ -23,6 +23,8 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 ## Create Database
 ```sql
 
+# database.db
+
 CREATE TABLE tb_iptv (
 	url TEXT(2048) NOT NULL,
 	id TEXT(2048) NOT NULL,
@@ -43,4 +45,5 @@ https://siptv.app/mylist/
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 
-http://4tv.site/get.php?username=Valzezinho10&password=Pikadilha226789&type=m3u_plus
+http://4tv.site/get.php?username=373973275&password=038894280&type=m3u_plus
+

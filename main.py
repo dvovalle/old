@@ -79,7 +79,10 @@ def _exists_db(cmd: str) -> bool:
     return True
 
 
-def __remove_char(texto: str) -> str:
+def __remove_char(texto: str, force: bool) -> str:
+    if texto is None:
+        texto = ''
+
     txt_value: str = str(texto.replace('(', '')).strip()
     txt_value = txt_value.replace(')', '')
     txt_value = txt_value.replace('[', '')
@@ -105,9 +108,21 @@ def __remove_char(texto: str) -> str:
     txt_value = txt_value.replace('ç', 'c')
     txt_value = txt_value.replace('Ç', 'C')
     txt_value = txt_value.replace('?', 'C')
+    txt_value = txt_value.replace('Á', 'A')
+    txt_value = txt_value.replace('á', 'a')
+    txt_value = txt_value.replace('Ã', 'A')
+    txt_value = txt_value.replace('ã', 'a')
+    txt_value = txt_value.replace('É', 'E')
+    txt_value = txt_value.replace('é', 'e')
+    txt_value = txt_value.replace('  ', ' ')
 
-    result: str = str(re.sub(r'[^a-zA-Z0-9 ]', r'', txt_value)).strip()
-    return result
+    result: str = re.sub(' +', ' ', txt_value)
+
+    if force:
+        result = str(re.sub(r'[^a-zA-Z0-9 ]', r'', txt_value)).strip()
+
+    result = result.replace('  ', ' ')
+    return result.strip()
 
 
 def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
@@ -146,7 +161,7 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         ativo = str(dict_value['ativo']).strip()
 
                         if len(ativo) <= 0:
-                            ativo = '0'
+                            ativo = '1'
 
                         if len(logo) < 4:
                             logo = '0'
@@ -169,9 +184,9 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         if len(id) < 5:
                             id = '0'
 
-                    name = __remove_char(texto=name)
-                    title = __remove_char(texto=title)
-                    group = __remove_char(texto=group)
+                    name = __remove_char(texto=name, force=True)
+                    title = __remove_char(texto=title, force=True)
+                    group = __remove_char(texto=group, force=False)
 
                     if is_completo and line.find('http') == 0:
                         is_completo = False
@@ -201,9 +216,9 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, name ASC;'
+    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, name ASC;'
     if is_full:
-        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo FROM tb_iptv order by grupo ASC, name ASC;'
+        command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
     return res.fetchall()
 
@@ -230,6 +245,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     logo: str = str(x[3]).strip()
                     grupo: str = str(x[4]).strip()
                     title: str = str(x[6].replace(',', ' ')).strip()
+                    ativo: str = str(x[7])
 
                     if tvg == '0' or len(tvg) <= 3:
                         tvg = ''
@@ -240,11 +256,14 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
 
-                    # linha = f'#EXTGRP:{subgroup}\n#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
-                    # linha: str = f'#EXTINF:-{idlinha} tvg-id="{id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+                    linha: str = f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{
+                        name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
-                    file.write(
-                        f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n')
+                    if is_full:
+                        linha = f'#EXTINF:-1 tvg-id="{tvg}" ativo="{ativo}" tvg-name="{
+                            name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+
+                    file.write(linha)
 
                 except Exception as err:
                     print(f'******** -> Erro: {err}')
@@ -253,6 +272,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/listaFULL.m3u'
-    # read_file(file_m3u=m3u, update=False, isremove=False)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
+    # read_file(file_m3u=m3u, update=False, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
