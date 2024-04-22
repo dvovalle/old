@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import re
+import unicodedata
 
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
@@ -107,15 +108,19 @@ def __remove_char(texto: str, force: bool) -> str:
     txt_value = txt_value.replace('%', '')
     txt_value = txt_value.replace('ç', 'c')
     txt_value = txt_value.replace('Ç', 'C')
-    txt_value = txt_value.replace('?', 'C')
+    txt_value = txt_value.replace('?', '')
     txt_value = txt_value.replace('Á', 'A')
     txt_value = txt_value.replace('á', 'a')
     txt_value = txt_value.replace('Ã', 'A')
+    txt_value = txt_value.replace('Â', 'A')
+    txt_value = txt_value.replace('À', 'A')
     txt_value = txt_value.replace('ã', 'a')
     txt_value = txt_value.replace('É', 'E')
     txt_value = txt_value.replace('é', 'e')
     txt_value = txt_value.replace('  ', ' ')
-
+    val_unicode = unicodedata.normalize(
+        "NFD", txt_value).encode("ascii", "ignore")
+    txt_value = val_unicode.decode("utf-8")
     result: str = re.sub(' +', ' ', txt_value)
 
     if force:
@@ -272,6 +277,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
-    # read_file(file_m3u=m3u, update=False, isremove=True)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/003.m3u'
+    # read_file(file_m3u=m3u, update=True, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
