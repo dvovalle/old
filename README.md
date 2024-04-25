@@ -1,13 +1,13 @@
 # Remove Linha e mais uma linha abaixo
-sed -i '/group-title="CHILE/,+1d' /home/danilo/GitHub/iptv/M3UListas/005.m3u
+sed -i '/group-title="CHILE/,+1d' M3UListas/005.m3u
 
 
-sed -i '/#EXTM3U/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
-sed -i '/##/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
-sed -i '/^[[:space:]]*$/d' /home/danilo/GitHub/iptv/M3UListas/001.m3u
+sed -i '/#EXTM3U/d' M3UListas/001.m3u
+sed -i '/##/d' M3UListas/001.m3u
+sed -i '/^[[:space:]]*$/d' M3UListas/001.m3u
 
-sed -i -e 's/#EXTINF/EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
-sed -i -e 's/EXTINF/#EXTINF/g' /home/danilo/GitHub/iptv/M3UListas/001.m3u
+sed -i -e 's/#EXTINF/EXTINF/g' M3UListas/001.m3u
+sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
 
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
