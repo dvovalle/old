@@ -3,7 +3,7 @@ import sqlite3
 import re
 import unicodedata
 
-conn = sqlite3.connect(database="database.db", timeout=2.0)
+conn = sqlite3.connect(database="iptv.db", timeout=2.0)
 cursor = conn.cursor()
 
 __DIR_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -277,6 +277,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
+    # m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
     # read_file(file_m3u=m3u, update=False, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
