@@ -205,7 +205,7 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                             is_completo = False
                             if update:
                                 cursor.execute(
-                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;', (url, id, logo, title, name))
+                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=? and ativo=1;', (url, id, logo, title, name))
                                 print(f'UPDATE: Title: {
                                       title} - {count} de {num_lines}')
 
@@ -277,6 +277,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
+    # m3u: str = f'{__DIR_PATH}/M3UListas/004.m3u'
     # read_file(file_m3u=m3u, update=True, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
