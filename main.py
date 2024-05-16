@@ -261,12 +261,10 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     if len(name) > len(title):
                         title = name.replace(',', ' ')
 
-                    linha: str = f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{
-                        name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+                    linha: str = f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
                     if is_full:
-                        linha = f'#EXTINF:-1 tvg-id="{tvg}" ativo="{ativo}" tvg-name="{
-                            name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
+                        linha = f'#EXTINF:-1 tvg-id="{tvg}" ativo="{ativo}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
                     file.write(linha)
 
@@ -277,6 +275,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    #m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
-    # read_file(file_m3u=m3u, update=True, isremove=True)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
+    # read_file(file_m3u=m3u, update=False, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
