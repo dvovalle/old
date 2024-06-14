@@ -2,9 +2,9 @@
 sed -i '/group-title="CHILE/,+1d' M3UListas/005.m3u
 
 
-sed -i '' '/#EXTM3U/d' M3UListas/001.m3u
-sed -i '' '/##/d' M3UListas/001.m3u
-sed -i '' '/^[[:space:]]*$/d' M3UListas/001.m3u
+sed -i '' '/#EXTM3U/d' M3UListas/004.m3u
+sed -i '' '/##/d' M3UListas/004.m3u
+sed -i '' '/^[[:space:]]*$/d' M3UListas/004.m3u
 
 sed -i -e 's/#EXTINF/EXTINF/g' M3UListas/001.m3u
 sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
@@ -13,10 +13,15 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 > http://4tv.site/get.php?username=valterversa0103&password=versavalter0103&type=m3u_plus
 > http://4tv.site/get.php?username=02gilson01&password=02as012023&type=m3u_plus
-> curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
 > https://apkgara.com/lista-iptv/
 > https://tecnohive.com/pt/listas-m3u-iptv/
 > https://empreendedorismobrasil.com/melhores-lista-iptv-brasil-definitiva-gratis-m3u-atualizada/
+
+
+> curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
+> curl -o 002.m3u "https://gist.githubusercontent.com/raphacmartin/eb975dfa240ff36ec42a0557aff91485/raw/a0f65e2753841daa665e71e74829b277a7d393f2/iptv.m3u"
+> curl -o 003.m3u "https://gist.githubusercontent.com/fabiomagno/82e617e8e8c0d9bb60b605aad0bb107d/raw/95e7660ffb8e4eac2ff0109a949bd1449570556c/lista%2520oficial.m3u"
+> curl -o 004.m3u "https://gist.githubusercontent.com/dranimboy/bc3c6162e5afe1083d13354c25e95827/raw/b8a980cbb09c9d9bfee005b8be4c2cacf45c5fd3/LISTA%2520GRANDE.m3u"
 
 
 
