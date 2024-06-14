@@ -21,6 +21,8 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 
 ## Create Database
+
+
 ```sql
 
 # database.db
@@ -38,6 +40,26 @@ CREATE TABLE tb_iptv (
 	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
 	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
 );
+
+
+
+
+SELECT  name, grupo, ativo
+FROM tb_iptv
+where grupo = 'X'
+order by name;
+
+
+SELECT DISTINCT grupo
+FROM tb_iptv
+where ativo = 1
+order by grupo ASC;
+
+
+
+UPDATE tb_iptv SET  ativo = 0
+WHERE grupo = 'XXXXXXXX'
+
 
 ```
 
