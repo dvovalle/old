@@ -1,7 +1,7 @@
-from logging import ERROR, DEBUG
+from logging import ERROR
 from logging import Formatter
-from logging import getLogger, FileHandler
-from logging import Logger, basicConfig
+from logging import getLogger
+from logging import Logger
 from os import path
 
 __DIR_PATH: str = path.dirname(path.realpath(__file__))
@@ -16,18 +16,13 @@ def __loggerror(expt: Exception) -> None:
 def __get_start(name: str) -> Logger:
     logger: Logger = getLogger(name=name)
     try:
-        basicConfig(filename=__LOG_FILE_NAME,
-                            filemode='a',
-                            format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-                            datefmt='%H:%M:%S',
-                            level=DEBUG)
-
+        # basicConfig(filename=__LOG_FILE_NAME, filemode='a', format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s', datefmt='%H:%M:%S', level=DEBUG)
         Formatter(fmt=__LOGGING_FORMAT_PATTER, datefmt=None, style='%', validate=True)
         logger.setLevel(ERROR)
 
-        fh = FileHandler(__LOG_FILE_NAME)
-        fh.setLevel(DEBUG)
-        logger.addHandler(fh)
+        # fh = FileHandler(__LOG_FILE_NAME)
+        # fh.setLevel(DEBUG)
+        # logger.addHandler(fh)
 
     except Exception as err:
         __loggerror(expt=err)

@@ -3,13 +3,21 @@ import sqlite3
 import re
 import unicodedata
 from log_error import set_logging_exception
+from enum import Enum
 
-conn = sqlite3.connect(database="iptv.db", timeout=2.0)
+conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
 
 __DIR_PATH = path.dirname(path.realpath(__file__))
 __LISTA_COMPLETA: str = f'{__DIR_PATH}/M3UListas/listaCompleta.m3u'
 __LISTA_ALL: str = f'{__DIR_PATH}/M3UListas/listaFULL.m3u'
+
+
+class SQLAction(Enum):
+    INSERT: int = 1
+    UPDATE: int = 2
+    INSERT_AND_REMOVE: int = 3
+    UPDATE_AND_REMOVE: int = 4    
 
 
 def __start_backup() -> None:
@@ -131,7 +139,7 @@ def __remove_char(texto: str, force: bool) -> str:
     return result.strip()
 
 
-def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
+def read_file(file_m3u: str, action: SQLAction) -> None:
     count: int = 0
     name: str = ''
     logo: str = ''
@@ -141,9 +149,10 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
     id_iptv: str = ''
     ativo: str = ''
     is_completo: bool = False
+    num_lines: int = 0
 
     with open(file=file_m3u, mode='r', encoding="utf-8") as file:
-        num_lines: int = sum(1 for _ in file)
+        num_lines = sum(1 for _ in file)
 
     with open(file=file_m3u, mode='r', encoding="utf-8") as file:
         while num_lines >= count:
@@ -195,14 +204,15 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         is_completo = False
                         url = line.strip()
                         try:
+
                             cursor.execute('INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', (url, id_iptv, name, logo, group, sub_group, title, "IPTV", ativo))
                             print(f'INSERT: Title: {title} - {count} de {num_lines}')
+
                         except Exception as err:
-                            set_logging_exception(exc=err)
                             is_completo = False
-                            if update:
-                                cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=? and ativo=1;', (url, id_iptv, logo, title, name))
-                                print(f'UPDATE: Title: {title} - {count} de {num_lines}')
+                            if action == SQLAction.UPDATE:
+                                cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;', (url, id_iptv, logo, title, name))                                
+                                print(f'UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}')
 
             except Exception as err:
                 set_logging_exception(exc=err)
@@ -210,7 +220,7 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
 
         conn.commit()
 
-        if isremove:
+        if action == SQLAction.INSERT_AND_REMOVE or action == SQLAction.UPDATE_AND_REMOVE:
             if path.exists(file_m3u):
                 remove(file_m3u)
 
@@ -270,6 +280,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
-    read_file(file_m3u=m3u, update=False, isremove=True)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/005.m3u'
+    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
