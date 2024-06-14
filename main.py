@@ -1,12 +1,13 @@
-import os
+from os import path, remove
 import sqlite3
 import re
 import unicodedata
+from log_error import set_logging_exception
 
 conn = sqlite3.connect(database="iptv.db", timeout=2.0)
 cursor = conn.cursor()
 
-__DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+__DIR_PATH = path.dirname(path.realpath(__file__))
 __LISTA_COMPLETA: str = f'{__DIR_PATH}/M3UListas/listaCompleta.m3u'
 __LISTA_ALL: str = f'{__DIR_PATH}/M3UListas/listaFULL.m3u'
 
@@ -76,8 +77,8 @@ def extract(line: str) -> dict:
 
 def _exists_db(cmd: str) -> bool:
     res = cursor.execute(cmd)
-    res_value = res.fetchone()
-    return True
+    # res_value = res.fetchone()
+    return res.fetchone()
 
 
 def __remove_char(texto: str, force: bool) -> str:
@@ -132,20 +133,17 @@ def __remove_char(texto: str, force: bool) -> str:
 
 def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
     count: int = 0
-    linha: str = ''
-    url: str = ''
     name: str = ''
     logo: str = ''
     group: str = ''
     sub_group: str = ''
     title: str = ''
-    id: str = ''
+    id_iptv: str = ''
     ativo: str = ''
-    num_lines: int = 0
     is_completo: bool = False
 
     with open(file=file_m3u, mode='r', encoding="utf-8") as file:
-        num_lines = sum(1 for _ in file)
+        num_lines: int = sum(1 for _ in file)
 
     with open(file=file_m3u, mode='r', encoding="utf-8") as file:
         while num_lines >= count:
@@ -162,7 +160,7 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         group = str(dict_value['tvg-group']).strip()
                         sub_group = str(dict_value['pltv-subgroup']).strip()
                         title = str(dict_value['title']).strip()
-                        id = str(dict_value['tvg-id']).strip()
+                        id_iptv = str(dict_value['tvg-id']).strip()
                         ativo = str(dict_value['ativo']).strip()
 
                         if len(ativo) <= 0:
@@ -186,8 +184,8 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         if len(title) > 2:
                             name = title
 
-                        if len(id) < 5:
-                            id = '0'
+                        if len(id_iptv) < 5:
+                            id_iptv = '0'
 
                     name = __remove_char(texto=name, force=True)
                     title = __remove_char(texto=title, force=True)
@@ -197,27 +195,24 @@ def read_file(file_m3u: str, update: bool, isremove: bool) -> None:
                         is_completo = False
                         url = line.strip()
                         try:
-                            cursor.execute('INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', (
-                                url, id, name, logo, group, sub_group, title, "IPTV", ativo))
-                            print(f'INSERT: Title: {
-                                  title} - {count} de {num_lines}')
-                        except Exception:
+                            cursor.execute('INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', (url, id_iptv, name, logo, group, sub_group, title, "IPTV", ativo))
+                            print(f'INSERT: Title: {title} - {count} de {num_lines}')
+                        except Exception as err:
+                            set_logging_exception(exc=err)
                             is_completo = False
                             if update:
-                                cursor.execute(
-                                    'UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=? and ativo=1;', (url, id, logo, title, name))
-                                print(f'UPDATE: Title: {
-                                      title} - {count} de {num_lines}')
+                                cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=? and ativo=1;', (url, id_iptv, logo, title, name))
+                                print(f'UPDATE: Title: {title} - {count} de {num_lines}')
 
             except Exception as err:
-                print(f'******** -> Error: {err}')
+                set_logging_exception(exc=err)
                 is_completo = False
 
         conn.commit()
 
         if isremove:
-            if os.path.exists(file_m3u):
-                os.remove(file_m3u)
+            if path.exists(file_m3u):
+                remove(file_m3u)
 
 
 def get_sql(is_full: bool) -> list:
@@ -236,8 +231,8 @@ def create_file(arquivo: str, is_full: bool) -> None:
         arquivo = __LISTA_ALL
 
     if obj is not None:
-        if os.path.exists(arquivo):
-            os.remove(arquivo)
+        if path.exists(arquivo):
+            remove(arquivo)
 
         with open(file=arquivo, mode='w', encoding="utf-8") as file:
             file.write(head)
@@ -269,12 +264,12 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     file.write(linha)
 
                 except Exception as err:
-                    print(f'******** -> Erro: {err}')
+                    set_logging_exception(exc=err)
 
             file.close()
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
-    # read_file(file_m3u=m3u, update=False, isremove=True)
+    m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
+    read_file(file_m3u=m3u, update=False, isremove=True)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
