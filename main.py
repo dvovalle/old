@@ -210,7 +210,7 @@ def read_file(file_m3u: str, action: SQLAction) -> None:
 
                         except Exception as err:
                             is_completo = False
-                            if action == SQLAction.UPDATE:
+                            if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
                                 cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;', (url, id_iptv, logo, title, name))                                
                                 print(f'UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}')
 
@@ -280,6 +280,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/004.m3u'
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/005.m3u'
+    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
