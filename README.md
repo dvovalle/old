@@ -2,9 +2,9 @@
 sed -i '/group-title="CHILE/,+1d' M3UListas/005.m3u
 
 
-sed -i '' '/#EXTM3U/d' M3UListas/003.m3u
-sed -i '' '/##/d' M3UListas/003.m3u
-sed -i '' '/^[[:space:]]*$/d' M3UListas/003.m3u
+sed -i '' '/#EXTM3U/d' M3UListas/004.m3u
+sed -i '' '/##/d' M3UListas/004.m3u
+sed -i '' '/^[[:space:]]*$/d' M3UListas/004.m3u
 
 sed -i -e 's/#EXTINF/EXTINF/g' M3UListas/001.m3u
 sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
