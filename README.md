@@ -2,9 +2,9 @@
 sed -i '/group-title="CHILE/,+1d' M3UListas/005.m3u
 
 
-sed -i '' '/#EXTM3U/d' M3UListas/003.m3u
-sed -i '' '/##/d' M3UListas/003.m3u
-sed -i '' '/^[[:space:]]*$/d' M3UListas/003.m3u
+sed -i '' '/#EXTM3U/d' M3UListas/004.m3u
+sed -i '' '/##/d' M3UListas/004.m3u
+sed -i '' '/^[[:space:]]*$/d' M3UListas/004.m3u
 
 sed -i -e 's/#EXTINF/EXTINF/g' M3UListas/001.m3u
 sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
@@ -16,6 +16,12 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 > https://apkgara.com/lista-iptv/
 > https://tecnohive.com/pt/listas-m3u-iptv/
 > https://empreendedorismobrasil.com/melhores-lista-iptv-brasil-definitiva-gratis-m3u-atualizada/
+
+
+▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤1═一※ http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
+▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤2═一※ http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
+▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤1═一※ http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
+▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤2═一※ http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
 
 
 > curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
