@@ -61,7 +61,7 @@ where grupo = 'X'
 order by name;
 
 
-SELECT DISTINCT grupo
+SELECT DISTINCT grupo, '''' || grupo || ''',' AS ListGrupo
 FROM tb_iptv
 where ativo = 1
 order by grupo ASC;
