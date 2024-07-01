@@ -280,6 +280,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/008.m3u'
+    # m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
     # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
