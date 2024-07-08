@@ -18,10 +18,11 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 > https://empreendedorismobrasil.com/melhores-lista-iptv-brasil-definitiva-gratis-m3u-atualizada/
 
 
-▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤1═一※ http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
-▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤2═一※ http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
-▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤1═一※ http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
-▄▄︻デ𝗠𝟯𝗨⚡𝐋𝐢𝐧𝐤2═一※ http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
+http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
+http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
+http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
+http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
+http://4tv.site/get.php?username=jefferson0450&password=21975710450&type=m3u_plus
 
 
 > curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
