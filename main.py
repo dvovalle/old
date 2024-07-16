@@ -184,6 +184,9 @@ def read_file(file_m3u: str, action: SQLAction) -> None:
                         if len(sub_group) < 2:
                             sub_group = group
 
+                        if len(name) < 2:
+                            name = '0'                            
+
                         if len(title) < 2:
                             title = '0'
 
@@ -280,6 +283,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/004.m3u'
+    # m3u: str = f'{__DIR_PATH}/M3UListas/009.m3u'
     # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE)
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
