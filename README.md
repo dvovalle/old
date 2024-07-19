@@ -15,21 +15,23 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 > http://4tv.site/get.php?username=02gilson01&password=02as012023&type=m3u_plus
 > https://apkgara.com/lista-iptv/
 > https://tecnohive.com/pt/listas-m3u-iptv/
-> https://empreendedorismobrasil.com/melhores-lista-iptv-brasil-definitiva-gratis-m3u-atualizada/
+
+- http://4tv.site/get.php?username=bruno8317&password=458765BR&type=m3u_plus
+- http://4tv.site/get.php?username=alexsander0791&password=5491660791&type=m3u_plus
+- http://4tv.site/get.php?username=sergio5000&password=8597115000&type=m3u_plus
+- http://4tv.site/get.php?username=sergio5427&password=81275427Mm&type=m3u_plus
+- http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
+- http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
+- http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
+- http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
+- http://4tv.site/get.php?username=jefferson0450&password=21975710450&type=m3u_plus
 
 
-http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
-http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
-http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
-http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
-http://4tv.site/get.php?username=jefferson0450&password=21975710450&type=m3u_plus
-
-
-> curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
-> curl -o 002.m3u "https://gist.githubusercontent.com/raphacmartin/eb975dfa240ff36ec42a0557aff91485/raw/a0f65e2753841daa665e71e74829b277a7d393f2/iptv.m3u"
-> curl -o 003.m3u "https://gist.githubusercontent.com/fabiomagno/82e617e8e8c0d9bb60b605aad0bb107d/raw/95e7660ffb8e4eac2ff0109a949bd1449570556c/lista%2520oficial.m3u"
-> curl -o 004.m3u "https://gist.githubusercontent.com/dranimboy/bc3c6162e5afe1083d13354c25e95827/raw/b8a980cbb09c9d9bfee005b8be4c2cacf45c5fd3/LISTA%2520GRANDE.m3u"
-> curl -o 005.m3u "https://gitlab.com/snippets/1715562/raw"
+> curl -o 0011.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
+> curl -o 0012.m3u "https://gist.githubusercontent.com/raphacmartin/eb975dfa240ff36ec42a0557aff91485/raw/a0f65e2753841daa665e71e74829b277a7d393f2/iptv.m3u"
+> curl -o 0013.m3u "https://gist.githubusercontent.com/fabiomagno/82e617e8e8c0d9bb60b605aad0bb107d/raw/95e7660ffb8e4eac2ff0109a949bd1449570556c/lista%2520oficial.m3u"
+> curl -o 0014.m3u "https://gist.githubusercontent.com/dranimboy/bc3c6162e5afe1083d13354c25e95827/raw/b8a980cbb09c9d9bfee005b8be4c2cacf45c5fd3/LISTA%2520GRANDE.m3u"
+> curl -o 0015.m3u "https://gitlab.com/snippets/1715562/raw"
 
 
 ## Create Database
