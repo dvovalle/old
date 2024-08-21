@@ -139,7 +139,7 @@ def __remove_char(texto: str, force: bool) -> str:
     return result.strip()
 
 
-def read_file(file_m3u: str, action: SQLAction) -> None:
+def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
     count: int = 0
     name: str = ''
     logo: str = ''
@@ -208,13 +208,13 @@ def read_file(file_m3u: str, action: SQLAction) -> None:
                         url = line.strip()
                         try:
 
-                            cursor.execute('INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', (url, id_iptv, name, logo, group, sub_group, title, "IPTV", ativo))
+                            cursor.execute('INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);', (url, id_iptv, name, logo, group, sub_group, title, "IPTV", ativo, expire))
                             print(f'INSERT: Title: {title} - {count} de {num_lines}')
 
                         except Exception as err:
                             is_completo = False
                             if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
-                                cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=? WHERE name=?;', (url, id_iptv, logo, title, name))                                
+                                cursor.execute('UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=? WHERE name=?;', (url, id_iptv, logo, title, expire, name))                                
                                 print(f'UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}')
 
             except Exception as err:
@@ -229,7 +229,7 @@ def read_file(file_m3u: str, action: SQLAction) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, name ASC;'
+    command: str = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv WHERE ativo = 1 and expire >= date('now') order by grupo ASC, name ASC;"
     if is_full:
         command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
@@ -283,6 +283,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE)
+    # m3u: str = f'{__DIR_PATH}/M3UListas/05092024.m3u'
+    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire='2024-09-05')
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)

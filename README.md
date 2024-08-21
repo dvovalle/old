@@ -51,6 +51,7 @@ CREATE TABLE tb_iptv (
 	titulo TEXT(2048) NOT NULL,
 	tipo TEXT(128) NOT NULL,
 	ativo INTEGER NOT NULL,
+	expire datetime NOT NULL,
 	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
 	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
 );
