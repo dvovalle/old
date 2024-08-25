@@ -11,8 +11,8 @@ sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
 
 https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
-> http://4tv.site/get.php?username=valterversa0103&password=versavalter0103&type=m3u_plus
-> http://4tv.site/get.php?username=02gilson01&password=02as012023&type=m3u_plus
+> http://4tv.site/get.php?username=WanessacelMOTO&password=Bsbe7gh64y&type=m3u_plus
+> http://4tv.site/get.php?username=hyonara8113&password=618448RI72&type=m3u_plus
 > https://apkgara.com/lista-iptv/
 > https://tecnohive.com/pt/listas-m3u-iptv/
 

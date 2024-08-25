@@ -229,7 +229,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv WHERE ativo = 1 and expire >= date('now') order by grupo ASC, name ASC;"
+    command: str = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
     if is_full:
         command = 'SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo FROM tb_iptv order by grupo ASC, name ASC;'
     res = cursor.execute(command)
@@ -283,6 +283,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    # m3u: str = f'{__DIR_PATH}/M3UListas/05092024.m3u'
-    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire='2024-09-05')
+    m3u: str = f'{__DIR_PATH}/M3UListas/001.m3u'
+    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire='2025-04-11')
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
