@@ -283,6 +283,6 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 if __name__ == '__main__':
-    m3u: str = f'{__DIR_PATH}/M3UListas/002.m3u'
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire='2024-09-25')
+    # m3u: str = f'{__DIR_PATH}/M3UListas/21102024.m3u'
+    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire='2024-10-21')
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
