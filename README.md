@@ -16,15 +16,6 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 > https://apkgara.com/lista-iptv/
 > https://tecnohive.com/pt/listas-m3u-iptv/
 
-- http://4tv.site/get.php?username=bruno8317&password=458765BR&type=m3u_plus
-- http://4tv.site/get.php?username=alexsander0791&password=5491660791&type=m3u_plus
-- http://4tv.site/get.php?username=sergio5000&password=8597115000&type=m3u_plus
-- http://4tv.site/get.php?username=sergio5427&password=81275427Mm&type=m3u_plus
-- http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus&output=m3u8
-- http://4tv.site/get.php?username=75529172&password=548272982&type=m3u_plus
-- http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus&output=m3u8
-- http://4tv.site/get.php?username=PAmeLLaa888&password=MESwuitaa222&type=m3u_plus
-- http://4tv.site/get.php?username=jefferson0450&password=21975710450&type=m3u_plus
 
 
 > curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
