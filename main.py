@@ -356,14 +356,14 @@ def __consulta_status(url: str) -> bool:
     return result
 
 
-def __analise() -> bool:
+def __analise(grupo) -> bool:
     result: bool = False
     index: int = 0
     msg: str = ""
 
     try:
         command: str = (
-            "SELECT url, codid, grupo FROM tb_iptv WHERE grupo = 'SERIES | DISNEY PLUS' and ativo = 1 and expire > date('now') order by grupo DESC, codid DESC;"
+            f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo DESC, codid DESC;"
         )
         res = cursor.execute(command)
         obj: list = res.fetchall()
@@ -398,7 +398,8 @@ def __analise() -> bool:
 
 if __name__ == "__main__":
     m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire='2024-11-05')
+    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire='2024-11-22')
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
-    # __analise()
+    # grupo: str = "FILMES | COLECAO"
+    # __analise(grupo=grupo)
