@@ -401,5 +401,5 @@ if __name__ == "__main__":
     # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire='2024-11-22')
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
-    # grupo: str = "FILMES | COLECAO"
-    # __analise(grupo=grupo)
+    grupo: str = "CANAIS | GLOBO"
+    #__analise(grupo=grupo)
