@@ -6,9 +6,7 @@ import unicodedata
 from log_error import set_logging_exception
 from enum import Enum
 
-__HEADERS: dict[str, str] = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
-}
+__HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
 
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
@@ -28,9 +26,7 @@ class SQLAction(Enum):
 def __start_backup() -> None:
     conn_old = sqlite3.connect(database="iptv.db", timeout=2.0)
     cursor_old = conn_old.cursor()
-    command: str = (
-        "SELECT origem, url, id, name, logo, grupo, subgrupo, title, ativo, online FROM tb_iptv order by grupo ASC, name ASC;"
-    )
+    command: str = "SELECT origem, url, id, name, logo, grupo, subgrupo, title, ativo, online FROM tb_iptv order by grupo ASC, name ASC;"
     res = cursor_old.execute(command)
     listold: list = res.fetchall()
     if listold is not None:
@@ -238,10 +234,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
 
                         except Exception as err:
                             is_completo = False
-                            if (
-                                action == SQLAction.UPDATE
-                                or action == SQLAction.UPDATE_AND_REMOVE
-                            ):
+                            if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
                                 ativo = "1"
                                 cursor.execute(
                                     "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=? and url<>?;",
@@ -256,9 +249,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
                                         url,
                                     ),
                                 )
-                                print(
-                                    f"UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}"
-                                )
+                                print(f"UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}")
 
             except Exception as err:
                 set_logging_exception(exc=err)
@@ -266,18 +257,13 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
 
         conn.commit()
 
-        if (
-            action == SQLAction.INSERT_AND_REMOVE
-            or action == SQLAction.UPDATE_AND_REMOVE
-        ):
+        if action == SQLAction.INSERT_AND_REMOVE or action == SQLAction.UPDATE_AND_REMOVE:
             if path.exists(file_m3u):
                 remove(file_m3u)
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = (
-        "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo, codid FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
-    )
+    command: str = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo, codid FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
     if is_full:
         command = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo, codid FROM tb_iptv order by grupo ASC, name ASC;"
     res = cursor.execute(command)
@@ -317,9 +303,7 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     if len(name) > len(title):
                         title = name.replace(",", " ")
 
-                    linha: str = (
-                        f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
-                    )
+                    linha: str = f'#EXTINF:-1 tvg-id="{tvg}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
 
                     if is_full:
                         linha = f'#EXTINF:-1 tvg-id="{tvg}" ativo="{ativo}" tvg-name="{name}" tvg-logo="{logo}" group-title="{grupo}",{title}\n{url}\n'
@@ -362,9 +346,7 @@ def __analise(grupo) -> bool:
     msg: str = ""
 
     try:
-        command: str = (
-            f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo DESC, codid DESC;"
-        )
+        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo DESC, codid DESC;"
         res = cursor.execute(command)
         obj: list = res.fetchall()
 
@@ -378,12 +360,10 @@ def __analise(grupo) -> bool:
                     codid: str = str(x[1])
                     result = __consulta_status(url=url)
                     if result:
-                        msg = f"{index} de {total} ID {codid} - OK!!!!"
+                        msg = f"{index} de {total} ID {codid} - {grupo} - OK!!!!"
                     else:
-                        msg = f"{index} de {total} ID {codid} - erro"
-                        cursor.execute(
-                            "UPDATE tb_iptv SET ativo=? WHERE codid=?;", ("0", codid)
-                        )
+                        msg = f"{index} de {total} ID {codid} - {grupo} - erro"
+                        cursor.execute("UPDATE tb_iptv SET ativo=? WHERE codid=?;", ("0", codid))
                         conn.commit()
                     print(msg)
 
@@ -398,8 +378,10 @@ def __analise(grupo) -> bool:
 
 if __name__ == "__main__":
     m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire='2024-11-22')
+    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-11-22")
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
-    grupo: str = "CANAIS | GLOBO"
-    #__analise(grupo=grupo)
+    # list_gr: list[str] = []
+
+    # for grupo in list_gr:
+    #     __analise(grupo=grupo)
