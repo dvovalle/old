@@ -376,12 +376,16 @@ def __analise(grupo) -> bool:
     return result
 
 
+def __start_analise() -> None:
+
+    list_gr: list[str] = []
+
+    for grupo in list_gr:
+        __analise(grupo=grupo)
+
+
 if __name__ == "__main__":
     m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-11-22")
-    create_file(arquivo=__LISTA_COMPLETA, is_full=False)
-
-    # list_gr: list[str] = []
-
-    # for grupo in list_gr:
-    #     __analise(grupo=grupo)
+    read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-11-22")
+    # create_file(arquivo=__LISTA_COMPLETA, is_full=False)
+    # __start_analise()

@@ -68,15 +68,13 @@ CREATE TABLE tb_iptv (
 );
 
 
-
-
 SELECT  name, grupo, ativo
 FROM tb_iptv
 where grupo = 'X'
 order by name;
 
 
-SELECT DISTINCT grupo, '''' || grupo || ''',' AS ListGrupo
+SELECT DISTINCT grupo, '"' || grupo || '",' AS ListGrupo
 FROM tb_iptv
 where ativo = 1
 order by grupo ASC;
