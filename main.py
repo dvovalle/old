@@ -21,6 +21,7 @@ class SQLAction(Enum):
     UPDATE: int = 2
     INSERT_AND_REMOVE: int = 3
     UPDATE_AND_REMOVE: int = 4
+    UPDATE_AND_REMOVE_CHECK: int = 5
 
 
 def __start_backup() -> None:
@@ -146,7 +147,7 @@ def __remove_char(texto: str, force: bool) -> str:
     return result.strip()
 
 
-def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
+def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> None:
     count: int = 0
     name: str = ""
     logo: str = ""
@@ -156,6 +157,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
     id_iptv: str = ""
     ativo: str = ""
     is_completo: bool = False
+    url_ok: bool = False
     num_lines: int = 0
 
     with open(file=file_m3u, mode="r", encoding="utf-8") as file:
@@ -206,6 +208,10 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
                         if len(id_iptv) < 5:
                             id_iptv = "0"
 
+                    if origem is not None and len(origem) > 0:
+                        name = __remove_char(texto=f"{name} {origem}", force=True)
+                        title = __remove_char(texto=f"{title} {origem}", force=True)
+
                     name = __remove_char(texto=name, force=True)
                     title = __remove_char(texto=title, force=True)
                     group = __remove_char(texto=group, force=False)
@@ -213,43 +219,53 @@ def read_file(file_m3u: str, action: SQLAction, expire: str) -> None:
                     if is_completo and line.find("http") == 0:
                         is_completo = False
                         url = line.strip()
-                        try:
 
-                            cursor.execute(
-                                "INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
-                                (
-                                    url,
-                                    id_iptv,
-                                    name,
-                                    logo,
-                                    group,
-                                    sub_group,
-                                    title,
-                                    "IPTV",
-                                    ativo,
-                                    expire,
-                                ),
-                            )
-                            print(f"INSERT: Title: {title} - {count} de {num_lines}")
+                        url_ok = True
+                        if action == SQLAction.UPDATE_AND_REMOVE_CHECK:
+                            result = __consulta_status(url=url)
+                            if result:
+                                url_ok = True
+                            else:
+                                url_ok = False
 
-                        except Exception as err:
-                            is_completo = False
-                            if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
-                                ativo = "1"
+                        if url_ok:
+                            try:
+
                                 cursor.execute(
-                                    "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=? and url<>?;",
+                                    "INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
                                     (
                                         url,
                                         id_iptv,
-                                        logo,
-                                        title,
-                                        expire,
-                                        ativo,
                                         name,
-                                        url,
+                                        logo,
+                                        group,
+                                        sub_group,
+                                        title,
+                                        "IPTV",
+                                        ativo,
+                                        expire,
                                     ),
                                 )
-                                print(f"UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}")
+                                print(f"INSERT: Title: {title} - {count} de {num_lines}")
+
+                            except Exception as err:
+                                is_completo = False
+                                if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
+                                    ativo = "1"
+                                    cursor.execute(
+                                        "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=? and url<>?;",
+                                        (
+                                            url,
+                                            id_iptv,
+                                            logo,
+                                            title,
+                                            expire,
+                                            ativo,
+                                            name,
+                                            url,
+                                        ),
+                                    )
+                                    print(f"UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}")
 
             except Exception as err:
                 set_logging_exception(exc=err)
@@ -340,13 +356,16 @@ def __consulta_status(url: str) -> bool:
     return result
 
 
-def __analise(grupo) -> bool:
+def __analise(grupo: str) -> bool:
     result: bool = False
     index: int = 0
     msg: str = ""
 
     try:
-        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo DESC, codid DESC;"
+        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo ASC, codid DESC;"
+        if grupo == "*":
+            command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, codid ASC;"
+
         res = cursor.execute(command)
         obj: list = res.fetchall()
 
@@ -358,11 +377,12 @@ def __analise(grupo) -> bool:
                 try:
                     url: str = str(x[0]).strip()
                     codid: str = str(x[1])
+                    rs_grupo: str = str(x[2])
                     result = __consulta_status(url=url)
                     if result:
-                        msg = f"{index} de {total} ID {codid} - {grupo} - OK!!!!"
+                        msg = f"{index} de {total} ID {codid} - {rs_grupo} - OK!!!!"
                     else:
-                        msg = f"{index} de {total} ID {codid} - {grupo} - erro"
+                        msg = f"{index} de {total} ID {codid} - {rs_grupo} - erro"
                         cursor.execute("UPDATE tb_iptv SET ativo=? WHERE codid=?;", ("0", codid))
                         conn.commit()
                     print(msg)
@@ -378,14 +398,17 @@ def __analise(grupo) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = []
+    list_gr: list[str] = ["SERIES | SPARTACUS", "SERIES | STAR WARS"]
 
-    for grupo in list_gr:
-        __analise(grupo=grupo)
+    if list_gr is not None and len(list_gr) > 0:
+        for grupo in list_gr:
+            __analise(grupo=grupo)
+    else:
+        __analise(grupo="*")
 
 
 if __name__ == "__main__":
     m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-11-22")
-    # create_file(arquivo=__LISTA_COMPLETA, is_full=False)
+    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-22", origem="")
+    create_file(arquivo=__LISTA_COMPLETA, is_full=False)
     # __start_analise()
