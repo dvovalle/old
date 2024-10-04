@@ -398,7 +398,15 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["SERIES | SPARTACUS", "SERIES | STAR WARS"]
+    list_gr: list[str] = [
+        "SERIES | GOT",
+        "SERIES | HATFIELDS MCCOYS",
+        "SERIES | HEROES",
+        "SERIES | JUSTICEIRO",
+        "SERIES | OZ",
+        "SERIES | SEE",
+        "SERIES | SPARTACUS",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -408,7 +416,7 @@ def __start_analise() -> None:
 
 
 if __name__ == "__main__":
-    m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-22", origem="")
+    # m3u: str = f"{__DIR_PATH}/M3UListas/006.m3u"
+    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="")
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
     # __start_analise()

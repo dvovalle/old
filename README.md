@@ -51,21 +51,6 @@ CREATE TABLE tb_iptv (
 
 
 
-CREATE TABLE tb_iptv (
-	codid INTEGER NOT NULL INTEGER PRIMARY KEY,
-	url TEXT(2048) NOT NULL,
-	id TEXT(2048) NOT NULL,
-	name TEXT(2048) NOT NULL,
-	logo TEXT(2048) NOT NULL,
-	grupo TEXT(2048) NOT NULL,
-	subgrupo TEXT(2048) NOT NULL,
-	titulo TEXT(2048) NOT NULL,
-	tipo TEXT(128) NOT NULL,
-	ativo INTEGER NOT NULL,
-	expire datetime NOT NULL,
-	CONSTRAINT pk_tb_iptv PRIMARY KEY (name),
-	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
-);
 
 
 SELECT  name, grupo, ativo
