@@ -46,7 +46,8 @@ CREATE TABLE tb_iptv (
 	ativo INTEGER NOT NULL,
 	expire datetime NOT NULL,
 	CONSTRAINT pk_tb_iptv UNIQUE (name),
-	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo)
+	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo),
+	CONSTRAINT ix_tb_iptv_url UNIQUE (url)
 );
 
 
