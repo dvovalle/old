@@ -339,8 +339,8 @@ def __consulta_status(url: str) -> bool:
             url=url,
             headers=__HEADERS,
             data={},
-            timeout=5,
-            verify=False,
+            timeout=0.7,
+            verify=True,
             allow_redirects=True,
         )
 
@@ -399,13 +399,8 @@ def __analise(grupo: str) -> bool:
 def __start_analise() -> None:
 
     list_gr: list[str] = [
-        "SERIES | GOT",
-        "SERIES | HATFIELDS MCCOYS",
-        "SERIES | HEROES",
-        "SERIES | JUSTICEIRO",
-        "SERIES | OZ",
-        "SERIES | SEE",
-        "SERIES | SPARTACUS",
+        "CANAIS | STAR",
+        "CANAIS | VARIEDADES",
     ]
 
     if list_gr is not None and len(list_gr) > 0:
