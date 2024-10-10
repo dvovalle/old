@@ -417,6 +417,6 @@ def __start_analise() -> None:
 
 if __name__ == "__main__":
     m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="")
+    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="0001")
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
     # __start_analise()
