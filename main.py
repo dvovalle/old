@@ -418,5 +418,5 @@ def __read_all_files() -> None:
 
 if __name__ == "__main__":
     # __read_all_files()
-    __start_analise()
+    # __start_analise()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
