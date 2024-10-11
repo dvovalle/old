@@ -1,5 +1,5 @@
 import requests
-from os import path, remove
+from os import path, remove, listdir
 import sqlite3
 import re
 import unicodedata
@@ -398,10 +398,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-        "CANAIS | STAR",
-        "CANAIS | VARIEDADES",
-    ]
+    list_gr: list[str] = []
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -410,8 +407,16 @@ def __start_analise() -> None:
         __analise(grupo="*")
 
 
+def __read_all_files() -> None:
+    dir_local: str = f"{__DIR_PATH}/M3UListas/"
+    files: list[str] = listdir(dir_local)
+    if files is not None and len(files) > 0:
+        for x in files:
+            m3u: str = f"{dir_local}{x}"
+            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="")
+
+
 if __name__ == "__main__":
-    m3u: str = f"{__DIR_PATH}/M3UListas/001.m3u"
-    # read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="0001")
+    # __read_all_files()
+    __start_analise()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
-    # __start_analise()
