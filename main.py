@@ -246,7 +246,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                         expire,
                                     ),
                                 )
-                                print(f"INSERT: Title: {title} - {count} de {num_lines}")
+                                print(f"INSERT: Title: {title} - {count} de {num_lines} - {file_m3u}")
 
                             except Exception as err:
                                 is_completo = False
@@ -265,7 +265,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                             url,
                                         ),
                                     )
-                                    print(f"UPDATE: Title: {title} - {count} de {num_lines} - Err: {err}")
+                                    print(f"UPDATE: Title: {title} - {count} de {num_lines} - {file_m3u} - Err: {err}")
 
             except Exception as err:
                 set_logging_exception(exc=err)
@@ -418,5 +418,5 @@ def __read_all_files() -> None:
 
 if __name__ == "__main__":
     # __read_all_files()
-    # __start_analise()
+    # # __start_analise()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
