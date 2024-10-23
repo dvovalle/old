@@ -413,10 +413,10 @@ def __read_all_files() -> None:
     if files is not None and len(files) > 0:
         for x in files:
             m3u: str = f"{dir_local}{x}"
-            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-08", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2028-07-25", origem="")
 
 
 if __name__ == "__main__":
     # __read_all_files()
-    # # __start_analise()
+    # __start_analise()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)

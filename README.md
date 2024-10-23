@@ -53,23 +53,21 @@ CREATE TABLE tb_iptv (
 
 
 
-
 SELECT  name, grupo, ativo
 FROM tb_iptv
-where grupo = 'X'
+where name like '%Superman e Lois%'
 order by name;
 
 
-SELECT DISTINCT grupo, '"' || grupo || '",' AS ListGrupo
+SELECT grupo, '"' || grupo || '",' AS ListGrupo, count(name) AS QtdLinhas
 FROM tb_iptv
 where ativo = 1
+group by grupo
 order by grupo ASC;
 
 
-
-UPDATE tb_iptv SET  ativo = 0
-WHERE grupo = 'XXXXXXXX'
-
+UPDATE tb_iptv SET  ativo = 1, grupo = 'SERIES | SUPERMAN E LOIS'
+where name like '%Superman e Lois%'
 
 ```
 
