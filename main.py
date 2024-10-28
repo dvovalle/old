@@ -232,7 +232,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                             try:
 
                                 cursor.execute(
-                                    "INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
+                                    "INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
                                     (
                                         url,
                                         id_iptv,
@@ -339,7 +339,7 @@ def __consulta_status(url: str) -> bool:
             url=url,
             headers=__HEADERS,
             data={},
-            timeout=0.7,
+            timeout=1,
             verify=True,
             allow_redirects=True,
         )
