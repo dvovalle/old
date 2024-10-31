@@ -23,6 +23,8 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 > curl -o 003.m3u "https://gist.githubusercontent.com/fabiomagno/82e617e8e8c0d9bb60b605aad0bb107d/raw/95e7660ffb8e4eac2ff0109a949bd1449570556c/lista%2520oficial.m3u"
 > curl -o 004.m3u "https://gist.githubusercontent.com/dranimboy/bc3c6162e5afe1083d13354c25e95827/raw/b8a980cbb09c9d9bfee005b8be4c2cacf45c5fd3/LISTA%2520GRANDE.m3u"
 > curl -o 005.m3u "https://gitlab.com/snippets/1715562/raw"
+> curl -o 006.m3u "https://gitlab.com/MateusXD/IMDS/raw/master/IMDSLISTA"
+
 
 
 ## Create Database
@@ -32,24 +34,19 @@ https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 
 # database.db
 
-
 CREATE TABLE tb_iptv (
-	codid INTEGER NOT NULL PRIMARY KEY,
-	url TEXT(2048) NOT NULL,
-	id TEXT(2048) NOT NULL,
-	name TEXT(2048) NOT NULL,
-	logo TEXT(2048) NOT NULL,
-	grupo TEXT(2048) NOT NULL,
-	subgrupo TEXT(2048) NOT NULL,
-	titulo TEXT(2048) NOT NULL,
-	tipo TEXT(128) NOT NULL,
+	codid INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	url TEXT(500) NOT NULL,
+	id TEXT(128) NOT NULL,
+	name TEXT(128) NOT NULL,
+	logo TEXT(500) NOT NULL,
+	grupo TEXT(128) NOT NULL,
+	titulo TEXT(128) NOT NULL,
 	ativo INTEGER NOT NULL,
 	expire datetime NOT NULL,
-	CONSTRAINT pk_tb_iptv UNIQUE (name),
-	CONSTRAINT ix_tb_iptv_titulo UNIQUE (titulo),
+	CONSTRAINT ix_tb_iptv_name UNIQUE (name),
 	CONSTRAINT ix_tb_iptv_url UNIQUE (url)
 );
-
 
 
 

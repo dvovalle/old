@@ -216,7 +216,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                     title = __remove_char(texto=title, force=True)
                     group = __remove_char(texto=group, force=False)
 
-                    if is_completo and line.find("http") == 0:
+                    if is_completo and line.find("http") == 0 and group.find("ADULT") <= 0 and name.find("ADULT") <= 0:
                         is_completo = False
                         url = line.strip()
 
@@ -232,16 +232,14 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                             try:
 
                                 cursor.execute(
-                                    "INSERT INTO tb_iptv (url, id, name, logo, grupo, subgrupo, titulo, tipo, ativo, expire) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
+                                    "INSERT INTO tb_iptv (url, id, name, logo, grupo, titulo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?);",
                                     (
                                         url,
                                         id_iptv,
                                         name,
                                         logo,
                                         group,
-                                        sub_group,
                                         title,
-                                        "IPTV",
                                         ativo,
                                         expire,
                                     ),
@@ -253,17 +251,8 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                 if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
                                     ativo = "1"
                                     cursor.execute(
-                                        "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=? and url<>?;",
-                                        (
-                                            url,
-                                            id_iptv,
-                                            logo,
-                                            title,
-                                            expire,
-                                            ativo,
-                                            name,
-                                            url,
-                                        ),
+                                        "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;",
+                                        (url, id_iptv, logo, title, expire, ativo, name),
                                     )
                                     print(f"UPDATE: Title: {title} - {count} de {num_lines} - {file_m3u} - Err: {err}")
 
@@ -279,9 +268,9 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
 
 
 def get_sql(is_full: bool) -> list:
-    command: str = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo, codid FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
+    command: str = "SELECT url, id, name, logo, grupo, titulo, ativo, codid FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
     if is_full:
-        command = "SELECT url, id, name, logo, grupo, subgrupo, titulo, ativo, codid FROM tb_iptv order by grupo ASC, name ASC;"
+        command = "SELECT url, id, name, logo, grupo, titulo, ativo, codid FROM tb_iptv order by grupo ASC, name ASC;"
     res = cursor.execute(command)
     return res.fetchall()
 
@@ -307,8 +296,8 @@ def create_file(arquivo: str, is_full: bool) -> None:
                     name: str = str(x[2].replace(",", " ")).strip()
                     logo: str = str(x[3]).strip()
                     grupo: str = str(x[4]).strip()
-                    title: str = str(x[6].replace(",", " ")).strip()
-                    ativo: str = str(x[7])
+                    title: str = str(x[5].replace(",", " ")).strip()
+                    ativo: str = str(x[6])
 
                     if tvg == "0" or len(tvg) <= 3:
                         tvg = ""
@@ -413,7 +402,7 @@ def __read_all_files() -> None:
     if files is not None and len(files) > 0:
         for x in files:
             m3u: str = f"{dir_local}{x}"
-            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2028-07-25", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-12-25", origem="")
 
 
 if __name__ == "__main__":
