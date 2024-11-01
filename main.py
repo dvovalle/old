@@ -216,7 +216,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                     title = __remove_char(texto=title, force=True)
                     group = __remove_char(texto=group, force=False)
 
-                    if is_completo and line.find("http") == 0 and group.find("ADULT") <= 0 and name.find("ADULT") <= 0:
+                    if is_completo and line.find("http") == 0:
                         is_completo = False
                         url = line.strip()
 
