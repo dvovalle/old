@@ -147,6 +147,14 @@ def __remove_char(texto: str, force: bool) -> str:
     return result.strip()
 
 
+def update_values(expire: str, name: str, logo: str, title: str, id_iptv: str, url: str) -> None:
+    try:
+        cursor.execute("UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;", (url, id_iptv, logo, title, expire, "1", name))
+
+    except Exception as err:
+        print(f"Error update_values: {err}")
+
+
 def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> None:
     count: int = 0
     name: str = ""
@@ -244,17 +252,11 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                         expire,
                                     ),
                                 )
-                                print(f"INSERT: Title: {title} - {count} de {num_lines} - {file_m3u}")
 
-                            except Exception as err:
+                            except Exception:
                                 is_completo = False
                                 if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
-                                    ativo = "1"
-                                    cursor.execute(
-                                        "UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;",
-                                        (url, id_iptv, logo, title, expire, ativo, name),
-                                    )
-                                    print(f"UPDATE: Title: {title} - {count} de {num_lines} - {file_m3u} - Err: {err}")
+                                    update_values(expire=expire, name=name, logo=logo, title=title, id_iptv=id_iptv, url=url)
 
             except Exception as err:
                 set_logging_exception(exc=err)
@@ -387,7 +389,20 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = []
+    list_gr: list[str] = [
+        "CANAIS | DC COMICS",
+        "CANAIS | DISCOVERY",
+        "CANAIS | DOCUMENTARIOS",
+        "CANAIS | FILMES E SERIES",
+        "CANAIS | HBO",
+        "CANAIS | LUTA",
+        "CANAIS | MARVEL",
+        "CANAIS | NOTICIAS",
+        "CANAIS | PARAMOUNT",
+        "CANAIS | STAR",
+        "CANAIS | TELECINE",
+        "CANAIS | VARIEDADES",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -399,13 +414,42 @@ def __start_analise() -> None:
 def __read_all_files() -> None:
     dir_local: str = f"{__DIR_PATH}/M3UListas/"
     files: list[str] = listdir(dir_local)
+    files.sort()
     if files is not None and len(files) > 0:
         for x in files:
             m3u: str = f"{dir_local}{x}"
-            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2024-11-25", origem="")
+            print(f"Lendo: {x}")
+            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-12-25", origem="")
+
+
+def __valida_grupos() -> None:
+    command: str = "SELECT grupo, count(name) AS QtdLinhas FROM tb_iptv where ativo = 1 group by grupo order by grupo ASC;"
+    res = cursor.execute(command)
+    grupos: list = res.fetchall()
+    grupos.sort()
+    if grupos is not None and len(grupos) > 0:
+        grupos.sort()
+        print("Defina Sim(s) Não(n) ou Rename(r) grupo")
+        for x in grupos:
+            grupo_name: str = str(x[0])
+            value: str = input(f"{x} - s/n or r: ").upper()
+            is_commit: bool = False
+            if value == "N":
+                is_commit = True
+                cursor.execute("UPDATE tb_iptv SET ativo=? where grupo=?;", ("0", grupo_name))
+            if value == "R":
+                is_commit = True
+                new_group: str = input(f"Informe o novo grupo -> {grupo_name}: ").strip()
+                if new_group is None or (new_group is not None and len(new_group) <= 1):
+                    new_group = grupo_name
+                cursor.execute("UPDATE tb_iptv SET ativo=1, grupo=? where grupo=?;", (new_group, grupo_name))
+
+            if is_commit:
+                conn.commit()
 
 
 if __name__ == "__main__":
     # __read_all_files()
     # __start_analise()
+    # __valida_grupos()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False)
