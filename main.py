@@ -389,20 +389,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-        "CANAIS | DC COMICS",
-        "CANAIS | DISCOVERY",
-        "CANAIS | DOCUMENTARIOS",
-        "CANAIS | FILMES E SERIES",
-        "CANAIS | HBO",
-        "CANAIS | LUTA",
-        "CANAIS | MARVEL",
-        "CANAIS | NOTICIAS",
-        "CANAIS | PARAMOUNT",
-        "CANAIS | STAR",
-        "CANAIS | TELECINE",
-        "CANAIS | VARIEDADES",
-    ]
+    list_gr: list[str] = ["SERIES | SIMPSONS"]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -419,7 +406,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-12-25", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2024-12-22", origem="")
 
 
 def __valida_grupos() -> None:
