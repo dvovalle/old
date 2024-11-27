@@ -389,7 +389,26 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["SERIES | SIMPSONS"]
+    list_gr: list[str] = [
+        "FILMES | 2023",
+        "FILMES | 2024",
+        "FILMES | 4K",
+        "FILMES | ACAO",
+        "FILMES | AVENTURA",
+        "FILMES | CLASSICOS",
+        "FILMES | COLETANEA",
+        "FILMES | COMEDIA",
+        "FILMES | CRIME",
+        "FILMES | DC COMICS",
+        "FILMES | DOCUMENTARIO",
+        "FILMES | FICCAO",
+        "FILMES | MARVEL",
+        "FILMES | MISTERIO",
+        "FILMES | NACIONAIS",
+        "FILMES | NARNIA",
+        "FILMES | POLICIAL",
+        "FILMES | SUSPENSE",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
