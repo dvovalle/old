@@ -390,22 +390,12 @@ def __analise(grupo: str) -> bool:
 def __start_analise() -> None:
 
     list_gr: list[str] = [
-        "FILMES | AVENTURA",
-        "FILMES | BAD BOYS",
-        "FILMES | CLASSICOS",
-        "FILMES | COLETANEA",
-        "FILMES | COMEDIA",
-        "FILMES | CRIME",
-        "FILMES | DC COMICS",
-        "FILMES | FICCAO",
-        "FILMES | MARVEL",
-        "FILMES | MISSAO IMPOSSIVEL",
-        "FILMES | MISTERIO",
-        "FILMES | NACIONAIS",
-        "FILMES | NARNIA",
-        "FILMES | NOVOS",
-        "FILMES | SUSPENSE",
-    ]
+"SERIES | OZ",
+"FILMES | 2022",
+"FILMES | 2023",
+"FILMES | 2024",
+"FILMES | ACAO"
+                        ]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -422,7 +412,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2025-01-11", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2025-02-11", origem="")
 
 
 def __valida_grupos() -> None:
