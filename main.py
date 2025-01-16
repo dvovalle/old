@@ -1,4 +1,3 @@
-import requests
 from os import path, remove, listdir
 import sqlite3
 import re
@@ -324,27 +323,27 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 def __consulta_status(url: str) -> bool:
-    result: bool = False
-    try:
-        response = requests.head(
-            url=url,
-            headers=__HEADERS,
-            data={},
-            timeout=1,
-            verify=True,
-            allow_redirects=True,
-        )
+    #result: bool = False
+    #try:
+    #    response = requests.head(
+    #        url=url,
+    #        headers=__HEADERS,
+    #        data={},
+    #        timeout=1,
+    #        verify=True,
+    #        allow_redirects=True,
+    #    )
 
-        if response is not None and int(response.status_code) == 200:
-            result = True
-        else:
-            print(url)
+    #    if response is not None and int(response.status_code) == 200:
+    #        result = True
+    #    else:
+    #        print(url)
 
-    except Exception as err:
-        print(f"Consulta: {url} {err}")
-        result = False
+    #except Exception as err:
+    #    print(f"Consulta: {url} {err}")
+    #    result = False
 
-    return result
+    return True
 
 
 def __analise(grupo: str) -> bool:
