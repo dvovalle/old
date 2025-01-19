@@ -1,4 +1,5 @@
 from os import path, remove, listdir
+import requests
 import sqlite3
 import re
 import unicodedata
@@ -323,25 +324,25 @@ def create_file(arquivo: str, is_full: bool) -> None:
 
 
 def __consulta_status(url: str) -> bool:
-    #result: bool = False
-    #try:
-    #    response = requests.head(
-    #        url=url,
-    #        headers=__HEADERS,
-    #        data={},
-    #        timeout=1,
-    #        verify=True,
-    #        allow_redirects=True,
-    #    )
+    result: bool = False
+    try:
+        response = requests.head(
+            url=url,
+            headers=__HEADERS,
+            data={},
+            timeout=1,
+            verify=True,
+            allow_redirects=True,
+        )
 
-    #    if response is not None and int(response.status_code) == 200:
-    #        result = True
-    #    else:
-    #        print(url)
+        if response is not None and int(response.status_code) == 200:
+            result = True
+        else:
+            print(url)
 
-    #except Exception as err:
-    #    print(f"Consulta: {url} {err}")
-    #    result = False
+    except Exception as err:
+        print(f"Consulta: {url} {err}")
+        result = False
 
     return True
 
@@ -388,13 +389,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-"SERIES | OZ",
-"FILMES | 2022",
-"FILMES | 2023",
-"FILMES | 2024",
-"FILMES | ACAO"
-                        ]
+    list_gr: list[str] = ["FILMES | COMEDIA"]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -411,7 +406,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2025-03-11", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2025-06-11", origem=f"-{x}")
 
 
 def __valida_grupos() -> None:
