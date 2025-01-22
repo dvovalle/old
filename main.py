@@ -406,7 +406,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.UPDATE_AND_REMOVE, expire="2025-06-11", origem=f"-{x}")
+            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2025-02-11", origem="")
 
 
 def __valida_grupos() -> None:
