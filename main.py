@@ -238,7 +238,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
 
                         if url_ok:
                             try:
-
+                                ativo = '0'
                                 cursor.execute(
                                     "INSERT INTO tb_iptv (url, id, name, logo, grupo, titulo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?);",
                                     (
@@ -406,7 +406,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2025-02-11", origem="")
+            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2025-10-12", origem="")
 
 
 def __valida_grupos() -> None:
