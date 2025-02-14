@@ -238,7 +238,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
 
                         if url_ok:
                             try:
-                                ativo = '0'
+                                ativo = "0"
                                 cursor.execute(
                                     "INSERT INTO tb_iptv (url, id, name, logo, grupo, titulo, ativo, expire) VALUES(?, ?, ?, ?, ?, ?, ?, ?);",
                                     (
