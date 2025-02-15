@@ -326,25 +326,19 @@ def create_file(arquivo: str, is_full: bool) -> None:
 def __consulta_status(url: str) -> bool:
     result: bool = False
     try:
-        response = requests.head(
-            url=url,
-            headers=__HEADERS,
-            data={},
-            timeout=1,
-            verify=True,
-            allow_redirects=True,
-        )
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=1, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
         else:
+            result = False
             print(url)
 
     except Exception as err:
         print(f"Consulta: {url} {err}")
         result = False
 
-    return True
+    return result
 
 
 def __analise(grupo: str) -> bool:
@@ -353,9 +347,9 @@ def __analise(grupo: str) -> bool:
     msg: str = ""
 
     try:
-        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo ASC, codid DESC;"
+        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 order by grupo ASC, codid DESC;"
         if grupo == "*":
-            command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, codid ASC;"
+            command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, codid ASC;"
 
         res = cursor.execute(command)
         obj: list = res.fetchall()
@@ -389,7 +383,34 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["FILMES | COMEDIA"]
+    list_gr: list[str] = [
+        "FILMES | 2025",
+        "FILMES | BAD BOYS",
+        "FILMES | LANCAMENTO",
+        "FILMES | MAD MAX",
+        "FILMES | PLANETA MACACOS",
+        "SERIES | KRYPTON",
+        "SERIES | MARVEL",
+        "SERIES | MATERIA ESCURA",
+        "SERIES | ORIGEM",
+        "SERIES | PUNHO DE FERRO",
+        "SERIES | RUPTURA",
+        "SERIES | SEE",
+        "SERIES | SEQUESTRO NO AR",
+        "SERIES | SILO",
+        "SERIES | SLOW HORSES",
+        "SERIES | STAR WARS",
+        "SERIES | SUPERMAN E LOIS",
+        "SERIES | SWAGGER",
+        "SERIES | TED LASSO",
+        "SERIES | THE ACOLYTE",
+        "SERIES | THE LAST OF US",
+        "SERIES | THE WIRE",
+        "SERIES | TRUE DETECTIVE",
+        "SERIES | VIKINGS",
+        "SERIES | WATCHMEN",
+        "SERIES | WOLFS",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
