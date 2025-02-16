@@ -269,17 +269,29 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                 remove(file_m3u)
 
 
-def get_sql(is_full: bool) -> list:
+def get_sql(is_full: bool, grupo: str) -> list:
     command: str = "SELECT url, id, name, logo, grupo, titulo, ativo, codid FROM tb_iptv WHERE ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
+
+    if len(grupo) > 5:
+        command: str = f"SELECT url, id, name, logo, grupo, titulo, ativo, codid FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and expire > date('now') order by grupo ASC, name ASC;"
+
     if is_full:
         command = "SELECT url, id, name, logo, grupo, titulo, ativo, codid FROM tb_iptv order by grupo ASC, name ASC;"
+
     res = cursor.execute(command)
     return res.fetchall()
 
 
-def create_file(arquivo: str, is_full: bool) -> None:
+def create_file(arquivo: str, is_full: bool, grupo: str) -> None:
     head: str = "#EXTM3U\n"
-    obj: list = get_sql(is_full=is_full)
+    obj: list = get_sql(is_full=is_full, grupo=grupo)
+
+    if len(grupo) > 5:
+        arquivo = grupo.replace("|", "")
+        arquivo = arquivo.replace("SERIES", "")
+        arquivo = arquivo.replace("FILMES", "")
+        arquivo = f"{arquivo}.m3u".strip()
+        print(arquivo)
 
     if is_full:
         arquivo = __LISTA_ALL
@@ -383,34 +395,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-        "FILMES | 2025",
-        "FILMES | BAD BOYS",
-        "FILMES | LANCAMENTO",
-        "FILMES | MAD MAX",
-        "FILMES | PLANETA MACACOS",
-        "SERIES | KRYPTON",
-        "SERIES | MARVEL",
-        "SERIES | MATERIA ESCURA",
-        "SERIES | ORIGEM",
-        "SERIES | PUNHO DE FERRO",
-        "SERIES | RUPTURA",
-        "SERIES | SEE",
-        "SERIES | SEQUESTRO NO AR",
-        "SERIES | SILO",
-        "SERIES | SLOW HORSES",
-        "SERIES | STAR WARS",
-        "SERIES | SUPERMAN E LOIS",
-        "SERIES | SWAGGER",
-        "SERIES | TED LASSO",
-        "SERIES | THE ACOLYTE",
-        "SERIES | THE LAST OF US",
-        "SERIES | THE WIRE",
-        "SERIES | TRUE DETECTIVE",
-        "SERIES | VIKINGS",
-        "SERIES | WATCHMEN",
-        "SERIES | WOLFS",
-    ]
+    list_gr: list[str] = ["FILMES | 2023", "FILMES | 2024"]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -460,4 +445,4 @@ if __name__ == "__main__":
     # __read_all_files()
     # __start_analise()
     # __valida_grupos()
-    create_file(arquivo=__LISTA_COMPLETA, is_full=False)
+    create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
