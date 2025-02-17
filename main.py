@@ -5,6 +5,7 @@ import re
 import unicodedata
 from log_error import set_logging_exception
 from enum import Enum
+import subprocess
 
 __HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
 
@@ -335,8 +336,31 @@ def create_file(arquivo: str, is_full: bool, grupo: str) -> None:
             file.close()
 
 
+def contem(texto, busca):
+    return busca.lower() in texto.lower()
+
+
+def verificar_stream(url: str) -> bool:
+    result: bool = False
+    try:
+        comando: list[str] = ["ffmpeg", "-i", url, "-t", "2", "-f", "null", "-"]
+        resultado = subprocess.run(comando, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=10)
+        result = resultado.returncode == 0
+
+    except Exception as err:
+        msgerror: str = f"Erro: {err}"
+        if contem(msgerror, "timed"):
+            result = True
+        else:
+            print(f"verificar_stream: {url} {msgerror}")
+            result = False
+
+    return result
+
+
 def __consulta_status(url: str) -> bool:
     result: bool = False
+    msgerror: str = "OK"
     try:
         response = requests.head(url=url, headers=__HEADERS, data={}, timeout=1, verify=True, allow_redirects=True)
 
@@ -346,9 +370,27 @@ def __consulta_status(url: str) -> bool:
             result = False
             print(url)
 
+        if result:
+            result = verificar_stream(url=url)
+
+        if not response:
+            print(f"URl invalida: {url}")
+
+    except requests.RequestException as ex:
+        msgerror = f"Erro: {ex}"
+        if contem(msgerror, "ConnectTimeout"):
+            result = True
+        else:
+            print(f"Consulta: {url} {msgerror}")
+            result = False
+
     except Exception as err:
-        print(f"Consulta: {url} {err}")
-        result = False
+        msgerror = f"Erro: {err}"
+        if contem(msgerror, "ConnectTimeout"):
+            result = True
+        else:
+            print(f"Consulta: {url} {msgerror}")
+            result = False
 
     return result
 
@@ -395,7 +437,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["FILMES | 2023", "FILMES | 2024"]
+    list_gr: list[str] = ["SERIES | SILO"]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
@@ -404,7 +446,7 @@ def __start_analise() -> None:
         __analise(grupo="*")
 
 
-def __read_all_files() -> None:
+def __read_all_files(sqlAction: SQLAction) -> None:
     dir_local: str = f"{__DIR_PATH}/M3UListas/"
     files: list[str] = listdir(dir_local)
     files.sort()
@@ -412,7 +454,7 @@ def __read_all_files() -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=SQLAction.INSERT_AND_REMOVE, expire="2025-10-12", origem="")
+            read_file(file_m3u=m3u, action=sqlAction, expire="2025-10-12", origem="")
 
 
 def __valida_grupos() -> None:
@@ -442,7 +484,7 @@ def __valida_grupos() -> None:
 
 
 if __name__ == "__main__":
-    # __read_all_files()
+    # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
     # __start_analise()
     # __valida_grupos()
     create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
