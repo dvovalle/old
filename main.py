@@ -371,7 +371,7 @@ def __consulta_status(url: str) -> bool:
             print(url)
 
         if result:
-            result = verificar_stream(url=url)
+           result = verificar_stream(url=url)
 
         if not response:
             print(f"URl invalida: {url}")
@@ -437,7 +437,27 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["SERIES | SILO"]
+    list_gr: list[str] = ["SERIES | RUPTURA",
+                        "FILMES | 2025",
+                        "FILMES | LANCAMENTO",
+                        "FILMES | NARNIA",
+                        "FILMES | PIRATAS DO CARIBE",
+                        "FILMES | PLANETA MACACOS",
+                        "FILMES | REI ARTHUR",
+                        "SERIES | ACIMA Q SUSPEITA",
+                        "SERIES | ARCANJO RENEGADO",
+                        "SERIES | MATERIA ESCURA",
+                        "SERIES | ORIGEM",
+                        "SERIES | OS OUTROS",
+                        "SERIES | PINGUIM",
+                        "SERIES | SILO",
+                        "SERIES | SLOW HORSES",
+                        "SERIES | SONS OF ANARCHY",
+                        "SERIES | SPARTACUS",
+                        "SERIES | SUPERMAN E LOIS",
+                        "SERIES | SWAGGER",
+                        "SERIES | WOLFS",
+                        "SERIES | XOGUM"]
 
     if list_gr is not None and len(list_gr) > 0:
         for grupo in list_gr:
