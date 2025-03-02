@@ -1,50 +1,27 @@
-# Remove Linha e mais uma linha abaixo
-sed -i '/group-title="CHILE/,+1d' M3UListas/005.m3u
+# Listas
 
+Lista 2025-03-01
 
-sed -i '' '/#EXTM3U/d' M3UListas/004.m3u
-sed -i '' '/##/d' M3UListas/004.m3u
-sed -i '' '/^[[:space:]]*$/d' M3UListas/004.m3u
-
-sed -i -e 's/#EXTINF/EXTINF/g' M3UListas/001.m3u
-sed -i -e 's/EXTINF/#EXTINF/g' M3UListas/001.m3u
-
-https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
-
-> http://4tv.site/get.php?username=WanessacelMOTO&password=Bsbe7gh64y&type=m3u_plus
-> http://4tv.site/get.php?username=hyonara8113&password=618448RI72&type=m3u_plus
-> https://apkgara.com/lista-iptv/
-> https://tecnohive.com/pt/listas-m3u-iptv/
-
-
-
-> curl -o 001.m3u "https://raw.githubusercontent.com/SaTecnologiacell/satecnologia.iptv-canais/main/iptvlista.m3u"
-> curl -o 002.m3u "https://gist.githubusercontent.com/raphacmartin/eb975dfa240ff36ec42a0557aff91485/raw/a0f65e2753841daa665e71e74829b277a7d393f2/iptv.m3u"
-> curl -o 003.m3u "https://gist.githubusercontent.com/fabiomagno/82e617e8e8c0d9bb60b605aad0bb107d/raw/95e7660ffb8e4eac2ff0109a949bd1449570556c/lista%2520oficial.m3u"
-> curl -o 004.m3u "https://gist.githubusercontent.com/dranimboy/bc3c6162e5afe1083d13354c25e95827/raw/b8a980cbb09c9d9bfee005b8be4c2cacf45c5fd3/LISTA%2520GRANDE.m3u"
-> curl -o 005.m3u "https://gitlab.com/snippets/1715562/raw"
-> curl -o 006.m3u "https://gitlab.com/MateusXD/IMDS/raw/master/IMDSLISTA"
-
-
+- https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
+- https://siptv.app/mylist/
 
 ## Create Database
-
 
 ```sql
 
 # database.db
 
 CREATE TABLE tb_iptv (
-	codid INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-	url TEXT(500) NOT NULL,
-	id TEXT(128) NOT NULL,
-	name TEXT(128) NOT NULL,
-	logo TEXT(500) NOT NULL,
-	grupo TEXT(128) NOT NULL,
-	titulo TEXT(128) NOT NULL,
-	ativo INTEGER NOT NULL,
-	expire datetime NOT NULL,
-	CONSTRAINT ix_tb_iptv_url UNIQUE (url)
+ codid INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ url TEXT(500) NOT NULL,
+ id TEXT(128) NOT NULL,
+ name TEXT(128) NOT NULL,
+ logo TEXT(500) NOT NULL,
+ grupo TEXT(128) NOT NULL,
+ titulo TEXT(128) NOT NULL,
+ ativo INTEGER NOT NULL,
+ expire datetime NOT NULL,
+ CONSTRAINT ix_tb_iptv_url UNIQUE (url)
 );
 
 
@@ -69,14 +46,8 @@ where name like '%Superman e Lois%'
 
 ```
 
-https://siptv.app/mylist/
-https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
-
-
-http://4tv.site/get.php?username=373973275&password=038894280&type=m3u_plus
-
-
 ## EXT Tags
+
 | EXT | Meaning |
 | --- | ------- |
 | #EXTM3U | Indicates that the file is an M3U playlist file |
@@ -150,6 +121,7 @@ http://4tv.site/get.php?username=373973275&password=038894280&type=m3u_plus
 | #EXT-X-CUE-OUT-CONT-DURATION-MS | Specifies the duration of a partial cue-out in milliseconds |
 
 ## TVG Tags
+
 | TVG | Meaning |
 | --- | ------- |
 | TVG-ID | Specifies the unique identifier of the current media file. This tag is used to identify individual channels in the playlist. |
