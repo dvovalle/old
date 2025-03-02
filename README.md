@@ -61,7 +61,7 @@ where ativo = 1
 group by grupo
 order by grupo ASC;
 
-UPDATE tb_iptv SET ativo = 0, grupo = TRIM(UPPER(grupo);
+UPDATE tb_iptv SET ativo = 0, grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo);
 
 
 UPDATE tb_iptv SET  ativo = 1, grupo = 'SERIES | SUPERMAN E LOIS'
