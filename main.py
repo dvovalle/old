@@ -6,8 +6,13 @@ import unicodedata
 from log_error import set_logging_exception
 from enum import Enum
 import subprocess
+import fnmatch
+import multiprocessing
+import os
+from multiprocessing import Pool
 
 __HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
+__MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2)
 
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
@@ -150,7 +155,7 @@ def __remove_char(texto: str, force: bool) -> str:
 
 def update_values(expire: str, name: str, logo: str, title: str, id_iptv: str, url: str) -> None:
     try:
-        cursor.execute("UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;", (url, id_iptv, logo, title, expire, "1", name))
+        cursor.execute("UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;", (url, id_iptv, logo, title, expire, "0", name))
 
     except Exception as err:
         print(f"Error update_values: {err}")
@@ -362,7 +367,7 @@ def __consulta_status(url: str) -> bool:
     result: bool = False
     msgerror: str = "OK"
     try:
-        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=1, verify=True, allow_redirects=True)
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=5, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
@@ -371,7 +376,7 @@ def __consulta_status(url: str) -> bool:
             print(url)
 
         if result:
-           result = verificar_stream(url=url)
+            result = verificar_stream(url=url)
 
         if not response:
             print(f"URl invalida: {url}")
@@ -437,31 +442,32 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["SERIES | RUPTURA",
-                        "FILMES | 2025",
-                        "FILMES | LANCAMENTO",
-                        "FILMES | NARNIA",
-                        "FILMES | PIRATAS DO CARIBE",
-                        "FILMES | PLANETA MACACOS",
-                        "FILMES | REI ARTHUR",
-                        "SERIES | ACIMA Q SUSPEITA",
-                        "SERIES | ARCANJO RENEGADO",
-                        "SERIES | MATERIA ESCURA",
-                        "SERIES | ORIGEM",
-                        "SERIES | OS OUTROS",
-                        "SERIES | PINGUIM",
-                        "SERIES | SILO",
-                        "SERIES | SLOW HORSES",
-                        "SERIES | SONS OF ANARCHY",
-                        "SERIES | SPARTACUS",
-                        "SERIES | SUPERMAN E LOIS",
-                        "SERIES | SWAGGER",
-                        "SERIES | WOLFS",
-                        "SERIES | XOGUM"]
+    list_gr: list[str] = [
+"SERIES | DOCTOR WHO",
+"SERIES | GOT",
+"SERIES | MATERIA ESCURA",
+"SERIES | MULHER DO VIAJANTE NO TEMPO",
+"SERIES | ORIGEM",
+"SERIES | OS OUTROS",
+"SERIES | RUPTURA",
+"SERIES | SEE",
+"SERIES | SILO",
+"SERIES | SUPERMAN E LOIS",
+"SERIES | SWAGGER",
+"SERIES | THE LAST OF US",
+"SERIES | THE OUTSIDER",
+"SERIES | THE WHITE LOTUS",
+"SERIES | TRUE DETECTIVE"]
 
     if list_gr is not None and len(list_gr) > 0:
-        for grupo in list_gr:
-            __analise(grupo=grupo)
+        if len(list_gr) > 1:
+            p = Pool(__MY_CPU_COUNT)
+            with p:
+                p.map(__analise, list_gr)
+                p.join()
+        else:
+            for grupo in list_gr:
+                __analise(grupo=grupo)
     else:
         __analise(grupo="*")
 
