@@ -367,7 +367,7 @@ def __consulta_status(url: str) -> bool:
     result: bool = False
     msgerror: str = "OK"
     try:
-        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=5, verify=True, allow_redirects=True)
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=15, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
@@ -375,8 +375,8 @@ def __consulta_status(url: str) -> bool:
             result = False
             print(url)
 
-        if result:
-            result = verificar_stream(url=url)
+        # if result:
+        #    result = verificar_stream(url=url)
 
         if not response:
             print(f"URl invalida: {url}")
@@ -442,22 +442,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-"SERIES | DOCTOR WHO",
-"SERIES | GOT",
-"SERIES | MATERIA ESCURA",
-"SERIES | MULHER DO VIAJANTE NO TEMPO",
-"SERIES | ORIGEM",
-"SERIES | OS OUTROS",
-"SERIES | RUPTURA",
-"SERIES | SEE",
-"SERIES | SILO",
-"SERIES | SUPERMAN E LOIS",
-"SERIES | SWAGGER",
-"SERIES | THE LAST OF US",
-"SERIES | THE OUTSIDER",
-"SERIES | THE WHITE LOTUS",
-"SERIES | TRUE DETECTIVE"]
+    list_gr: list[str] = []
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
