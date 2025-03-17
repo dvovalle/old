@@ -375,8 +375,8 @@ def __consulta_status(url: str) -> bool:
             result = False
             print(url)
 
-        # if result:
-        #    result = verificar_stream(url=url)
+        if result:
+            result = verificar_stream(url=url)
 
         if not response:
             print(f"URl invalida: {url}")
@@ -442,7 +442,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = []
+    list_gr: list[str] = ["FILMES | 2025", "FILMES | MAD MAX", "FILMES | MARVEL"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -465,7 +465,7 @@ def __read_all_files(sqlAction: SQLAction) -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=sqlAction, expire="2025-10-12", origem="")
+            read_file(file_m3u=m3u, action=sqlAction, expire="2025-12-12", origem="")
 
 
 def __valida_grupos() -> None:
