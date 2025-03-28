@@ -3,12 +3,9 @@ import requests
 import sqlite3
 import re
 import unicodedata
-from log_error import set_logging_exception
 from enum import Enum
 import subprocess
-import fnmatch
 import multiprocessing
-import os
 from multiprocessing import Pool
 
 __HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
@@ -265,7 +262,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                     update_values(expire=expire, name=name, logo=logo, title=title, id_iptv=id_iptv, url=url)
 
             except Exception as err:
-                set_logging_exception(exc=err)
+                print(f"Erro analise: {err}")
                 is_completo = False
 
         conn.commit()
@@ -336,7 +333,7 @@ def create_file(arquivo: str, is_full: bool, grupo: str) -> None:
                     file.write(linha)
 
                 except Exception as err:
-                    set_logging_exception(exc=err)
+                    print(f"Erro analise: {err}")
 
             file.close()
 
@@ -375,7 +372,8 @@ def __consulta_status(url: str) -> bool:
             result = False
             print(url)
 
-        if result:
+        is_next: bool = False
+        if result and is_next:
             result = verificar_stream(url=url)
 
         if not response:
@@ -435,14 +433,39 @@ def __analise(grupo: str) -> bool:
                     print(f"Erro analise: {err}")
 
     except Exception as err:
-        set_logging_exception(exc=err)
+        print(f"Erro analise: {err}")
 
     return result
 
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = ["FILMES | 2025", "FILMES | MAD MAX", "FILMES | MARVEL"]
+    list_gr: list[str] = [
+        "FILMES | PLANETA DOS MACACOS",
+        "SERIES | ACIMA Q SUSPEITA",
+        "SERIES | ANDOR",
+        "SERIES | BANDIDOS DO TEMPO",
+        "SERIES | DEMOLIDOR",
+        "SERIES | EMPIRE",
+        "SERIES | FUNDACAO",
+        "SERIES | GAME OF THRONES",
+        "SERIES | HOUSE OF DRAGON",
+        "SERIES | LADROES DE DROGAS",
+        "SERIES | MATERIA ESCURA",
+        "SERIES | OPERACAO LIONESS",
+        "SERIES | ORIGEM",
+        "SERIES | OS OUTROS",
+        "SERIES | RUPTURA",
+        "SERIES | SEE",
+        "SERIES | SEQUESTRO NO AR",
+        "SERIES | SILO",
+        "SERIES | SLOW HORSES",
+        "SERIES | SUPERMAN E LOIS",
+        "SERIES | SWAGGER",
+        "SERIES | THE LAST OF US",
+        "SERIES | THE OUTSIDER",
+        "SERIES | TRUE DETECTIVE",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
