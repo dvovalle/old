@@ -346,7 +346,7 @@ def verificar_stream(url: str) -> bool:
     result: bool = False
     try:
         comando: list[str] = ["ffmpeg", "-i", url, "-t", "2", "-f", "null", "-"]
-        resultado = subprocess.run(comando, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=10)
+        resultado = subprocess.run(comando, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=5)
         result = resultado.returncode == 0
 
     except Exception as err:
@@ -364,7 +364,7 @@ def __consulta_status(url: str) -> bool:
     result: bool = False
     msgerror: str = "OK"
     try:
-        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=15, verify=True, allow_redirects=True)
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=5, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
@@ -441,6 +441,9 @@ def __analise(grupo: str) -> bool:
 def __start_analise() -> None:
 
     list_gr: list[str] = [
+        "FILMES | 2025",
+        "FILMES | CAPITAO AMERICA",
+        "FILMES | COLETANEA",
         "FILMES | PLANETA DOS MACACOS",
         "SERIES | ACIMA Q SUSPEITA",
         "SERIES | ANDOR",
@@ -448,22 +451,15 @@ def __start_analise() -> None:
         "SERIES | DEMOLIDOR",
         "SERIES | EMPIRE",
         "SERIES | FUNDACAO",
-        "SERIES | GAME OF THRONES",
-        "SERIES | HOUSE OF DRAGON",
         "SERIES | LADROES DE DROGAS",
         "SERIES | MATERIA ESCURA",
-        "SERIES | OPERACAO LIONESS",
-        "SERIES | ORIGEM",
         "SERIES | OS OUTROS",
+        "SERIES | PUNHO DE FERRO",
         "SERIES | RUPTURA",
-        "SERIES | SEE",
-        "SERIES | SEQUESTRO NO AR",
         "SERIES | SILO",
-        "SERIES | SLOW HORSES",
-        "SERIES | SUPERMAN E LOIS",
         "SERIES | SWAGGER",
         "SERIES | THE LAST OF US",
-        "SERIES | THE OUTSIDER",
+        "SERIES | THE MORNING SHOW",
         "SERIES | TRUE DETECTIVE",
     ]
 
