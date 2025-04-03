@@ -440,28 +440,7 @@ def __analise(grupo: str) -> bool:
 
 def __start_analise() -> None:
 
-    list_gr: list[str] = [
-        "FILMES | 2025",
-        "FILMES | CAPITAO AMERICA",
-        "FILMES | COLETANEA",
-        "FILMES | PLANETA DOS MACACOS",
-        "SERIES | ACIMA Q SUSPEITA",
-        "SERIES | ANDOR",
-        "SERIES | BANDIDOS DO TEMPO",
-        "SERIES | DEMOLIDOR",
-        "SERIES | EMPIRE",
-        "SERIES | FUNDACAO",
-        "SERIES | LADROES DE DROGAS",
-        "SERIES | MATERIA ESCURA",
-        "SERIES | OS OUTROS",
-        "SERIES | PUNHO DE FERRO",
-        "SERIES | RUPTURA",
-        "SERIES | SILO",
-        "SERIES | SWAGGER",
-        "SERIES | THE LAST OF US",
-        "SERIES | THE MORNING SHOW",
-        "SERIES | TRUE DETECTIVE",
-    ]
+    list_gr: list[str] = ["FILMES | GLADIADOR", "SERIES | TERRA PERMANECE", "SERIES | THE LAST OF US"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
