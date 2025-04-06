@@ -360,7 +360,7 @@ def verificar_stream(url: str) -> bool:
     return result
 
 
-def __consulta_status(url: str) -> bool:
+def __consulta_status(url: str, verify: bool) -> bool:
     result: bool = False
     msgerror: str = "OK"
     try:
@@ -370,10 +370,10 @@ def __consulta_status(url: str) -> bool:
             result = True
         else:
             result = False
+            verify = False
             print(url)
 
-        is_next: bool = False
-        if result and is_next:
+        if result and verify:
             result = verificar_stream(url=url)
 
         if not response:
@@ -398,13 +398,13 @@ def __consulta_status(url: str) -> bool:
     return result
 
 
-def __analise(grupo: str) -> bool:
+def __analise(grupo: str = "*", verify: bool = True) -> bool:
     result: bool = False
     index: int = 0
     msg: str = ""
 
     try:
-        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 order by grupo ASC, codid DESC;"
+        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 order by codid ASC;"
         if grupo == "*":
             command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, codid ASC;"
 
@@ -420,7 +420,7 @@ def __analise(grupo: str) -> bool:
                     url: str = str(x[0]).strip()
                     codid: str = str(x[1])
                     rs_grupo: str = str(x[2])
-                    result = __consulta_status(url=url)
+                    result = __consulta_status(url=url, verify=verify)
                     if result:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - OK!!!!"
                     else:
@@ -438,9 +438,9 @@ def __analise(grupo: str) -> bool:
     return result
 
 
-def __start_analise() -> None:
+def __start_analise(verify: bool) -> None:
 
-    list_gr: list[str] = ["FILMES | GLADIADOR", "SERIES | TERRA PERMANECE", "SERIES | THE LAST OF US"]
+    list_gr: list[str] = ["SERIES | SUITS", "SERIES | COBRA KAI", "SERIES | BREAKING BAD", "SERIES | BETTER CALL SAUL"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -450,9 +450,9 @@ def __start_analise() -> None:
                 p.join()
         else:
             for grupo in list_gr:
-                __analise(grupo=grupo)
+                __analise(grupo=grupo, verify=verify)
     else:
-        __analise(grupo="*")
+        __analise(grupo="*", verify=verify)
 
 
 def __read_all_files(sqlAction: SQLAction) -> None:
@@ -493,7 +493,7 @@ def __valida_grupos() -> None:
 
 
 if __name__ == "__main__":
-    # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-    # __start_analise()
+    __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+    # __start_analise(verify=False)
     # __valida_grupos()
-    create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
+    # create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")

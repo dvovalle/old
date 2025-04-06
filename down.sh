@@ -1,3 +1,9 @@
+echo "001------------------------------"
+curl -o M3UListas/001.m3u "http://nicvustv.top/get.php?username=Veron23&password=Veron2023&type=m3u_plus"
+
+echo "0001------------------------------"
+curl -o M3UListas/0001.m3u "http://aasd.fun:80/get.php?username=Diego12&password=Diego12&type=m3u_plus"
+
 echo "002------------------------------"
 curl -o M3UListas/002.m3u "https://gist.githubusercontent.com/raphacmartin/eb975dfa240ff36ec42a0557aff91485/raw/a0f65e2753841daa665e71e74829b277a7d393f2/iptv.m3u"
 
