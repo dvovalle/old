@@ -1,12 +1,13 @@
-from os import path, remove, listdir
-import requests
-import sqlite3
+import multiprocessing
 import re
+import sqlite3
+import subprocess
 import unicodedata
 from enum import Enum
-import subprocess
-import multiprocessing
 from multiprocessing import Pool
+from os import path, remove, listdir
+
+import requests
 
 __HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
 __MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2)
@@ -439,8 +440,22 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool) -> None:
-
-    list_gr: list[str] = ["SERIES | SUITS", "SERIES | COBRA KAI", "SERIES | BREAKING BAD", "SERIES | BETTER CALL SAUL"]
+    list_gr: list[str] = [
+        "FILMES | 2025",
+        "FILMES | 4K",
+        "FILMES | APPLE TV",
+        "FILMES | CAPITAO AMERICA",
+        "FILMES | DC COMICS",
+        "FILMES | MARVEL",
+        "FILMES | NACIONAL",
+        "FILMES | STAR WARS",
+        "SERIES | MATERIA ESCURA",
+        "SERIES | OZ",
+        "SERIES | SILO",
+        "SERIES | SWAGGER",
+        "SERIES | TERRA PERMANECE",
+        "SERIES | THE LAST OF US",
+    ]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -493,7 +508,11 @@ def __valida_grupos() -> None:
 
 
 if __name__ == "__main__":
-    __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-    # __start_analise(verify=False)
-    # __valida_grupos()
-    # create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
+    try:
+        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        # __start_analise(verify=False)
+        # __valida_grupos()
+        create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
+
+    except Exception as err:
+        print(f"******** -> Erro: {err}")
