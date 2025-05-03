@@ -42,3 +42,40 @@ curl -o M3UListas/013.m3u "http://voz.one/get.php?username=83984027&password=943
 
 echo "014------------------------------"
 curl -o M3UListas/014.m3u "http://dns2.site/get.php?username=clodoaldo0638&password=11992180638&type=m3u_plus"
+
+echo "015------------------------------"
+curl -o M3UListas/015.m3u "https://gitlab.com/camillo20/camillofilmes/raw/master/.Camillofilmes"
+
+echo "016------------------------------"
+curl -o M3UListas/016.m3u "https://gitlab.com/fernandoqueirozwrk/VIPVODS/raw/master/fqueirozVODS"
+
+echo "017------------------------------"
+curl -o M3UListas/017.m3u "https://pastebin.com/raw/iKB4j47Q"
+
+echo "018------------------------------"
+curl -o M3UListas/018.m3u "https://pastebin.com/raw/UeLE3baS"
+
+echo "019------------------------------"
+curl -o M3UListas/019.m3u "https://gitlab.com/fernandoqueirozwrk/VIPVODS/raw/master/fqueirozVODS"
+
+echo "020------------------------------"
+curl -o M3UListas/020.m3u "https://bitbucket.org/ciscowalker/cisco-series-nova/raw/master/Lista_Series_Nova"
+
+echo "021------------------------------"
+curl -o M3UListas/021.m3u "https://gist.githubusercontent.com/Gunboybr/9c9a69deecd4598813b954c4e8b9a4da/raw/series1000"
+
+echo "022------------------------------"
+curl -o M3UListas/022.m3u "https://gitlab.com/snippets/1715562/raw"
+
+echo "023------------------------------"
+curl -o M3UListas/023.m3u "https://bitbucket.org/ciscowalker/desenhos-cisco-iptv/raw/master/Animes_Desenhos"
+
+echo "024------------------------------"
+curl -o M3UListas/024.m3u "https://gitlab.com/camillo20/camillofilmes/raw/master/.Camillofilmes"
+
+echo "025------------------------------"
+curl -o M3UListas/025.m3u "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2025/refs/heads/master/fenixplay.m3u"
+
+echo "026------------------------------"
+curl -o M3UListas/026.m3u "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2025/refs/heads/master/hopto.m3u8"
+

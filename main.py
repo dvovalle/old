@@ -361,7 +361,7 @@ def verificar_stream(url: str) -> bool:
     return result
 
 
-def __consulta_status(url: str, verify: bool) -> bool:
+def __consulta_status(url: str, verify: bool = True) -> bool:
     result: bool = False
     msgerror: str = "OK"
     try:
@@ -439,30 +439,14 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
     return result
 
 
-def __start_analise(verify: bool) -> None:
-    list_gr: list[str] = [
-        "FILMES | 2025",
-        "FILMES | 4K",
-        "FILMES | APPLE TV",
-        "FILMES | CAPITAO AMERICA",
-        "FILMES | DC COMICS",
-        "FILMES | MARVEL",
-        "FILMES | NACIONAL",
-        "FILMES | STAR WARS",
-        "SERIES | MATERIA ESCURA",
-        "SERIES | OZ",
-        "SERIES | SILO",
-        "SERIES | SWAGGER",
-        "SERIES | TERRA PERMANECE",
-        "SERIES | THE LAST OF US",
-    ]
+def __start_analise(verify: bool = True) -> None:
+    list_gr: list[str] = ["SERIES | RUPTURA"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
-            p = Pool(__MY_CPU_COUNT)
-            with p:
+            cpu_count: int = min(__MY_CPU_COUNT, len(list_gr))
+            with Pool(processes=cpu_count) as p:
                 p.map(__analise, list_gr)
-                p.join()
         else:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
@@ -510,7 +494,7 @@ def __valida_grupos() -> None:
 if __name__ == "__main__":
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        # __start_analise(verify=False)
+        # __start_analise(verify=True)
         # __valida_grupos()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
 

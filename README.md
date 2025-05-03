@@ -4,6 +4,7 @@ Lista 2025-03-01
 
 - https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 - https://siptv.app/mylist/
+-https://www.sinhoplayer.com.br/2022/01/lista-iptv-gratis-2022-para-kodi.html
 
 ## Create Database
 
@@ -25,6 +26,9 @@ CREATE TABLE tb_iptv (
 );
 
 
+- https://pdfcoffee.com/series-lista-iptv-pdf-free.html
+
+http://vkodi.net/repo
 
 SELECT  name, grupo, ativo
 FROM tb_iptv
