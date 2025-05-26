@@ -10,7 +10,7 @@ from os import path, remove, listdir
 import requests
 
 __HEADERS: dict[str, str] = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"}
-__MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2)
+__MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2) + 1
 
 conn = sqlite3.connect(database="database.db", timeout=2.0)
 cursor = conn.cursor()
@@ -441,12 +441,17 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 def __start_analise(verify: bool = True) -> None:
     list_gr: list[str] = [
-        "FILMES | DC COMICS",
+        "FILMES | ACAO",
+        "FILMES | COMEDIA",
+        "FILMES | MARVEL DC",
+        "FILMES | STAR WARS",
+        "FILMES | TERROR",
+        "SERIES | STAR WARS",
     ]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
-            cpu_count: int = min(__MY_CPU_COUNT, len(list_gr))
+            cpu_count: int = max(__MY_CPU_COUNT, len(list_gr))
             with Pool(processes=cpu_count) as p:
                 p.map(__analise, list_gr)
         else:
@@ -495,10 +500,10 @@ def __valida_grupos() -> None:
 
 if __name__ == "__main__":
     try:
-        __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=True)
         # __valida_grupos()
-        # create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
+        create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
 
     except Exception as err:
         print(f"******** -> Erro: {err}")
