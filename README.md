@@ -35,7 +35,6 @@ FROM tb_iptv
 where name like '%Superman e Lois%'
 order by name;
 
-
 SELECT grupo, '"' || grupo || '",' AS ListGrupo, count(name) AS QtdLinhas
 FROM tb_iptv
 where ativo = 1
@@ -43,7 +42,6 @@ group by grupo
 order by grupo ASC;
 
 UPDATE tb_iptv SET ativo = 0, grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo);
-
 
 UPDATE tb_iptv SET  ativo = 1, grupo = 'SERIES | SUPERMAN E LOIS'
 where name like '%Superman e Lois%'
