@@ -31,9 +31,6 @@ curl -o M3UListas/009.m3u "http://massud.homelinux.com/get.php?username=6f2bb01f
 echo "010------------------------------"
 curl -o M3UListas/010.m3u "http://asxe.net/get.php?username=873647364&password=873647364&type=m3u_plus"
 
-echo "011------------------------------"
-curl -o M3UListas/011.m3u "http://84.16.252.219:2095/get.php?username=suspected-TR1-DFDu8RICi7&password=xzHTF1vfST&type=m3u_plus&output=ts"
-
 echo "012------------------------------"
 curl -o M3UListas/012.m3u "http://cwbtvplay.com/get.php?username=173969580&password=745352848&type=m3u_plus"
 

@@ -67,10 +67,16 @@ http://189.91.128.150:5555/udp/227.10.20.94:1234
 http://ap4x.online:80/luiz222/222luiz/2474362
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
 http://ap4x.online:80/738397084/420937255/2474362
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
+http://ap4x.online:80/luiz222/222luiz/2474362.ts
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 HD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 HD
+http://ap4x.online:80/luiz222/222luiz/2474360.ts
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/luiz222/222luiz/2474345
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/738397084/420937255/2474345
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
+http://ap4x.online:80/luiz222/222luiz/2474345.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO FAMILY
 http://189.91.128.150:5555/udp/227.10.20.97:1234
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
@@ -81,38 +87,62 @@ http://ap4x.online:80/luiz222/222luiz/2474368
 http://ap4x.online:80/738397084/420937255/2474361
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/738397084/420937255/2474368
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
+http://ap4x.online:80/luiz222/222luiz/2474361.ts
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
+http://ap4x.online:80/luiz222/222luiz/2474368.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family FHD
-http://ap4x.online:80/738397084/420937255/2474363
+http://ap4x.online:80/luiz222/222luiz/2474363.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
 http://ap4x.online:80/luiz222/222luiz/2474346
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
 http://ap4x.online:80/738397084/420937255/2474346
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
+http://ap4x.online:80/luiz222/222luiz/2474346.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/luiz222/222luiz/2474347
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/738397084/420937255/2474347
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
+http://ap4x.online:80/luiz222/222luiz/2474347.ts
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/738397084/420937255/2474348
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
+http://ap4x.online:80/luiz222/222luiz/2474348.ts
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO HD
+http://ap4x.online:80/luiz222/222luiz/2474358.ts
 #EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
 http://ap4x.online:80/738397084/420937255/2474364
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
+http://ap4x.online:80/luiz222/222luiz/2474364.ts
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi HD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi HD
+http://ap4x.online:80/luiz222/222luiz/2474349.ts
 #EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
 http://ap4x.online:80/luiz222/222luiz/2474350
 #EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
 http://ap4x.online:80/738397084/420937255/2474350
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
+http://ap4x.online:80/luiz222/222luiz/2474350.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO PLUS" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO PLUS
 http://189.91.128.150:5555/udp/227.10.20.96:1234
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
 http://ap4x.online:80/luiz222/222luiz/2474365
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
 http://ap4x.online:80/738397084/420937255/2474365
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
+http://ap4x.online:80/luiz222/222luiz/2474365.ts
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
 http://ap4x.online:80/luiz222/222luiz/2474351
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
 http://ap4x.online:80/738397084/420937255/2474351
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
+http://ap4x.online:80/luiz222/222luiz/2474351.ts
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
 http://ap4x.online:80/luiz222/222luiz/2474352
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
 http://ap4x.online:80/738397084/420937255/2474352
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
+http://ap4x.online:80/luiz222/222luiz/2474352.ts
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/luiz222/222luiz/2474353
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
@@ -121,32 +151,46 @@ http://ap4x.online:80/luiz222/222luiz/2474359
 http://ap4x.online:80/738397084/420937255/2474353
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/738397084/420937255/2474359
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
+http://ap4x.online:80/luiz222/222luiz/2474353.ts
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
+http://ap4x.online:80/luiz222/222luiz/2474359.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO SIGNATURE
 http://189.91.128.150:5555/udp/227.10.20.98:1234
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
 http://ap4x.online:80/738397084/420937255/2474366
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
+http://ap4x.online:80/luiz222/222luiz/2474366.ts
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature HD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature HD
 http://ap4x.online:80/luiz222/222luiz/2474354
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature HD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature HD
 http://ap4x.online:80/738397084/420937255/2474354
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature HD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature HD
+http://ap4x.online:80/luiz222/222luiz/2474354.ts
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature SD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature SD
 http://ap4x.online:80/luiz222/222luiz/2474355
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature SD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature SD
 http://ap4x.online:80/738397084/420937255/2474355
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature SD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature SD
+http://ap4x.online:80/luiz222/222luiz/2474355.ts
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
 http://ap4x.online:80/luiz222/222luiz/2474367
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
 http://ap4x.online:80/738397084/420937255/2474367
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
+http://ap4x.online:80/luiz222/222luiz/2474367.ts
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme HD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme HD
 http://ap4x.online:80/luiz222/222luiz/2474356
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme HD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme HD
 http://ap4x.online:80/738397084/420937255/2474356
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme HD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme HD
+http://ap4x.online:80/luiz222/222luiz/2474356.ts
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme SD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme SD
 http://ap4x.online:80/738397084/420937255/2474357
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme SD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme SD
+http://ap4x.online:80/luiz222/222luiz/2474357.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO2" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO2
 http://189.91.128.150:5555/udp/227.10.20.95:1234
-#EXTINF:-1 tvg-id="" tvg-name="HBOMax Original 15" tvg-logo="https://iili.io/6GDGuR.md.png" group-title="CANAIS | HBO",HBOMax Original 15
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/395168
 #EXTINF:-1 tvg-id="" tvg-name="Caillou S03E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/hxNgvJNDS8jCNQokSoxzBbWHl08.jpg" group-title="CANAIS | PLUTO TV",Caillou S03E01
 http://ap4x.online:80/series/738397084/420937255/3773154.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Caillou S03E02" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/5IsA1gARr742qAuI11ecoPAjLk7.jpg" group-title="CANAIS | PLUTO TV",Caillou S03E02
@@ -303,60 +347,106 @@ http://ap4x.online:80/series/738397084/420937255/3772483.mp4
 http://ap4x.online:80/series/738397084/420937255/3772484.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Popeye e Filho S01E11" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/tgY1qjEKrrsiyIYU1JFy7QuaXsm.jpg" group-title="CANAIS | PLUTO TV",Popeye e Filho S01E11
 http://ap4x.online:80/series/738397084/420937255/3772485.mp4
-#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE FUN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0Y5KRVBhCAuKXktcq4HFTls06BLqjE0BPQ&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE FUN
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357311
-#EXTINF:-1 tvg-id="TPREHD" tvg-name="TELECINE PREMIUM" tvg-logo="http://www.tmsimg.com/assets/s78306_ll_h3_ac.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/202046
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="TELECINE ACTION 4K" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",TELECINE ACTION 4K
+http://ap4x.online:80/luiz222/222luiz/3787710.ts
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
 http://ap4x.online:80/luiz222/222luiz/2474338
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
 http://ap4x.online:80/738397084/420937255/2474338
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
+http://ap4x.online:80/luiz222/222luiz/2474338.ts
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action HD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action HD
+http://ap4x.online:80/luiz222/222luiz/2474327.ts
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action SD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action SD
 http://ap4x.online:80/luiz222/222luiz/2474328
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action SD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action SD
 http://ap4x.online:80/738397084/420937255/2474328
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action SD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action SD
+http://ap4x.online:80/luiz222/222luiz/2474328.ts
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult FHD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult FHD
 http://ap4x.online:80/luiz222/222luiz/2474339
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult FHD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult FHD
 http://ap4x.online:80/738397084/420937255/2474339
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult FHD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult FHD
+http://ap4x.online:80/luiz222/222luiz/2474339.ts
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult HD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult HD
 http://ap4x.online:80/luiz222/222luiz/2474329
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult HD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult HD
 http://ap4x.online:80/738397084/420937255/2474329
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult HD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult HD
+http://ap4x.online:80/luiz222/222luiz/2474329.ts
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult SD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult SD
 http://ap4x.online:80/luiz222/222luiz/2474330
 #EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult SD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult SD
 http://ap4x.online:80/738397084/420937255/2474330
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult SD" tvg-logo="http://ap4x.online/logos/bf0MqOkD_o.png" group-title="CANAIS | TELECINE",Telecine Cult SD
+http://ap4x.online:80/luiz222/222luiz/2474330.ts
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun FHD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun FHD
 http://ap4x.online:80/luiz222/222luiz/2474340
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun FHD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun FHD
 http://ap4x.online:80/738397084/420937255/2474340
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun FHD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun FHD
+http://ap4x.online:80/luiz222/222luiz/2474340.ts
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun HD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun HD
 http://ap4x.online:80/luiz222/222luiz/2474344
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun HD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun HD
 http://ap4x.online:80/738397084/420937255/2474344
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun HD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun HD
+http://ap4x.online:80/luiz222/222luiz/2474344.ts
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
 http://ap4x.online:80/luiz222/222luiz/2474331
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
 http://ap4x.online:80/738397084/420937255/2474331
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
+http://ap4x.online:80/luiz222/222luiz/2474331.ts
 #EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca FHD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca FHD
 http://ap4x.online:80/738397084/420937255/2474341
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca FHD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca FHD
+http://ap4x.online:80/luiz222/222luiz/2474341.ts
 #EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca HD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca HD
 http://ap4x.online:80/738397084/420937255/2474332
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca HD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca HD
+http://ap4x.online:80/luiz222/222luiz/2474332.ts
 #EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca SD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca SD
 http://ap4x.online:80/luiz222/222luiz/2474333
 #EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca SD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca SD
 http://ap4x.online:80/738397084/420937255/2474333
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca SD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca SD
+http://ap4x.online:80/luiz222/222luiz/2474333.ts
 #EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium FHD" tvg-logo="http://ap4x.online/logos/BYMM8aSx_o.png" group-title="CANAIS | TELECINE",Telecine Premium FHD
 http://ap4x.online:80/738397084/420937255/2474342
+#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium FHD" tvg-logo="http://ap4x.online/logos/BYMM8aSx_o.png" group-title="CANAIS | TELECINE",Telecine Premium FHD
+http://ap4x.online:80/luiz222/222luiz/2474342.ts
+#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium HD" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",Telecine Premium HD
+http://ap4x.online:80/luiz222/222luiz/2474334.ts
+#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium SD" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",Telecine Premium SD
+http://ap4x.online:80/luiz222/222luiz/2474335.ts
 #EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch FHD" tvg-logo="http://ap4x.online/logos/diZl7CGP_o.png" group-title="CANAIS | TELECINE",Telecine Touch FHD
 http://ap4x.online:80/luiz222/222luiz/2474343
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch FHD" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",Telecine Touch FHD
+http://ap4x.online:80/luiz222/222luiz/2474343.ts
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch HD" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",Telecine Touch HD
+http://ap4x.online:80/luiz222/222luiz/2474336.ts
 #EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch SD" tvg-logo="http://ap4x.online/logos/diZl7CGP_o.png" group-title="CANAIS | TELECINE",Telecine Touch SD
 http://ap4x.online:80/luiz222/222luiz/2474337
 #EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch SD" tvg-logo="http://ap4x.online/logos/diZl7CGP_o.png" group-title="CANAIS | TELECINE",Telecine Touch SD
 http://ap4x.online:80/738397084/420937255/2474337
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch SD" tvg-logo="http://ap4x.online/logos/diZl7CGP_o.png" group-title="CANAIS | TELECINE",Telecine Touch SD
+http://ap4x.online:80/luiz222/222luiz/2474337.ts
+#EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate FHD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate FHD
+http://ap4x.online:80/luiz222/222luiz/2474409.ts
+#EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate HD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate HD
+http://ap4x.online:80/luiz222/222luiz/2474392.ts
+#EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate SD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate SD
+http://ap4x.online:80/luiz222/222luiz/2474393.ts
 #EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 1 reprises" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 1 reprises
 http://ap4x.online:80/738397084/420937255/3558423
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 1 reprises" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 1 reprises
+http://ap4x.online:80/luiz222/222luiz/3558423.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 2 ao vivo" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 2 ao vivo
+http://ap4x.online:80/luiz222/222luiz/3558435.ts
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 3 ao vivo" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 3 ao vivo
+http://ap4x.online:80/luiz222/222luiz/3558446.ts
 #EXTINF:-1 tvg-id="" tvg-name="1109 Os Quatro Voos Fatais" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/n9UnhTs0pvnut86nbuk8qfkWHqR.jpg" group-title="CANAIS | VARIEDADES",1109 Os Quatro Voos Fatais
 http://ap4x.online:80/movie/738397084/420937255/3579749.mp4
 #EXTINF:-1 tvg-id="" tvg-name="119 A Vida Sob Ataque" tvg-logo="http://gstaticontent.com/images/c0c46f9e4391ec8cc6d5ecbc5ea60ea1.jpg" group-title="CANAIS | VARIEDADES",119 A Vida Sob Ataque
@@ -1651,18 +1741,10 @@ http://ap4x.online:80/movie/738397084/420937255/3579802.mp4
 http://ap4x.online:80/movie/738397084/420937255/3580200.mp4
 #EXTINF:-1 tvg-id="" tvg-name="o Preto Que Virou Mar 2019" tvg-logo="https://image.tmdb.org/t/p/w780/5eRLu0dFiSPGRBfuNdM3MCKcaYa.jpg" group-title="CANAIS | VARIEDADES",o Preto Que Virou Mar 2019
 http://ap4x.online:80/movie/738397084/420937255/3580274.mp4
-#EXTINF:-1 tvg-id="" tvg-name="AMERICAN SATAN LEG HD 2017" tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2018/02/satan.jpg" group-title="FILMES | 2018",AMERICAN SATAN LEG HD 2017
-http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/AMERICANSATAN2017LEG-ALTO.mp4?STANIPTV
 #EXTINF:-1 tvg-id="" tvg-name="CRIMINOSOS DE NOVEMBRO DUB HD 2017" tvg-logo="https://www.popfilmeshd.net/wp-content/uploads/2017/11/m2JxGgarPvtemudLZ1CB6gLJeUb-185x278.webp" group-title="FILMES | 2018",CRIMINOSOS DE NOVEMBRO DUB HD 2017
 http://themediafire.club/ondemand/CrimonososDeNovembro%20Dublado.mp4?STANIPTV
 #EXTINF:-1 tvg-id="" tvg-name="VIVA A VIDA E UMA FESTA DUB HD 2017" tvg-logo="https://www.popfilmeshd.net/wp-content/uploads/2018/01/Viva-A-Vida-e-uma-Festa-185x278.jpg" group-title="FILMES | 2018",VIVA A VIDA E UMA FESTA DUB HD 2017
 https://www.googleapis.com/drive/v3/files/1GptkOhGvQtyAyDcoykRhFBRblgNZMroK?key=AIzaSyAHfTjunuAnmyVgGADZo4HD4XN2YAO0MnQ&alt=media
-#EXTINF:-1 tvg-id="" tvg-name="VOLDEMORT ORIGINS OF THE HEIR LEG HD 2018" tvg-logo="https://www.popfilmeshd.net/wp-content/uploads/2018/01/2sw5VlWftU7QiQJW4jgYitoqpMu-185x278.jpg" group-title="FILMES | 2018",VOLDEMORT ORIGINS OF THE HEIR LEG HD 2018
-http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/VOLDEMORT2018-BAIXO.mp4?STANIPTV
-#EXTINF:-1 tvg-id="" tvg-name="Veronica LEG 2018" tvg-logo="https://i.imgur.com/8R2KWGq.jpg" group-title="FILMES | 2018",Veronica LEG 2018
-http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/VERONICA2018LEG-BAIXO.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Viva A Vida e uma Festa DUB" tvg-logo="http://br.web.img3.acsta.net/c_215_290/pictures/17/12/07/11/33/0502209.jpg" group-title="FILMES | 2018",Viva A Vida e uma Festa DUB
-http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/COCO2017DUB-BAIXO.mp4
 #EXTINF:-1 tvg-id="" tvg-name="1992 1992" tvg-logo="https://image.tmdb.org/t/p/w780/Cyf80v8sKZY2YSMu6q47mE7bL3.jpg" group-title="FILMES | 2025",1992 1992
 http://ap4x.online:80/movie/738397084/420937255/3630734.mp4
 #EXTINF:-1 tvg-id="" tvg-name="24 Horas de Furia 2006" tvg-logo="https://image.tmdb.org/t/p/w780/120GwiD01pfR3hIezUwbSDY2mm1.jpg" group-title="FILMES | 2025",24 Horas de Furia 2006
@@ -1721,12 +1803,6 @@ http://ap4x.online:80/movie/738397084/420937255/3630703.mp4
 http://ap4x.online:80/movie/738397084/420937255/3630570.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Caos e Destruicao 2025" tvg-logo="https://image.tmdb.org/t/p/w780/8TcTdvMOZvZ6kDLEm0SZlkNm9Vu.jpg" group-title="FILMES | 2025",Caos e Destruicao 2025
 http://ap4x.online:80/movie/738397084/420937255/3636932.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | 2025",Capitao America Admiravel Mundo Novo 2025
-http://ap4x.online:80/movie/luiz222/222luiz/3632940.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | 2025",Capitao America Admiravel Mundo Novo 2025
-http://ap4x.online:80/movie/738397084/420937255/3632940.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025 L" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | 2025",Capitao America Admiravel Mundo Novo 2025 L
-http://ap4x.online:80/movie/luiz222/222luiz/3633741.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Carcaca 2025" tvg-logo="https://image.tmdb.org/t/p/w780/iBaYd6mZiZ9h3dHfQT0hxUsDK1P.jpg" group-title="FILMES | 2025",Carcaca 2025
 http://ap4x.online:80/movie/738397084/420937255/3631572.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Casamentos Cruzados 2025" tvg-logo="https://image.tmdb.org/t/p/w780/pXOC1Z6npX2V5xgOCOzMtCHf0Hx.jpg" group-title="FILMES | 2025",Casamentos Cruzados 2025
@@ -3621,10 +3697,6 @@ http://ap4x.online:80/movie/738397084/420937255/3574904.mp4
 http://ap4x.online:80/movie/738397084/420937255/3574960.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Caminhos da Memoria 2021" tvg-logo="https://image.tmdb.org/t/p/w780/aef6dMfVJ5eVogGQbvtaKDcB43K.jpg" group-title="FILMES | FICCAO",Caminhos da Memoria 2021
 http://ap4x.online:80/movie/738397084/420937255/3563335.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="https://image.tmdb.org/t/p/w780/j9Jq4feBhAJTjEj4CvNuMgRwUjW.jpg" group-title="FILMES | FICCAO",Capitao America 1990
-http://ap4x.online:80/movie/738397084/420937255/3635445.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | FICCAO",Capitao America II 1979
-http://ap4x.online:80/movie/738397084/420937255/3635459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Carro Rei 2022" tvg-logo="https://image.tmdb.org/t/p/w780/51f9b3Om3vlKYEChC8XwI4lDfqB.jpg" group-title="FILMES | FICCAO",Carro Rei 2022
 http://ap4x.online:80/movie/738397084/420937255/3562933.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Casa de Antiguidades 2022" tvg-logo="https://image.tmdb.org/t/p/w780/wsT4HzutHg8hfKdNmaQ4IE3v4kp.jpg" group-title="FILMES | FICCAO",Casa de Antiguidades 2022
@@ -3747,8 +3819,6 @@ http://ap4x.online:80/movie/738397084/420937255/3635390.mp4
 http://ap4x.online:80/movie/738397084/420937255/3575480.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 1978" tvg-logo="https://image.tmdb.org/t/p/w780/8PwVXsbRttRxk4pVBdgqnzPXQG1.jpg" group-title="FILMES | FICCAO",Doutor Estranho 1978
 http://ap4x.online:80/movie/738397084/420937255/3636184.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho no Multiverso da Loucura 2022" tvg-logo="https://image.tmdb.org/t/p/w780/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" group-title="FILMES | FICCAO",Doutor Estranho no Multiverso da Loucura 2022
-http://ap4x.online:80/movie/738397084/420937255/3574618.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Dracula A Historia Nunca Contada 2014" tvg-logo="https://image.tmdb.org/t/p/w780/t8bA9xbOtqRaR8KwvzWlWwbvZvI.jpg" group-title="FILMES | FICCAO",Dracula A Historia Nunca Contada 2014
 http://ap4x.online:80/movie/738397084/420937255/3575993.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Drones 2013" tvg-logo="https://image.tmdb.org/t/p/w780/e8DkSO5DHo4LpC8fqm7ctsDMhES.jpg" group-title="FILMES | FICCAO",Drones 2013
@@ -3857,10 +3927,6 @@ http://ap4x.online:80/movie/738397084/420937255/3575449.mp4
 http://ap4x.online:80/movie/738397084/420937255/3575113.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Gremlins 2 A Nova Geracao 1990" tvg-logo="https://image.tmdb.org/t/p/w780/hDVXvZoNz6o00I6JCJ99KkLIjmS.jpg" group-title="FILMES | FICCAO",Gremlins 2 A Nova Geracao 1990
 http://ap4x.online:80/movie/738397084/420937255/3574875.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 2 2017" tvg-logo="https://image.tmdb.org/t/p/w780/jGtBLu0JAKf5JxhWgmF68HROzCA.jpg" group-title="FILMES | FICCAO",Guardioes da Galaxia Vol 2 2017
-http://ap4x.online:80/movie/738397084/420937255/3635412.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 3 2023" tvg-logo="https://image.tmdb.org/t/p/w780/4yycSPnchdNAZirGkmCYQwTd3cr.jpg" group-title="FILMES | FICCAO",Guardioes da Galaxia Vol 3 2023
-http://ap4x.online:80/movie/738397084/420937255/3562844.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Guardioes do Tempo 2020" tvg-logo="https://image.tmdb.org/t/p/w780/iYkzHd81ZsLQHa12oUhBVIS7ToY.jpg" group-title="FILMES | FICCAO",Guardioes do Tempo 2020
 http://ap4x.online:80/movie/738397084/420937255/3574603.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Guerra dos Mundos 2005" tvg-logo="https://image.tmdb.org/t/p/w780/aU42RNFpLgXsg0Tsgo8g8RPji0N.jpg" group-title="FILMES | FICCAO",Guerra dos Mundos 2005
@@ -3891,8 +3957,6 @@ http://ap4x.online:80/movie/738397084/420937255/3575966.mp4
 http://ap4x.online:80/movie/738397084/420937255/3575960.mp4
 #EXTINF:-1 tvg-id="" tvg-name="High Life Uma Nova Vida 2018" tvg-logo="https://image.tmdb.org/t/p/w780/1OmHJI83sqYH2y82EJHkqqEKOt9.jpg" group-title="FILMES | FICCAO",High Life Uma Nova Vida 2018
 http://ap4x.online:80/movie/738397084/420937255/3575220.mp4
-#EXTINF:-1 tvg-id="" tvg-name="HomemFormiga e a Vespa Quantumania 2023" tvg-logo="https://image.tmdb.org/t/p/w780/q7CfFjOvjLz9GZoh5RoCOSVniWm.jpg" group-title="FILMES | FICCAO",HomemFormiga e a Vespa Quantumania 2023
-http://ap4x.online:80/movie/738397084/420937255/3562928.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Hook A Volta do Capitao Gancho 1991" tvg-logo="https://image.tmdb.org/t/p/w780/3xvJUSXz9wo97kvgABUDgBCsUNp.jpg" group-title="FILMES | FICCAO",Hook A Volta do Capitao Gancho 1991
 http://ap4x.online:80/movie/738397084/420937255/3574821.mp4
 #EXTINF:-1 tvg-id="" tvg-name="I Am Mother 2019" tvg-logo="https://image.tmdb.org/t/p/w780/ayPSqlpYIbeq1RiDekx6W9WUqrL.jpg" group-title="FILMES | FICCAO",I Am Mother 2019
@@ -4559,6 +4623,130 @@ http://ap4x.online:80/movie/738397084/420937255/3573257.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3587320.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Batman vs Superman A Origem da Justica 2016" tvg-logo="https://image.tmdb.org/t/p/w780/f43gE7oFn3nCUZX3FRw0jVQK8GK.jpg" group-title="FILMES | MARVEL DC",Batman vs Superman A Origem da Justica 2016
 http://ap4x.online:80/movie/738397084/420937255/3587320.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1979 L" tvg-logo="https://image.tmdb.org/t/p/w780/i4JKBKfYUhviqlB0ilYboGZZnjj.jpg" group-title="FILMES | MARVEL DC",Capitao America 1979 L
+http://ap4x.online:80/movie/luiz222/222luiz/3633933.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="https://image.tmdb.org/t/p/w780/j9Jq4feBhAJTjEj4CvNuMgRwUjW.jpg" group-title="FILMES | MARVEL DC",Capitao America 1990
+http://ap4x.online:80/movie/738397084/420937255/3635445.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="https://image.tmdb.org/t/p/w780/j9Jq4feBhAJTjEj4CvNuMgRwUjW.jpg" group-title="FILMES | MARVEL DC",Capitao America 1990
+http://ap4x.online:80/movie/luiz222/222luiz/3635445.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2" tvg-logo="https://goo.gl/WVVzwe" group-title="FILMES | MARVEL DC",Capitao America 2
+https://goo.gl/hKaeBd
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal 2014" tvg-logo="https://image.tmdb.org/t/p/w780/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal 2014
+http://ap4x.online:80/movie/luiz222/222luiz/3587548.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
+http://ap4x.online:80/movie/luiz222/222luiz/3632940.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
+http://ap4x.online:80/movie/738397084/420937255/3632940.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025 L" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025 L
+http://ap4x.online:80/movie/luiz222/222luiz/3633741.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Guerra Civil 2016" tvg-logo="https://image.tmdb.org/t/p/w780/3bN7YZnf0mWpYwcektizfNlrCwC.jpg" group-title="FILMES | MARVEL DC",Capitao America Guerra Civil 2016
+http://ap4x.online:80/movie/luiz222/222luiz/3587514.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
+http://ap4x.online:80/movie/738397084/420937255/3635459.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
+http://ap4x.online:80/movie/luiz222/222luiz/3635459.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979 L" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979 L
+http://ap4x.online:80/movie/luiz222/222luiz/3633930.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America O Primeiro Vingador 2011" tvg-logo="https://image.tmdb.org/t/p/w780/f976JQnjMhCTa1yLXz7UH1pV4DG.jpg" group-title="FILMES | MARVEL DC",Capitao America O Primeiro Vingador 2011
+http://ap4x.online:80/movie/luiz222/222luiz/3587575.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL" tvg-logo="http://bit.ly/2HQiYmG" group-title="FILMES | MARVEL DC",DEADPOOL
+http://network.vstreaming.net/movies/deadpool-dub-720p.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2 DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/6CABdPx68rYoLdvXhIJkilOj6XZ_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2 DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/17665.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2 DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/6CABdPx68rYoLdvXhIJkilOj6XZ_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2 DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/17665.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2016" tvg-logo="http://i.imgur.com/Dybzbd2.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2016
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer2/ondemand/DEADP.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="https://goo.gl/VBR6Nz" group-title="FILMES | MARVEL DC",DEADPOOL DUB
+http://cdn1.ntcdn.us/content/sobdemanda/netcine-bucket/filmes2016/deadpool/DUB/2016-BAIXO.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/g0ehjmoNsgH9RmlGiAfYzN2whps_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/8419.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/g0ehjmoNsgH9RmlGiAfYzN2whps_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/8419.mp4
+#EXTINF:-1 tvg-id="" tvg-name="DeadPool 2" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",DeadPool 2
+http://cdn.lhmtv.ga/filmes/deadpool2novo-dub-720p.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="DeadPool 2" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",DeadPool 2
+http://media.lhmtv.ga/filmes/DEADPOOL2HDDUB.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://listnexus.live:25461/images/inVq3FRqcYIRl2la8iZikYYxFNR_small.jpg" group-title="FILMES | MARVEL DC",Deadpool
+http://streaminglist.live:25461/movie/raphaelcastromartin@gmail.com/1M0B34/476.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://i.imgur.com/QrVHqt5.jpg" group-title="FILMES | MARVEL DC",Deadpool
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer2/ondemand/DEADPLEG.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",Deadpool
+http://cdn.lhmtv.ga/filmes/deadpool-dub-720p.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="https://pbs.twimg.com/media/DTX-cOyU8AAT-OD.jpg" group-title="FILMES | MARVEL DC",Deadpool
+http://vod.soeu.ws:6969/movie/painel/H94uP9vwlG/79.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://bit.ly/Tjkktela" group-title="FILMES | MARVEL DC",Deadpool
+https://lh3.googleusercontent.com/6emdYP07gommE8bep7WibBXt0WvCUN9StoSxpUVHHLQcHzcrBqvU2OHtA-DNHDstSZ-UeBmfWhHhj4DvNexXPjDkEir7HEMJS3wq0pxkMR1AaNNWbWjJxCbYEjO3HgQoRo-b6AShlNAHJR7ezKZo73zicgKef27GeXdm8eCnLNARzMfbeabd3pNqdYUM01t1UbwzmY4-6Ntv8BxZB4ZbFSmKUH6ucsBmmTNdD7TVpBGl-MtaRXjMDIStaVKrdh3_ZoqUk-Jlef4OLeupcuCAxi6rOr4Ix2bUjAbyY1LumsJHDjKhRxNCywjOZWycPTTqzxm9j9V8vf-54-7PHviCINJiEwVsLiixIiHR4dMbYy1FdCyHJdRcpa_zF88DpClDCtxz7yjtxrDu5_Ce1RlLa4Vj5jMSSEM_QtKV1cqg6Y_sHngSC2C7Bf6JnYpovaSMeSloOiZRubzejl21M4KWl-J7XSXfFL9fQD4CNBtZJws6QfuONDxbS_Q6_EA7oMr2l1mC2SFeXiKgtQ3D6x0UzO3amIyI1hTeSMznBg-XFx7woWssw0nInmQcV9QOSfLnYG3zyvbyGFOGXxAiZvAtiqMT9bmGVKIRb0GMQu_IZRwRgAUKg-I1ohdL83wtYPavchYJ1ZE5dH6JQiOaMPfP9TNOnf9j0l6Y4LjHSRJNyrhk5w=m22
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w780/6CABdPx68rYoLdvXhIJkilOj6XZ.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+http://ap4x.online:80/movie/luiz222/222luiz/3588463.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/325151.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/324162.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/322728.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/317621.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/288944.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/286476.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/19fU9cD8nBp3riUgKZi6nLSMO88.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/285607.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool Dublado" tvg-logo="https://tinyurl.com/ya4a8sml" group-title="FILMES | MARVEL DC",Deadpool Dublado
+https://goo.gl/8sT9LG
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool Era uma vez" tvg-logo="https://image.tmdb.org/t/p/original/s2O4wH3NDwsDZPjVKT56qwqPH5m.jpg" group-title="FILMES | MARVEL DC",Deadpool Era uma vez
+http://streaminglist.live:25461/movie/raphaelcastromartin@gmail.com/1M0B34/12601.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool Wolverine 2024" tvg-logo="https://image.tmdb.org/t/p/w780/xq4v7JE8niZ75OYYPDGNn6Gzpyt.jpg" group-title="FILMES | MARVEL DC",Deadpool Wolverine 2024
+http://ap4x.online:80/movie/luiz222/222luiz/3582501.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool Wolverine 2024" tvg-logo="http://bestavb.top:8008/images/movies/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" group-title="FILMES | MARVEL DC",Deadpool Wolverine 2024
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/276390.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Deadpool y Wolverine 2024" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9TFSqghEHrlBMRR63yTx80Orxva.jpg" group-title="FILMES | MARVEL DC",Deadpool y Wolverine 2024
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/421238.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2016" tvg-logo="https://image.tmdb.org/t/p/w780/oW4odCdgmYHgKt6AVOqUasrMVjC.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2016
+http://ap4x.online:80/movie/luiz222/222luiz/3587508.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2016" tvg-logo="http://i.imgur.com/nN1sPRQ.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2016
+https://goo.gl/aBKVN4
+#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2017" tvg-logo="http://i.imgur.com/dAo90yo.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2017
+https://goo.gl/5kM9Fg
+#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho no Multiverso da Loucura 2022" tvg-logo="https://image.tmdb.org/t/p/w780/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho no Multiverso da Loucura 2022
+http://ap4x.online:80/movie/738397084/420937255/3574618.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho no Multiverso da Loucura 2022" tvg-logo="https://image.tmdb.org/t/p/w780/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho no Multiverso da Loucura 2022
+http://ap4x.online:80/movie/luiz222/222luiz/3574618.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes Da Galaxia Vol2" tvg-logo="http://gstaticontent.com/images/hXi3ExbRXnZCPbdHQkppQdcdMUF_big.jpg" group-title="FILMES | MARVEL DC",Guardioes Da Galaxia Vol2
+http://ap4x.online:80/movie/luiz222/222luiz/3587498.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia 2" tvg-logo="http://bit.ly/2iTY9zv" group-title="FILMES | MARVEL DC",Guardioes da Galaxia 2
+https://goo.gl/2eX9pB
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia 2014" tvg-logo="https://image.tmdb.org/t/p/w780/xaY92XMToaSnBuvCui3LHzNGqZB.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia 2014
+http://ap4x.online:80/movie/luiz222/222luiz/3587542.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 2 2017" tvg-logo="https://image.tmdb.org/t/p/w780/jGtBLu0JAKf5JxhWgmF68HROzCA.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia Vol 2 2017
+http://ap4x.online:80/movie/738397084/420937255/3635412.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 2 2017" tvg-logo="https://image.tmdb.org/t/p/w780/jGtBLu0JAKf5JxhWgmF68HROzCA.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia Vol 2 2017
+http://ap4x.online:80/movie/luiz222/222luiz/3635412.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 3 2023" tvg-logo="https://image.tmdb.org/t/p/w780/4yycSPnchdNAZirGkmCYQwTd3cr.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia Vol 3 2023
+http://ap4x.online:80/movie/738397084/420937255/3562844.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 3 2023" tvg-logo="https://image.tmdb.org/t/p/w780/4yycSPnchdNAZirGkmCYQwTd3cr.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia Vol 3 2023
+http://ap4x.online:80/movie/luiz222/222luiz/3562844.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Homem de Ferro 2 2010" tvg-logo="https://image.tmdb.org/t/p/w780/vzROjQbgKWMVf2EldXipCcjpuBL.jpg" group-title="FILMES | MARVEL DC",Homem de Ferro 2 2010
+http://ap4x.online:80/movie/luiz222/222luiz/3587587.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Homem de Ferro 2008" tvg-logo="https://image.tmdb.org/t/p/w780/adSJ0DpgOsMwrpUH78cZpLGOOAk.jpg" group-title="FILMES | MARVEL DC",Homem de Ferro 2008
+http://ap4x.online:80/movie/luiz222/222luiz/3587599.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Homem de Ferro 3 2013" tvg-logo="https://image.tmdb.org/t/p/w780/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg" group-title="FILMES | MARVEL DC",Homem de Ferro 3 2013
+http://ap4x.online:80/movie/luiz222/222luiz/3587554.mp4
+#EXTINF:-1 tvg-id="" tvg-name="HomemFormiga 2015" tvg-logo="https://image.tmdb.org/t/p/w780/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg" group-title="FILMES | MARVEL DC",HomemFormiga 2015
+http://ap4x.online:80/movie/luiz222/222luiz/3587523.mp4
+#EXTINF:-1 tvg-id="" tvg-name="HomemFormiga e a Vespa 2018" tvg-logo="https://image.tmdb.org/t/p/w780/smRrzh8W4PfIYiqAEqc6U1D6Ekl.jpg" group-title="FILMES | MARVEL DC",HomemFormiga e a Vespa 2018
+http://ap4x.online:80/movie/luiz222/222luiz/3587471.mp4
+#EXTINF:-1 tvg-id="" tvg-name="HomemFormiga e a Vespa Quantumania 2023" tvg-logo="https://image.tmdb.org/t/p/w780/q7CfFjOvjLz9GZoh5RoCOSVniWm.jpg" group-title="FILMES | MARVEL DC",HomemFormiga e a Vespa Quantumania 2023
+http://ap4x.online:80/movie/738397084/420937255/3562928.mp4
+#EXTINF:-1 tvg-id="" tvg-name="HomemFormiga e a Vespa Quantumania 2023" tvg-logo="https://image.tmdb.org/t/p/w780/q7CfFjOvjLz9GZoh5RoCOSVniWm.jpg" group-title="FILMES | MARVEL DC",HomemFormiga e a Vespa Quantumania 2023
+http://ap4x.online:80/movie/luiz222/222luiz/3562928.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Hulk" tvg-logo="http://i.imgur.com/3yugH2B.jpg" group-title="FILMES | MARVEL DC",Hulk
+https://goo.gl/RJnESD
+#EXTINF:-1 tvg-id="" tvg-name="O Incrivel Hulk 1977" tvg-logo="https://image.tmdb.org/t/p/w780/mbocOnz3gARCLIg72nsb0gxGVLU.jpg" group-title="FILMES | MARVEL DC",O Incrivel Hulk 1977
+http://ap4x.online:80/movie/luiz222/222luiz/3587592.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pantera Negra 2018" tvg-logo="https://image.tmdb.org/t/p/w780/ubXNpxL2ASSzY0f8Hxv08pOsV2L.jpg" group-title="FILMES | MARVEL DC",Pantera Negra 2018
+http://ap4x.online:80/movie/luiz222/222luiz/3587487.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Superman II A Aventura Continua 1980" tvg-logo="https://image.tmdb.org/t/p/w780/sU6SFBN2CwHaaP5qecyUVhdtoLQ.jpg" group-title="FILMES | MARVEL DC",Superman II A Aventura Continua 1980
 http://ap4x.online:80/movie/luiz222/222luiz/3589069.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Superman II A Aventura Continua 1980" tvg-logo="https://image.tmdb.org/t/p/w780/sU6SFBN2CwHaaP5qecyUVhdtoLQ.jpg" group-title="FILMES | MARVEL DC",Superman II A Aventura Continua 1980
@@ -4571,6 +4759,36 @@ http://ap4x.online:80/movie/738397084/420937255/3586108.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3572709.mp4
 #EXTINF:-1 tvg-id="" tvg-name="SupermanBatman Apocalipse" tvg-logo="http://gstaticontent.com/images/vZqD8QMXiZh977LipOsXQmaMM7l_big.jpg" group-title="FILMES | MARVEL DC",SupermanBatman Apocalipse
 http://ap4x.online:80/movie/738397084/420937255/3572709.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Wolverine Path of a Ronin 2013" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eEaXOel4AOlG8975Uc5iHNRRxl5.jpg" group-title="FILMES | MARVEL DC",The Wolverine Path of a Ronin 2013
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/286656.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Thor 2011" tvg-logo="https://image.tmdb.org/t/p/w780/aEV9QmgBqjRTdjsvdCgdK89tavQ.jpg" group-title="FILMES | MARVEL DC",Thor 2011
+http://ap4x.online:80/movie/luiz222/222luiz/3587581.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Thor Amor e Trovao 2022" tvg-logo="https://image.tmdb.org/t/p/w780/71XnRvkadkWZZowCGcuBi4XAKdJ.jpg" group-title="FILMES | MARVEL DC",Thor Amor e Trovao 2022
+http://ap4x.online:80/movie/luiz222/222luiz/3584470.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Thor Deus do Trovao 2022" tvg-logo="https://image.tmdb.org/t/p/w780/urR3KZdTIIdB8OrdVxScRkuSRo9.jpg" group-title="FILMES | MARVEL DC",Thor Deus do Trovao 2022
+http://ap4x.online:80/movie/luiz222/222luiz/3582893.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Thor O Mundo Sombrio 2013" tvg-logo="https://image.tmdb.org/t/p/w780/iiCJF71QoY0cU14wHusG9LMsSrC.jpg" group-title="FILMES | MARVEL DC",Thor O Mundo Sombrio 2013
+http://ap4x.online:80/movie/luiz222/222luiz/3587563.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Thor Ragnarok 2017" tvg-logo="https://image.tmdb.org/t/p/w780/3MZlw0ztDak4ATX2FqA5qUh4DfN.jpg" group-title="FILMES | MARVEL DC",Thor Ragnarok 2017
+http://ap4x.online:80/movie/luiz222/222luiz/3587492.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Era de Ultron 2015" tvg-logo="https://image.tmdb.org/t/p/w780/vGIIl89vglo66yUfbuTxzNAs4y5.jpg" group-title="FILMES | MARVEL DC",Vingadores Era de Ultron 2015
+http://ap4x.online:80/movie/luiz222/222luiz/3587532.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita 2018" tvg-logo="https://image.tmdb.org/t/p/w780/d6jUbQj4E4R5MJlFYfdzANEZbkL.jpg" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita 2018
+http://ap4x.online:80/movie/luiz222/222luiz/3587477.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019" tvg-logo="https://image.tmdb.org/t/p/w780/7jvlqGsxeMKscskuUZgKk0Kuv99.jpg" group-title="FILMES | MARVEL DC",Vingadores Ultimato 2019
+http://ap4x.online:80/movie/luiz222/222luiz/3587458.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL 2013" tvg-logo="http://i.imgur.com/jwrCgQd.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL 2013
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/XMEN06.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/wolverine-imortal.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/348.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/wolverine-imortal.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/348.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Wolverine Imortal 2013" tvg-logo="https://image.tmdb.org/t/p/w780/wCP2JfaRFdrFjxiXTUdNnfvyJ2K.jpg" group-title="FILMES | MARVEL DC",Wolverine Imortal 2013
+http://ap4x.online:80/movie/luiz222/222luiz/3588409.mp4
+#EXTINF:-1 tvg-id="" tvg-name="XMEN ORIGENS WOLVERINE DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/x-men-origens-wolverine.jpg" group-title="FILMES | MARVEL DC",XMEN ORIGENS WOLVERINE DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/352.mp4
+#EXTINF:-1 tvg-id="" tvg-name="XMEN ORIGENS WOLVERINE DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/x-men-origens-wolverine.jpg" group-title="FILMES | MARVEL DC",XMEN ORIGENS WOLVERINE DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/352.mp4
 #EXTINF:-1 tvg-id="" tvg-name="1964 O Brasil Entre Armas e Livros 2019" tvg-logo="https://image.tmdb.org/t/p/w780/kERgnDxb4YXU0c6DDSWZiLmuHC1.jpg" group-title="FILMES | NACIONAIS",1964 O Brasil Entre Armas e Livros 2019
 http://ap4x.online:80/movie/738397084/420937255/3562295.mp4
 #EXTINF:-1 tvg-id="" tvg-name="400 Contra 1 Uma Historia do Crime Organizado" tvg-logo="http://gstaticontent.com/images/401e0327685106620d66ba04dbb84b58.jpg" group-title="FILMES | NACIONAIS",400 Contra 1 Uma Historia do Crime Organizado
@@ -5305,42 +5523,16 @@ http://ap4x.online:80/movie/738397084/420937255/3561831.mp4
 http://ap4x.online:80/movie/738397084/420937255/3560989.mp4
 #EXTINF:-1 tvg-id="" tvg-name="o Vagabundo 1969" tvg-logo="https://image.tmdb.org/t/p/w780/9CK9QCIf01XeZfHTwg1unBUcjCu.jpg" group-title="FILMES | NACIONAIS",o Vagabundo 1969
 http://ap4x.online:80/movie/738397084/420937255/3562001.mp4
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 1" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 1
-http://ap4x.online:80/luiz222/222luiz/2475171
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 10" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 10
-http://ap4x.online:80/luiz222/222luiz/2475180
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 10" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 10
-http://ap4x.online:80/738397084/420937255/2475180
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 2" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 2
-http://ap4x.online:80/luiz222/222luiz/2475172
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 2" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 2
-http://ap4x.online:80/738397084/420937255/2475172
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 3" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 3
-http://ap4x.online:80/luiz222/222luiz/2475173
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 3" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 3
-http://ap4x.online:80/738397084/420937255/2475173
 #EXTINF:-1 tvg-id="" tvg-name="CINE SKY 4" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 4
 http://ap4x.online:80/738397084/420937255/2475174
 #EXTINF:-1 tvg-id="" tvg-name="CINE SKY 5" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 5
 http://ap4x.online:80/luiz222/222luiz/2475175
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 5" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 5
-http://ap4x.online:80/738397084/420937255/2475175
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 6" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 6
-http://ap4x.online:80/luiz222/222luiz/2475176
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 6" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 6
-http://ap4x.online:80/738397084/420937255/2475176
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 7" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 7
-http://ap4x.online:80/luiz222/222luiz/2475177
-#EXTINF:-1 tvg-id="" tvg-name="CINE SKY 7" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 7
-http://ap4x.online:80/738397084/420937255/2475177
 #EXTINF:-1 tvg-id="" tvg-name="CINE SKY 8" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 8
 http://ap4x.online:80/738397084/420937255/2475178
 #EXTINF:-1 tvg-id="" tvg-name="CINE SKY 9" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 9
 http://ap4x.online:80/luiz222/222luiz/2475179
 #EXTINF:-1 tvg-id="" tvg-name="CINE SKY 9" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",CINE SKY 9
 http://ap4x.online:80/738397084/420937255/2475179
-#EXTINF:-1 tvg-id="" tvg-name="Cine Sky 11" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",Cine Sky 11
-http://ap4x.online:80/luiz222/222luiz/2475168
 #EXTINF:-1 tvg-id="" tvg-name="Cine Sky 11" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",Cine Sky 11
 http://ap4x.online:80/738397084/420937255/2475168
 #EXTINF:-1 tvg-id="" tvg-name="Cine Sky 12" tvg-logo="http://ap4x.online/logos/aAOreSiT_o.png" group-title="FILMES | SKY",Cine Sky 12
@@ -6395,100 +6587,6 @@ http://ap4x.online:80/series/738397084/420937255/3673215.mp4
 http://ap4x.online:80/luiz222/222luiz/3787601
 #EXTINF:-1 tvg-id="" tvg-name="SEE" tvg-logo="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif" group-title="SERIES | APPLE TV",SEE
 http://ap4x.online:80/738397084/420937255/3787601
-#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | APPLE TV",See S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3582079.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | APPLE TV",See S01E01
-http://ap4x.online:80/series/738397084/420937255/3582079.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | APPLE TV",See S01E02
-http://ap4x.online:80/series/luiz222/222luiz/3582080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | APPLE TV",See S01E02
-http://ap4x.online:80/series/738397084/420937255/3582080.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E03" tvg-logo="http://timg.bdta.pro/images/3433b3cfa536bfad1709e09638fbc56c.jpg" group-title="SERIES | APPLE TV",See S01E03
-http://ap4x.online:80/series/luiz222/222luiz/3582081.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E03" tvg-logo="http://timg.bdta.pro/images/3433b3cfa536bfad1709e09638fbc56c.jpg" group-title="SERIES | APPLE TV",See S01E03
-http://ap4x.online:80/series/738397084/420937255/3582081.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E04" tvg-logo="http://timg.bdta.pro/images/10cdf6aba31dcd8513cbba53c3afac84.jpg" group-title="SERIES | APPLE TV",See S01E04
-http://ap4x.online:80/series/luiz222/222luiz/3582082.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E04" tvg-logo="http://timg.bdta.pro/images/10cdf6aba31dcd8513cbba53c3afac84.jpg" group-title="SERIES | APPLE TV",See S01E04
-http://ap4x.online:80/series/738397084/420937255/3582082.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E05" tvg-logo="http://timg.bdta.pro/images/a1ce6ca626d9d4da748d697e37e96fb1.jpg" group-title="SERIES | APPLE TV",See S01E05
-http://ap4x.online:80/series/luiz222/222luiz/3582084.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E05" tvg-logo="http://timg.bdta.pro/images/a1ce6ca626d9d4da748d697e37e96fb1.jpg" group-title="SERIES | APPLE TV",See S01E05
-http://ap4x.online:80/series/738397084/420937255/3582084.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E06" tvg-logo="http://timg.bdta.pro/images/bf2fb152fd6d447ccc7fb9ba210a6931.jpg" group-title="SERIES | APPLE TV",See S01E06
-http://ap4x.online:80/series/luiz222/222luiz/3582085.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E06" tvg-logo="http://timg.bdta.pro/images/bf2fb152fd6d447ccc7fb9ba210a6931.jpg" group-title="SERIES | APPLE TV",See S01E06
-http://ap4x.online:80/series/738397084/420937255/3582085.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E07" tvg-logo="http://timg.bdta.pro/images/94c71ddd21cf964980c3dcf73da9ec51.jpg" group-title="SERIES | APPLE TV",See S01E07
-http://ap4x.online:80/series/luiz222/222luiz/3582086.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E07" tvg-logo="http://timg.bdta.pro/images/94c71ddd21cf964980c3dcf73da9ec51.jpg" group-title="SERIES | APPLE TV",See S01E07
-http://ap4x.online:80/series/738397084/420937255/3582086.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E08" tvg-logo="http://timg.bdta.pro/images/7956704af3977ea0bfccbdd73a671d4e.jpg" group-title="SERIES | APPLE TV",See S01E08
-http://ap4x.online:80/series/luiz222/222luiz/3582087.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E08" tvg-logo="http://timg.bdta.pro/images/7956704af3977ea0bfccbdd73a671d4e.jpg" group-title="SERIES | APPLE TV",See S01E08
-http://ap4x.online:80/series/738397084/420937255/3582087.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E01" tvg-logo="http://timg.bdta.pro/images/6e6b9f36b9feb73158c802f0e7bc17de.jpg" group-title="SERIES | APPLE TV",See S02E01
-http://ap4x.online:80/series/luiz222/222luiz/3582088.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E01" tvg-logo="http://timg.bdta.pro/images/6e6b9f36b9feb73158c802f0e7bc17de.jpg" group-title="SERIES | APPLE TV",See S02E01
-http://ap4x.online:80/series/738397084/420937255/3582088.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E02" tvg-logo="http://timg.bdta.pro/images/187a66fc81ec1b75cf4d1c6e347c599c.jpg" group-title="SERIES | APPLE TV",See S02E02
-http://ap4x.online:80/series/luiz222/222luiz/3582090.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E02" tvg-logo="http://timg.bdta.pro/images/187a66fc81ec1b75cf4d1c6e347c599c.jpg" group-title="SERIES | APPLE TV",See S02E02
-http://ap4x.online:80/series/738397084/420937255/3582090.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E03" tvg-logo="http://timg.bdta.pro/images/50e39e5345d828a7a779cfa1c0af3399.jpg" group-title="SERIES | APPLE TV",See S02E03
-http://ap4x.online:80/series/luiz222/222luiz/3582091.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E03" tvg-logo="http://timg.bdta.pro/images/50e39e5345d828a7a779cfa1c0af3399.jpg" group-title="SERIES | APPLE TV",See S02E03
-http://ap4x.online:80/series/738397084/420937255/3582091.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E04" tvg-logo="http://timg.bdta.pro/images/01b67674e23f963fe4453406774dc2c9.jpg" group-title="SERIES | APPLE TV",See S02E04
-http://ap4x.online:80/series/luiz222/222luiz/3582092.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E04" tvg-logo="http://timg.bdta.pro/images/01b67674e23f963fe4453406774dc2c9.jpg" group-title="SERIES | APPLE TV",See S02E04
-http://ap4x.online:80/series/738397084/420937255/3582092.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/hUrDDzcx3WKjJD4o7itMuxgZ195.jpg" group-title="SERIES | APPLE TV",See S02E05
-http://ap4x.online:80/series/738397084/420937255/3582093.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/vqN8j3m8tyRYfGSJCazkWm9KAya.jpg" group-title="SERIES | APPLE TV",See S02E06
-http://ap4x.online:80/series/luiz222/222luiz/3582095.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/vqN8j3m8tyRYfGSJCazkWm9KAya.jpg" group-title="SERIES | APPLE TV",See S02E06
-http://ap4x.online:80/series/738397084/420937255/3582095.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/16z9I068CbNtD9ux4etfaZXswGt.jpg" group-title="SERIES | APPLE TV",See S02E07
-http://ap4x.online:80/series/luiz222/222luiz/3582096.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/16z9I068CbNtD9ux4etfaZXswGt.jpg" group-title="SERIES | APPLE TV",See S02E07
-http://ap4x.online:80/series/738397084/420937255/3582096.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/r5NgxarUrc2KYr8MAIacokIkU4S.jpg" group-title="SERIES | APPLE TV",See S02E08
-http://ap4x.online:80/series/luiz222/222luiz/3582097.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/r5NgxarUrc2KYr8MAIacokIkU4S.jpg" group-title="SERIES | APPLE TV",See S02E08
-http://ap4x.online:80/series/738397084/420937255/3582097.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E01" tvg-logo="http://timg.bdta.pro/images/5e40af7892a9d25e7c44d9d6dfd06f2f.jpg" group-title="SERIES | APPLE TV",See S03E01
-http://ap4x.online:80/series/luiz222/222luiz/3582098.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E01" tvg-logo="http://timg.bdta.pro/images/5e40af7892a9d25e7c44d9d6dfd06f2f.jpg" group-title="SERIES | APPLE TV",See S03E01
-http://ap4x.online:80/series/738397084/420937255/3582098.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E02" tvg-logo="http://timg.bdta.pro/images/d787a32b723eb86790d17e5326abc0fe.jpg" group-title="SERIES | APPLE TV",See S03E02
-http://ap4x.online:80/series/luiz222/222luiz/3582099.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E02" tvg-logo="http://timg.bdta.pro/images/d787a32b723eb86790d17e5326abc0fe.jpg" group-title="SERIES | APPLE TV",See S03E02
-http://ap4x.online:80/series/738397084/420937255/3582099.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E03" tvg-logo="http://timg.bdta.pro/images/c2c47f8abafcb1651204f738694a758d.jpg" group-title="SERIES | APPLE TV",See S03E03
-http://ap4x.online:80/series/luiz222/222luiz/3582101.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E03" tvg-logo="http://timg.bdta.pro/images/c2c47f8abafcb1651204f738694a758d.jpg" group-title="SERIES | APPLE TV",See S03E03
-http://ap4x.online:80/series/738397084/420937255/3582101.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E04" tvg-logo="http://timg.bdta.pro/images/0e6b70c92e29e4ebd071867209fe380d.jpg" group-title="SERIES | APPLE TV",See S03E04
-http://ap4x.online:80/series/luiz222/222luiz/3582102.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E04" tvg-logo="http://timg.bdta.pro/images/0e6b70c92e29e4ebd071867209fe380d.jpg" group-title="SERIES | APPLE TV",See S03E04
-http://ap4x.online:80/series/738397084/420937255/3582102.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E05" tvg-logo="http://timg.bdta.pro/images/03030b9976ca5510adb8662850ba3e76.jpg" group-title="SERIES | APPLE TV",See S03E05
-http://ap4x.online:80/series/luiz222/222luiz/3582103.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E05" tvg-logo="http://timg.bdta.pro/images/03030b9976ca5510adb8662850ba3e76.jpg" group-title="SERIES | APPLE TV",See S03E05
-http://ap4x.online:80/series/738397084/420937255/3582103.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E06" tvg-logo="http://timg.bdta.pro/images/623355d8711824c446b09b0fa81259f0.jpg" group-title="SERIES | APPLE TV",See S03E06
-http://ap4x.online:80/series/luiz222/222luiz/3582104.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E06" tvg-logo="http://timg.bdta.pro/images/623355d8711824c446b09b0fa81259f0.jpg" group-title="SERIES | APPLE TV",See S03E06
-http://ap4x.online:80/series/738397084/420937255/3582104.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E07" tvg-logo="http://timg.bdta.pro/images/dafd5e7ca0b591ffb3293901a370bd54.jpg" group-title="SERIES | APPLE TV",See S03E07
-http://ap4x.online:80/series/luiz222/222luiz/3582105.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E07" tvg-logo="http://timg.bdta.pro/images/dafd5e7ca0b591ffb3293901a370bd54.jpg" group-title="SERIES | APPLE TV",See S03E07
-http://ap4x.online:80/series/738397084/420937255/3582105.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E08" tvg-logo="http://timg.bdta.pro/images/cba26d8139c6b1b1134c7f3032e49480.jpg" group-title="SERIES | APPLE TV",See S03E08
-http://ap4x.online:80/series/luiz222/222luiz/3582107.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S03E08" tvg-logo="http://timg.bdta.pro/images/cba26d8139c6b1b1134c7f3032e49480.jpg" group-title="SERIES | APPLE TV",See S03E08
-http://ap4x.online:80/series/738397084/420937255/3582107.mp4
 #EXTINF:-1 tvg-id="" tvg-name="See You in Another Life L S01E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/jkFzkpkIYhkwJZhd9kn1xuxltrg.jpg" group-title="SERIES | APPLE TV",See You in Another Life L S01E01
 http://ap4x.online:80/series/luiz222/222luiz/3772133.mp4
 #EXTINF:-1 tvg-id="" tvg-name="See You in Another Life L S01E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/jkFzkpkIYhkwJZhd9kn1xuxltrg.jpg" group-title="SERIES | APPLE TV",See You in Another Life L S01E01
@@ -6745,86 +6843,6 @@ http://ap4x.online:80/series/738397084/420937255/3582939.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3582940.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Servant S04E10" tvg-logo="http://timg.bdta.pro/t/p/w1280/opT5PXRfmzflwRzVCGFlkq12Klu.jpg" group-title="SERIES | APPLE TV",Servant S04E10
 http://ap4x.online:80/series/738397084/420937255/3582940.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | APPLE TV",Silo S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3703039.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | APPLE TV",Silo S01E01
-http://ap4x.online:80/series/738397084/420937255/3703039.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg" group-title="SERIES | APPLE TV",Silo S01E02
-http://ap4x.online:80/series/luiz222/222luiz/3703040.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg" group-title="SERIES | APPLE TV",Silo S01E02
-http://ap4x.online:80/series/738397084/420937255/3703040.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/8hQB4jxk9ydj55Mrl9sY95smV7.jpg" group-title="SERIES | APPLE TV",Silo S01E03
-http://ap4x.online:80/series/luiz222/222luiz/3703041.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/8hQB4jxk9ydj55Mrl9sY95smV7.jpg" group-title="SERIES | APPLE TV",Silo S01E03
-http://ap4x.online:80/series/738397084/420937255/3703041.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg" group-title="SERIES | APPLE TV",Silo S01E04
-http://ap4x.online:80/series/luiz222/222luiz/3703042.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg" group-title="SERIES | APPLE TV",Silo S01E04
-http://ap4x.online:80/series/738397084/420937255/3703042.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg" group-title="SERIES | APPLE TV",Silo S01E05
-http://ap4x.online:80/series/luiz222/222luiz/3703043.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg" group-title="SERIES | APPLE TV",Silo S01E05
-http://ap4x.online:80/series/738397084/420937255/3703043.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg" group-title="SERIES | APPLE TV",Silo S01E06
-http://ap4x.online:80/series/luiz222/222luiz/3703044.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg" group-title="SERIES | APPLE TV",Silo S01E06
-http://ap4x.online:80/series/738397084/420937255/3703044.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg" group-title="SERIES | APPLE TV",Silo S01E07
-http://ap4x.online:80/series/luiz222/222luiz/3703045.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg" group-title="SERIES | APPLE TV",Silo S01E07
-http://ap4x.online:80/series/738397084/420937255/3703045.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | APPLE TV",Silo S01E08
-http://ap4x.online:80/series/luiz222/222luiz/3703046.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | APPLE TV",Silo S01E08
-http://ap4x.online:80/series/738397084/420937255/3703046.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | APPLE TV",Silo S01E09
-http://ap4x.online:80/series/luiz222/222luiz/3703047.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | APPLE TV",Silo S01E09
-http://ap4x.online:80/series/738397084/420937255/3703047.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E10" tvg-logo="http://timg.bdta.pro/t/p/w1280/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg" group-title="SERIES | APPLE TV",Silo S01E10
-http://ap4x.online:80/series/luiz222/222luiz/3703048.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E10" tvg-logo="http://timg.bdta.pro/t/p/w1280/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg" group-title="SERIES | APPLE TV",Silo S01E10
-http://ap4x.online:80/series/738397084/420937255/3703048.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E01
-http://ap4x.online:80/series/luiz222/222luiz/3703049.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E01
-http://ap4x.online:80/series/738397084/420937255/3703049.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E02
-http://ap4x.online:80/series/luiz222/222luiz/3703050.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E02
-http://ap4x.online:80/series/738397084/420937255/3703050.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E03
-http://ap4x.online:80/series/luiz222/222luiz/3703051.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E03
-http://ap4x.online:80/series/738397084/420937255/3703051.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E04
-http://ap4x.online:80/series/luiz222/222luiz/3703052.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E04
-http://ap4x.online:80/series/738397084/420937255/3703052.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E05" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E05
-http://ap4x.online:80/series/luiz222/222luiz/3703053.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E05" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E05
-http://ap4x.online:80/series/738397084/420937255/3703053.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E06
-http://ap4x.online:80/series/luiz222/222luiz/3703054.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E06
-http://ap4x.online:80/series/738397084/420937255/3703054.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E07" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E07
-http://ap4x.online:80/series/luiz222/222luiz/3703055.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E07" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E07
-http://ap4x.online:80/series/738397084/420937255/3703055.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E08" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E08
-http://ap4x.online:80/series/luiz222/222luiz/3703056.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E08" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E08
-http://ap4x.online:80/series/738397084/420937255/3703056.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E09" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E09
-http://ap4x.online:80/series/luiz222/222luiz/3703057.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E09" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E09
-http://ap4x.online:80/series/738397084/420937255/3703057.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E10" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E10
-http://ap4x.online:80/series/luiz222/222luiz/3703058.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S02E10" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | APPLE TV",Silo S02E10
-http://ap4x.online:80/series/738397084/420937255/3703058.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Slow Horses S01E01" tvg-logo="http://timg.bdta.pro/images/d2db6cb43355c4fd3a012c6a598e12d8.jpg" group-title="SERIES | APPLE TV",Slow Horses S01E01
 http://ap4x.online:80/series/luiz222/222luiz/3676028.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Slow Horses S01E01" tvg-logo="http://timg.bdta.pro/images/d2db6cb43355c4fd3a012c6a598e12d8.jpg" group-title="SERIES | APPLE TV",Slow Horses S01E01
@@ -7177,6 +7195,82 @@ http://ap4x.online:80/series/738397084/420937255/3597038.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3597039.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Morning Show S03E10" tvg-logo="http://timg.bdta.pro/images/e25d2d918957acbb0544dd5541a6cb93.jpg" group-title="SERIES | APPLE TV",The Morning Show S03E10
 http://ap4x.online:80/series/738397084/420937255/3597039.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E01" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E01
+http://ap4x.online:80/series/luiz222/222luiz/3591342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E02" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E02
+http://ap4x.online:80/series/luiz222/222luiz/3591343.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E03" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E03
+http://ap4x.online:80/series/luiz222/222luiz/3591344.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E04" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E04
+http://ap4x.online:80/series/luiz222/222luiz/3591346.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E05" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E05
+http://ap4x.online:80/series/luiz222/222luiz/3591347.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E06" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E06
+http://ap4x.online:80/series/luiz222/222luiz/3591348.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E07" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E07
+http://ap4x.online:80/series/luiz222/222luiz/3591349.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E08" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E08
+http://ap4x.online:80/series/luiz222/222luiz/3591350.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E09" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E09
+http://ap4x.online:80/series/luiz222/222luiz/3591351.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E10" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E10
+http://ap4x.online:80/series/luiz222/222luiz/3591352.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E01" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E01
+http://ap4x.online:80/series/luiz222/222luiz/3591353.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E02" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E02
+http://ap4x.online:80/series/luiz222/222luiz/3591354.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E03" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3591356.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E04" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E04
+http://ap4x.online:80/series/luiz222/222luiz/3591357.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E05" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E05
+http://ap4x.online:80/series/luiz222/222luiz/3591358.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E06" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E06
+http://ap4x.online:80/series/luiz222/222luiz/3591359.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E07" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E07
+http://ap4x.online:80/series/luiz222/222luiz/3591360.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E08" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E08
+http://ap4x.online:80/series/luiz222/222luiz/3591362.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E09" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E09
+http://ap4x.online:80/series/luiz222/222luiz/3591363.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S02E10" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S02E10
+http://ap4x.online:80/series/luiz222/222luiz/3591364.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E01" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E01
+http://ap4x.online:80/series/luiz222/222luiz/3591365.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E02" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E02
+http://ap4x.online:80/series/luiz222/222luiz/3591366.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E03" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E03
+http://ap4x.online:80/series/luiz222/222luiz/3591368.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E04" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E04
+http://ap4x.online:80/series/luiz222/222luiz/3591369.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E05" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E05
+http://ap4x.online:80/series/luiz222/222luiz/3591370.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E06" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E06
+http://ap4x.online:80/series/luiz222/222luiz/3591371.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E07" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E07
+http://ap4x.online:80/series/luiz222/222luiz/3591372.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E08" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E08
+http://ap4x.online:80/series/luiz222/222luiz/3591374.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E09" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E09
+http://ap4x.online:80/series/luiz222/222luiz/3591375.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S03E10" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S03E10
+http://ap4x.online:80/series/luiz222/222luiz/3591376.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E01" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E01
+http://ap4x.online:80/series/luiz222/222luiz/3591377.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E02" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E02
+http://ap4x.online:80/series/luiz222/222luiz/3591378.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E03" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E03
+http://ap4x.online:80/series/luiz222/222luiz/3591380.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E04" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E04
+http://ap4x.online:80/series/luiz222/222luiz/3591381.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E05" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E05
+http://ap4x.online:80/series/luiz222/222luiz/3591382.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E06" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E06
+http://ap4x.online:80/series/luiz222/222luiz/3591383.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E07" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E07
+http://ap4x.online:80/series/luiz222/222luiz/3591385.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Banshee S04E08" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S04E08
+http://ap4x.online:80/series/luiz222/222luiz/3591386.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Crise dos Tres Poderes S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rrgSnVbUO7EeK3otr41cCSjgO3J.jpg" group-title="SERIES | BRASIL PARALELO",A Crise dos Tres Poderes S01E01
 http://ap4x.online:80/series/738397084/420937255/3708007.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Crise dos Tres Poderes S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rrgSnVbUO7EeK3otr41cCSjgO3J.jpg" group-title="SERIES | BRASIL PARALELO",A Crise dos Tres Poderes S01E02
@@ -7541,8 +7635,380 @@ http://ap4x.online:80/series/738397084/420937255/3720328.mp4
 http://ap4x.online:80/series/738397084/420937255/3762780.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Unitopia S01E02" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/KdPBpog0s0FmSXqMGGdrNrT2KX.jpg" group-title="SERIES | BRASIL PARALELO",Unitopia S01E02
 http://ap4x.online:80/series/738397084/420937255/3762781.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/8g951txsYhXLg8Rr18fBm2q0fBA.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3691840.mp4
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP1" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP1
+https://goo.gl/RV9Exn
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP2" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP2
+https://goo.gl/JKZc5e
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP5" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP5
+https://goo.gl/KrvVrv
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP6" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP6
+https://goo.gl/ypebL2
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP7" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP7
+https://goo.gl/57N4YN
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T1EP8" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T1EP8
+https://goo.gl/ng6iQL
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP1" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP1
+https://goo.gl/umPZSN
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP2" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP2
+https://goo.gl/hv4Bmb
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP3" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP3
+https://goo.gl/jYgaap
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP5" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP5
+https://goo.gl/sNBydx
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP6" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP6
+https://goo.gl/pEKmXd
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP7" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP7
+https://goo.gl/cetAFK
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T2EP8" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T2EP8
+https://goo.gl/beVDQU
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T3EP10" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T3EP10
+https://goo.gl/FGtbBG
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T3EP3" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T3EP3
+https://goo.gl/czRpUw
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T3EP5" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T3EP5
+https://goo.gl/bSsp81
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T4EP1" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T4EP1
+https://goo.gl/vdan4A
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T4EP7" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T4EP7
+https://goo.gl/J2EgXZ
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T5EP3" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T5EP3
+https://goo.gl/EXfhPs
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T5EP4" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T5EP4
+https://goo.gl/waBr5S
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP10" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP10
+https://goo.gl/4cibVh
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP5" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP5
+https://goo.gl/EZtihf
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP7" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP7
+https://goo.gl/FLpPh1
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T7EP1" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T7EP1
+https://goo.gl/FYFZUB
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T7EP2" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T7EP2
+https://goo.gl/7Eiv1U
+#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T7EP3" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T7EP3
+https://goo.gl/DqEqLG
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E01
+http://ap4x.online:80/series/luiz222/222luiz/3573571.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E02
+http://ap4x.online:80/series/luiz222/222luiz/3573572.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E03
+http://ap4x.online:80/series/luiz222/222luiz/3573573.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E04
+http://ap4x.online:80/series/luiz222/222luiz/3573574.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E05
+http://ap4x.online:80/series/luiz222/222luiz/3573576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E06
+http://ap4x.online:80/series/luiz222/222luiz/3573577.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E07
+http://ap4x.online:80/series/luiz222/222luiz/3573578.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E08
+http://ap4x.online:80/series/luiz222/222luiz/3573579.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E09
+http://ap4x.online:80/series/luiz222/222luiz/3573580.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S01E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S01E10
+http://ap4x.online:80/series/luiz222/222luiz/3573581.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E01
+http://ap4x.online:80/series/luiz222/222luiz/3573582.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E02
+http://ap4x.online:80/series/luiz222/222luiz/3573583.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3573584.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E04
+http://ap4x.online:80/series/luiz222/222luiz/3573586.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E05
+http://ap4x.online:80/series/luiz222/222luiz/3573587.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E06
+http://ap4x.online:80/series/luiz222/222luiz/3573588.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E07
+http://ap4x.online:80/series/luiz222/222luiz/3573589.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E08
+http://ap4x.online:80/series/luiz222/222luiz/3573590.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E09
+http://ap4x.online:80/series/luiz222/222luiz/3573591.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S02E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S02E10
+http://ap4x.online:80/series/luiz222/222luiz/3573592.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E01
+http://ap4x.online:80/series/luiz222/222luiz/3573593.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E02
+http://ap4x.online:80/series/luiz222/222luiz/3573595.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E03
+http://ap4x.online:80/series/luiz222/222luiz/3573596.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E04
+http://ap4x.online:80/series/luiz222/222luiz/3573597.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E05
+http://ap4x.online:80/series/luiz222/222luiz/3573598.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E06
+http://ap4x.online:80/series/luiz222/222luiz/3573599.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E07
+http://ap4x.online:80/series/luiz222/222luiz/3573601.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E08
+http://ap4x.online:80/series/luiz222/222luiz/3573602.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E09
+http://ap4x.online:80/series/luiz222/222luiz/3573603.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S03E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S03E10
+http://ap4x.online:80/series/luiz222/222luiz/3573604.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E01
+http://ap4x.online:80/series/luiz222/222luiz/3573606.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E02
+http://ap4x.online:80/series/luiz222/222luiz/3573607.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E03
+http://ap4x.online:80/series/luiz222/222luiz/3573608.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E04
+http://ap4x.online:80/series/luiz222/222luiz/3573609.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E05
+http://ap4x.online:80/series/luiz222/222luiz/3573610.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E06
+http://ap4x.online:80/series/luiz222/222luiz/3573612.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E07
+http://ap4x.online:80/series/luiz222/222luiz/3573613.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E08
+http://ap4x.online:80/series/luiz222/222luiz/3573614.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E09
+http://ap4x.online:80/series/luiz222/222luiz/3573615.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S04E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S04E10
+http://ap4x.online:80/series/luiz222/222luiz/3573616.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E01
+http://ap4x.online:80/series/luiz222/222luiz/3573618.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E02
+http://ap4x.online:80/series/luiz222/222luiz/3573619.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E03
+http://ap4x.online:80/series/luiz222/222luiz/3573620.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E04
+http://ap4x.online:80/series/luiz222/222luiz/3573621.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E05
+http://ap4x.online:80/series/luiz222/222luiz/3573623.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E06
+http://ap4x.online:80/series/luiz222/222luiz/3573624.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E07
+http://ap4x.online:80/series/luiz222/222luiz/3573625.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E08
+http://ap4x.online:80/series/luiz222/222luiz/3573626.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E09
+http://ap4x.online:80/series/luiz222/222luiz/3573627.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S05E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S05E10
+http://ap4x.online:80/series/luiz222/222luiz/3573629.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E01
+http://ap4x.online:80/series/luiz222/222luiz/3573630.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E02
+http://ap4x.online:80/series/luiz222/222luiz/3573631.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E03
+http://ap4x.online:80/series/luiz222/222luiz/3573632.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E04
+http://ap4x.online:80/series/luiz222/222luiz/3573633.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E05
+http://ap4x.online:80/series/luiz222/222luiz/3573635.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E06
+http://ap4x.online:80/series/luiz222/222luiz/3573636.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E07
+http://ap4x.online:80/series/luiz222/222luiz/3573637.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E08" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E08
+http://ap4x.online:80/series/luiz222/222luiz/3573638.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E09" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E09
+http://ap4x.online:80/series/luiz222/222luiz/3573639.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S06E10" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S06E10
+http://ap4x.online:80/series/luiz222/222luiz/3573641.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E01
+http://ap4x.online:80/series/luiz222/222luiz/3573642.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E02
+http://ap4x.online:80/series/luiz222/222luiz/3573643.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E03
+http://ap4x.online:80/series/luiz222/222luiz/3573644.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E04
+http://ap4x.online:80/series/luiz222/222luiz/3573646.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E05
+http://ap4x.online:80/series/luiz222/222luiz/3573647.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E06
+http://ap4x.online:80/series/luiz222/222luiz/3573648.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S07E07" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S07E07
+http://ap4x.online:80/series/luiz222/222luiz/3573649.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E01" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E01
+http://ap4x.online:80/series/luiz222/222luiz/3573650.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E02" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E02
+http://ap4x.online:80/series/luiz222/222luiz/3573652.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E03" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E03
+http://ap4x.online:80/series/luiz222/222luiz/3573653.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E04" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E04
+http://ap4x.online:80/series/luiz222/222luiz/3573654.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E05" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E05
+http://ap4x.online:80/series/luiz222/222luiz/3573655.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E06
+http://ap4x.online:80/series/luiz222/222luiz/3573656.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | SEE",See S01E01
+http://ap4x.online:80/series/luiz222/222luiz/3582079.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | SEE",See S01E01
+http://ap4x.online:80/series/738397084/420937255/3582079.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | SEE",See S01E02
+http://ap4x.online:80/series/luiz222/222luiz/3582080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | SEE",See S01E02
+http://ap4x.online:80/series/738397084/420937255/3582080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E03" tvg-logo="http://timg.bdta.pro/images/3433b3cfa536bfad1709e09638fbc56c.jpg" group-title="SERIES | SEE",See S01E03
+http://ap4x.online:80/series/luiz222/222luiz/3582081.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E03" tvg-logo="http://timg.bdta.pro/images/3433b3cfa536bfad1709e09638fbc56c.jpg" group-title="SERIES | SEE",See S01E03
+http://ap4x.online:80/series/738397084/420937255/3582081.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E04" tvg-logo="http://timg.bdta.pro/images/10cdf6aba31dcd8513cbba53c3afac84.jpg" group-title="SERIES | SEE",See S01E04
+http://ap4x.online:80/series/luiz222/222luiz/3582082.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E04" tvg-logo="http://timg.bdta.pro/images/10cdf6aba31dcd8513cbba53c3afac84.jpg" group-title="SERIES | SEE",See S01E04
+http://ap4x.online:80/series/738397084/420937255/3582082.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E05" tvg-logo="http://timg.bdta.pro/images/a1ce6ca626d9d4da748d697e37e96fb1.jpg" group-title="SERIES | SEE",See S01E05
+http://ap4x.online:80/series/luiz222/222luiz/3582084.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E05" tvg-logo="http://timg.bdta.pro/images/a1ce6ca626d9d4da748d697e37e96fb1.jpg" group-title="SERIES | SEE",See S01E05
+http://ap4x.online:80/series/738397084/420937255/3582084.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E06" tvg-logo="http://timg.bdta.pro/images/bf2fb152fd6d447ccc7fb9ba210a6931.jpg" group-title="SERIES | SEE",See S01E06
+http://ap4x.online:80/series/luiz222/222luiz/3582085.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E06" tvg-logo="http://timg.bdta.pro/images/bf2fb152fd6d447ccc7fb9ba210a6931.jpg" group-title="SERIES | SEE",See S01E06
+http://ap4x.online:80/series/738397084/420937255/3582085.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E07" tvg-logo="http://timg.bdta.pro/images/94c71ddd21cf964980c3dcf73da9ec51.jpg" group-title="SERIES | SEE",See S01E07
+http://ap4x.online:80/series/luiz222/222luiz/3582086.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E07" tvg-logo="http://timg.bdta.pro/images/94c71ddd21cf964980c3dcf73da9ec51.jpg" group-title="SERIES | SEE",See S01E07
+http://ap4x.online:80/series/738397084/420937255/3582086.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E08" tvg-logo="http://timg.bdta.pro/images/7956704af3977ea0bfccbdd73a671d4e.jpg" group-title="SERIES | SEE",See S01E08
+http://ap4x.online:80/series/luiz222/222luiz/3582087.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S01E08" tvg-logo="http://timg.bdta.pro/images/7956704af3977ea0bfccbdd73a671d4e.jpg" group-title="SERIES | SEE",See S01E08
+http://ap4x.online:80/series/738397084/420937255/3582087.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E01" tvg-logo="http://timg.bdta.pro/images/6e6b9f36b9feb73158c802f0e7bc17de.jpg" group-title="SERIES | SEE",See S02E01
+http://ap4x.online:80/series/luiz222/222luiz/3582088.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E01" tvg-logo="http://timg.bdta.pro/images/6e6b9f36b9feb73158c802f0e7bc17de.jpg" group-title="SERIES | SEE",See S02E01
+http://ap4x.online:80/series/738397084/420937255/3582088.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E02" tvg-logo="http://timg.bdta.pro/images/187a66fc81ec1b75cf4d1c6e347c599c.jpg" group-title="SERIES | SEE",See S02E02
+http://ap4x.online:80/series/luiz222/222luiz/3582090.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E02" tvg-logo="http://timg.bdta.pro/images/187a66fc81ec1b75cf4d1c6e347c599c.jpg" group-title="SERIES | SEE",See S02E02
+http://ap4x.online:80/series/738397084/420937255/3582090.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E03" tvg-logo="http://timg.bdta.pro/images/50e39e5345d828a7a779cfa1c0af3399.jpg" group-title="SERIES | SEE",See S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3582091.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E03" tvg-logo="http://timg.bdta.pro/images/50e39e5345d828a7a779cfa1c0af3399.jpg" group-title="SERIES | SEE",See S02E03
+http://ap4x.online:80/series/738397084/420937255/3582091.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E04" tvg-logo="http://timg.bdta.pro/images/01b67674e23f963fe4453406774dc2c9.jpg" group-title="SERIES | SEE",See S02E04
+http://ap4x.online:80/series/luiz222/222luiz/3582092.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E04" tvg-logo="http://timg.bdta.pro/images/01b67674e23f963fe4453406774dc2c9.jpg" group-title="SERIES | SEE",See S02E04
+http://ap4x.online:80/series/738397084/420937255/3582092.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/hUrDDzcx3WKjJD4o7itMuxgZ195.jpg" group-title="SERIES | SEE",See S02E05
+http://ap4x.online:80/series/738397084/420937255/3582093.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/hUrDDzcx3WKjJD4o7itMuxgZ195.jpg" group-title="SERIES | SEE",See S02E05
+http://ap4x.online:80/series/luiz222/222luiz/3582093.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/vqN8j3m8tyRYfGSJCazkWm9KAya.jpg" group-title="SERIES | SEE",See S02E06
+http://ap4x.online:80/series/luiz222/222luiz/3582095.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/vqN8j3m8tyRYfGSJCazkWm9KAya.jpg" group-title="SERIES | SEE",See S02E06
+http://ap4x.online:80/series/738397084/420937255/3582095.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/16z9I068CbNtD9ux4etfaZXswGt.jpg" group-title="SERIES | SEE",See S02E07
+http://ap4x.online:80/series/luiz222/222luiz/3582096.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/16z9I068CbNtD9ux4etfaZXswGt.jpg" group-title="SERIES | SEE",See S02E07
+http://ap4x.online:80/series/738397084/420937255/3582096.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/r5NgxarUrc2KYr8MAIacokIkU4S.jpg" group-title="SERIES | SEE",See S02E08
+http://ap4x.online:80/series/luiz222/222luiz/3582097.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/r5NgxarUrc2KYr8MAIacokIkU4S.jpg" group-title="SERIES | SEE",See S02E08
+http://ap4x.online:80/series/738397084/420937255/3582097.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E01" tvg-logo="http://timg.bdta.pro/images/5e40af7892a9d25e7c44d9d6dfd06f2f.jpg" group-title="SERIES | SEE",See S03E01
+http://ap4x.online:80/series/luiz222/222luiz/3582098.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E01" tvg-logo="http://timg.bdta.pro/images/5e40af7892a9d25e7c44d9d6dfd06f2f.jpg" group-title="SERIES | SEE",See S03E01
+http://ap4x.online:80/series/738397084/420937255/3582098.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E02" tvg-logo="http://timg.bdta.pro/images/d787a32b723eb86790d17e5326abc0fe.jpg" group-title="SERIES | SEE",See S03E02
+http://ap4x.online:80/series/luiz222/222luiz/3582099.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E02" tvg-logo="http://timg.bdta.pro/images/d787a32b723eb86790d17e5326abc0fe.jpg" group-title="SERIES | SEE",See S03E02
+http://ap4x.online:80/series/738397084/420937255/3582099.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E03" tvg-logo="http://timg.bdta.pro/images/c2c47f8abafcb1651204f738694a758d.jpg" group-title="SERIES | SEE",See S03E03
+http://ap4x.online:80/series/luiz222/222luiz/3582101.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E03" tvg-logo="http://timg.bdta.pro/images/c2c47f8abafcb1651204f738694a758d.jpg" group-title="SERIES | SEE",See S03E03
+http://ap4x.online:80/series/738397084/420937255/3582101.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E04" tvg-logo="http://timg.bdta.pro/images/0e6b70c92e29e4ebd071867209fe380d.jpg" group-title="SERIES | SEE",See S03E04
+http://ap4x.online:80/series/luiz222/222luiz/3582102.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E04" tvg-logo="http://timg.bdta.pro/images/0e6b70c92e29e4ebd071867209fe380d.jpg" group-title="SERIES | SEE",See S03E04
+http://ap4x.online:80/series/738397084/420937255/3582102.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E05" tvg-logo="http://timg.bdta.pro/images/03030b9976ca5510adb8662850ba3e76.jpg" group-title="SERIES | SEE",See S03E05
+http://ap4x.online:80/series/luiz222/222luiz/3582103.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E05" tvg-logo="http://timg.bdta.pro/images/03030b9976ca5510adb8662850ba3e76.jpg" group-title="SERIES | SEE",See S03E05
+http://ap4x.online:80/series/738397084/420937255/3582103.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E06" tvg-logo="http://timg.bdta.pro/images/623355d8711824c446b09b0fa81259f0.jpg" group-title="SERIES | SEE",See S03E06
+http://ap4x.online:80/series/luiz222/222luiz/3582104.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E06" tvg-logo="http://timg.bdta.pro/images/623355d8711824c446b09b0fa81259f0.jpg" group-title="SERIES | SEE",See S03E06
+http://ap4x.online:80/series/738397084/420937255/3582104.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E07" tvg-logo="http://timg.bdta.pro/images/dafd5e7ca0b591ffb3293901a370bd54.jpg" group-title="SERIES | SEE",See S03E07
+http://ap4x.online:80/series/luiz222/222luiz/3582105.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E07" tvg-logo="http://timg.bdta.pro/images/dafd5e7ca0b591ffb3293901a370bd54.jpg" group-title="SERIES | SEE",See S03E07
+http://ap4x.online:80/series/738397084/420937255/3582105.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E08" tvg-logo="http://timg.bdta.pro/images/cba26d8139c6b1b1134c7f3032e49480.jpg" group-title="SERIES | SEE",See S03E08
+http://ap4x.online:80/series/luiz222/222luiz/3582107.mp4
+#EXTINF:-1 tvg-id="" tvg-name="See S03E08" tvg-logo="http://timg.bdta.pro/images/cba26d8139c6b1b1134c7f3032e49480.jpg" group-title="SERIES | SEE",See S03E08
+http://ap4x.online:80/series/738397084/420937255/3582107.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | SILO",Silo S01E01
+http://ap4x.online:80/series/luiz222/222luiz/3703039.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | SILO",Silo S01E01
+http://ap4x.online:80/series/738397084/420937255/3703039.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg" group-title="SERIES | SILO",Silo S01E02
+http://ap4x.online:80/series/luiz222/222luiz/3703040.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg" group-title="SERIES | SILO",Silo S01E02
+http://ap4x.online:80/series/738397084/420937255/3703040.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/8hQB4jxk9ydj55Mrl9sY95smV7.jpg" group-title="SERIES | SILO",Silo S01E03
+http://ap4x.online:80/series/luiz222/222luiz/3703041.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/8hQB4jxk9ydj55Mrl9sY95smV7.jpg" group-title="SERIES | SILO",Silo S01E03
+http://ap4x.online:80/series/738397084/420937255/3703041.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg" group-title="SERIES | SILO",Silo S01E04
+http://ap4x.online:80/series/luiz222/222luiz/3703042.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg" group-title="SERIES | SILO",Silo S01E04
+http://ap4x.online:80/series/738397084/420937255/3703042.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg" group-title="SERIES | SILO",Silo S01E05
+http://ap4x.online:80/series/luiz222/222luiz/3703043.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg" group-title="SERIES | SILO",Silo S01E05
+http://ap4x.online:80/series/738397084/420937255/3703043.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg" group-title="SERIES | SILO",Silo S01E06
+http://ap4x.online:80/series/luiz222/222luiz/3703044.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg" group-title="SERIES | SILO",Silo S01E06
+http://ap4x.online:80/series/738397084/420937255/3703044.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg" group-title="SERIES | SILO",Silo S01E07
+http://ap4x.online:80/series/luiz222/222luiz/3703045.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg" group-title="SERIES | SILO",Silo S01E07
+http://ap4x.online:80/series/738397084/420937255/3703045.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | SILO",Silo S01E08
+http://ap4x.online:80/series/luiz222/222luiz/3703046.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | SILO",Silo S01E08
+http://ap4x.online:80/series/738397084/420937255/3703046.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | SILO",Silo S01E09
+http://ap4x.online:80/series/luiz222/222luiz/3703047.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg" group-title="SERIES | SILO",Silo S01E09
+http://ap4x.online:80/series/738397084/420937255/3703047.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E10" tvg-logo="http://timg.bdta.pro/t/p/w1280/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg" group-title="SERIES | SILO",Silo S01E10
+http://ap4x.online:80/series/luiz222/222luiz/3703048.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S01E10" tvg-logo="http://timg.bdta.pro/t/p/w1280/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg" group-title="SERIES | SILO",Silo S01E10
+http://ap4x.online:80/series/738397084/420937255/3703048.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E01
+http://ap4x.online:80/series/luiz222/222luiz/3703049.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E01
+http://ap4x.online:80/series/738397084/420937255/3703049.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E02
+http://ap4x.online:80/series/luiz222/222luiz/3703050.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E02
+http://ap4x.online:80/series/738397084/420937255/3703050.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3703051.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E03
+http://ap4x.online:80/series/738397084/420937255/3703051.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E04
+http://ap4x.online:80/series/luiz222/222luiz/3703052.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E04
+http://ap4x.online:80/series/738397084/420937255/3703052.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E05" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E05
+http://ap4x.online:80/series/luiz222/222luiz/3703053.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E05" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E05
+http://ap4x.online:80/series/738397084/420937255/3703053.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E06
+http://ap4x.online:80/series/luiz222/222luiz/3703054.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E06
+http://ap4x.online:80/series/738397084/420937255/3703054.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E07" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E07
+http://ap4x.online:80/series/luiz222/222luiz/3703055.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E07" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E07
+http://ap4x.online:80/series/738397084/420937255/3703055.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E08" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E08
+http://ap4x.online:80/series/luiz222/222luiz/3703056.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E08" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E08
+http://ap4x.online:80/series/738397084/420937255/3703056.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E09" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E09
+http://ap4x.online:80/series/luiz222/222luiz/3703057.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E09" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E09
+http://ap4x.online:80/series/738397084/420937255/3703057.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E10" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E10
+http://ap4x.online:80/series/luiz222/222luiz/3703058.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Silo S02E10" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E10
+http://ap4x.online:80/series/738397084/420937255/3703058.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/8g951txsYhXLg8Rr18fBm2q0fBA.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E01
 http://ap4x.online:80/series/738397084/420937255/3691840.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/whihcfB2dZ0PEZC1bzux56B09pK.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E02
@@ -7723,6 +8189,8 @@ http://ap4x.online:80/series/luiz222/222luiz/3662207.mp4
 http://ap4x.online:80/series/738397084/420937255/3662207.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S01E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/mb5p2hRP8jf1hz7edvA6rksnnJx.jpg" group-title="SERIES | SWAGGER",Swagger S01E04
 http://ap4x.online:80/series/738397084/420937255/3662208.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Swagger S01E04" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/mb5p2hRP8jf1hz7edvA6rksnnJx.jpg" group-title="SERIES | SWAGGER",Swagger S01E04
+http://ap4x.online:80/series/luiz222/222luiz/3662208.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S01E05" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/zwjB3cXHmHv8ykSSX1YHqhHBNZ8.jpg" group-title="SERIES | SWAGGER",Swagger S01E05
 http://ap4x.online:80/series/luiz222/222luiz/3662209.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S01E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/oogHinSAcXIWtJuf0EvFa3pnSVP.jpg" group-title="SERIES | SWAGGER",Swagger S01E06
@@ -7751,6 +8219,8 @@ http://ap4x.online:80/series/738397084/420937255/3662215.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3662216.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/gOtPY3JrWqocnGNw3Q0qmSLJQzm.jpg" group-title="SERIES | SWAGGER",Swagger S02E02
 http://ap4x.online:80/series/738397084/420937255/3662216.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Swagger S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/hpgVKXntGdSm9WKX9TfdDIzhdpQ.jpg" group-title="SERIES | SWAGGER",Swagger S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3662217.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/ohmKhva1hyYtDKqNKizU7QnUeuY.jpg" group-title="SERIES | SWAGGER",Swagger S02E04
 http://ap4x.online:80/series/luiz222/222luiz/3662218.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/ohmKhva1hyYtDKqNKizU7QnUeuY.jpg" group-title="SERIES | SWAGGER",Swagger S02E04
@@ -7765,6 +8235,8 @@ http://ap4x.online:80/series/luiz222/222luiz/3662220.mp4
 http://ap4x.online:80/series/738397084/420937255/3662220.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/cAUCx8C7dFMc61CJc1T9tLvRQJM.jpg" group-title="SERIES | SWAGGER",Swagger S02E07
 http://ap4x.online:80/series/738397084/420937255/3662221.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Swagger S02E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/cAUCx8C7dFMc61CJc1T9tLvRQJM.jpg" group-title="SERIES | SWAGGER",Swagger S02E07
+http://ap4x.online:80/series/luiz222/222luiz/3662221.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/isW3NDRw4x8KjBdwwnM0yPYyJMT.jpg" group-title="SERIES | SWAGGER",Swagger S02E08
 http://ap4x.online:80/series/luiz222/222luiz/3662222.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S02E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/isW3NDRw4x8KjBdwwnM0yPYyJMT.jpg" group-title="SERIES | SWAGGER",Swagger S02E08
@@ -7815,18 +8287,26 @@ http://ap4x.online:80/series/738397084/420937255/3696437.mp4
 http://208.115.236.162:80/series/Diego12/Diego12/4208643.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/cX2z8FO9lKqZmBBTVF2G2favQRE.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
 http://ap4x.online:80/series/738397084/420937255/3696438.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/cX2z8FO9lKqZmBBTVF2G2favQRE.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
+http://ap4x.online:80/series/luiz222/222luiz/3696438.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
 http://208.115.236.162:80/series/Diego12/Diego12/4208644.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
 http://ap4x.online:80/series/738397084/420937255/3696439.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
+http://ap4x.online:80/series/luiz222/222luiz/3696439.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
 http://208.115.236.162:80/series/Diego12/Diego12/4208645.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
 http://ap4x.online:80/series/738397084/420937255/3696440.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
+http://ap4x.online:80/series/luiz222/222luiz/3696440.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
 http://208.115.236.162:80/series/Diego12/Diego12/4208646.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
 http://ap4x.online:80/series/738397084/420937255/3696441.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
+http://ap4x.online:80/series/luiz222/222luiz/3696441.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
 http://208.115.236.162:80/series/Diego12/Diego12/4208647.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
@@ -7847,9 +8327,15 @@ http://cdn4k.live:80/series/wesleyarrais3/223344a/297472.mp4
 http://208.115.236.162:80/series/Diego12/Diego12/4308567.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
 http://ap4x.online:80/series/738397084/420937255/3696443.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
+http://ap4x.online:80/series/luiz222/222luiz/3696443.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
 http://208.115.236.162:80/series/Diego12/Diego12/4308569.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
 http://ap4x.online:80/series/738397084/420937255/3696444.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
+http://ap4x.online:80/series/luiz222/222luiz/3696444.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E03
 http://ap4x.online:80/series/738397084/420937255/3696445.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E03
+http://ap4x.online:80/series/luiz222/222luiz/3696445.mp4
