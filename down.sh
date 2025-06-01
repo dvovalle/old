@@ -31,6 +31,9 @@ curl -o M3UListas/009.m3u "http://massud.homelinux.com/get.php?username=6f2bb01f
 echo "010------------------------------"
 curl -o M3UListas/010.m3u "http://asxe.net/get.php?username=873647364&password=873647364&type=m3u_plus"
 
+echo "010------------------------------"
+curl -o M3UListas/011.m3u "https://gist.githubusercontent.com/valterasjr/f3adb0c59fa4a4bb067c780532cdc402/raw/abd7252a7aaab7545758bd2277ad7111afb86092/Filmes.m3u"
+
 echo "012------------------------------"
 curl -o M3UListas/012.m3u "http://cwbtvplay.com/get.php?username=173969580&password=745352848&type=m3u_plus"
 
@@ -76,3 +79,5 @@ curl -o M3UListas/025.m3u "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2
 echo "026------------------------------"
 curl -o M3UListas/026.m3u "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2025/refs/heads/master/hopto.m3u8"
 
+echo "027------------------------------"
+curl -o M3UListas/027.m3u "https://gist.githubusercontent.com/tricolorpaulista/aab8e2f3e7d146752ac81870f26f4722/raw/442c2f4086d8c6f5861080ea93a24544b05ffef0/Cinema.m3u"

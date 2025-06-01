@@ -69,16 +69,46 @@ http://ap4x.online:80/luiz222/222luiz/2474362
 http://ap4x.online:80/738397084/420937255/2474362
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
 http://ap4x.online:80/luiz222/222luiz/2474362.ts
+#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HBO_2_HD_Logo_Poland.png/640px-HBO_2_HD_Logo_Poland.png" group-title="CANAIS | HBO",HBO 2 FHD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33834
+#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 FHD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 FHD
+http://htvs.io:80/68088662/69560517/3425451.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 HD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 HD
 http://ap4x.online:80/luiz222/222luiz/2474360.ts
+#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 HD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 HD
+http://htvs.io:80/68088662/69560517/3425452.ts
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/luiz222/222luiz/2474345
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/738397084/420937255/2474345
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/luiz222/222luiz/2474345.ts
+#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HBO_2_HD_Logo_Poland.png/640px-HBO_2_HD_Logo_Poland.png" group-title="CANAIS | HBO",HBO 2 SD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33835
+#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 SD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 SD
+http://htvs.io:80/68088662/69560517/3425453.ts
+#EXTINF:-1 tvg-id="hbo3.ro" tvg-name="HBO 3 FHD" tvg-logo="https://e7.pngegg.com/pngimages/988/24/png-clipart-hbo-comedy-hbo-2-hbo-go-television-others-text-logo.png" group-title="CANAIS | HBO",HBO 3 FHD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33836
+#EXTINF:-1 tvg-id="hbo3.ro" tvg-name="HBO 3 SD" tvg-logo="https://e7.pngegg.com/pngimages/988/24/png-clipart-hbo-comedy-hbo-2-hbo-go-television-others-text-logo.png" group-title="CANAIS | HBO",HBO 3 SD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33837
+#EXTINF:-1 tvg-id="HBOCHIL" tvg-name="HBO 4K" tvg-logo="http://69.30.198.162:80/images/78d1f1a5ba5cc3e2e0da01d48978b509.png" group-title="CANAIS | HBO",HBO 4K
+http://htvs.io:80/68088662/69560517/3433761.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO ACTIUNE" tvg-logo="" group-title="CANAIS | HBO",HBO ACTIUNE
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286444
+#EXTINF:-1 tvg-id="" tvg-name="HBO COMEDIE" tvg-logo="" group-title="CANAIS | HBO",HBO COMEDIE
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286447
+#EXTINF:-1 tvg-id="" tvg-name="HBO COMEDIE" tvg-logo="https://i.postimg.cc/DyczmkLw/go.png" group-title="CANAIS | HBO",HBO COMEDIE
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286719
 #EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO FAMILY
 http://189.91.128.150:5555/udp/227.10.20.97:1234
+#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY FHD" tvg-logo="http://69.30.198.162:80/images/b7544179ea8f73051e2dfe49e7ab9473.png" group-title="CANAIS | HBO",HBO FAMILY FHD
+http://htvs.io:80/68088662/69560517/3425454.ts
+#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY HD" tvg-logo="http://69.30.198.162:80/images/b7544179ea8f73051e2dfe49e7ab9473.png" group-title="CANAIS | HBO",HBO FAMILY HD
+http://htvs.io:80/68088662/69560517/3425455.ts
+#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY SD" tvg-logo="http://69.30.198.162:80/images/4684f861b3f5daa24a985023395015a4.png" group-title="CANAIS | HBO",HBO FAMILY SD
+http://htvs.io:80/68088662/69560517/3425456.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO FANTASY" tvg-logo="https://i.postimg.cc/g2Yz695m/k.png" group-title="CANAIS | HBO",HBO FANTASY
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286720
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/luiz222/222luiz/2474361
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
@@ -91,6 +121,14 @@ http://ap4x.online:80/738397084/420937255/2474368
 http://ap4x.online:80/luiz222/222luiz/2474361.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/luiz222/222luiz/2474368.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/HBO_HD_logo.png/640px-HBO_HD_logo.png" group-title="CANAIS | HBO",HBO FHD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33832
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO FHD" tvg-logo="http://69.30.198.162:80/images/ebf420c4edd6bd1a971c5aac858721fd.png" group-title="CANAIS | HBO",HBO FHD
+http://htvs.io:80/68088662/69560517/3425457.ts
+#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO FHD" tvg-logo="http://69.30.198.162:80/images/60ab6c8ed6bb01522544ddc047abcb48.png" group-title="CANAIS | HBO",HBO FHD
+http://htvs.io:80/68088662/69560517/3425472.ts
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family FHD
+http://ap4x.online:80/738397084/420937255/2474363
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family FHD
 http://ap4x.online:80/luiz222/222luiz/2474363.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
@@ -105,12 +143,44 @@ http://ap4x.online:80/luiz222/222luiz/2474347
 http://ap4x.online:80/738397084/420937255/2474347
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/luiz222/222luiz/2474347.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO GO" tvg-logo="https://i.postimg.cc/vZR4xLS0/go.png" group-title="CANAIS | HBO",HBO GO
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286721
+#EXTINF:-1 tvg-id="" tvg-name="HBO GOLD" tvg-logo="https://i.postimg.cc/Bv4tMZ3D/go.png" group-title="CANAIS | HBO",HBO GOLD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286722
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/738397084/420937255/2474348
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/luiz222/222luiz/2474348.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/luiz222/222luiz/2474358.ts
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO HD" tvg-logo="http://69.30.198.162:80/images/ebf420c4edd6bd1a971c5aac858721fd.png" group-title="CANAIS | HBO",HBO HD
+http://htvs.io:80/68088662/69560517/3425458.ts
+#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO HD" tvg-logo="http://69.30.198.162:80/images/e42eae4093b5346d7f9b1a131fe46eba.png" group-title="CANAIS | HBO",HBO HD
+http://htvs.io:80/68088662/69560517/3425473.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO HORROR" tvg-logo="" group-title="CANAIS | HBO",HBO HORROR
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286442
+#EXTINF:-1 tvg-id="" tvg-name="HBO HORROR" tvg-logo="https://i.postimg.cc/FHRhRfhT/ATIUU.png" group-title="CANAIS | HBO",HBO HORROR
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286723
+#EXTINF:-1 tvg-id="" tvg-name="HBO KIDS" tvg-logo="https://i.postimg.cc/BbL7tf0s/LOG.png" group-title="CANAIS | HBO",HBO KIDS
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286724
+#EXTINF:-1 tvg-id="" tvg-name="HBO MAX" tvg-logo="https://i.postimg.cc/wvtFprYY/348571906-132417199802128-6092198786951656624-n.jpg" group-title="CANAIS | HBO",HBO MAX
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286725
+#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 1" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 1
+http://htvs.io:80/68088662/69560517/3425301.ts
+#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 2" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 2
+http://htvs.io:80/68088662/69560517/3425302.ts
+#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 4" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 4
+http://htvs.io:80/68088662/69560517/3425304.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO MAX 6" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 6
+http://htvs.io:80/68088662/69560517/3425307.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO MAX 7" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 7
+http://htvs.io:80/68088662/69560517/3425305.ts
+#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI FHD" tvg-logo="http://69.30.198.162:80/images/5016f5ae49d600aa3b87b136d5b88cc6.png" group-title="CANAIS | HBO",HBO MUNDI FHD
+http://htvs.io:80/68088662/69560517/3425459.ts
+#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI HD" tvg-logo="http://69.30.198.162:80/images/2658ff984ea0367a9fe2041b75fce1d1.png" group-title="CANAIS | HBO",HBO MUNDI HD
+http://htvs.io:80/68088662/69560517/3425460.ts
+#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI SD" tvg-logo="http://69.30.198.162:80/images/5016f5ae49d600aa3b87b136d5b88cc6.png" group-title="CANAIS | HBO",HBO MUNDI SD
+http://htvs.io:80/68088662/69560517/3425461.ts
 #EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
 http://ap4x.online:80/738397084/420937255/2474364
 #EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
@@ -121,8 +191,6 @@ http://ap4x.online:80/luiz222/222luiz/2474349.ts
 http://ap4x.online:80/luiz222/222luiz/2474350
 #EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
 http://ap4x.online:80/738397084/420937255/2474350
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
-http://ap4x.online:80/luiz222/222luiz/2474350.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO PLUS" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO PLUS
 http://189.91.128.150:5555/udp/227.10.20.96:1234
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
@@ -131,6 +199,12 @@ http://ap4x.online:80/luiz222/222luiz/2474365
 http://ap4x.online:80/738397084/420937255/2474365
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
 http://ap4x.online:80/luiz222/222luiz/2474365.ts
+#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP FHD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP FHD
+http://htvs.io:80/68088662/69560517/3425462.ts
+#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP HD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP HD
+http://htvs.io:80/68088662/69560517/3425463.ts
+#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP SD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP SD
+http://htvs.io:80/68088662/69560517/3425464.ts
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
 http://ap4x.online:80/luiz222/222luiz/2474351
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
@@ -143,6 +217,12 @@ http://ap4x.online:80/luiz222/222luiz/2474352
 http://ap4x.online:80/738397084/420937255/2474352
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
 http://ap4x.online:80/luiz222/222luiz/2474352.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO RO 4K UHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/HBO_HD_logo.png/640px-HBO_HD_logo.png" group-title="CANAIS | HBO",HBO RO 4K UHD
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/216179
+#EXTINF:-1 tvg-id="" tvg-name="HBO ROMANTIC" tvg-logo="" group-title="CANAIS | HBO",HBO ROMANTIC
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286446
+#EXTINF:-1 tvg-id="" tvg-name="HBO SCIFI" tvg-logo="" group-title="CANAIS | HBO",HBO SCIFI
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286441
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/luiz222/222luiz/2474353
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
@@ -155,8 +235,20 @@ http://ap4x.online:80/738397084/420937255/2474359
 http://ap4x.online:80/luiz222/222luiz/2474353.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/luiz222/222luiz/2474359.ts
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO SD" tvg-logo="http://69.30.198.162:80/images/878fa3d67fed06e253dd6bbac5f0b8e0.png" group-title="CANAIS | HBO",HBO SD
+http://htvs.io:80/68088662/69560517/3425465.ts
+#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO SD" tvg-logo="http://69.30.198.162:80/images/60ab6c8ed6bb01522544ddc047abcb48.png" group-title="CANAIS | HBO",HBO SD
+http://htvs.io:80/68088662/69560517/3425474.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO SIGNATURE
 http://189.91.128.150:5555/udp/227.10.20.98:1234
+#EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="https://i.postimg.cc/157CDw7X/k.png" group-title="CANAIS | HBO",HBO SIGNATURE
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286726
+#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE FHD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE FHD
+http://htvs.io:80/68088662/69560517/3425466.ts
+#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE HD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE HD
+http://htvs.io:80/68088662/69560517/3425467.ts
+#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE SD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE SD
+http://htvs.io:80/68088662/69560517/3425468.ts
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
 http://ap4x.online:80/738397084/420937255/2474366
 #EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
@@ -173,6 +265,18 @@ http://ap4x.online:80/luiz222/222luiz/2474355
 http://ap4x.online:80/738397084/420937255/2474355
 #EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature SD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature SD
 http://ap4x.online:80/luiz222/222luiz/2474355.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO THRILLER" tvg-logo="" group-title="CANAIS | HBO",HBO THRILLER
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286443
+#EXTINF:-1 tvg-id="" tvg-name="HBO WAR" tvg-logo="https://i.postimg.cc/8PG3R1VF/WAR.gif" group-title="CANAIS | HBO",HBO WAR
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286727
+#EXTINF:-1 tvg-id="" tvg-name="HBO WAR" tvg-logo="" group-title="CANAIS | HBO",HBO WAR
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286461
+#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME FHD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME FHD
+http://htvs.io:80/68088662/69560517/3425469.ts
+#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME HD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME HD
+http://htvs.io:80/68088662/69560517/3425470.ts
+#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME SD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME SD
+http://htvs.io:80/68088662/69560517/3425471.ts
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
 http://ap4x.online:80/luiz222/222luiz/2474367
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
@@ -189,8 +293,12 @@ http://ap4x.online:80/luiz222/222luiz/2474356.ts
 http://ap4x.online:80/738397084/420937255/2474357
 #EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme SD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme SD
 http://ap4x.online:80/luiz222/222luiz/2474357.ts
+#EXTINF:-1 tvg-id="" tvg-name="HBO ZONE" tvg-logo="https://i.postimg.cc/VLNvkPHt/hbo-zone.gif" group-title="CANAIS | HBO",HBO ZONE
+http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286728
 #EXTINF:-1 tvg-id="" tvg-name="HBO2" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO2
 http://189.91.128.150:5555/udp/227.10.20.95:1234
+#EXTINF:-1 tvg-id="" tvg-name="HBOMax Original 15" tvg-logo="https://iili.io/6GDGuR.md.png" group-title="CANAIS | HBO",HBOMax Original 15
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/395168
 #EXTINF:-1 tvg-id="" tvg-name="Caillou S03E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/hxNgvJNDS8jCNQokSoxzBbWHl08.jpg" group-title="CANAIS | PLUTO TV",Caillou S03E01
 http://ap4x.online:80/series/738397084/420937255/3773154.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Caillou S03E02" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/5IsA1gARr742qAuI11ecoPAjLk7.jpg" group-title="CANAIS | PLUTO TV",Caillou S03E02
@@ -347,8 +455,60 @@ http://ap4x.online:80/series/738397084/420937255/3772483.mp4
 http://ap4x.online:80/series/738397084/420937255/3772484.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Popeye e Filho S01E11" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/tgY1qjEKrrsiyIYU1JFy7QuaXsm.jpg" group-title="CANAIS | PLUTO TV",Popeye e Filho S01E11
 http://ap4x.online:80/series/738397084/420937255/3772485.mp4
+#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE ACTION" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZC3SIjNdwUvzfyt46vNofHJcvEtMV-dVOA&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE ACTION
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357309
+#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE CULT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqD2YOQKttJbQ9DtDe1iiloL4Lezxl4wPyw&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE CULT
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357310
+#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE FUN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0Y5KRVBhCAuKXktcq4HFTls06BLqjE0BPQ&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE FUN
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357311
+#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE PIPOCA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn69U1m8UiQ1GTJHBxHG3sX681oaj_Yl5ikg&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE PIPOCA
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357312
+#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE TOUCH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmf42H9MB-4Q6lyVfrh77qPeG4KFri1nICyg&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE TOUCH
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357313
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="TELECINE ACTION 4K" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",TELECINE ACTION 4K
 http://ap4x.online:80/luiz222/222luiz/3787710.ts
+#EXTINF:-1 tvg-id="" tvg-name="TELECINE ACTION 4K" tvg-logo="http://69.30.198.162:80/images/cc32eaaf330875b5d247222df5bd565c.png" group-title="CANAIS | TELECINE",TELECINE ACTION 4K
+http://htvs.io:80/68088662/69560517/3433754.ts
+#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION FHD" tvg-logo="http://69.30.198.162:80/images/026f6dd372e9d8caa28dcaefb2610177.png" group-title="CANAIS | TELECINE",TELECINE ACTION FHD
+http://htvs.io:80/68088662/69560517/3425475.ts
+#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION HD" tvg-logo="http://69.30.198.162:80/images/026f6dd372e9d8caa28dcaefb2610177.png" group-title="CANAIS | TELECINE",TELECINE ACTION HD
+http://htvs.io:80/68088662/69560517/3425476.ts
+#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION SD" tvg-logo="http://69.30.198.162:80/images/9f2213563efd73210eef6b5da5d9aaf8.png" group-title="CANAIS | TELECINE",TELECINE ACTION SD
+http://htvs.io:80/68088662/69560517/3425477.ts
+#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT FHD" tvg-logo="http://69.30.198.162:80/images/02a3b9bee09dca92257d1619a83d94ae.png" group-title="CANAIS | TELECINE",TELECINE CULT FHD
+http://htvs.io:80/68088662/69560517/3425478.ts
+#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT HD" tvg-logo="http://69.30.198.162:80/images/02a3b9bee09dca92257d1619a83d94ae.png" group-title="CANAIS | TELECINE",TELECINE CULT HD
+http://htvs.io:80/68088662/69560517/3425479.ts
+#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT SD" tvg-logo="http://69.30.198.162:80/images/7753f8d13ff64d69df324699ebe8fd1a.png" group-title="CANAIS | TELECINE",TELECINE CULT SD
+http://htvs.io:80/68088662/69560517/3425480.ts
+#EXTINF:-1 tvg-id="telecinefun.br" tvg-name="TELECINE FUN FHD" tvg-logo="http://69.30.198.162:80/images/67e80b5986c88dc0feded0b34da3ef2c.png" group-title="CANAIS | TELECINE",TELECINE FUN FHD
+http://htvs.io:80/68088662/69560517/3425481.ts
+#EXTINF:-1 tvg-id="telecinefun.br" tvg-name="TELECINE FUN HD" tvg-logo="http://69.30.198.162:80/images/67e80b5986c88dc0feded0b34da3ef2c.png" group-title="CANAIS | TELECINE",TELECINE FUN HD
+http://htvs.io:80/68088662/69560517/3425482.ts
+#EXTINF:-1 tvg-id="TCPIP" tvg-name="TELECINE PIPOCA 4K" tvg-logo="http://69.30.198.162:80/images/136a86d5bb8b40bdfb603cfbbcc5c1b2.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA 4K
+http://htvs.io:80/68088662/69560517/3433753.ts
+#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA FHD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA FHD
+http://htvs.io:80/68088662/69560517/3425484.ts
+#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA HD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA HD
+http://htvs.io:80/68088662/69560517/3425485.ts
+#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA SD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA SD
+http://htvs.io:80/68088662/69560517/3425486.ts
+#EXTINF:-1 tvg-id="TPREHD" tvg-name="TELECINE PREMIUM" tvg-logo="http://www.tmsimg.com/assets/s78306_ll_h3_ac.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM
+https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/202046
+#EXTINF:-1 tvg-id="" tvg-name="TELECINE PREMIUM 4K" tvg-logo="http://69.30.198.162:80/images/739b18eff91cd10daf0c3d70649732ca.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM 4K
+http://htvs.io:80/68088662/69560517/3433752.ts
+#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM FHD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM FHD
+http://htvs.io:80/68088662/69560517/3425487.ts
+#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM HD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM HD
+http://htvs.io:80/68088662/69560517/3425488.ts
+#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM SD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM SD
+http://htvs.io:80/68088662/69560517/3425489.ts
+#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH FHD" tvg-logo="http://69.30.198.162:80/images/df96c06fb92d992fb205424eb95e56fc.png" group-title="CANAIS | TELECINE",TELECINE TOUCH FHD
+http://htvs.io:80/68088662/69560517/3425490.ts
+#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH HD" tvg-logo="http://69.30.198.162:80/images/58996ebf3cb1b65ae41f2e0b0717f4d5.png" group-title="CANAIS | TELECINE",TELECINE TOUCH HD
+http://htvs.io:80/68088662/69560517/3425491.ts
+#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH SD" tvg-logo="http://69.30.198.162:80/images/58996ebf3cb1b65ae41f2e0b0717f4d5.png" group-title="CANAIS | TELECINE",TELECINE TOUCH SD
+http://htvs.io:80/68088662/69560517/3425492.ts
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
 http://ap4x.online:80/luiz222/222luiz/2474338
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
@@ -395,8 +555,6 @@ http://ap4x.online:80/738397084/420937255/2474344
 http://ap4x.online:80/luiz222/222luiz/2474344.ts
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
 http://ap4x.online:80/luiz222/222luiz/2474331
-#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
-http://ap4x.online:80/738397084/420937255/2474331
 #EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun SD" tvg-logo="http://ap4x.online/logos/OnTjFGgJ_o.png" group-title="CANAIS | TELECINE",Telecine Fun SD
 http://ap4x.online:80/luiz222/222luiz/2474331.ts
 #EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca FHD" tvg-logo="http://ap4x.online/logos/4K9WNUDh_o.png" group-title="CANAIS | TELECINE",Telecine Pipoca FHD
@@ -4627,14 +4785,28 @@ http://ap4x.online:80/movie/738397084/420937255/3635445.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3635445.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 2" tvg-logo="https://goo.gl/WVVzwe" group-title="FILMES | MARVEL DC",Capitao America 2
 https://goo.gl/hKaeBd
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal" tvg-logo="https://image.tmdb.org/t/p/w500/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal
+http://htvs.io:80/movie/68088662/69560517/3208888.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal 2014" tvg-logo="https://image.tmdb.org/t/p/w780/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal 2014
 http://ap4x.online:80/movie/luiz222/222luiz/3587548.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo
+http://http-www-gfcld-001.gfhostcdn.com:80/play/TOwz40Jox7zbeeN0CtU8fJN8zL66UaYSvXLzS0MrbWWuFl-p0NCtzGTM4OLYR24o#.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo
+http://http-www-gfcld-001.gfhostcdn.com:80/play/Z4_TlIkLd-ftQp8U91TvtOaJEBUin2Y8Xm1nS9xbe-8OLTYuZ23AFzCMMqjkxjlz#.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
 http://ap4x.online:80/movie/luiz222/222luiz/3632940.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
 http://ap4x.online:80/movie/738397084/420937255/3632940.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="http://cdn4k.live:80/images/5nbSgP8f5LMCI0PwVRRaHJaUmR3_big.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
+http://cdn4k.live:80/movie/2845paulinho/130580a/310869.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w300_and_h450_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
+http://http-www-gfcld-001.gfhostcdn.com:80/play/TOwz40Jox7zbeeN0CtU8fJN8zL66UaYSvXLzS0MrbWXAtENsWHxoX_YweyusYcz1#.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w300_and_h450_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
+http://http-www-gfcld-001.gfhostcdn.com:80/play/Z4_TlIkLd-ftQp8U91TvtOaJEBUin2Y8Xm1nS9xbe--ey6uYcK3Z4En1ZXcVtRpa#.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025 L" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025 L
 http://ap4x.online:80/movie/luiz222/222luiz/3633741.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Guerra Civil" tvg-logo="https://image.tmdb.org/t/p/w500/3bN7YZnf0mWpYwcektizfNlrCwC.jpg" group-title="FILMES | MARVEL DC",Capitao America Guerra Civil
+http://htvs.io:80/movie/68088662/69560517/3208889.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Guerra Civil 2016" tvg-logo="https://image.tmdb.org/t/p/w780/3bN7YZnf0mWpYwcektizfNlrCwC.jpg" group-title="FILMES | MARVEL DC",Capitao America Guerra Civil 2016
 http://ap4x.online:80/movie/luiz222/222luiz/3587514.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
@@ -4643,6 +4815,8 @@ http://ap4x.online:80/movie/738397084/420937255/3635459.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3635459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979 L" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979 L
 http://ap4x.online:80/movie/luiz222/222luiz/3633930.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America O Primeiro Vingador" tvg-logo="https://image.tmdb.org/t/p/w500/f976JQnjMhCTa1yLXz7UH1pV4DG.jpg" group-title="FILMES | MARVEL DC",Capitao America O Primeiro Vingador
+http://htvs.io:80/movie/68088662/69560517/3208890.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America O Primeiro Vingador 2011" tvg-logo="https://image.tmdb.org/t/p/w780/f976JQnjMhCTa1yLXz7UH1pV4DG.jpg" group-title="FILMES | MARVEL DC",Capitao America O Primeiro Vingador 2011
 http://ap4x.online:80/movie/luiz222/222luiz/3587575.mp4
 #EXTINF:-1 tvg-id="" tvg-name="DEADPOOL" tvg-logo="http://bit.ly/2HQiYmG" group-title="FILMES | MARVEL DC",DEADPOOL
