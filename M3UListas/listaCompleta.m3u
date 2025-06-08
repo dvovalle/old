@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AE.br" tvg-name="AE HD" tvg-logo="http://ap4x.online/logos/tjHaxHl8_o.png" group-title="CANAIS | FILMES E SERIES",AE HD
-http://ap4x.online:80/738397084/420937255/2473920
 #EXTINF:-1 tvg-id="AE.br" tvg-name="AE SD" tvg-logo="http://ap4x.online/logos/tjHaxHl8_o.png" group-title="CANAIS | FILMES E SERIES",AE SD
 http://ap4x.online:80/738397084/420937255/2473921
 #EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC FHD" tvg-logo="http://ap4x.online/logos/vDGikpom_o.png" group-title="CANAIS | FILMES E SERIES",AMC FHD
@@ -13,26 +11,12 @@ http://ap4x.online:80/738397084/420937255/2473926
 http://ap4x.online:80/738397084/420937255/2473959
 #EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil FHD" tvg-logo="http://ap4x.online/logos/QXucCN9Z_o.png" group-title="CANAIS | FILMES E SERIES",Canal Brasil FHD
 http://ap4x.online:80/738397084/420937255/2473961
-#EXTINF:-1 tvg-id="br#sony-hd" tvg-name="Canal Sony FHD" tvg-logo="http://ap4x.online/logos/kbbzPGMJ_o.png" group-title="CANAIS | FILMES E SERIES",Canal Sony FHD
-http://ap4x.online:80/738397084/420937255/2473962
 #EXTINF:-1 tvg-id="br#cinemax-1" tvg-name="Cinemax HD" tvg-logo="http://ap4x.online/logos/PzE1qJZ4_o.png" group-title="CANAIS | FILMES E SERIES",Cinemax HD
 http://ap4x.online:80/738397084/420937255/2473931
-#EXTINF:-1 tvg-id="br#cinemax-1" tvg-name="Cinemax SD" tvg-logo="http://ap4x.online/logos/PzE1qJZ4_o.png" group-title="CANAIS | FILMES E SERIES",Cinemax SD
-http://ap4x.online:80/738397084/420937255/2473932
-#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix FHD" tvg-logo="http://ap4x.online/logos/taPZMx4o_o.png" group-title="CANAIS | FILMES E SERIES",Megapix FHD
-http://ap4x.online:80/738397084/420937255/2473966
 #EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix HD" tvg-logo="http://ap4x.online/logos/taPZMx4o_o.png" group-title="CANAIS | FILMES E SERIES",Megapix HD
 http://ap4x.online:80/738397084/420937255/2473935
-#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix SD" tvg-logo="http://ap4x.online/logos/taPZMx4o_o.png" group-title="CANAIS | FILMES E SERIES",Megapix SD
-http://ap4x.online:80/738397084/420937255/2473936
-#EXTINF:-1 tvg-id="br#paramount-brasil-hd" tvg-name="Paramount SD" tvg-logo="http://ap4x.online/logos/PKZ9ucKc_o.png" group-title="CANAIS | FILMES E SERIES",Paramount SD
-http://ap4x.online:80/738397084/420937255/2473938
 #EXTINF:-1 tvg-id="br#space-hd" tvg-name="Space FHD" tvg-logo="http://ap4x.online/logos/A8PCst0b_o.png" group-title="CANAIS | FILMES E SERIES",Space FHD
 http://ap4x.online:80/738397084/420937255/2473968
-#EXTINF:-1 tvg-id="br#space-hd" tvg-name="Space HD" tvg-logo="http://ap4x.online/logos/A8PCst0b_o.png" group-title="CANAIS | FILMES E SERIES",Space HD
-http://ap4x.online:80/738397084/420937255/2473939
-#EXTINF:-1 tvg-id="br#space-hd" tvg-name="Space SD" tvg-logo="http://ap4x.online/logos/A8PCst0b_o.png" group-title="CANAIS | FILMES E SERIES",Space SD
-http://ap4x.online:80/738397084/420937255/2473940
 #EXTINF:-1 tvg-id="br#studio-universal-hd" tvg-name="Studio Universal FHD" tvg-logo="http://ap4x.online/logos/PUZoFdtE_o.png" group-title="CANAIS | FILMES E SERIES",Studio Universal FHD
 http://ap4x.online:80/738397084/420937255/2473970
 #EXTINF:-1 tvg-id="TCM.br" tvg-name="TCM HD" tvg-logo="http://ap4x.online/logos/pJquJCtz_o.png" group-title="CANAIS | FILMES E SERIES",TCM HD
@@ -41,218 +25,56 @@ http://ap4x.online:80/738397084/420937255/2473947
 http://ap4x.online:80/738397084/420937255/2473972
 #EXTINF:-1 tvg-id="br#tnt-hd" tvg-name="TNT HD" tvg-logo="http://ap4x.online/logos/NXOXkfYe_o.png" group-title="CANAIS | FILMES E SERIES",TNT HD
 http://ap4x.online:80/738397084/420937255/2473949
-#EXTINF:-1 tvg-id="br#tnt-hd" tvg-name="TNT SD" tvg-logo="http://ap4x.online/logos/NXOXkfYe_o.png" group-title="CANAIS | FILMES E SERIES",TNT SD
-http://ap4x.online:80/738397084/420937255/2473950
 #EXTINF:-1 tvg-id="br#tnt-series-hd" tvg-name="TNT Series FHD" tvg-logo="http://ap4x.online/logos/E7QDkpUK_o.png" group-title="CANAIS | FILMES E SERIES",TNT Series FHD
 http://ap4x.online:80/738397084/420937255/2473973
-#EXTINF:-1 tvg-id="br#tnt-series-hd" tvg-name="TNT Series SD" tvg-logo="http://ap4x.online/logos/E7QDkpUK_o.png" group-title="CANAIS | FILMES E SERIES",TNT Series SD
-http://ap4x.online:80/738397084/420937255/2473951
-#EXTINF:-1 tvg-id="" tvg-name="USA Network FHD" tvg-logo="https://imagizer.imageshack.com/v2/150x100q90/922/5b1MAd.png" group-title="CANAIS | FILMES E SERIES",USA Network FHD
-http://ap4x.online:80/738397084/420937255/2473971
-#EXTINF:-1 tvg-id="" tvg-name="USA Network HD" tvg-logo="" group-title="CANAIS | FILMES E SERIES",USA Network HD
-http://ap4x.online:80/738397084/420937255/2473945
-#EXTINF:-1 tvg-id="" tvg-name="USA Network SD" tvg-logo="https://imagizer.imageshack.com/v2/150x100q90/922/5b1MAd.png" group-title="CANAIS | FILMES E SERIES",USA Network SD
-http://ap4x.online:80/738397084/420937255/2473946
 #EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV FHD" tvg-logo="http://ap4x.online/logos/Nj8XRd5W_o.png" group-title="CANAIS | FILMES E SERIES",Universal TV FHD
 http://ap4x.online:80/738397084/420937255/2473974
-#EXTINF:-1 tvg-id="br#warner-channel-hd" tvg-name="Warner FHD" tvg-logo="http://157.254.54.188/filmeseseries/warnerchannel.png" group-title="CANAIS | FILMES E SERIES",Warner FHD
-http://ap4x.online:80/738397084/420937255/2473975
-#EXTINF:-1 tvg-id="br#warner-channel-hd" tvg-name="Warner HD" tvg-logo="http://157.254.54.188/filmeseseries/warnerchannel.png" group-title="CANAIS | FILMES E SERIES",Warner HD
-http://ap4x.online:80/738397084/420937255/2473954
-#EXTINF:-1 tvg-id="br#warner-channel-hd" tvg-name="Warner SD" tvg-logo="http://157.254.54.188/filmeseseries/warnerchannel.png" group-title="CANAIS | FILMES E SERIES",Warner SD
-http://ap4x.online:80/738397084/420937255/2473955
 #EXTINF:-1 tvg-id="" tvg-name="HBO" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO
 http://189.91.128.150:5555/udp/227.10.20.94:1234
-#EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
-http://ap4x.online:80/luiz222/222luiz/2474362
-#EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
-http://ap4x.online:80/738397084/420937255/2474362
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 FHD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 FHD
-http://ap4x.online:80/luiz222/222luiz/2474362.ts
-#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HBO_2_HD_Logo_Poland.png/640px-HBO_2_HD_Logo_Poland.png" group-title="CANAIS | HBO",HBO 2 FHD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33834
-#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 FHD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 FHD
-http://htvs.io:80/68088662/69560517/3425451.ts
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 HD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 HD
-http://ap4x.online:80/luiz222/222luiz/2474360.ts
-#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 HD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 HD
-http://htvs.io:80/68088662/69560517/3425452.ts
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/luiz222/222luiz/2474345
 #EXTINF:-1 tvg-id="br#hbo-2" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/738397084/420937255/2474345
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO 2 SD" tvg-logo="http://ap4x.online/logos/15c3Cu7F_o.png" group-title="CANAIS | HBO",HBO 2 SD
 http://ap4x.online:80/luiz222/222luiz/2474345.ts
-#EXTINF:-1 tvg-id="hbo2.ro" tvg-name="HBO 2 SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HBO_2_HD_Logo_Poland.png/640px-HBO_2_HD_Logo_Poland.png" group-title="CANAIS | HBO",HBO 2 SD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33835
-#EXTINF:-1 tvg-id="hbo2.br" tvg-name="HBO 2 SD" tvg-logo="http://69.30.198.162:80/images/bec1f62a82b9babdb313ccfc9b9f5aae.png" group-title="CANAIS | HBO",HBO 2 SD
-http://htvs.io:80/68088662/69560517/3425453.ts
-#EXTINF:-1 tvg-id="hbo3.ro" tvg-name="HBO 3 FHD" tvg-logo="https://e7.pngegg.com/pngimages/988/24/png-clipart-hbo-comedy-hbo-2-hbo-go-television-others-text-logo.png" group-title="CANAIS | HBO",HBO 3 FHD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33836
-#EXTINF:-1 tvg-id="hbo3.ro" tvg-name="HBO 3 SD" tvg-logo="https://e7.pngegg.com/pngimages/988/24/png-clipart-hbo-comedy-hbo-2-hbo-go-television-others-text-logo.png" group-title="CANAIS | HBO",HBO 3 SD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33837
-#EXTINF:-1 tvg-id="HBOCHIL" tvg-name="HBO 4K" tvg-logo="http://69.30.198.162:80/images/78d1f1a5ba5cc3e2e0da01d48978b509.png" group-title="CANAIS | HBO",HBO 4K
-http://htvs.io:80/68088662/69560517/3433761.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO ACTIUNE" tvg-logo="" group-title="CANAIS | HBO",HBO ACTIUNE
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286444
-#EXTINF:-1 tvg-id="" tvg-name="HBO COMEDIE" tvg-logo="" group-title="CANAIS | HBO",HBO COMEDIE
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286447
-#EXTINF:-1 tvg-id="" tvg-name="HBO COMEDIE" tvg-logo="https://i.postimg.cc/DyczmkLw/go.png" group-title="CANAIS | HBO",HBO COMEDIE
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286719
 #EXTINF:-1 tvg-id="" tvg-name="HBO FAMILY" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO FAMILY
 http://189.91.128.150:5555/udp/227.10.20.97:1234
-#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY FHD" tvg-logo="http://69.30.198.162:80/images/b7544179ea8f73051e2dfe49e7ab9473.png" group-title="CANAIS | HBO",HBO FAMILY FHD
-http://htvs.io:80/68088662/69560517/3425454.ts
-#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY HD" tvg-logo="http://69.30.198.162:80/images/b7544179ea8f73051e2dfe49e7ab9473.png" group-title="CANAIS | HBO",HBO FAMILY HD
-http://htvs.io:80/68088662/69560517/3425455.ts
-#EXTINF:-1 tvg-id="hbofamily.br" tvg-name="HBO FAMILY SD" tvg-logo="http://69.30.198.162:80/images/4684f861b3f5daa24a985023395015a4.png" group-title="CANAIS | HBO",HBO FAMILY SD
-http://htvs.io:80/68088662/69560517/3425456.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO FANTASY" tvg-logo="https://i.postimg.cc/g2Yz695m/k.png" group-title="CANAIS | HBO",HBO FANTASY
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286720
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/luiz222/222luiz/2474361
-#EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
-http://ap4x.online:80/luiz222/222luiz/2474368
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/738397084/420937255/2474361
-#EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
-http://ap4x.online:80/738397084/420937255/2474368
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO FHD
 http://ap4x.online:80/luiz222/222luiz/2474361.ts
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO FHD
-http://ap4x.online:80/luiz222/222luiz/2474368.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/HBO_HD_logo.png/640px-HBO_HD_logo.png" group-title="CANAIS | HBO",HBO FHD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/33832
-#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO FHD" tvg-logo="http://69.30.198.162:80/images/ebf420c4edd6bd1a971c5aac858721fd.png" group-title="CANAIS | HBO",HBO FHD
-http://htvs.io:80/68088662/69560517/3425457.ts
-#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO FHD" tvg-logo="http://69.30.198.162:80/images/60ab6c8ed6bb01522544ddc047abcb48.png" group-title="CANAIS | HBO",HBO FHD
-http://htvs.io:80/68088662/69560517/3425472.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family FHD
 http://ap4x.online:80/738397084/420937255/2474363
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family FHD
 http://ap4x.online:80/luiz222/222luiz/2474363.ts
-#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
-http://ap4x.online:80/luiz222/222luiz/2474346
-#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
-http://ap4x.online:80/738397084/420937255/2474346
-#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family HD
-http://ap4x.online:80/luiz222/222luiz/2474346.ts
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/luiz222/222luiz/2474347
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/738397084/420937255/2474347
 #EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family SD" tvg-logo="http://ap4x.online/logos/gPbwkcb8_o.png" group-title="CANAIS | HBO",HBO Family SD
 http://ap4x.online:80/luiz222/222luiz/2474347.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO GO" tvg-logo="https://i.postimg.cc/vZR4xLS0/go.png" group-title="CANAIS | HBO",HBO GO
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286721
-#EXTINF:-1 tvg-id="" tvg-name="HBO GOLD" tvg-logo="https://i.postimg.cc/Bv4tMZ3D/go.png" group-title="CANAIS | HBO",HBO GOLD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286722
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/738397084/420937255/2474348
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/luiz222/222luiz/2474348.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO HD
 http://ap4x.online:80/luiz222/222luiz/2474358.ts
-#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO HD" tvg-logo="http://69.30.198.162:80/images/ebf420c4edd6bd1a971c5aac858721fd.png" group-title="CANAIS | HBO",HBO HD
-http://htvs.io:80/68088662/69560517/3425458.ts
-#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO HD" tvg-logo="http://69.30.198.162:80/images/e42eae4093b5346d7f9b1a131fe46eba.png" group-title="CANAIS | HBO",HBO HD
-http://htvs.io:80/68088662/69560517/3425473.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO HORROR" tvg-logo="" group-title="CANAIS | HBO",HBO HORROR
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286442
-#EXTINF:-1 tvg-id="" tvg-name="HBO HORROR" tvg-logo="https://i.postimg.cc/FHRhRfhT/ATIUU.png" group-title="CANAIS | HBO",HBO HORROR
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286723
-#EXTINF:-1 tvg-id="" tvg-name="HBO KIDS" tvg-logo="https://i.postimg.cc/BbL7tf0s/LOG.png" group-title="CANAIS | HBO",HBO KIDS
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286724
-#EXTINF:-1 tvg-id="" tvg-name="HBO MAX" tvg-logo="https://i.postimg.cc/wvtFprYY/348571906-132417199802128-6092198786951656624-n.jpg" group-title="CANAIS | HBO",HBO MAX
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286725
-#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 1" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 1
-http://htvs.io:80/68088662/69560517/3425301.ts
-#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 2" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 2
-http://htvs.io:80/68088662/69560517/3425302.ts
-#EXTINF:-1 tvg-id="a&e.br" tvg-name="HBO MAX 4" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 4
-http://htvs.io:80/68088662/69560517/3425304.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO MAX 6" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 6
-http://htvs.io:80/68088662/69560517/3425307.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO MAX 7" tvg-logo="http://69.30.198.162:80/images/00e2aa1fd4841c7885fe83e98ddf3e93.png" group-title="CANAIS | HBO",HBO MAX 7
-http://htvs.io:80/68088662/69560517/3425305.ts
-#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI FHD" tvg-logo="http://69.30.198.162:80/images/5016f5ae49d600aa3b87b136d5b88cc6.png" group-title="CANAIS | HBO",HBO MUNDI FHD
-http://htvs.io:80/68088662/69560517/3425459.ts
-#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI HD" tvg-logo="http://69.30.198.162:80/images/2658ff984ea0367a9fe2041b75fce1d1.png" group-title="CANAIS | HBO",HBO MUNDI HD
-http://htvs.io:80/68088662/69560517/3425460.ts
-#EXTINF:-1 tvg-id="hbomundi.br" tvg-name="HBO MUNDI SD" tvg-logo="http://69.30.198.162:80/images/5016f5ae49d600aa3b87b136d5b88cc6.png" group-title="CANAIS | HBO",HBO MUNDI SD
-http://htvs.io:80/68088662/69560517/3425461.ts
-#EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
-http://ap4x.online:80/738397084/420937255/2474364
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi FHD
-http://ap4x.online:80/luiz222/222luiz/2474364.ts
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi HD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi HD
-http://ap4x.online:80/luiz222/222luiz/2474349.ts
-#EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
-http://ap4x.online:80/luiz222/222luiz/2474350
-#EXTINF:-1 tvg-id="br#max" tvg-name="HBO Mundi SD" tvg-logo="http://ap4x.online/logos/Bant1u0d_o.png" group-title="CANAIS | HBO",HBO Mundi SD
-http://ap4x.online:80/738397084/420937255/2474350
 #EXTINF:-1 tvg-id="" tvg-name="HBO PLUS" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO PLUS
 http://189.91.128.150:5555/udp/227.10.20.96:1234
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
-http://ap4x.online:80/luiz222/222luiz/2474365
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
-http://ap4x.online:80/738397084/420937255/2474365
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO POP FHD
-http://ap4x.online:80/luiz222/222luiz/2474365.ts
-#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP FHD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP FHD
-http://htvs.io:80/68088662/69560517/3425462.ts
-#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP HD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP HD
-http://htvs.io:80/68088662/69560517/3425463.ts
-#EXTINF:-1 tvg-id="hbopop.br" tvg-name="HBO POP SD" tvg-logo="http://69.30.198.162:80/images/e27607157aaa8d030eec120e3fe0f215.png" group-title="CANAIS | HBO",HBO POP SD
-http://htvs.io:80/68088662/69560517/3425464.ts
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
-http://ap4x.online:80/luiz222/222luiz/2474351
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
-http://ap4x.online:80/738397084/420937255/2474351
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop HD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop HD
-http://ap4x.online:80/luiz222/222luiz/2474351.ts
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
-http://ap4x.online:80/luiz222/222luiz/2474352
 #EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
 http://ap4x.online:80/738397084/420937255/2474352
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO Pop SD" tvg-logo="http://ap4x.online/logos/XwfImJZy_o.png" group-title="CANAIS | HBO",HBO Pop SD
-http://ap4x.online:80/luiz222/222luiz/2474352.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO RO 4K UHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/HBO_HD_logo.png/640px-HBO_HD_logo.png" group-title="CANAIS | HBO",HBO RO 4K UHD
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/216179
-#EXTINF:-1 tvg-id="" tvg-name="HBO ROMANTIC" tvg-logo="" group-title="CANAIS | HBO",HBO ROMANTIC
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286446
-#EXTINF:-1 tvg-id="" tvg-name="HBO SCIFI" tvg-logo="" group-title="CANAIS | HBO",HBO SCIFI
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286441
-#EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
-http://ap4x.online:80/luiz222/222luiz/2474353
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/luiz222/222luiz/2474359
-#EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
-http://ap4x.online:80/738397084/420937255/2474353
 #EXTINF:-1 tvg-id="br#hbo-hd" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/738397084/420937255/2474359
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/MxFExDB9_o.png" group-title="CANAIS | HBO",HBO SD
-http://ap4x.online:80/luiz222/222luiz/2474353.ts
 #EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO SD" tvg-logo="http://ap4x.online/logos/JwXMJrz4_o.png" group-title="CANAIS | HBO",HBO SD
 http://ap4x.online:80/luiz222/222luiz/2474359.ts
-#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO SD" tvg-logo="http://69.30.198.162:80/images/878fa3d67fed06e253dd6bbac5f0b8e0.png" group-title="CANAIS | HBO",HBO SD
-http://htvs.io:80/68088662/69560517/3425465.ts
-#EXTINF:-1 tvg-id="hboplus.br" tvg-name="HBO SD" tvg-logo="http://69.30.198.162:80/images/60ab6c8ed6bb01522544ddc047abcb48.png" group-title="CANAIS | HBO",HBO SD
-http://htvs.io:80/68088662/69560517/3425474.ts
 #EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO SIGNATURE
 http://189.91.128.150:5555/udp/227.10.20.98:1234
-#EXTINF:-1 tvg-id="" tvg-name="HBO SIGNATURE" tvg-logo="https://i.postimg.cc/157CDw7X/k.png" group-title="CANAIS | HBO",HBO SIGNATURE
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286726
-#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE FHD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE FHD
-http://htvs.io:80/68088662/69560517/3425466.ts
-#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE HD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE HD
-http://htvs.io:80/68088662/69560517/3425467.ts
-#EXTINF:-1 tvg-id="hbosignature.br" tvg-name="HBO SIGNATURE SD" tvg-logo="http://69.30.198.162:80/images/bbeb387addb9e63ea0b0a936e9616553.png" group-title="CANAIS | HBO",HBO SIGNATURE SD
-http://htvs.io:80/68088662/69560517/3425468.ts
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
 http://ap4x.online:80/738397084/420937255/2474366
-#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature FHD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature FHD
-http://ap4x.online:80/luiz222/222luiz/2474366.ts
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature HD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature HD
 http://ap4x.online:80/luiz222/222luiz/2474354
 #EXTINF:-1 tvg-id="br#hbo-signature-1" tvg-name="HBO Signature HD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature HD
@@ -265,18 +87,6 @@ http://ap4x.online:80/luiz222/222luiz/2474355
 http://ap4x.online:80/738397084/420937255/2474355
 #EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature SD" tvg-logo="http://ap4x.online/logos/0IDs4wcG_o.png" group-title="CANAIS | HBO",HBO Signature SD
 http://ap4x.online:80/luiz222/222luiz/2474355.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO THRILLER" tvg-logo="" group-title="CANAIS | HBO",HBO THRILLER
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286443
-#EXTINF:-1 tvg-id="" tvg-name="HBO WAR" tvg-logo="https://i.postimg.cc/8PG3R1VF/WAR.gif" group-title="CANAIS | HBO",HBO WAR
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286727
-#EXTINF:-1 tvg-id="" tvg-name="HBO WAR" tvg-logo="" group-title="CANAIS | HBO",HBO WAR
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286461
-#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME FHD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME FHD
-http://htvs.io:80/68088662/69560517/3425469.ts
-#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME HD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME HD
-http://htvs.io:80/68088662/69560517/3425470.ts
-#EXTINF:-1 tvg-id="hboxtreme.br" tvg-name="HBO XTREME SD" tvg-logo="http://69.30.198.162:80/images/479c66b1af1cd70b243477bd0a1c8043.png" group-title="CANAIS | HBO",HBO XTREME SD
-http://htvs.io:80/68088662/69560517/3425471.ts
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
 http://ap4x.online:80/luiz222/222luiz/2474367
 #EXTINF:-1 tvg-id="br#max-prime" tvg-name="HBO Xtreme FHD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme FHD
@@ -293,8 +103,6 @@ http://ap4x.online:80/luiz222/222luiz/2474356.ts
 http://ap4x.online:80/738397084/420937255/2474357
 #EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme SD" tvg-logo="http://ap4x.online/logos/O7jlBA1I_o.png" group-title="CANAIS | HBO",HBO Xtreme SD
 http://ap4x.online:80/luiz222/222luiz/2474357.ts
-#EXTINF:-1 tvg-id="" tvg-name="HBO ZONE" tvg-logo="https://i.postimg.cc/VLNvkPHt/hbo-zone.gif" group-title="CANAIS | HBO",HBO ZONE
-http://laurv1.hopto.org:8008/mihai@benzarGB/kmYNtT5pDP/286728
 #EXTINF:-1 tvg-id="" tvg-name="HBO2" tvg-logo="https://dicasiptv.com/wp-content/uploads/2018/10/Addon-FormigaTV-Atualizado-Kodi.jpg" group-title="CANAIS | HBO",HBO2
 http://189.91.128.150:5555/udp/227.10.20.95:1234
 #EXTINF:-1 tvg-id="" tvg-name="HBOMax Original 15" tvg-logo="https://iili.io/6GDGuR.md.png" group-title="CANAIS | HBO",HBOMax Original 15
@@ -457,58 +265,12 @@ http://ap4x.online:80/series/738397084/420937255/3772484.mp4
 http://ap4x.online:80/series/738397084/420937255/3772485.mp4
 #EXTINF:-1 tvg-id="" tvg-name="BR TELECINE ACTION" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZC3SIjNdwUvzfyt46vNofHJcvEtMV-dVOA&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE ACTION
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357309
-#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE CULT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqD2YOQKttJbQ9DtDe1iiloL4Lezxl4wPyw&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE CULT
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357310
 #EXTINF:-1 tvg-id="" tvg-name="BR TELECINE FUN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0Y5KRVBhCAuKXktcq4HFTls06BLqjE0BPQ&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE FUN
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357311
-#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE PIPOCA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn69U1m8UiQ1GTJHBxHG3sX681oaj_Yl5ikg&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE PIPOCA
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357312
-#EXTINF:-1 tvg-id="" tvg-name="BR TELECINE TOUCH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmf42H9MB-4Q6lyVfrh77qPeG4KFri1nICyg&usqp=CAU" group-title="CANAIS | TELECINE",BR TELECINE TOUCH
-https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/357313
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="TELECINE ACTION 4K" tvg-logo="https://i.imgur.com/85w1DuC.png" group-title="CANAIS | TELECINE",TELECINE ACTION 4K
 http://ap4x.online:80/luiz222/222luiz/3787710.ts
-#EXTINF:-1 tvg-id="" tvg-name="TELECINE ACTION 4K" tvg-logo="http://69.30.198.162:80/images/cc32eaaf330875b5d247222df5bd565c.png" group-title="CANAIS | TELECINE",TELECINE ACTION 4K
-http://htvs.io:80/68088662/69560517/3433754.ts
-#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION FHD" tvg-logo="http://69.30.198.162:80/images/026f6dd372e9d8caa28dcaefb2610177.png" group-title="CANAIS | TELECINE",TELECINE ACTION FHD
-http://htvs.io:80/68088662/69560517/3425475.ts
-#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION HD" tvg-logo="http://69.30.198.162:80/images/026f6dd372e9d8caa28dcaefb2610177.png" group-title="CANAIS | TELECINE",TELECINE ACTION HD
-http://htvs.io:80/68088662/69560517/3425476.ts
-#EXTINF:-1 tvg-id="telecineaction.br" tvg-name="TELECINE ACTION SD" tvg-logo="http://69.30.198.162:80/images/9f2213563efd73210eef6b5da5d9aaf8.png" group-title="CANAIS | TELECINE",TELECINE ACTION SD
-http://htvs.io:80/68088662/69560517/3425477.ts
-#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT FHD" tvg-logo="http://69.30.198.162:80/images/02a3b9bee09dca92257d1619a83d94ae.png" group-title="CANAIS | TELECINE",TELECINE CULT FHD
-http://htvs.io:80/68088662/69560517/3425478.ts
-#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT HD" tvg-logo="http://69.30.198.162:80/images/02a3b9bee09dca92257d1619a83d94ae.png" group-title="CANAIS | TELECINE",TELECINE CULT HD
-http://htvs.io:80/68088662/69560517/3425479.ts
-#EXTINF:-1 tvg-id="telecinecult.br" tvg-name="TELECINE CULT SD" tvg-logo="http://69.30.198.162:80/images/7753f8d13ff64d69df324699ebe8fd1a.png" group-title="CANAIS | TELECINE",TELECINE CULT SD
-http://htvs.io:80/68088662/69560517/3425480.ts
-#EXTINF:-1 tvg-id="telecinefun.br" tvg-name="TELECINE FUN FHD" tvg-logo="http://69.30.198.162:80/images/67e80b5986c88dc0feded0b34da3ef2c.png" group-title="CANAIS | TELECINE",TELECINE FUN FHD
-http://htvs.io:80/68088662/69560517/3425481.ts
-#EXTINF:-1 tvg-id="telecinefun.br" tvg-name="TELECINE FUN HD" tvg-logo="http://69.30.198.162:80/images/67e80b5986c88dc0feded0b34da3ef2c.png" group-title="CANAIS | TELECINE",TELECINE FUN HD
-http://htvs.io:80/68088662/69560517/3425482.ts
-#EXTINF:-1 tvg-id="TCPIP" tvg-name="TELECINE PIPOCA 4K" tvg-logo="http://69.30.198.162:80/images/136a86d5bb8b40bdfb603cfbbcc5c1b2.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA 4K
-http://htvs.io:80/68088662/69560517/3433753.ts
-#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA FHD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA FHD
-http://htvs.io:80/68088662/69560517/3425484.ts
-#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA HD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA HD
-http://htvs.io:80/68088662/69560517/3425485.ts
-#EXTINF:-1 tvg-id="telecinepipoca.br" tvg-name="TELECINE PIPOCA SD" tvg-logo="http://69.30.198.162:80/images/989e03dff0c208ebbe3c8d2c6fcdb814.png" group-title="CANAIS | TELECINE",TELECINE PIPOCA SD
-http://htvs.io:80/68088662/69560517/3425486.ts
 #EXTINF:-1 tvg-id="TPREHD" tvg-name="TELECINE PREMIUM" tvg-logo="http://www.tmsimg.com/assets/s78306_ll_h3_ac.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM
 https://fenixplay.info:8443/YorlenyMarin15/S9ZpEQgxJd/202046
-#EXTINF:-1 tvg-id="" tvg-name="TELECINE PREMIUM 4K" tvg-logo="http://69.30.198.162:80/images/739b18eff91cd10daf0c3d70649732ca.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM 4K
-http://htvs.io:80/68088662/69560517/3433752.ts
-#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM FHD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM FHD
-http://htvs.io:80/68088662/69560517/3425487.ts
-#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM HD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM HD
-http://htvs.io:80/68088662/69560517/3425488.ts
-#EXTINF:-1 tvg-id="telecinepremium.br" tvg-name="TELECINE PREMIUM SD" tvg-logo="http://69.30.198.162:80/images/15b724cbd630b9b69ef4a63a945c7d64.png" group-title="CANAIS | TELECINE",TELECINE PREMIUM SD
-http://htvs.io:80/68088662/69560517/3425489.ts
-#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH FHD" tvg-logo="http://69.30.198.162:80/images/df96c06fb92d992fb205424eb95e56fc.png" group-title="CANAIS | TELECINE",TELECINE TOUCH FHD
-http://htvs.io:80/68088662/69560517/3425490.ts
-#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH HD" tvg-logo="http://69.30.198.162:80/images/58996ebf3cb1b65ae41f2e0b0717f4d5.png" group-title="CANAIS | TELECINE",TELECINE TOUCH HD
-http://htvs.io:80/68088662/69560517/3425491.ts
-#EXTINF:-1 tvg-id="telecinetouch.br" tvg-name="TELECINE TOUCH SD" tvg-logo="http://69.30.198.162:80/images/58996ebf3cb1b65ae41f2e0b0717f4d5.png" group-title="CANAIS | TELECINE",TELECINE TOUCH SD
-http://htvs.io:80/68088662/69560517/3425492.ts
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
 http://ap4x.online:80/luiz222/222luiz/2474338
 #EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action FHD" tvg-logo="http://ap4x.online/logos/GnaJaVwm_o.png" group-title="CANAIS | TELECINE",Telecine Action FHD
@@ -591,8 +353,6 @@ http://ap4x.online:80/luiz222/222luiz/2474337
 http://ap4x.online:80/738397084/420937255/2474337
 #EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch SD" tvg-logo="http://ap4x.online/logos/diZl7CGP_o.png" group-title="CANAIS | TELECINE",Telecine Touch SD
 http://ap4x.online:80/luiz222/222luiz/2474337.ts
-#EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate FHD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate FHD
-http://ap4x.online:80/luiz222/222luiz/2474409.ts
 #EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate HD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate HD
 http://ap4x.online:80/luiz222/222luiz/2474392.ts
 #EXTINF:-1 tvg-id="Combate.br" tvg-name="Combate SD" tvg-logo="http://ap4x.online/logos/aEAv8G9I_t.png" group-title="CANAIS | UFC",Combate SD
@@ -601,14 +361,8 @@ http://ap4x.online:80/luiz222/222luiz/2474393.ts
 http://ap4x.online:80/738397084/420937255/3558423
 #EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 1 reprises" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 1 reprises
 http://ap4x.online:80/luiz222/222luiz/3558423.ts
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 2 ao vivo" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 2 ao vivo
-http://ap4x.online:80/luiz222/222luiz/3558435.ts
 #EXTINF:-1 tvg-id="" tvg-name="UFC Fight Pass 3 ao vivo" tvg-logo="http://www.fontedecanais.org/logos/canais/ufcfightpass.png" group-title="CANAIS | UFC",UFC Fight Pass 3 ao vivo
 http://ap4x.online:80/luiz222/222luiz/3558446.ts
-#EXTINF:-1 tvg-id="" tvg-name="1109 Os Quatro Voos Fatais" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/n9UnhTs0pvnut86nbuk8qfkWHqR.jpg" group-title="CANAIS | VARIEDADES",1109 Os Quatro Voos Fatais
-http://ap4x.online:80/movie/738397084/420937255/3579749.mp4
-#EXTINF:-1 tvg-id="" tvg-name="119 A Vida Sob Ataque" tvg-logo="http://gstaticontent.com/images/c0c46f9e4391ec8cc6d5ecbc5ea60ea1.jpg" group-title="CANAIS | VARIEDADES",119 A Vida Sob Ataque
-http://ap4x.online:80/movie/738397084/420937255/3581791.mp4
 #EXTINF:-1 tvg-id="" tvg-name="119 Ataque ao Pentagono" tvg-logo="https://image.tmdb.org//t/p/w600_and_h900_bestv2/cyOPVUkRJ4tOY7LFUn49qH3ol8A.jpg" group-title="CANAIS | VARIEDADES",119 Ataque ao Pentagono
 http://ap4x.online:80/movie/738397084/420937255/3636060.mp4
 #EXTINF:-1 tvg-id="" tvg-name="12 Moedas 2020" tvg-logo="https://image.tmdb.org/t/p/w780/cFhlpp2YQLDSKcvMHbgkPtuJfHl.jpg" group-title="CANAIS | VARIEDADES",12 Moedas 2020
@@ -1017,14 +771,6 @@ http://ap4x.online:80/movie/738397084/420937255/3581127.mp4
 http://ap4x.online:80/movie/738397084/420937255/3580406.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Dificil Decisao 2017" tvg-logo="https://image.tmdb.org/t/p/w780/6qzTj2QEZ6IY3di92sSjpCyaQ89.jpg" group-title="CANAIS | VARIEDADES",Dificil Decisao 2017
 http://ap4x.online:80/movie/738397084/420937255/3581795.mp4
-#EXTINF:-1 tvg-id="DiscoveryChannel.br" tvg-name="Discovery Channel FHD" tvg-logo="http://ap4x.online/logos/mduPALwC_o.png" group-title="CANAIS | VARIEDADES",Discovery Channel FHD
-http://ap4x.online:80/738397084/420937255/2475448
-#EXTINF:-1 tvg-id="DiscoveryChannel.br" tvg-name="Discovery Channel HD" tvg-logo="http://ap4x.online/logos/mduPALwC_o.png" group-title="CANAIS | VARIEDADES",Discovery Channel HD
-http://ap4x.online:80/738397084/420937255/2475432
-#EXTINF:-1 tvg-id="DiscoveryChannel.br" tvg-name="Discovery Channel SD" tvg-logo="http://ap4x.online/logos/mduPALwC_o.png" group-title="CANAIS | VARIEDADES",Discovery Channel SD
-http://ap4x.online:80/738397084/420937255/2475433
-#EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery HH FHD" tvg-logo="http://ap4x.online/logos/FNTee0Ku_o.png" group-title="CANAIS | VARIEDADES",Discovery HH FHD
-http://ap4x.online:80/738397084/420937255/2475449
 #EXTINF:-1 tvg-id="br#discovery-home-health-hd" tvg-name="Discovery HH HD" tvg-logo="http://ap4x.online/logos/FNTee0Ku_o.png" group-title="CANAIS | VARIEDADES",Discovery HH HD
 http://ap4x.online:80/738397084/420937255/2475434
 #EXTINF:-1 tvg-id="DiscoveryHomeHealth.br" tvg-name="Discovery HH SD" tvg-logo="http://ap4x.online/logos/FNTee0Ku_o.png" group-title="CANAIS | VARIEDADES",Discovery HH SD
@@ -1901,30 +1647,38 @@ http://ap4x.online:80/movie/738397084/420937255/3580200.mp4
 http://ap4x.online:80/movie/738397084/420937255/3580274.mp4
 #EXTINF:-1 tvg-id="" tvg-name="1992 1992" tvg-logo="https://image.tmdb.org/t/p/w780/Cyf80v8sKZY2YSMu6q47mE7bL3.jpg" group-title="FILMES | 2025",1992 1992
 http://ap4x.online:80/movie/738397084/420937255/3630734.mp4
+#EXTINF:-1 tvg-id="" tvg-name="2025 The World Enslaved by a Virus 2025" tvg-logo="http://bestavb.top:8008/images/movies/8S5IwaYOXMenqgW9PejoPjf4uXM.jpg" group-title="FILMES | 2025",2025 The World Enslaved by a Virus 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287773.mkv
 #EXTINF:-1 tvg-id="" tvg-name="24 Horas de Furia 2006" tvg-logo="https://image.tmdb.org/t/p/w780/120GwiD01pfR3hIezUwbSDY2mm1.jpg" group-title="FILMES | 2025",24 Horas de Furia 2006
 http://ap4x.online:80/movie/738397084/420937255/3631089.mp4
+#EXTINF:-1 tvg-id="" tvg-name="911 The Day the World Stood Still 2025" tvg-logo="http://bestavb.top:8008/images/movies/3TLuLDLPLdp6fgVK9Ak6aC6Xrbc.jpg" group-title="FILMES | 2025",911 The Day the World Stood Still 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287911.mkv
 #EXTINF:-1 tvg-id="" tvg-name="A Bussola Magica 2023" tvg-logo="https://image.tmdb.org/t/p/w780/29aWzjCPOTvhglqLtSVf3MdJ81d.jpg" group-title="FILMES | 2025",A Bussola Magica 2023
 http://ap4x.online:80/movie/738397084/420937255/3625283.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Familia Khumalo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg" group-title="FILMES | 2025",A Familia Khumalo 2025
 http://ap4x.online:80/movie/738397084/420937255/3636016.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Forca do Vento 2022" tvg-logo="https://image.tmdb.org/t/p/w780/86y2s6gGzvEn4udf9E8LzsAap2P.jpg" group-title="FILMES | 2025",A Forca do Vento 2022
 http://ap4x.online:80/movie/738397084/420937255/3625277.mp4
-#EXTINF:-1 tvg-id="" tvg-name="A Incrivel Historia de Adaline" tvg-logo="http://gstaticontent.com/images/gU84OUm9c4R44Zx8U1YPbCzKqIo_big.jpg" group-title="FILMES | 2025",A Incrivel Historia de Adaline
-http://208.115.236.162:80/movie/Diego12/Diego12/4291711.mp4
-#EXTINF:-1 tvg-id="" tvg-name="A Incrivel Historia de Adaline 2015" tvg-logo="https://image.tmdb.org/t/p/w500/gU84OUm9c4R44Zx8U1YPbCzKqIo.jpg" group-title="FILMES | 2025",A Incrivel Historia de Adaline 2015
-http://208.115.236.162:80/movie/Diego12/Diego12/3985930.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Incrivel Historia de Adaline 2015" tvg-logo="http://cdn4k.live:80/images/gU84OUm9c4R44Zx8U1YPbCzKqIo_big.jpg" group-title="FILMES | 2025",A Incrivel Historia de Adaline 2015
 http://cdn4k.live:80/movie/wesleyarrais3/223344a/180996.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Substancia 2024" tvg-logo="https://image.tmdb.org/t/p/w780/vWeOgzlhnP1sS23H3rzctGHB9Nb.jpg" group-title="FILMES | 2025",A Substancia 2024
 http://ap4x.online:80/movie/738397084/420937255/3630677.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Ultima Vinganca 2024" tvg-logo="https://image.tmdb.org/t/p/w780/6Wu1qTAQ9vHKOV7UqT6ukGrQf1b.jpg" group-title="FILMES | 2025",A Ultima Vinganca 2024
 http://ap4x.online:80/movie/738397084/420937255/3625111.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ad Vitam 2025" tvg-logo="http://bestavb.top:8008/images/movies/dOpSxmD3FWfl6SK8SLXw9uwcO05.jpg" group-title="FILMES | 2025",Ad Vitam 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287782.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Ainda Estou Aqui 2024" tvg-logo="https://image.tmdb.org/t/p/w780/zNAw7jK8bwCK56rIW676pdgkwhd.jpg" group-title="FILMES | 2025",Ainda Estou Aqui 2024
 http://ap4x.online:80/movie/738397084/420937255/3631760.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ainda Estou Aqui 2024" tvg-logo="http://cdn4k.live:80/images/zNAw7jK8bwCK56rIW676pdgkwhd_big.jpg" group-title="FILMES | 2025",Ainda Estou Aqui 2024
+http://dnstv.top:80/movie/299662397/6187389792/5041963.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Alarum 2025" tvg-logo="http://bestavb.top:8008/images/movies/v313aUGmMNj6yNveaiQXysBmjVS.jpg" group-title="FILMES | 2025",Alarum 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287837.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Alem da Lenda O Filme 2022" tvg-logo="https://image.tmdb.org/t/p/w780/mV7o1s7q60nIAAqPHo0rHzAFyy5.jpg" group-title="FILMES | 2025",Alem da Lenda O Filme 2022
 http://ap4x.online:80/movie/738397084/420937255/3632734.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Alma de Assassino 2023" tvg-logo="https://image.tmdb.org/t/p/w780/dFjZEQn3l1plz1OREEiu05PPR04.jpg" group-title="FILMES | 2025",Alma de Assassino 2023
 http://ap4x.online:80/movie/738397084/420937255/3785788.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Amazon Bullseye 2025" tvg-logo="http://bestavb.top:8008/images/movies/fCjySaFZBQASHASRAQFbe7XrJKz.jpg" group-title="FILMES | 2025",Amazon Bullseye 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287908.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Ameaca no Ar 2025" tvg-logo="https://image.tmdb.org/t/p/w780/4LPIIwWiedwHeWgRXOjcBaL1tnv.jpg" group-title="FILMES | 2025",Ameaca no Ar 2025
 http://ap4x.online:80/movie/738397084/420937255/3631136.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Amor Bandido 2025" tvg-logo="https://image.tmdb.org/t/p/w780/us125MW4IQOiGbnl77NgOJVEgMn.jpg" group-title="FILMES | 2025",Amor Bandido 2025
@@ -1937,12 +1691,28 @@ http://ap4x.online:80/movie/738397084/420937255/3636986.mp4
 http://ap4x.online:80/movie/738397084/420937255/3631096.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Ate que A Morte Nos Separe 2023" tvg-logo="https://image.tmdb.org/t/p/w780/5fMSTvdYyIuddtLVbKPYTVCWBDl.jpg" group-title="FILMES | 2025",Ate que A Morte Nos Separe 2023
 http://ap4x.online:80/movie/738397084/420937255/3636344.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Atrocious 2025" tvg-logo="http://bestavb.top:8008/images/movies/rUmTgkDhBuimpjrl7uSrg2Q5uMX.jpg" group-title="FILMES | 2025",Atrocious 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287852.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Avenida BeiraMar 2024" tvg-logo="https://image.tmdb.org/t/p/w780/70RAQHJmLq8DslAkmjhJO4Ht3DT.jpg" group-title="FILMES | 2025",Avenida BeiraMar 2024
 http://ap4x.online:80/movie/738397084/420937255/3631281.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Back in Action 2025" tvg-logo="http://bestavb.top:8008/images/movies/mLxIlIf2Gopht23v5VFNpQZ2Rue.jpg" group-title="FILMES | 2025",Back in Action 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287838.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Balloonerism 2025" tvg-logo="http://bestavb.top:8008/images/movies/x1YX2u3OWjMzAoaPNaNV6cf2Oq.jpg" group-title="FILMES | 2025",Balloonerism 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287910.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Bank of Dave 2 The Loan Ranger 2025" tvg-logo="http://bestavb.top:8008/images/movies/5gYlz36CufxMrv7uQbI4oqMut48.jpg" group-title="FILMES | 2025",Bank of Dave 2 The Loan Ranger 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287800.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Bart Bagalzby and the Garbage Genie 2025" tvg-logo="http://bestavb.top:8008/images/movies/o72JnV2Jp3oVhEmFnDc5l7XEjvU.jpg" group-title="FILMES | 2025",Bart Bagalzby and the Garbage Genie 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287777.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Battlefield 2025 2025" tvg-logo="http://bestavb.top:8008/images/movies/w6e0XZreiyW4mGlLRHEG8ipff7b.jpg" group-title="FILMES | 2025",Battlefield 2025 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287774.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Bela Maldicao 2021" tvg-logo="https://image.tmdb.org/t/p/w780/o5lFvZw1UqU3eRGDDBHP6Q9JO2l.jpg" group-title="FILMES | 2025",Bela Maldicao 2021
 http://ap4x.online:80/movie/738397084/420937255/3632669.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Blindado 2024" tvg-logo="https://image.tmdb.org/t/p/w780/cuZ6rE4yYVdzG4L2rtnEZEt3fvR.jpg" group-title="FILMES | 2025",Blindado 2024
 http://ap4x.online:80/movie/738397084/420937255/3632664.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Bloodpay 2025" tvg-logo="http://bestavb.top:8008/images/movies/ko6sIgAyCXI43Zx50R02adv8BLt.jpg" group-title="FILMES | 2025",Bloodpay 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287806.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Bonhoeffer Pastor Spy Assassin 2025" tvg-logo="http://bestavb.top:8008/images/movies/7sQUousjbOVlVj3rKuXYly19sjf.jpg" group-title="FILMES | 2025",Bonhoeffer Pastor Spy Assassin 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287835.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Branca de Neve 2025" tvg-logo="https://image.tmdb.org/t/p/w780/t0mabA2l3KE9Ai350BEKz61Ltor.jpg" group-title="FILMES | 2025",Branca de Neve 2025
 http://ap4x.online:80/movie/luiz222/222luiz/3632933.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Branca de Neve 2025" tvg-logo="https://image.tmdb.org/t/p/w780/t0mabA2l3KE9Ai350BEKz61Ltor.jpg" group-title="FILMES | 2025",Branca de Neve 2025
@@ -1975,6 +1745,8 @@ http://ap4x.online:80/movie/738397084/420937255/3631866.mp4
 http://ap4x.online:80/movie/738397084/420937255/3624940.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Cidade Campo 2024" tvg-logo="https://image.tmdb.org/t/p/w780/jqgUsfFEkwajme4CzbSNQpCfdNT.jpg" group-title="FILMES | 2025",Cidade Campo 2024
 http://ap4x.online:80/movie/738397084/420937255/3624957.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Clear Cut 2025" tvg-logo="http://bestavb.top:8008/images/movies/mrDB4ZpkPasdhDOaQbi7XMnT1cs.jpg" group-title="FILMES | 2025",Clear Cut 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287840.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Codigo Preto 2025" tvg-logo="https://image.tmdb.org/t/p/w780/cNhofzD70SbB9PGu1o9DX3FqSO6.jpg" group-title="FILMES | 2025",Codigo Preto 2025
 http://ap4x.online:80/movie/738397084/420937255/3636979.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Colegio Girassol 2024" tvg-logo="https://image.tmdb.org/t/p/w780/5ctJuCOAbuXMAwoE6RTpaYUoILS.jpg" group-title="FILMES | 2025",Colegio Girassol 2024
@@ -2007,6 +1779,8 @@ http://ap4x.online:80/movie/738397084/420937255/3631829.mp4
 http://ap4x.online:80/movie/738397084/420937255/3624934.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Criaturas do Farol 2024" tvg-logo="https://image.tmdb.org/t/p/w780/4AB3bHhsNBpnhMDThJP6RI0tery.jpg" group-title="FILMES | 2025",Criaturas do Farol 2024
 http://ap4x.online:80/movie/738397084/420937255/3630563.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Culpa tuya 2025" tvg-logo="http://bestavb.top:8008/images/movies/1sQA7lfcF9yUyoLYC0e6Zo3jmxE.jpg" group-title="FILMES | 2025",Culpa tuya 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287437.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Cupula do Caos 2024" tvg-logo="https://image.tmdb.org/t/p/w780/zbI8Xc44P0KgNANNABenekOrM9q.jpg" group-title="FILMES | 2025",Cupula do Caos 2024
 http://ap4x.online:80/movie/738397084/420937255/3631559.mp4
 #EXTINF:-1 tvg-id="" tvg-name="DJ a Paisana 2025" tvg-logo="https://image.tmdb.org/t/p/w780/gspluUUTwGMT33rR6YietqRIjok.jpg" group-title="FILMES | 2025",DJ a Paisana 2025
@@ -2031,14 +1805,22 @@ http://ap4x.online:80/movie/738397084/420937255/3631791.mp4
 http://ap4x.online:80/movie/738397084/420937255/3631652.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Demonios do Passado 2023" tvg-logo="https://image.tmdb.org/t/p/w780/sNd82Y9zto0OIgpghOOe15g8Pbi.jpg" group-title="FILMES | 2025",Demonios do Passado 2023
 http://ap4x.online:80/movie/738397084/420937255/3630928.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Den of Thieves 2 Pantera 2025" tvg-logo="http://bestavb.top:8008/images/movies/15S0xOO4d7zBgasV2qNo03Ax7Qb.jpg" group-title="FILMES | 2025",Den of Thieves 2 Pantera 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287802.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Depravacao 2024" tvg-logo="https://image.tmdb.org/t/p/w780/n19vWwaN3NgxazMbxxNYn5h30EE.jpg" group-title="FILMES | 2025",Depravacao 2024
 http://ap4x.online:80/movie/738397084/420937255/3631945.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Desafie a Escuridao 2025" tvg-logo="https://image.tmdb.org/t/p/w780/s1qCaXeiYABTxqFmiMEpD1xvywW.jpg" group-title="FILMES | 2025",Desafie a Escuridao 2025
 http://ap4x.online:80/movie/738397084/420937255/3632694.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Devorados Vivos 2011" tvg-logo="https://image.tmdb.org/t/p/w780/4OLcbailKWlB0li18iD6fy6k5TL.jpg" group-title="FILMES | 2025",Devorados Vivos 2011
 http://ap4x.online:80/movie/738397084/420937255/3631071.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Diddy Monsters Fall 2025" tvg-logo="http://bestavb.top:8008/images/movies/8PepF75wZ07T37MWC5RXHnKd6Xe.jpg" group-title="FILMES | 2025",Diddy Monsters Fall 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287787.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Diddy The Making of a Bad Boy 2025" tvg-logo="https://image.tmdb.org/t/p/w780/qBjBdxi1wiOhuN4UabLs9AnL4Q6.jpg" group-title="FILMES | 2025",Diddy The Making of a Bad Boy 2025
 http://ap4x.online:80/movie/738397084/420937255/3635927.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Don Jediondo Recharged 2025" tvg-logo="http://bestavb.top:8008/images/movies/mhzjbQBu7P5KANUde2WlMqql5gd.jpg" group-title="FILMES | 2025",Don Jediondo Recharged 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287772.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Dont Die The Man Who Wants to Live Forever 2025" tvg-logo="http://bestavb.top:8008/images/movies/7VqUPN0oRHfYV9hdZcal1ZzffmV.jpg" group-title="FILMES | 2025",Dont Die The Man Who Wants to Live Forever 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287788.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Drama 2012" tvg-logo="https://image.tmdb.org/t/p/w780/jQUfhbXUFHZxsTaQMXtEzU6kO8v.jpg" group-title="FILMES | 2025",Drama 2012
 http://ap4x.online:80/movie/738397084/420937255/3630980.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Duelo de Espioes 2022" tvg-logo="https://image.tmdb.org/t/p/w780/abQ2AxjfiDRcflfPX1EUe4rXy0i.jpg" group-title="FILMES | 2025",Duelo de Espioes 2022
@@ -2071,6 +1853,24 @@ http://ap4x.online:80/movie/738397084/420937255/3636967.mp4
 http://ap4x.online:80/movie/738397084/420937255/3785783.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Fa ou Hater 2025" tvg-logo="https://image.tmdb.org/t/p/w780/e9iG3bhtXqS3SH4wR9PJdvBYXAZ.jpg" group-title="FILMES | 2025",Fa ou Hater 2025
 http://ap4x.online:80/movie/738397084/420937255/3785782.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Folk tales of Chu Maxian 2025" tvg-logo="http://bestavb.top:8008/images/movies/pf52vijXcYHphDqHzaRrOaPL74G.jpg" group-title="FILMES | 2025",Folk tales of Chu Maxian 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287851.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Get Away 2025" tvg-logo="http://bestavb.top:8008/images/movies/ser6ZCKHMXhQISKULYCxz6Saf3I.jpg" group-title="FILMES | 2025",Get Away 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287783.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Grafted 2025" tvg-logo="http://bestavb.top:8008/images/movies/u53wFzLoJD7om52Hjma8G27LS2h.jpg" group-title="FILMES | 2025",Grafted 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287907.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Gurmukh 2025" tvg-logo="http://bestavb.top:8008/images/movies/jLaycshCtw5RSRGErVHfpi3a7rp.jpg" group-title="FILMES | 2025",Gurmukh 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287905.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Henry Danger The Movie 2025" tvg-logo="http://bestavb.top:8008/images/movies/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg" group-title="FILMES | 2025",Henry Danger The Movie 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287836.mkv
+#EXTINF:-1 tvg-id="" tvg-name="High Forces 2025" tvg-logo="http://bestavb.top:8008/images/movies/b8xNJ39aOtEk3I7MFt8XJuN2bGS.jpg" group-title="FILMES | 2025",High Forces 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287842.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Into the Deep 2025" tvg-logo="http://bestavb.top:8008/images/movies/l5lvdM6ABMZWElv7pZuACqTrBZS.jpg" group-title="FILMES | 2025",Into the Deep 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287872.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Kevin James Doyle Diary of a Bald Kid 2025" tvg-logo="http://bestavb.top:8008/images/movies/xU6v5xAWd92REA8MY1sKV4mO5d7.jpg" group-title="FILMES | 2025",Kevin James Doyle Diary of a Bald Kid 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287701.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Kingdom 4 Return of the Great General 2025" tvg-logo="http://bestavb.top:8008/images/movies/9bMwpsYidkTotBumQe5KywY0c5a.jpg" group-title="FILMES | 2025",Kingdom 4 Return of the Great General 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287805.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Kraven O Cacador 2024" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/pWvQsP9o1MQ4vQNjpL9QeYFXKOs.jpg" group-title="FILMES | 2025",Kraven O Cacador 2024
 http://208.115.236.162:80/movie/Diego12/Diego12/3979200.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kraven O Cacador 2024" tvg-logo="http://cdn4k.live:80/images/pWvQsP9o1MQ4vQNjpL9QeYFXKOs_big.jpg" group-title="FILMES | 2025",Kraven O Cacador 2024
@@ -2083,12 +1883,20 @@ http://ap4x.online:80/movie/738397084/420937255/3624874.mp4
 http://cdn4k.live:80/movie/wesleyarrais3/223344a/273063.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Kraven the Hunter 2024" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fqLEM561nEPubqnGNsMFlIml6aw.jpg" group-title="FILMES | 2025",Kraven the Hunter 2024
 https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/446095.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Kraven the Hunter 2025" tvg-logo="http://bestavb.top:8008/images/movies/i47IUSsN126K11JUzqQIOi1Mg1M.jpg" group-title="FILMES | 2025",Kraven the Hunter 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287064.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Laws of Man 2025" tvg-logo="http://bestavb.top:8008/images/movies/2mq3hCol5j4cLBnqbKHkqfTJo8B.jpg" group-title="FILMES | 2025",Laws of Man 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287794.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Lobisomem 2025" tvg-logo="https://image.tmdb.org/t/p/w780/nQLt14Yb7B5Mlq4KruQHTSaTCE6.jpg" group-title="FILMES | 2025",Lobisomem 2025
 http://ap4x.online:80/movie/738397084/420937255/3631607.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Lobisomens 2024" tvg-logo="https://image.tmdb.org/t/p/w780/jt99DRVbB7DKHNEWsZd1Xgi2M4o.jpg" group-title="FILMES | 2025",Lobisomens 2024
 http://ap4x.online:80/movie/738397084/420937255/3631303.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Love Of The Irish 2025" tvg-logo="http://bestavb.top:8008/images/movies/hgqSjuEKVYhaxS2wann7DvcjEfN.jpg" group-title="FILMES | 2025",Love Of The Irish 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287748.mkv
 #EXTINF:-1 tvg-id="" tvg-name="MMA Meu Melhor Amigo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/9rjBOZvPK5E8l4IiO0QP5UZrTg0.jpg" group-title="FILMES | 2025",MMA Meu Melhor Amigo 2025
 http://ap4x.online:80/movie/738397084/420937255/3631884.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Man with No Past 2025" tvg-logo="http://bestavb.top:8008/images/movies/cuPqxATt872rKIR1WZI83TcpKw6.jpg" group-title="FILMES | 2025",Man with No Past 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287803.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Mestres do Assalto 2025" tvg-logo="https://image.tmdb.org/t/p/w780/9AzMgk6HVqwqTmAbzAuD8fVmnOd.jpg" group-title="FILMES | 2025",Mestres do Assalto 2025
 http://ap4x.online:80/movie/738397084/420937255/3632897.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Morte Antes do Casamento 2025" tvg-logo="https://image.tmdb.org/t/p/w780/fQOyS5280smeEOqXJ6VQbGFospl.jpg" group-title="FILMES | 2025",Morte Antes do Casamento 2025
@@ -2097,8 +1905,16 @@ http://ap4x.online:80/movie/738397084/420937255/3631218.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3624868.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Mufasa O Rei Leao 2024" tvg-logo="https://image.tmdb.org/t/p/w780/iMVuv6Gz5fj7vZ51IjRF3AiW87y.jpg" group-title="FILMES | 2025",Mufasa O Rei Leao 2024
 http://ap4x.online:80/movie/738397084/420937255/3624868.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mufasa The Lion King 2025" tvg-logo="http://bestavb.top:8008/images/movies/lurEK87kukWNaHd0zYnsi3yzJrs.jpg" group-title="FILMES | 2025",Mufasa The Lion King 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287398.mkv
+#EXTINF:-1 tvg-id="" tvg-name="My Argentine Heart 2025" tvg-logo="http://bestavb.top:8008/images/movies/1hsu6Uy3GUQ4lZXawDyiLALToXA.jpg" group-title="FILMES | 2025",My Argentine Heart 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287844.mkv
+#EXTINF:-1 tvg-id="" tvg-name="My End 2025" tvg-logo="http://bestavb.top:8008/images/movies/4URD9AIqiuYkrvP9fFC5QiXIR6t.jpg" group-title="FILMES | 2025",My End 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287680.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Nosferatu 2024" tvg-logo="https://image.tmdb.org/t/p/w780/fbkUfzmVzEBFSt6p7VigknREIJT.jpg" group-title="FILMES | 2025",Nosferatu 2024
 http://ap4x.online:80/movie/738397084/420937255/3631035.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nosferatu 2025" tvg-logo="http://bestavb.top:8008/images/movies/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg" group-title="FILMES | 2025",Nosferatu 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287681.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Novocaine A Prova de Dor 2025" tvg-logo="https://image.tmdb.org/t/p/w780/xlx1QqcoGtCBNmRdKjIi5CIp0yb.jpg" group-title="FILMES | 2025",Novocaine A Prova de Dor 2025
 http://ap4x.online:80/movie/738397084/420937255/3635914.mp4
 #EXTINF:-1 tvg-id="" tvg-name="O Auto da Compadecida 2 2024" tvg-logo="https://image.tmdb.org/t/p/w780/d4co6mPX84RIIA9qKCHNjJj0qrm.jpg" group-title="FILMES | 2025",O Auto da Compadecida 2 2024
@@ -2155,12 +1971,60 @@ http://ap4x.online:80/movie/738397084/420937255/3632029.mp4
 http://ap4x.online:80/movie/738397084/420937255/3631322.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Patrulha Canina Filhotes Caminhoneiros 2022" tvg-logo="https://image.tmdb.org/t/p/w780/kjEoMZcrIS624I8hyN7B9Jllk3D.jpg" group-title="FILMES | 2025",Patrulha Canina Filhotes Caminhoneiros 2022
 http://ap4x.online:80/movie/738397084/420937255/3636919.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Polar Opposites 2025" tvg-logo="http://bestavb.top:8008/images/movies/155X36JZ1KLoXjHfF4DNXV8Yt57.jpg" group-title="FILMES | 2025",Polar Opposites 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287801.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Queer 2025" tvg-logo="http://bestavb.top:8008/images/movies/xe4b2TMciLKA1C0JlhWxb4ENLln.jpg" group-title="FILMES | 2025",Queer 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287804.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Rat King 2025" tvg-logo="http://bestavb.top:8008/images/movies/fhx261QNON8M7oMnVBy8jzSwxEZ.jpg" group-title="FILMES | 2025",Rat King 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287776.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Sniper The Last Stand 2025" tvg-logo="http://bestavb.top:8008/images/movies/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg" group-title="FILMES | 2025",Sniper The Last Stand 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287866.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Sonic 3 O Filme 2024" tvg-logo="https://image.tmdb.org/t/p/w780/tfM1T6tAivjvy0sLwt6Y9WvlmzB.jpg" group-title="FILMES | 2025",Sonic 3 O Filme 2024
 http://ap4x.online:80/movie/luiz222/222luiz/3624861.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Sonic 3 O Filme 2024" tvg-logo="https://image.tmdb.org/t/p/w780/tfM1T6tAivjvy0sLwt6Y9WvlmzB.jpg" group-title="FILMES | 2025",Sonic 3 O Filme 2024
 http://ap4x.online:80/movie/738397084/420937255/3624861.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sonic the Hedgehog 3 2025" tvg-logo="http://bestavb.top:8008/images/movies/mubt4bnVfpJ5lBMq93DidEuMkJr.jpg" group-title="FILMES | 2025",Sonic the Hedgehog 3 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287534.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Sons of Ecstasy 2025" tvg-logo="http://bestavb.top:8008/images/movies/72z0NU0gG14G2fHY02H1vz3qEU5.jpg" group-title="FILMES | 2025",Sons of Ecstasy 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287781.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Star Trek Section 31 2025" tvg-logo="http://bestavb.top:8008/images/movies/sqiCinCzUGlzQiFytS30N1nO3Pt.jpg" group-title="FILMES | 2025",Star Trek Section 31 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287904.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Sunray Fallen Soldier 2025" tvg-logo="http://bestavb.top:8008/images/movies/ghLaj5dBrdUsD4wjq3QERcisr5k.jpg" group-title="FILMES | 2025",Sunray Fallen Soldier 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287873.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Bear Lake Murders 2025" tvg-logo="http://bestavb.top:8008/images/movies/duNdETiD1kpbJGA6CJk4rH3S151.jpg" group-title="FILMES | 2025",The Bear Lake Murders 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287845.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Calendar Killer 2025" tvg-logo="http://bestavb.top:8008/images/movies/bnciRmZZSdyqp7HcrAwNG0mObaP.jpg" group-title="FILMES | 2025",The Calendar Killer 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287812.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Confession 2025" tvg-logo="https://media.themoviedb.org/t/p/w500/4XYqx5tbUXIBxe0x9ZlXHFxga0n.jpg" group-title="FILMES | 2025",The Confession 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287789.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Damned 2025" tvg-logo="http://bestavb.top:8008/images/movies/fAXDQny8kEquc1BImiQHhYMGSsW.jpg" group-title="FILMES | 2025",The Damned 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287867.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The End 2025" tvg-logo="http://bestavb.top:8008/images/movies/kYMLpw3DQjQjp2jzNrg3KvNFIr6.jpg" group-title="FILMES | 2025",The End 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287784.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Gardener 2025" tvg-logo="http://bestavb.top:8008/images/movies/zvLQXaiHn5g376AuHe8hd0u8tN2.jpg" group-title="FILMES | 2025",The Gardener 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287785.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Lord of the Rings The War of the Rohirrim 2025" tvg-logo="http://bestavb.top:8008/images/movies/hE9SAMyMSUGAPsHUGdyl6irv11v.jpg" group-title="FILMES | 2025",The Lord of the Rings The War of the Rohirrim 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287063.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Love Scam 2025" tvg-logo="http://bestavb.top:8008/images/movies/kWBjdB6tP71ed4WTFxuqDZnWVk5.jpg" group-title="FILMES | 2025",The Love Scam 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287535.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Order 2025" tvg-logo="http://bestavb.top:8008/images/movies/r3BPhDb45sy87kNV41Q1TwCL6BS.jpg" group-title="FILMES | 2025",The Order 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287780.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Perfect Setting 2025" tvg-logo="http://bestavb.top:8008/images/movies/lgB3PdIywY6O0jqku4w67TtExpz.jpg" group-title="FILMES | 2025",The Perfect Setting 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287912.mkv
+#EXTINF:-1 tvg-id="" tvg-name="The Sand Castle 2025" tvg-logo="http://bestavb.top:8008/images/movies/paesE1W2WFqJEBNMFUszFVcuDsW.jpg" group-title="FILMES | 2025",The Sand Castle 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287903.mkv
 #EXTINF:-1 tvg-id="" tvg-name="The Witcher Sereias das Profundezas 2025" tvg-logo="https://image.tmdb.org/t/p/w780/ob2oIUL1gV4pNg7s9oGjNBSI2iF.jpg" group-title="FILMES | 2025",The Witcher Sereias das Profundezas 2025
 http://ap4x.online:80/movie/738397084/420937255/3631252.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Undercover Party Crasher 2025" tvg-logo="http://bestavb.top:8008/images/movies/dcoc4C57lCpAzBr2qojFjRCKO9E.jpg" group-title="FILMES | 2025",Undercover Party Crasher 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287841.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Unstoppable 2025" tvg-logo="http://bestavb.top:8008/images/movies/xanYKxuFkDPrMngvm1NSHVGOEjS.jpg" group-title="FILMES | 2025",Unstoppable 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287813.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Vama Veche Retreat 2025" tvg-logo="http://bestavb.top:8008/images/movies/15dpftkOyuwZWKwko25Yos0A6tC.jpg" group-title="FILMES | 2025",Vama Veche Retreat 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287537.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Wallace e Gromit Avenganca 2025" tvg-logo="http://cdn4k.live:80/images/9kzs6gPSOWqqjZz1eHWEvNTW9Dx_big.jpg" group-title="FILMES | 2025",Wallace e Gromit Avenganca 2025
+http://dnstv.top:80/movie/299662397/6187389792/5042212.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Wolf Man 2025" tvg-logo="http://bestavb.top:8008/images/movies/tUtuMtC6oaRXr4x2B5Xi6ABdMCv.jpg" group-title="FILMES | 2025",Wolf Man 2025
+http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/287909.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Aliens O Resgate 1986" tvg-logo="https://image.tmdb.org/t/p/w780/hTTt89V7S3e3YGpf6g3Ng9pro1i.jpg" group-title="FILMES | ACAO",Aliens O Resgate 1986
 http://ap4x.online:80/movie/luiz222/222luiz/3562382.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Aliens O Resgate 1986" tvg-logo="https://image.tmdb.org/t/p/w780/hTTt89V7S3e3YGpf6g3Ng9pro1i.jpg" group-title="FILMES | ACAO",Aliens O Resgate 1986
@@ -2237,8 +2101,6 @@ http://ap4x.online:80/movie/738397084/420937255/3588516.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3591391.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Conan 1997" tvg-logo="https://image.tmdb.org/t/p/w780/5IEVeD65WcIWCYNgT9Mabe0eMk1.jpg" group-title="FILMES | ACAO",Conan 1997
 http://ap4x.online:80/movie/738397084/420937255/3591391.mp4
-#EXTINF:-1 tvg-id="" tvg-name="De Volta para o Futuro 1985" tvg-logo="https://image.tmdb.org/t/p/w780/JoAiVdWmz8XFA9rl43EtjT8ipn.jpg" group-title="FILMES | ACAO",De Volta para o Futuro 1985
-http://ap4x.online:80/movie/luiz222/222luiz/3575282.mp4
 #EXTINF:-1 tvg-id="" tvg-name="De Volta para o Futuro 1985" tvg-logo="https://image.tmdb.org/t/p/w780/JoAiVdWmz8XFA9rl43EtjT8ipn.jpg" group-title="FILMES | ACAO",De Volta para o Futuro 1985
 http://ap4x.online:80/movie/738397084/420937255/3575282.mp4
 #EXTINF:-1 tvg-id="" tvg-name="De Volta para o Futuro 2" tvg-logo="http://gstaticontent.com/images/dAAnK6EUBDUpM9H5EBfYV3GmtC1_big.jpg" group-title="FILMES | ACAO",De Volta para o Futuro 2
@@ -2321,10 +2183,6 @@ http://ap4x.online:80/series/738397084/420937255/3632310.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3632311.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Falcao e o Soldado Invernal S01E06" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/cDHaBZFY6BPV9I4G8iDNFw2l6hi.jpg" group-title="FILMES | ACAO",Falcao e o Soldado Invernal S01E06
 http://ap4x.online:80/series/738397084/420937255/3632311.mp4
-#EXTINF:-1 tvg-id="" tvg-name="GAROTA EXEMPLAR DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/eGawKDb023V1V4Emdyovqfkz4qg_small.jpg" group-title="FILMES | ACAO",GAROTA EXEMPLAR DUB
-http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/7375.mp4
-#EXTINF:-1 tvg-id="" tvg-name="GAROTA EXEMPLAR DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/eGawKDb023V1V4Emdyovqfkz4qg_small.jpg" group-title="FILMES | ACAO",GAROTA EXEMPLAR DUB
-http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/7375.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Garota Exemplar 2014" tvg-logo="https://image.tmdb.org/t/p/w780/9i1ks2UQulcYvbuR1piGGxrlXlP.jpg" group-title="FILMES | ACAO",Garota Exemplar 2014
 http://ap4x.online:80/movie/luiz222/222luiz/3579309.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Garota Exemplar 2014" tvg-logo="https://image.tmdb.org/t/p/w780/9i1ks2UQulcYvbuR1piGGxrlXlP.jpg" group-title="FILMES | ACAO",Garota Exemplar 2014
@@ -2955,8 +2813,6 @@ http://ap4x.online:80/movie/luiz222/222luiz/3570819.mp4
 http://ap4x.online:80/movie/738397084/420937255/3570819.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Vidro 2019" tvg-logo="https://image.tmdb.org/t/p/w780/d8rvXqqZ3hzrWfFGS47jU7sCx69.jpg" group-title="FILMES | ACAO",Vidro 2019
 http://ap4x.online:80/movie/738397084/420937255/3579439.mp4
-#EXTINF:-1 tvg-id="" tvg-name="9 A Salvacao 2009" tvg-logo="https://image.tmdb.org/t/p/w780/6fe0PbMkDSaGEM6kj5RM5ToMuAL.jpg" group-title="FILMES | AVENTURA",9 A Salvacao 2009
-http://ap4x.online:80/movie/738397084/420937255/3635515.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Cidade Dourada 2018" tvg-logo="https://image.tmdb.org/t/p/w780/fbcuQoaHYcapCnAKgHy8r9rZq7E.jpg" group-title="FILMES | AVENTURA",A Cidade Dourada 2018
 http://ap4x.online:80/movie/738397084/420937255/3565957.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Fera 2022" tvg-logo="https://image.tmdb.org/t/p/w780/ywXcLxwAir7kj7mxDzxjOXDvl5u.jpg" group-title="FILMES | AVENTURA",A Fera 2022
@@ -3141,8 +2997,6 @@ http://ap4x.online:80/movie/738397084/420937255/3602666.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3635555.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Te Pego La Fora 1987" tvg-logo="https://image.tmdb.org/t/p/w780/vMCyrV3jMHAxcuHTTeXPM1Rw64j.jpg" group-title="FILMES | COMEDIA",Te Pego La Fora 1987
 http://ap4x.online:80/movie/738397084/420937255/3635555.mp4
-#EXTINF:-1 tvg-id="" tvg-name="10 Dias de um Homem Curioso 2024" tvg-logo="https://image.tmdb.org/t/p/w780/oYfKed3vI58cNN86OxDZ1Ryrgft.jpg" group-title="FILMES | CRIME",10 Dias de um Homem Curioso 2024
-http://ap4x.online:80/movie/738397084/420937255/3563740.mp4
 #EXTINF:-1 tvg-id="" tvg-name="10 Dias de um Homem Mau 2023" tvg-logo="https://image.tmdb.org/t/p/w780/fl0vUwiKyxEauecs9UCh8cGRzZH.jpg" group-title="FILMES | CRIME",10 Dias de um Homem Mau 2023
 http://ap4x.online:80/movie/738397084/420937255/3564037.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Criminosa 2022" tvg-logo="https://image.tmdb.org/t/p/w780/jc00UmxmsMmQB04VNBm1L4e57Rn.jpg" group-title="FILMES | CRIME",A Criminosa 2022
@@ -3447,8 +3301,6 @@ http://ap4x.online:80/movie/738397084/420937255/3564262.mp4
 http://ap4x.online:80/movie/738397084/420937255/3564090.mp4
 #EXTINF:-1 tvg-id="" tvg-name="jigra 2024" tvg-logo="https://image.tmdb.org/t/p/w780/mhnT27mgtiMNowOhAlMWSqBoSyb.jpg" group-title="FILMES | CRIME",jigra 2024
 http://ap4x.online:80/movie/738397084/420937255/3563702.mp4
-#EXTINF:-1 tvg-id="" tvg-name="13 O Musical 2022" tvg-logo="https://image.tmdb.org/t/p/w780/3ndpRWh8iOvckVtHptIsD4OtayN.jpg" group-title="FILMES | FAMILIA",13 O Musical 2022
-http://ap4x.online:80/movie/738397084/420937255/3565170.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Cozinheira Curiosa Receita Assassina 2022" tvg-logo="https://image.tmdb.org/t/p/w780/43PkvE2c5YQTPMpeHXemiZJbD3Q.jpg" group-title="FILMES | FAMILIA",A Cozinheira Curiosa Receita Assassina 2022
 http://ap4x.online:80/movie/738397084/420937255/3565108.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Grande Aventura de Blue na Cidade 2022" tvg-logo="https://image.tmdb.org/t/p/w780/sAYBC3WhhiX25629HLpCvkpGk9q.jpg" group-title="FILMES | FAMILIA",A Grande Aventura de Blue na Cidade 2022
@@ -4741,10 +4593,6 @@ http://ap4x.online:80/movie/738397084/420937255/3575000.mp4
 http://ap4x.online:80/movie/738397084/420937255/3574848.mp4
 #EXTINF:-1 tvg-id="" tvg-name="um Novo Comeco 2011" tvg-logo="https://image.tmdb.org/t/p/w780/8ySdwfiETQNN9prueRlo34i6t5N.jpg" group-title="FILMES | FICCAO",um Novo Comeco 2011
 http://ap4x.online:80/movie/738397084/420937255/3563249.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Batman 1989" tvg-logo="https://image.tmdb.org/t/p/w780/1aadn0aD7h1VKq4yap2uKl7cTSL.jpg" group-title="FILMES | MARVEL DC",Batman 1989
-http://ap4x.online:80/movie/luiz222/222luiz/3587016.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Batman 1989" tvg-logo="https://image.tmdb.org/t/p/w780/1aadn0aD7h1VKq4yap2uKl7cTSL.jpg" group-title="FILMES | MARVEL DC",Batman 1989
-http://ap4x.online:80/movie/738397084/420937255/3587016.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Batman 2022" tvg-logo="https://image.tmdb.org/t/p/w780/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg" group-title="FILMES | MARVEL DC",Batman 2022
 http://ap4x.online:80/movie/luiz222/222luiz/3584890.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Batman 2022" tvg-logo="https://image.tmdb.org/t/p/w780/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg" group-title="FILMES | MARVEL DC",Batman 2022
@@ -4777,116 +4625,56 @@ http://ap4x.online:80/movie/738397084/420937255/3573257.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3587320.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Batman vs Superman A Origem da Justica 2016" tvg-logo="https://image.tmdb.org/t/p/w780/f43gE7oFn3nCUZX3FRw0jVQK8GK.jpg" group-title="FILMES | MARVEL DC",Batman vs Superman A Origem da Justica 2016
 http://ap4x.online:80/movie/738397084/420937255/3587320.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1 O Primeiro Vingador 2011" tvg-logo="http://cdn4k.live:80/images/f976JQnjMhCTa1yLXz7UH1pV4DG_big.jpg" group-title="FILMES | MARVEL DC",Capitao America 1 O Primeiro Vingador 2011
+http://dnstv.top:80/movie/299662397/6187389792/5045279.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 1979 L" tvg-logo="https://image.tmdb.org/t/p/w780/i4JKBKfYUhviqlB0ilYboGZZnjj.jpg" group-title="FILMES | MARVEL DC",Capitao America 1979 L
 http://ap4x.online:80/movie/luiz222/222luiz/3633933.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="https://image.tmdb.org/t/p/w780/j9Jq4feBhAJTjEj4CvNuMgRwUjW.jpg" group-title="FILMES | MARVEL DC",Capitao America 1990
 http://ap4x.online:80/movie/738397084/420937255/3635445.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="https://image.tmdb.org/t/p/w780/j9Jq4feBhAJTjEj4CvNuMgRwUjW.jpg" group-title="FILMES | MARVEL DC",Capitao America 1990
 http://ap4x.online:80/movie/luiz222/222luiz/3635445.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2" tvg-logo="https://goo.gl/WVVzwe" group-title="FILMES | MARVEL DC",Capitao America 2
-https://goo.gl/hKaeBd
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal" tvg-logo="https://image.tmdb.org/t/p/w500/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal
-http://htvs.io:80/movie/68088662/69560517/3208888.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 1990" tvg-logo="http://cdn4k.live:80/images/j9Jq4feBhAJTjEj4CvNuMgRwUjW_big.jpg" group-title="FILMES | MARVEL DC",Capitao America 1990
+http://dnstv.top:80/movie/299662397/6187389792/5041916.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal 2014" tvg-logo="https://image.tmdb.org/t/p/w780/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal 2014
 http://ap4x.online:80/movie/luiz222/222luiz/3587548.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo
-http://http-www-gfcld-001.gfhostcdn.com:80/play/TOwz40Jox7zbeeN0CtU8fJN8zL66UaYSvXLzS0MrbWWuFl-p0NCtzGTM4OLYR24o#.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo
-http://http-www-gfcld-001.gfhostcdn.com:80/play/Z4_TlIkLd-ftQp8U91TvtOaJEBUin2Y8Xm1nS9xbe-8OLTYuZ23AFzCMMqjkxjlz#.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America 2 O Soldado Invernal 2014" tvg-logo="http://cdn4k.live:80/images/nGA8dCXXVPPRaEjcbEyweUhHCAY_big.jpg" group-title="FILMES | MARVEL DC",Capitao America 2 O Soldado Invernal 2014
+http://dnstv.top:80/movie/299662397/6187389792/5045280.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
 http://ap4x.online:80/movie/luiz222/222luiz/3632940.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
 http://ap4x.online:80/movie/738397084/420937255/3632940.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="http://cdn4k.live:80/images/5nbSgP8f5LMCI0PwVRRaHJaUmR3_big.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
 http://cdn4k.live:80/movie/2845paulinho/130580a/310869.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w300_and_h450_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
-http://http-www-gfcld-001.gfhostcdn.com:80/play/TOwz40Jox7zbeeN0CtU8fJN8zL66UaYSvXLzS0MrbWXAtENsWHxoX_YweyusYcz1#.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025" tvg-logo="https://image.tmdb.org/t/p/w300_and_h450_bestv2/5nbSgP8f5LMCI0PwVRRaHJaUmR3.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025
-http://http-www-gfcld-001.gfhostcdn.com:80/play/Z4_TlIkLd-ftQp8U91TvtOaJEBUin2Y8Xm1nS9xbe--ey6uYcK3Z4En1ZXcVtRpa#.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025 L" tvg-logo="https://image.tmdb.org/t/p/w780/viUricKwbToOJIRrKOUr0Bg9rOY.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025 L
 http://ap4x.online:80/movie/luiz222/222luiz/3633741.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America Guerra Civil" tvg-logo="https://image.tmdb.org/t/p/w500/3bN7YZnf0mWpYwcektizfNlrCwC.jpg" group-title="FILMES | MARVEL DC",Capitao America Guerra Civil
-http://htvs.io:80/movie/68088662/69560517/3208889.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America Admiravel Mundo Novo 2025 L" tvg-logo="http://cdn4k.live:80/images/viUricKwbToOJIRrKOUr0Bg9rOY_big.jpg" group-title="FILMES | MARVEL DC",Capitao America Admiravel Mundo Novo 2025 L
+http://dnstv.top:80/movie/299662397/6187389792/5037676.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America Guerra Civil 2016" tvg-logo="https://image.tmdb.org/t/p/w780/3bN7YZnf0mWpYwcektizfNlrCwC.jpg" group-title="FILMES | MARVEL DC",Capitao America Guerra Civil 2016
 http://ap4x.online:80/movie/luiz222/222luiz/3587514.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America I 1979" tvg-logo="http://cdn4k.live:80/images/i4JKBKfYUhviqlB0ilYboGZZnjj_big.jpg" group-title="FILMES | MARVEL DC",Capitao America I 1979
+http://dnstv.top:80/movie/299662397/6187389792/5041915.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
 http://ap4x.online:80/movie/738397084/420937255/3635459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
 http://ap4x.online:80/movie/luiz222/222luiz/3635459.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979" tvg-logo="http://cdn4k.live:80/images/A7mDZhif1J2en3Wr2XQfbL215Vt_big.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979
+http://dnstv.top:80/movie/299662397/6187389792/5041914.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America II 1979 L" tvg-logo="https://image.tmdb.org/t/p/w780/A7mDZhif1J2en3Wr2XQfbL215Vt.jpg" group-title="FILMES | MARVEL DC",Capitao America II 1979 L
 http://ap4x.online:80/movie/luiz222/222luiz/3633930.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Capitao America O Primeiro Vingador" tvg-logo="https://image.tmdb.org/t/p/w500/f976JQnjMhCTa1yLXz7UH1pV4DG.jpg" group-title="FILMES | MARVEL DC",Capitao America O Primeiro Vingador
-http://htvs.io:80/movie/68088662/69560517/3208890.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Capitao America O Primeiro Vingador 2011" tvg-logo="https://image.tmdb.org/t/p/w780/f976JQnjMhCTa1yLXz7UH1pV4DG.jpg" group-title="FILMES | MARVEL DC",Capitao America O Primeiro Vingador 2011
 http://ap4x.online:80/movie/luiz222/222luiz/3587575.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL" tvg-logo="http://bit.ly/2HQiYmG" group-title="FILMES | MARVEL DC",DEADPOOL
-http://network.vstreaming.net/movies/deadpool-dub-720p.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2 DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/6CABdPx68rYoLdvXhIJkilOj6XZ_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2 DUB
-http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/17665.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2 DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/6CABdPx68rYoLdvXhIJkilOj6XZ_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2 DUB
-http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/17665.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL 2016" tvg-logo="http://i.imgur.com/Dybzbd2.jpg" group-title="FILMES | MARVEL DC",DEADPOOL 2016
-http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer2/ondemand/DEADP.mp4?STANIPTV
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="https://goo.gl/VBR6Nz" group-title="FILMES | MARVEL DC",DEADPOOL DUB
-http://cdn1.ntcdn.us/content/sobdemanda/netcine-bucket/filmes2016/deadpool/DUB/2016-BAIXO.mp4?STANIPTV
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/g0ehjmoNsgH9RmlGiAfYzN2whps_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL DUB
-http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/8419.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DEADPOOL DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/g0ehjmoNsgH9RmlGiAfYzN2whps_small.jpg" group-title="FILMES | MARVEL DC",DEADPOOL DUB
-http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/8419.mp4
-#EXTINF:-1 tvg-id="" tvg-name="DeadPool 2" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",DeadPool 2
-http://cdn.lhmtv.ga/filmes/deadpool2novo-dub-720p.mp4?KeltecMPIPTV
-#EXTINF:-1 tvg-id="" tvg-name="DeadPool 2" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",DeadPool 2
-http://media.lhmtv.ga/filmes/DEADPOOL2HDDUB.mp4?KeltecMPIPTV
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://listnexus.live:25461/images/inVq3FRqcYIRl2la8iZikYYxFNR_small.jpg" group-title="FILMES | MARVEL DC",Deadpool
-http://streaminglist.live:25461/movie/raphaelcastromartin@gmail.com/1M0B34/476.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://i.imgur.com/QrVHqt5.jpg" group-title="FILMES | MARVEL DC",Deadpool
-http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer2/ondemand/DEADPLEG.mp4?STANIPTV
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",Deadpool
-http://cdn.lhmtv.ga/filmes/deadpool-dub-720p.mp4?KeltecMPIPTV
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="https://pbs.twimg.com/media/DTX-cOyU8AAT-OD.jpg" group-title="FILMES | MARVEL DC",Deadpool
-http://vod.soeu.ws:6969/movie/painel/H94uP9vwlG/79.mp4?KeltecMPIPTV
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="http://bit.ly/Tjkktela" group-title="FILMES | MARVEL DC",Deadpool
-https://lh3.googleusercontent.com/6emdYP07gommE8bep7WibBXt0WvCUN9StoSxpUVHHLQcHzcrBqvU2OHtA-DNHDstSZ-UeBmfWhHhj4DvNexXPjDkEir7HEMJS3wq0pxkMR1AaNNWbWjJxCbYEjO3HgQoRo-b6AShlNAHJR7ezKZo73zicgKef27GeXdm8eCnLNARzMfbeabd3pNqdYUM01t1UbwzmY4-6Ntv8BxZB4ZbFSmKUH6ucsBmmTNdD7TVpBGl-MtaRXjMDIStaVKrdh3_ZoqUk-Jlef4OLeupcuCAxi6rOr4Ix2bUjAbyY1LumsJHDjKhRxNCywjOZWycPTTqzxm9j9V8vf-54-7PHviCINJiEwVsLiixIiHR4dMbYy1FdCyHJdRcpa_zF88DpClDCtxz7yjtxrDu5_Ce1RlLa4Vj5jMSSEM_QtKV1cqg6Y_sHngSC2C7Bf6JnYpovaSMeSloOiZRubzejl21M4KWl-J7XSXfFL9fQD4CNBtZJws6QfuONDxbS_Q6_EA7oMr2l1mC2SFeXiKgtQ3D6x0UzO3amIyI1hTeSMznBg-XFx7woWssw0nInmQcV9QOSfLnYG3zyvbyGFOGXxAiZvAtiqMT9bmGVKIRb0GMQu_IZRwRgAUKg-I1ohdL83wtYPavchYJ1ZE5dH6JQiOaMPfP9TNOnf9j0l6Y4LjHSRJNyrhk5w=m22
 #EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w780/6CABdPx68rYoLdvXhIJkilOj6XZ.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
 http://ap4x.online:80/movie/luiz222/222luiz/3588463.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/325151.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/324162.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/322728.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/317621.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/288944.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xyGpPZ2gKvOFAz67VqlcAze4sH2.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/286476.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/19fU9cD8nBp3riUgKZi6nLSMO88.jpg" group-title="FILMES | MARVEL DC",Deadpool 2 2018
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/285607.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool Dublado" tvg-logo="https://tinyurl.com/ya4a8sml" group-title="FILMES | MARVEL DC",Deadpool Dublado
-https://goo.gl/8sT9LG
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool Era uma vez" tvg-logo="https://image.tmdb.org/t/p/original/s2O4wH3NDwsDZPjVKT56qwqPH5m.jpg" group-title="FILMES | MARVEL DC",Deadpool Era uma vez
-http://streaminglist.live:25461/movie/raphaelcastromartin@gmail.com/1M0B34/12601.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Deadpool Wolverine 2024" tvg-logo="https://image.tmdb.org/t/p/w780/xq4v7JE8niZ75OYYPDGNn6Gzpyt.jpg" group-title="FILMES | MARVEL DC",Deadpool Wolverine 2024
 http://ap4x.online:80/movie/luiz222/222luiz/3582501.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool Wolverine 2024" tvg-logo="http://bestavb.top:8008/images/movies/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" group-title="FILMES | MARVEL DC",Deadpool Wolverine 2024
-http://laurv1.hopto.org:8008/movie/mihai@benzarGB/kmYNtT5pDP/276390.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool y Wolverine 2024" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9TFSqghEHrlBMRR63yTx80Orxva.jpg" group-title="FILMES | MARVEL DC",Deadpool y Wolverine 2024
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/421238.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2016" tvg-logo="https://image.tmdb.org/t/p/w780/oW4odCdgmYHgKt6AVOqUasrMVjC.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2016
 http://ap4x.online:80/movie/luiz222/222luiz/3587508.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2016" tvg-logo="http://i.imgur.com/nN1sPRQ.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2016
-https://goo.gl/aBKVN4
-#EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho 2017" tvg-logo="http://i.imgur.com/dAo90yo.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho 2017
-https://goo.gl/5kM9Fg
 #EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho no Multiverso da Loucura 2022" tvg-logo="https://image.tmdb.org/t/p/w780/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho no Multiverso da Loucura 2022
 http://ap4x.online:80/movie/738397084/420937255/3574618.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Doutor Estranho no Multiverso da Loucura 2022" tvg-logo="https://image.tmdb.org/t/p/w780/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" group-title="FILMES | MARVEL DC",Doutor Estranho no Multiverso da Loucura 2022
 http://ap4x.online:80/movie/luiz222/222luiz/3574618.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Guardioes Da Galaxia Vol2" tvg-logo="http://gstaticontent.com/images/hXi3ExbRXnZCPbdHQkppQdcdMUF_big.jpg" group-title="FILMES | MARVEL DC",Guardioes Da Galaxia Vol2
 http://ap4x.online:80/movie/luiz222/222luiz/3587498.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia 2" tvg-logo="http://bit.ly/2iTY9zv" group-title="FILMES | MARVEL DC",Guardioes da Galaxia 2
-https://goo.gl/2eX9pB
 #EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia 2014" tvg-logo="https://image.tmdb.org/t/p/w780/xaY92XMToaSnBuvCui3LHzNGqZB.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia 2014
 http://ap4x.online:80/movie/luiz222/222luiz/3587542.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Guardioes da Galaxia Vol 2 2017" tvg-logo="https://image.tmdb.org/t/p/w780/jGtBLu0JAKf5JxhWgmF68HROzCA.jpg" group-title="FILMES | MARVEL DC",Guardioes da Galaxia Vol 2 2017
@@ -4911,26 +4699,78 @@ http://ap4x.online:80/movie/luiz222/222luiz/3587471.mp4
 http://ap4x.online:80/movie/738397084/420937255/3562928.mp4
 #EXTINF:-1 tvg-id="" tvg-name="HomemFormiga e a Vespa Quantumania 2023" tvg-logo="https://image.tmdb.org/t/p/w780/q7CfFjOvjLz9GZoh5RoCOSVniWm.jpg" group-title="FILMES | MARVEL DC",HomemFormiga e a Vespa Quantumania 2023
 http://ap4x.online:80/movie/luiz222/222luiz/3562928.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Hulk" tvg-logo="http://i.imgur.com/3yugH2B.jpg" group-title="FILMES | MARVEL DC",Hulk
-https://goo.gl/RJnESD
 #EXTINF:-1 tvg-id="" tvg-name="O Incrivel Hulk 1977" tvg-logo="https://image.tmdb.org/t/p/w780/mbocOnz3gARCLIg72nsb0gxGVLU.jpg" group-title="FILMES | MARVEL DC",O Incrivel Hulk 1977
 http://ap4x.online:80/movie/luiz222/222luiz/3587592.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Vingadores The Avengers" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",Os Vingadores The Avengers
+http://cdn2.lhmtv.ga/filmes/7A3641C16BB7149724CF/1EC657CC3CFDC85A8B96.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Os Vingadores The Avengers 2012" tvg-logo="http://cdn4k.live:80/images/u49fzmIJHkb1H4oGFTXtBGgaUS1_big.jpg" group-title="FILMES | MARVEL DC",Os Vingadores The Avengers 2012
+http://dnstv.top:80/movie/299662397/6187389792/5050503.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pantera Negra 2018" tvg-logo="https://image.tmdb.org/t/p/w780/ubXNpxL2ASSzY0f8Hxv08pOsV2L.jpg" group-title="FILMES | MARVEL DC",Pantera Negra 2018
 http://ap4x.online:80/movie/luiz222/222luiz/3587487.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 2 A AVENTURA CONTINUA 1980" tvg-logo="http://i.imgur.com/iodGtKgl.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 2 A AVENTURA CONTINUA 1980
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/SPRMN2.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 2 A AVENTURA CONTINUA DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/j49n4FUkQDV0dUn1OQC7yzS1GE_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 2 A AVENTURA CONTINUA DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/8964.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 2 A AVENTURA CONTINUA DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/j49n4FUkQDV0dUn1OQC7yzS1GE_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 2 A AVENTURA CONTINUA DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/8964.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 3 1983" tvg-logo="http://i.imgur.com/wZaaiD4.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 3 1983
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/SPRMN3.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 3 DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/qJ73cyIZE8z4rLwa8mL3ZI85U3e_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 3 DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/8965.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 3 DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/qJ73cyIZE8z4rLwa8mL3ZI85U3e_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 3 DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/8965.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 4 EM BUSCA DA PAZ 1987" tvg-logo="http://i.imgur.com/tuIRFXz.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 4 EM BUSCA DA PAZ 1987
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/SPRMN4.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 4 EM BUSCA DA PAZ DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/wq8vG3IUK7PzuccHEd8XzzDl0hx_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 4 EM BUSCA DA PAZ DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/8966.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 4 EM BUSCA DA PAZ DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/wq8vG3IUK7PzuccHEd8XzzDl0hx_small.jpg" group-title="FILMES | MARVEL DC",SUPERMAN 4 EM BUSCA DA PAZ DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/8966.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN O FILME 1978" tvg-logo="http://i.imgur.com/eB0wNCb.jpg" group-title="FILMES | MARVEL DC",SUPERMAN O FILME 1978
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/SPRMN1.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN O RETORNO 2006" tvg-logo="http://i.imgur.com/gSQApSn.jpg" group-title="FILMES | MARVEL DC",SUPERMAN O RETORNO 2006
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/SPRMNORTN.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN SEM LIMITES 2013" tvg-logo="http://i.imgur.com/0Doajuy.jpg" group-title="FILMES | MARVEL DC",SUPERMAN SEM LIMITES 2013
+http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer2/ondemand/SPRMNSLMTS.mp4?STANIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Superman" tvg-logo="https://tiosamnews1.files.wordpress.com/2009/05/logobandtopcinetsn.jpg" group-title="FILMES | MARVEL DC",Superman
+http://cdn.lhmtv.ga/redecanais/SPRMN1.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Superman 1978" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5EgxRy4VPMRd2hr2NcbEeZGspLC.jpg" group-title="FILMES | MARVEL DC",Superman 1978
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/320642.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Superman 2" tvg-logo="https://tiosamnews1.files.wordpress.com/2009/05/logobandtopcinetsn.jpg" group-title="FILMES | MARVEL DC",Superman 2
+http://cdn.lhmtv.ga/redecanais/SPRMN2.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Superman 3" tvg-logo="https://tiosamnews1.files.wordpress.com/2009/05/logobandtopcinetsn.jpg" group-title="FILMES | MARVEL DC",Superman 3
+http://cdn.lhmtv.ga/redecanais/SPRMN3.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Superman 3 1983" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lsM42r8n6XR1KsPv5UyDbCfWH8L.jpg" group-title="FILMES | MARVEL DC",Superman 3 1983
+http://dnstv.top:80/movie/299662397/6187389792/5052021.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman Batman Apocalipse 2010" tvg-logo="http://cdn4k.live:80/images/vZqD8QMXiZh977LipOsXQmaMM7l_big.jpg" group-title="FILMES | MARVEL DC",Superman Batman Apocalipse 2010
+http://dnstv.top:80/movie/299662397/6187389792/5041913.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman II 1980" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3ymtd76B8SkEcd51tQ1mzNf36s3.jpg" group-title="FILMES | MARVEL DC",Superman II 1980
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/320698.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Superman II A Aventura Continua 1980" tvg-logo="https://image.tmdb.org/t/p/w780/sU6SFBN2CwHaaP5qecyUVhdtoLQ.jpg" group-title="FILMES | MARVEL DC",Superman II A Aventura Continua 1980
 http://ap4x.online:80/movie/luiz222/222luiz/3589069.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Superman II A Aventura Continua 1980" tvg-logo="https://image.tmdb.org/t/p/w780/sU6SFBN2CwHaaP5qecyUVhdtoLQ.jpg" group-title="FILMES | MARVEL DC",Superman II A Aventura Continua 1980
 http://ap4x.online:80/movie/738397084/420937255/3589069.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman II A Aventura Continua 1980" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5oOpi5evcEfw5w9hn09Re1VWvI8.jpg" group-title="FILMES | MARVEL DC",Superman II A Aventura Continua 1980
+http://dnstv.top:80/movie/299662397/6187389792/5052023.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman III 1983" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/d0s7bQpDXKVIeIj3HZZYTvJGCWv.jpg" group-title="FILMES | MARVEL DC",Superman III 1983
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/320612.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Superman IV Em Busca da Paz 1987" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rUBLocsfASNbVC2RueRGp1IPrmO.jpg" group-title="FILMES | MARVEL DC",Superman IV Em Busca da Paz 1987
+http://dnstv.top:80/movie/299662397/6187389792/5052024.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman IV En busca de la paz 1987" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1HsRTErSIitOWDWiJXWco5Ima8A.jpg" group-title="FILMES | MARVEL DC",Superman IV En busca de la paz 1987
+https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/321014.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Superman O Filme 1978" tvg-logo="https://image.tmdb.org/t/p/w780/sm6BLvYCSe4pUpW2UrCKSsS1o0B.jpg" group-title="FILMES | MARVEL DC",Superman O Filme 1978
 http://ap4x.online:80/movie/luiz222/222luiz/3586108.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Superman O Filme 1978" tvg-logo="https://image.tmdb.org/t/p/w780/sm6BLvYCSe4pUpW2UrCKSsS1o0B.jpg" group-title="FILMES | MARVEL DC",Superman O Filme 1978
 http://ap4x.online:80/movie/738397084/420937255/3586108.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman O Filme 1978" tvg-logo="http://cdn4k.live:80/images/sKK8syhz0sEoRVjb6OKULuMLCq3_big.jpg" group-title="FILMES | MARVEL DC",Superman O Filme 1978
+http://dnstv.top:80/movie/299662397/6187389792/5052025.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman O Homem do Amanha 2020" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dqK0aiv6Fb3lIO2L8LRmv2Bb39t.jpg" group-title="FILMES | MARVEL DC",Superman O Homem do Amanha 2020
+http://dnstv.top:80/movie/299662397/6187389792/5052027.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman O Retorno 2006" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8ITZTyXh88ylGFEePoLfz8iex8e.jpg" group-title="FILMES | MARVEL DC",Superman O Retorno 2006
+http://dnstv.top:80/movie/299662397/6187389792/5052020.mp4
 #EXTINF:-1 tvg-id="" tvg-name="SupermanBatman Apocalipse" tvg-logo="http://gstaticontent.com/images/vZqD8QMXiZh977LipOsXQmaMM7l_big.jpg" group-title="FILMES | MARVEL DC",SupermanBatman Apocalipse
 http://ap4x.online:80/movie/luiz222/222luiz/3572709.mp4
 #EXTINF:-1 tvg-id="" tvg-name="SupermanBatman Apocalipse" tvg-logo="http://gstaticontent.com/images/vZqD8QMXiZh977LipOsXQmaMM7l_big.jpg" group-title="FILMES | MARVEL DC",SupermanBatman Apocalipse
 http://ap4x.online:80/movie/738397084/420937255/3572709.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Wolverine Path of a Ronin 2013" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eEaXOel4AOlG8975Uc5iHNRRxl5.jpg" group-title="FILMES | MARVEL DC",The Wolverine Path of a Ronin 2013
-https://fenixplay.info:8443/movie/YorlenyMarin15/S9ZpEQgxJd/286656.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Thor 2011" tvg-logo="https://image.tmdb.org/t/p/w780/aEV9QmgBqjRTdjsvdCgdK89tavQ.jpg" group-title="FILMES | MARVEL DC",Thor 2011
 http://ap4x.online:80/movie/luiz222/222luiz/3587581.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Thor Amor e Trovao 2022" tvg-logo="https://image.tmdb.org/t/p/w780/71XnRvkadkWZZowCGcuBi4XAKdJ.jpg" group-title="FILMES | MARVEL DC",Thor Amor e Trovao 2022
@@ -4943,24 +4783,30 @@ http://ap4x.online:80/movie/luiz222/222luiz/3587563.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3587492.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Vingadores Era de Ultron 2015" tvg-logo="https://image.tmdb.org/t/p/w780/vGIIl89vglo66yUfbuTxzNAs4y5.jpg" group-title="FILMES | MARVEL DC",Vingadores Era de Ultron 2015
 http://ap4x.online:80/movie/luiz222/222luiz/3587532.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita" tvg-logo="" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita
+http://cdn2.micetop.us/content/delivery/filmes2018/VINGADOR4SDUB-ALTO.mp4?t=st=1533118079~exp=1533132479~acl=/content/*~hmac=23cdd10e4c07e6bc2c3c8a79f480c7fd
 #EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita 2018" tvg-logo="https://image.tmdb.org/t/p/w780/d6jUbQj4E4R5MJlFYfdzANEZbkL.jpg" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita 2018
 http://ap4x.online:80/movie/luiz222/222luiz/3587477.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita 2018" tvg-logo="http://cdn4k.live:80/images/rkHe0BfOo1f5N2q6rxgdYac7Zf6_big.jpg" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita 2018
+http://dnstv.top:80/movie/299662397/6187389792/5053061.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita 2018 UHD 4K" tvg-logo="http://cdn4k.live:80/images/rkHe0BfOo1f5N2q6rxgdYac7Zf6_big.jpg" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita 2018 UHD 4K
+http://dnstv.top:80/movie/299662397/6187389792/5053062.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita 720p" tvg-logo="https://i62.servimg.com/u/f62/19/82/45/70/cinema10.png" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita 720p
+http://cdn.lhmtv.ga/filmes/avengers2new-dub-720p.mp4?KeltecMPIPTV
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Guerra Infinita R5" tvg-logo="https://goo.gl/NhniYR" group-title="FILMES | MARVEL DC",Vingadores Guerra Infinita R5
+https://goo.gl/RPsMq6
 #EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019" tvg-logo="https://image.tmdb.org/t/p/w780/7jvlqGsxeMKscskuUZgKk0Kuv99.jpg" group-title="FILMES | MARVEL DC",Vingadores Ultimato 2019
 http://ap4x.online:80/movie/luiz222/222luiz/3587458.mp4
-#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL 2013" tvg-logo="http://i.imgur.com/jwrCgQd.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL 2013
-http://v4.ec.cx/RedeCanais/RedeCanais/RCFServer1/ondemand/XMEN06.mp4?STANIPTV
-#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/wolverine-imortal.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL DUB
-http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/348.mp4
-#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE IMORTAL DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/wolverine-imortal.jpg" group-title="FILMES | MARVEL DC",WOLVERINE IMORTAL DUB
-http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/348.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019" tvg-logo="" group-title="FILMES | MARVEL DC",Vingadores Ultimato 2019
+https://cdn2.canais.ink/RCFServer1/ondemand/VNGDRSULTMTO.mp4?attachment=true
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg" group-title="FILMES | MARVEL DC",Vingadores Ultimato 2019
+http://dnstv.top:80/movie/299662397/6187389792/5053063.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019 UHD 4K" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg" group-title="FILMES | MARVEL DC",Vingadores Ultimato 2019 UHD 4K
+http://dnstv.top:80/movie/299662397/6187389792/5053064.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 4K 2019" tvg-logo="" group-title="FILMES | MARVEL DC",Vingadores Ultimato 4K 2019
+https://cdn2.canais.ink/RCFServer1/ondemand/VNGDRSULTMTO4K.mp4?attachment=true
 #EXTINF:-1 tvg-id="" tvg-name="Wolverine Imortal 2013" tvg-logo="https://image.tmdb.org/t/p/w780/wCP2JfaRFdrFjxiXTUdNnfvyJ2K.jpg" group-title="FILMES | MARVEL DC",Wolverine Imortal 2013
 http://ap4x.online:80/movie/luiz222/222luiz/3588409.mp4
-#EXTINF:-1 tvg-id="" tvg-name="XMEN ORIGENS WOLVERINE DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/x-men-origens-wolverine.jpg" group-title="FILMES | MARVEL DC",XMEN ORIGENS WOLVERINE DUB
-http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/352.mp4
-#EXTINF:-1 tvg-id="" tvg-name="XMEN ORIGENS WOLVERINE DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/x-men-origens-wolverine.jpg" group-title="FILMES | MARVEL DC",XMEN ORIGENS WOLVERINE DUB
-http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/352.mp4
-#EXTINF:-1 tvg-id="" tvg-name="1964 O Brasil Entre Armas e Livros 2019" tvg-logo="https://image.tmdb.org/t/p/w780/kERgnDxb4YXU0c6DDSWZiLmuHC1.jpg" group-title="FILMES | NACIONAIS",1964 O Brasil Entre Armas e Livros 2019
-http://ap4x.online:80/movie/738397084/420937255/3562295.mp4
 #EXTINF:-1 tvg-id="" tvg-name="400 Contra 1 Uma Historia do Crime Organizado" tvg-logo="http://gstaticontent.com/images/401e0327685106620d66ba04dbb84b58.jpg" group-title="FILMES | NACIONAIS",400 Contra 1 Uma Historia do Crime Organizado
 http://ap4x.online:80/movie/738397084/420937255/3561550.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Cabeca de Gumercindo Saraiva 2018" tvg-logo="https://image.tmdb.org/t/p/w780/kQd0KoqaRswX6fmw153Lnpbfx9.jpg" group-title="FILMES | NACIONAIS",A Cabeca de Gumercindo Saraiva 2018
@@ -5693,10 +5539,6 @@ http://ap4x.online:80/movie/738397084/420937255/3561831.mp4
 http://ap4x.online:80/movie/738397084/420937255/3560989.mp4
 #EXTINF:-1 tvg-id="" tvg-name="o Vagabundo 1969" tvg-logo="https://image.tmdb.org/t/p/w780/9CK9QCIf01XeZfHTwg1unBUcjCu.jpg" group-title="FILMES | NACIONAIS",o Vagabundo 1969
 http://ap4x.online:80/movie/738397084/420937255/3562001.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars 2" tvg-logo="http://gstaticontent.com/images/s2ONgVK8ucLfobZn7VTyaAKH0yA_big.jpg" group-title="FILMES | STAR WARS",Star Wars 2
-http://ap4x.online:80/movie/luiz222/222luiz/3575757.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars 2" tvg-logo="http://gstaticontent.com/images/s2ONgVK8ucLfobZn7VTyaAKH0yA_big.jpg" group-title="FILMES | STAR WARS",Star Wars 2
-http://ap4x.online:80/movie/738397084/420937255/3575757.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars 3" tvg-logo="http://gstaticontent.com/images/m4ihKTuWHiNa5u09OgFtvpnedQ6_big.jpg" group-title="FILMES | STAR WARS",Star Wars 3
 http://ap4x.online:80/movie/luiz222/222luiz/3575752.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars 3" tvg-logo="http://gstaticontent.com/images/m4ihKTuWHiNa5u09OgFtvpnedQ6_big.jpg" group-title="FILMES | STAR WARS",Star Wars 3
@@ -5737,8 +5579,6 @@ http://ap4x.online:80/movie/738397084/420937255/3562780.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3575763.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars Uma Nova Esperanca" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg" group-title="FILMES | STAR WARS",Star Wars Uma Nova Esperanca
 http://ap4x.online:80/movie/738397084/420937255/3575763.mp4
-#EXTINF:-1 tvg-id="" tvg-name="A Hora do Pesadelo 1984" tvg-logo="https://image.tmdb.org/t/p/w780/bFwAfcDbpUNceH5zWt5kTFp3WyP.jpg" group-title="FILMES | TERROR",A Hora do Pesadelo 1984
-http://ap4x.online:80/movie/luiz222/222luiz/3617586.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Hora do Pesadelo 1984" tvg-logo="https://image.tmdb.org/t/p/w780/bFwAfcDbpUNceH5zWt5kTFp3WyP.jpg" group-title="FILMES | TERROR",A Hora do Pesadelo 1984
 http://ap4x.online:80/movie/738397084/420937255/3617586.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Hora do Pesadelo 2" tvg-logo="http://gstaticontent.com/images/uHFq7fGucKBm4DeXf84U5ibLhK3_big.jpg" group-title="FILMES | TERROR",A Hora do Pesadelo 2
@@ -5805,8 +5645,8 @@ http://ap4x.online:80/movie/738397084/420937255/3573634.mp4
 http://ap4x.online:80/movie/luiz222/222luiz/3576056.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Os Fantasmas se Divertem 1988" tvg-logo="https://image.tmdb.org/t/p/w780/sExYY9KG2BfP0OiiaVRGKfsasdb.jpg" group-title="FILMES | TERROR",Os Fantasmas se Divertem 1988
 http://ap4x.online:80/movie/738397084/420937255/3576056.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Alvo Primario S01E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/dk58HNXh5Rqv7HvTtzmF2KNf21u.jpg" group-title="SERIES | APPLE TV",Alvo Primario S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3777380.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vingadores Ultimato 2019 L" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg" group-title="LEGENDADOS",Vingadores Ultimato 2019 L
+http://dnstv.top:80/movie/299662397/6187389792/5039191.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Alvo Primario S01E01" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/dk58HNXh5Rqv7HvTtzmF2KNf21u.jpg" group-title="SERIES | APPLE TV",Alvo Primario S01E01
 http://ap4x.online:80/series/738397084/420937255/3777380.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Alvo Primario S01E02" tvg-logo="http://image.tmdb.org//t/p/w600_and_h900_bestv2/ntnlJkliNebXbZYgP8r29PXyj03.jpg" group-title="SERIES | APPLE TV",Alvo Primario S01E02
@@ -7337,8 +7177,6 @@ http://ap4x.online:80/series/738397084/420937255/3597038.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3597039.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Morning Show S03E10" tvg-logo="http://timg.bdta.pro/images/e25d2d918957acbb0544dd5541a6cb93.jpg" group-title="SERIES | APPLE TV",The Morning Show S03E10
 http://ap4x.online:80/series/738397084/420937255/3597039.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Banshee S01E01" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3591342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Banshee S01E02" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E02
 http://ap4x.online:80/series/luiz222/222luiz/3591343.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Banshee S01E03" tvg-logo="http://timg.bdta.pro/images/fedb3b18fdf61b2bac2d3567289b6f07.jpg" group-title="SERIES | BANSHEE",Banshee S01E03
@@ -7815,10 +7653,6 @@ https://goo.gl/vdan4A
 https://goo.gl/J2EgXZ
 #EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T5EP3" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T5EP3
 https://goo.gl/EXfhPs
-#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T5EP4" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T5EP4
-https://goo.gl/waBr5S
-#EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP10" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP10
-https://goo.gl/4cibVh
 #EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP5" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP5
 https://goo.gl/EZtihf
 #EXTINF:-1 tvg-id="" tvg-name="GAME OF THRONES T6EP7" tvg-logo="https://goo.gl/YHN4We" group-title="SERIES | GOT",GAME OF THRONES T6EP7
@@ -7975,12 +7809,6 @@ http://ap4x.online:80/series/luiz222/222luiz/3573654.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3573655.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Game of Thrones S08E06" tvg-logo="http://timg.bdta.pro/images/82a209d92db2645b8f259a9e4241d8c5.jpg" group-title="SERIES | GOT",Game of Thrones S08E06
 http://ap4x.online:80/series/luiz222/222luiz/3573656.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | SEE",See S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3582079.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E01" tvg-logo="http://timg.bdta.pro/images/5211035b5776e04d085ab9214794eb18.jpg" group-title="SERIES | SEE",See S01E01
-http://ap4x.online:80/series/738397084/420937255/3582079.mp4
-#EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | SEE",See S01E02
-http://ap4x.online:80/series/luiz222/222luiz/3582080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="See S01E02" tvg-logo="http://timg.bdta.pro/images/1f5c2d25aeec88c7b55690a52b477c77.jpg" group-title="SERIES | SEE",See S01E02
 http://ap4x.online:80/series/738397084/420937255/3582080.mp4
 #EXTINF:-1 tvg-id="" tvg-name="See S01E03" tvg-logo="http://timg.bdta.pro/images/3433b3cfa536bfad1709e09638fbc56c.jpg" group-title="SERIES | SEE",See S01E03
@@ -8072,8 +7900,6 @@ http://ap4x.online:80/series/luiz222/222luiz/3582107.mp4
 #EXTINF:-1 tvg-id="" tvg-name="See S03E08" tvg-logo="http://timg.bdta.pro/images/cba26d8139c6b1b1134c7f3032e49480.jpg" group-title="SERIES | SEE",See S03E08
 http://ap4x.online:80/series/738397084/420937255/3582107.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | SILO",Silo S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3703039.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Silo S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg" group-title="SERIES | SILO",Silo S01E01
 http://ap4x.online:80/series/738397084/420937255/3703039.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Silo S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg" group-title="SERIES | SILO",Silo S01E02
 http://ap4x.online:80/series/luiz222/222luiz/3703040.mp4
@@ -8151,12 +7977,6 @@ http://ap4x.online:80/series/738397084/420937255/3703057.mp4
 http://ap4x.online:80/series/luiz222/222luiz/3703058.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Silo S02E10" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/2WhgjYh6oLGvrTYaJ1ZYeLOhJuR.jpg" group-title="SERIES | SILO",Silo S02E10
 http://ap4x.online:80/series/738397084/420937255/3703058.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/8g951txsYhXLg8Rr18fBm2q0fBA.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E01
-http://ap4x.online:80/series/738397084/420937255/3691840.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/whihcfB2dZ0PEZC1bzux56B09pK.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E02
-http://ap4x.online:80/series/luiz222/222luiz/3691841.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/whihcfB2dZ0PEZC1bzux56B09pK.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E02
-http://ap4x.online:80/series/738397084/420937255/3691841.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/9M5mXdX8kfsopbuc9X6aBbyKNmw.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E03
 http://ap4x.online:80/series/luiz222/222luiz/3691842.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Star Wars Andor S01E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/9M5mXdX8kfsopbuc9X6aBbyKNmw.jpg" group-title="SERIES | STAR WARS",Star Wars Andor S01E03
@@ -8320,8 +8140,6 @@ http://ap4x.online:80/series/luiz222/222luiz/3582258.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Mandalorian S03E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/blG9C2voVSQlC8M1JkJZgo7BvCL.jpg" group-title="SERIES | STAR WARS",The Mandalorian S03E08
 http://ap4x.online:80/series/738397084/420937255/3582258.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/9ej5XfWGs1T1I88DBHhlvZAZQVT.jpg" group-title="SERIES | SWAGGER",Swagger S01E01
-http://ap4x.online:80/series/luiz222/222luiz/3662205.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Swagger S01E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/9ej5XfWGs1T1I88DBHhlvZAZQVT.jpg" group-title="SERIES | SWAGGER",Swagger S01E01
 http://ap4x.online:80/series/738397084/420937255/3662205.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Swagger S01E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/dEkr2VBux5ctYnN3Yzh1fP0NQ7b.jpg" group-title="SERIES | SWAGGER",Swagger S01E02
 http://ap4x.online:80/series/luiz222/222luiz/3662206.mp4
@@ -8402,59 +8220,53 @@ http://cdn4k.live:80/series/wesleyarrais3/223344a/219609.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01 E09" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01 E09
 http://cdn4k.live:80/series/wesleyarrais3/223344a/219854.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E01" tvg-logo="http://timg.bdta.pro/t/p/w1280/aRquEWm8wWF1dfa9uZ1TXLvVrKD.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E01
-http://208.115.236.162:80/series/Diego12/Diego12/4208639.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E01" tvg-logo="http://timg.bdta.pro/t/p/w1280/aRquEWm8wWF1dfa9uZ1TXLvVrKD.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E01
 http://ap4x.online:80/series/luiz222/222luiz/3696434.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E01" tvg-logo="http://timg.bdta.pro/t/p/w1280/aRquEWm8wWF1dfa9uZ1TXLvVrKD.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E01
 http://ap4x.online:80/series/738397084/420937255/3696434.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E02" tvg-logo="http://timg.bdta.pro/t/p/w1280/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E02
-http://208.115.236.162:80/series/Diego12/Diego12/4208640.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E02" tvg-logo="http://timg.bdta.pro/t/p/w1280/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E02
 http://ap4x.online:80/series/luiz222/222luiz/3696435.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E02" tvg-logo="http://timg.bdta.pro/t/p/w1280/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E02
 http://ap4x.online:80/series/738397084/420937255/3696435.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/bzy4hAtkY3OOInY4q6MJigLmC1m.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E03
-http://208.115.236.162:80/series/Diego12/Diego12/4208641.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/bzy4hAtkY3OOInY4q6MJigLmC1m.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E03
 http://ap4x.online:80/series/luiz222/222luiz/3696436.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E03" tvg-logo="http://timg.bdta.pro/t/p/w1280/bzy4hAtkY3OOInY4q6MJigLmC1m.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E03
 http://ap4x.online:80/series/738397084/420937255/3696436.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/szQ95jxKNrYWnCAJx8VC51iws5d.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E04
-http://208.115.236.162:80/series/Diego12/Diego12/4208642.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/szQ95jxKNrYWnCAJx8VC51iws5d.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E04
 http://ap4x.online:80/series/luiz222/222luiz/3696437.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E04" tvg-logo="http://timg.bdta.pro/t/p/w1280/szQ95jxKNrYWnCAJx8VC51iws5d.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E04
 http://ap4x.online:80/series/738397084/420937255/3696437.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/cX2z8FO9lKqZmBBTVF2G2favQRE.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
-http://208.115.236.162:80/series/Diego12/Diego12/4208643.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E04" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E04
+http://dnstv.top:80/series/299662397/6187389792/5180415.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/cX2z8FO9lKqZmBBTVF2G2favQRE.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
 http://ap4x.online:80/series/738397084/420937255/3696438.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://timg.bdta.pro/t/p/w1280/cX2z8FO9lKqZmBBTVF2G2favQRE.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
 http://ap4x.online:80/series/luiz222/222luiz/3696438.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
-http://208.115.236.162:80/series/Diego12/Diego12/4208644.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E05" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E05
+http://dnstv.top:80/series/299662397/6187389792/5180416.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
 http://ap4x.online:80/series/738397084/420937255/3696439.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://timg.bdta.pro/t/p/w1280/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
 http://ap4x.online:80/series/luiz222/222luiz/3696439.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
-http://208.115.236.162:80/series/Diego12/Diego12/4208645.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E06" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E06
+http://dnstv.top:80/series/299662397/6187389792/5180417.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
 http://ap4x.online:80/series/738397084/420937255/3696440.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://timg.bdta.pro/t/p/w1280/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
 http://ap4x.online:80/series/luiz222/222luiz/3696440.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
-http://208.115.236.162:80/series/Diego12/Diego12/4208646.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E07" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E07
+http://dnstv.top:80/series/299662397/6187389792/5180418.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
 http://ap4x.online:80/series/738397084/420937255/3696441.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://timg.bdta.pro/t/p/w1280/6DHQgB85iKMcabcKvC9HSDH3UDo.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
 http://ap4x.online:80/series/luiz222/222luiz/3696441.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
-http://208.115.236.162:80/series/Diego12/Diego12/4208647.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E08" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E08
+http://dnstv.top:80/series/299662397/6187389792/5180419.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
 http://ap4x.online:80/series/luiz222/222luiz/3696442.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
 http://ap4x.online:80/series/738397084/420937255/3696442.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S01E09" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S01E09
+http://dnstv.top:80/series/299662397/6187389792/5180420.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02 E01" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02 E01
 http://cdn4k.live:80/series/wesleyarrais3/223344a/285502.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02 E02" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02 E02
@@ -8465,19 +8277,25 @@ http://cdn4k.live:80/series/wesleyarrais3/223344a/287774.mp4
 http://cdn4k.live:80/series/wesleyarrais3/223344a/290679.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02 E05" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02 E05
 http://cdn4k.live:80/series/wesleyarrais3/223344a/297472.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
-http://208.115.236.162:80/series/Diego12/Diego12/4308567.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
 http://ap4x.online:80/series/738397084/420937255/3696443.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
 http://ap4x.online:80/series/luiz222/222luiz/3696443.mp4
-#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w1280/qFouIBgN3Jgba7LnuRmkTAohh07.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
-http://208.115.236.162:80/series/Diego12/Diego12/4308569.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E01" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E01
+http://dnstv.top:80/series/299662397/6187389792/5180421.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
 http://ap4x.online:80/series/738397084/420937255/3696444.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
 http://ap4x.online:80/series/luiz222/222luiz/3696444.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E02" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E02
+http://dnstv.top:80/series/299662397/6187389792/5180422.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E03
 http://ap4x.online:80/series/738397084/420937255/3696445.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E03" tvg-logo="http://timg.bdta.pro/t/p/w600_and_h900_bestv2/pfdz1ZD4bLZDeWgjHe7jn4RWTBv.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E03
 http://ap4x.online:80/series/luiz222/222luiz/3696445.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E03" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E03
+http://dnstv.top:80/series/299662397/6187389792/5180423.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E04" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E04
+http://dnstv.top:80/series/299662397/6187389792/5180424.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Last of Us S02E05" tvg-logo="http://cdn4k.live:80/images/1Wtfucko1wQBAN4rJbRnqA6kqQQ_big.jpg" group-title="SERIES | THE LAST OF US",The Last of Us S02E05
+http://dnstv.top:80/series/299662397/6187389792/5180425.mp4
