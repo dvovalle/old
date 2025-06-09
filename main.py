@@ -426,7 +426,7 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - OK!!!!"
                     else:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - erro"
-                        cursor.execute("UPDATE tb_iptv SET ativo=? WHERE codid=?;", ("0", codid))
+                        cursor.execute("UPDATE tb_iptv SET ativo=?, name=? WHERE codid=?;", ("0", "Erro para exibir", codid))
                         conn.commit()
                     print(msg)
 
@@ -440,10 +440,7 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = [
-"FILMES | 2025",
-"FILMES | MARVEL DC",
-"SERIES | THE LAST OF US",]
+    list_gr: list[str] = ["SERIES | SIMPSONS"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -496,8 +493,8 @@ def __valida_grupos() -> None:
 
 if __name__ == "__main__":
     try:
-        #__read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        #__start_analise(verify=True)
+        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        # __start_analise(verify=True)
         # __valida_grupos()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
 
