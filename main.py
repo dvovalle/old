@@ -440,7 +440,9 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = ["SERIES | SIMPSONS"]
+    list_gr: list[str] = [
+"SERIES | SIMPSONS",
+"SERIES | SWAGGER"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:

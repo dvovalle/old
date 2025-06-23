@@ -75,3 +75,6 @@ curl -o M3UListas/026.m3u "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2
 
 echo "027------------------------------"
 curl -o M3UListas/027.m3u "https://gist.githubusercontent.com/tricolorpaulista/aab8e2f3e7d146752ac81870f26f4722/raw/442c2f4086d8c6f5861080ea93a24544b05ffef0/Cinema.m3u"
+
+echo "028------------------------------"
+curl -o M3UListas/028.m3u "http://vtvbr.com:80/get.php?username=299662397&password=6187389792&type=m3u_plus&output=mpegts"
