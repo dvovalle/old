@@ -1,6 +1,6 @@
 # Listas
 
-Lista 2025-03-01
+https://github.com/Ramys/Iptv-Brasil-2025
 
 - https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
 - https://siptv.app/mylist/

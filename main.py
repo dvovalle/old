@@ -28,25 +28,6 @@ class SQLAction(Enum):
     UPDATE_AND_REMOVE_CHECK: int = 5
 
 
-def __start_backup() -> None:
-    conn_old = sqlite3.connect(database="iptv.db", timeout=2.0)
-    cursor_old = conn_old.cursor()
-    command: str = "SELECT origem, url, id, name, logo, grupo, subgrupo, title, ativo, online FROM tb_iptv order by grupo ASC, name ASC;"
-    res = cursor_old.execute(command)
-    listold: list = res.fetchall()
-    if listold is not None:
-        for x in listold:
-            try:
-                cursor.execute(
-                    "INSERT INTO tb_iptv (origem, url, id, name, logo, grupo, subgrupo, titulo, ativo, online) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
-                    (x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8], x[9]),
-                )
-            except Exception as err:
-                print(f"******** -> Erro: {err}")
-
-    conn.commit()
-
-
 def get_el(texto: str, tag_name: str, ate_fim: bool) -> str:
     result: str = "0"
     start: int = texto.find(tag_name)
@@ -153,7 +134,8 @@ def __remove_char(texto: str, force: bool) -> str:
 
 def update_values(expire: str, name: str, logo: str, title: str, id_iptv: str, url: str) -> None:
     try:
-        cursor.execute("UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;", (url, id_iptv, logo, title, expire, "0", name))
+        cursor.execute("UPDATE tb_iptv SET url=?, id=?, logo=?, titulo=?, expire=?, ativo=? WHERE name=?;",
+                       (url, id_iptv, logo, title, expire, "0", name))
 
     except Exception as err:
         print(f"Error update_values: {err}")
@@ -260,7 +242,8 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                             except Exception:
                                 is_completo = False
                                 if action == SQLAction.UPDATE or action == SQLAction.UPDATE_AND_REMOVE:
-                                    update_values(expire=expire, name=name, logo=logo, title=title, id_iptv=id_iptv, url=url)
+                                    update_values(expire=expire, name=name, logo=logo, title=title, id_iptv=id_iptv,
+                                                  url=url)
 
             except Exception as err:
                 print(f"Erro analise: {err}")
@@ -426,7 +409,8 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - OK!!!!"
                     else:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - erro"
-                        cursor.execute("UPDATE tb_iptv SET ativo=?, name=? WHERE codid=?;", ("0", "Erro para exibir", codid))
+                        cursor.execute("UPDATE tb_iptv SET ativo=?, name=? WHERE codid=?;",
+                                       ("0", "Erro para exibir", codid))
                         conn.commit()
                     print(msg)
 
@@ -440,9 +424,7 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = [
-"SERIES | SIMPSONS",
-"SERIES | SWAGGER"]
+    list_gr: list[str] = ["FILMES | ANTIGOS"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -496,7 +478,7 @@ def __valida_grupos() -> None:
 if __name__ == "__main__":
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        # __start_analise(verify=True)
+        __start_analise(verify=True)
         # __valida_grupos()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
 

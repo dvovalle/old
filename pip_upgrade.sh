@@ -1,14 +1,5 @@
 #!/bin/bash
-export FLASK_DEBUG=true
-export FLASK_APP=run_ssl.py
-export FLASK_APP_DEBUG="true"
 export PRODUCTION="false"
-export FLASK_ENV=development
-export ELK_ACTIVE='true'
-export REDIS_ACTIVE="true"
-export SQL_READONLY="false"
-export WSGI_WORKERS="2"
-export WSGI_THREADS="8"
 export MAIL_ENABLED=true
 export TESTING=False
 export PROPAGATE_EXCEPTIONS=true
@@ -22,7 +13,6 @@ export LC_COLLATE=C
 export LC_TIME=en_US.UTF-8
 export PYTHONDONTWRITEBYTECODE=1
 export PYTHONUNBUFFERED=1
-
 
 rm -rf requirements_dev.txt
 
