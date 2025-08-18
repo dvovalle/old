@@ -1,0 +1,10 @@
+DADOS DO SERVIDOR
+Url: http://nxczs.top
+Usuário: nbayhd
+Senha: 6kzvbg
+Conexões Máximas: 1
+Conexões Ativas: 0
+Vencimento: 2025-10-29:22-24-21
+
+Link M3U: http://nxczs.top/get.php?username=nbayhd&password=6kzvbg&type=m3u_plus
+Link EPG: http://nxczs.top/xmltv.php?username=nbayhd&password=6kzvbg&type=xml

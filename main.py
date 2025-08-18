@@ -424,18 +424,15 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = ["CANAIS | CARTOON NETWOORK",
+    list_gr: list[str] = ["CANAIS | DESENHOS",
+"CANAIS | DISCOVERY",
 "CANAIS | HBO",
 "CANAIS | PARAMOUNT",
+"CANAIS | STAR PLUS",
 "CANAIS | TELECINE",
-"FILMES | ANTIGOS",
-"FILMES | KARATE KID",
-"FILMES | SUPERMAN",
-"SERIES | APPLE",
-"SERIES | CASA DRAGAO",
-"SERIES | GAME OF THRONES",
-"SERIES | SIMPSONS",
-"SERIES | SUPERMAN E LOIS"]
+"CANAIS | TNT",
+"CANAIS | VARIEDADES",
+"CANAIS | UFC"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
