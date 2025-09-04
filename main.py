@@ -424,18 +424,7 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = [
-"FILMES | HARY POTER",
-"FILMES | KARATE KID",
-"FILMES | RAMBO",
-"FILMES | ROCKY UM LUTADOR",
-"SERIES | CHEFE DE GUERRA",
-"SERIES | COBRA KAI",
-"SERIES | OUTLANDER",
-"SERIES | PACIFICADOR",
-"SERIES | RUPTURA",
-"SERIES | SILO",
-"SERIES | SWAGGER",]
+    list_gr: list[str] = ["FILMES | ROCKY UM LUTADOR","SERIES | CHEFE DE GUERRA","SERIES | LADROES DE DROGAS"]
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
