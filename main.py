@@ -424,9 +424,45 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = [
+    list_gr: list[str] = ["CANAIS | COMBATE",
+"CANAIS | DESENHOS",
+"CANAIS | DISCOVERY",
+"CANAIS | HBO",
+"CANAIS | PARAMOUNT",
+"CANAIS | TELECINE",
+"CANAIS | TNT",
+"CANAIS | VARIEDADES",
+"FILMES | 2025",
+"FILMES | ANTIGOS",
+"FILMES | DESENHOS",
+"FILMES | EXTERMINADOR DO FUTURO",
+"FILMES | HARY POTTER",
+"FILMES | KARATE KID",
+"FILMES | MARVEL DC",
+"FILMES | PIRATAS DO CARIBE",
+"FILMES | RAMBO",
+"FILMES | ROCKY UM LUTADOR",
+"FILMES | STAR WARS",
+"FILMES | TRIBUNAL",
+"FILMES | X-MEN",
+"SERIES | ACIMA Q SUSPEITA",
+"SERIES | CHEFE DE GUERRA",
+"SERIES | CIDADE DE DEUS",
+"SERIES | COBRA KAI",
+"SERIES | GOT",
+"SERIES | HOUSE DRAGON",
+"SERIES | LADROES DE DROGAS",
+"SERIES | LOKI",
+"SERIES | MARVEL DC",
 "SERIES | OUTLANDER",
-"SERIES | SIMPSONS"]
+"SERIES | OZ",
+"SERIES | PACIFICADOR",
+"SERIES | RUPTURA",
+"SERIES | SILO",
+"SERIES | SIMPSONS",
+"SERIES | STAR WARS",
+"SERIES | SUPERMAN E LOIS",
+"SERIES | SWAGGER"] 
 
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -448,7 +484,7 @@ def __read_all_files(sqlAction: SQLAction) -> None:
         for x in files:
             m3u: str = f"{dir_local}{x}"
             print(f"Lendo: {x}")
-            read_file(file_m3u=m3u, action=sqlAction, expire="2025-12-12", origem="")
+            read_file(file_m3u=m3u, action=sqlAction, expire="2026-12-12", origem="")
 
 
 def __valida_grupos() -> None:
@@ -479,10 +515,10 @@ def __valida_grupos() -> None:
 
 if __name__ == "__main__":
     try:
-        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=True)
         # __valida_grupos()
-        create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
+        # create_file(arquivo=__LISTA_COMPLETA, is_full=False, grupo="*")
 
     except Exception as err:
         print(f"******** -> Erro: {err}")
