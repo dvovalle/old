@@ -1,0 +1,22 @@
+-   id: validate_manifest
+    name: validate pre-commit manifest
+    description: This validator validates a pre-commit hooks manifest file
+    entry: pre-commit-validate-manifest
+    language: python
+    files: ^(\.pre-commit-hooks\.yaml|hooks\.yaml)$
+
+-   id: flake8
+    name: flake8
+    description: '`flake8` is a command-line utility for enforcing style consistency across Python projects.'
+    entry: flake8
+    language: python
+    types: [python]
+    require_serial: true
+
+-   id: mypy
+    name: mypy
+    entry: mypy
+    language: python
+    'types': [python]
+    args: ["--ignore-missing-imports", "--scripts-are-modules"]
+    require_serial: true

@@ -40,7 +40,7 @@ Sexta	|Peito + Tríceps	|Exercícios articulação-friendly
 - Leg Press (Pés altos) 4x12 reps → Dropset final
 - Afundo Bulgariano com Halteres 3x10 reps/perna (controle excêntrico)
 - Abdução na Máquina com Pausa 3x15 reps (2s pausa no topo)
- 
+
 
 🔥 Dia 5: Peito + Tríceps (Articulação Segura)
 (Evitando sobrecarga articular)

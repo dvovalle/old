@@ -120,5 +120,5 @@ Macros: 10g P / 10g C / 5g G
 - Carboidratos: Batata-doce, arroz integral, quinoa, aveia, frutas (banana, maçã, mamão).
 - Gorduras: Abacate, castanhas, azeite, sementes (chia, linhaça).
 - Vegetais: Brócolis, espinafre, couve, abobrinha, beterraba.
-- 
+-
 Boa dieta e bons treinos! 💪🔥

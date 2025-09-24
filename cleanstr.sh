@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for x in $(ls M3UListas/) 
+for x in $(ls M3UListas/)
 do
     echo $x
     sed -i '' '/#EXTM3U/d' M3UListas/$x

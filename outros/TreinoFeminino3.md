@@ -39,7 +39,7 @@ Sábado/Domingo	|Descanso ou Cardio Leve |(10min esteira inclinada)
 - Mesa Flexora (Isometria) – 4x10 (segurar 2s no topo)
 - Cadeira Flexora (Isometria) – 3x10+10 DROP
 - Glúteo na Polia Baixa – 3x15-18/perna
-- Adutora na Máquina com Pausa – 3x10 (2s pausa no topo) 
+- Adutora na Máquina com Pausa – 3x10 (2s pausa no topo)
 - Panturrilha Sentado – 4x15 (peso progressivo)
 
 ## 🔥 Dia 4: Full Lower (Glúteo Dominante + Dropsets)

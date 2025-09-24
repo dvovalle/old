@@ -3,6 +3,31 @@
 - <https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u>
 - <https://siptv.app/mylist/>
 
+## Inst
+
+```bash
+
+# mypy: disable-error-code="import-untyped, assignment"
+
+python -m venv venv
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install wheel mypy pylint pyflakes flake8 bandit pycodestyle pre-commit
+pre-commit install
+npm i -g gitmoji-cli
+gitmoji -i
+npm install -g git-changelog
+git config --global user.name "Seu Nome"
+git config --global user.email "sem email ka@kalunga.com.br"
+git config --bool flake8.strict true
+git config --bool mypy.strict true
+pre-commit autoupdate
+pre-commit run --all-files
+npm install
+gulp
+
+```
+
 ## Create Database
 
 ```sql

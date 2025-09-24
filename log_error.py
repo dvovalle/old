@@ -80,4 +80,3 @@ def set_logging_critical(msg: str, tracing: str, name: str) -> None:
         logger.critical(msg=f'{msg}. {tracing}', exc_info=True, stack_info=True)
     except Exception as err:
         __loggerror(expt=err)
-

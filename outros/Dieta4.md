@@ -120,9 +120,9 @@ O importante é seguir o plano e bater a meta de consumo calórico diário...
 Caso sinta fome: você pode complementar a dieta com ate 300g de qualquer fruta do seu gosto entre o meio da manha e o meio da tarde. (sugestão: 150g de fruta entre café e almoço e 150 entre as 15 as 22).
 
 Refeição livre: você pode consumir uma refeição livre a cada 7 dias.
-Mas lembre-se: está consumindo mais nutrientes e calorias do que o planejado, então tenha moderação nesse consumo. 
+Mas lembre-se: está consumindo mais nutrientes e calorias do que o planejado, então tenha moderação nesse consumo.
 
 Algumas dicas para o dia da refeição livre:
-1- Faça uma atividade física no dia; 
+1- Faça uma atividade física no dia;
 2- Caso vá realmente chutar o balde tire o carboidrato das outras refeições do dia para trabalharmos com contenção de danos.
 ```

@@ -35,7 +35,7 @@ Série 21 para bíceps (7 reps parcial inferior + 7 reps parcial superior + 7 re
 2. Puxador Triângulo - 3x12 + 8 DROP
 3. Face Pull com Corda - 3x15
 4. Elevação Lateral - 4x12 + 8 DROP (peso moderado)
-5. Desenvolvimento Maquina - 3x12 
+5. Desenvolvimento Maquina - 3x12
 6. Rosca Direta Série 21 - 3x21 (7+7+7)
 ```
 

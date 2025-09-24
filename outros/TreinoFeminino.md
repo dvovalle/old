@@ -22,10 +22,10 @@
 - Cadeira Extensora (Lenta e controlada) – 3x15 + pico de contração
 - Hip Thrust (Elevação pelvica) (Carga pesada) – 4x10-12
 - Panturrilha (Amplitude máxima) – 4x20
-```    
+```
 
 ### 🔥 Dia 2: Costas + Bíceps + Ombros - Objetivo: Desenvolvimento dorsal e deltóides
-```bash    
+```bash
 - Barra Fixa (ou Pulley Frente) – 4x8-12
 - Pulley Triângulo (Costas inferiores) – 3x12
 - Remada Supinada cabo ou barra – 3x10
@@ -50,7 +50,7 @@
 - Adução Maquina - 3x12
 - Panturrilha Sentado (Isolado) – 4x15
 - Cardio: Escada(10min)
-```    
+```
 
 ### 🔥 Dia 4: Full Lower (Glúteo Dominante + Quadríceps + Posterior) - Objetivo: Treino completo com ênfase em glúteos
 ```bash
@@ -60,7 +60,7 @@
 - Afundo Bulgariano (Elevação) – 3x10 cada perna
 - Flexora Deitada (Dropset final) – 3x12
 - Abdução na Máquina (Glúteo médio) – 3x20
-```    
+```
 
 ### 🔥 Dia 5: Peito + Tríceps + Abdômen - Objetivo: Força e definição superior
 ```bash
@@ -73,7 +73,7 @@
 - Prancha Abdominal (Peso sobre as costas) – 3x 45s
 - Abdominal Infra (Elevação de pernas) – 3x15
 - Cardio: Esteira(15min 4 a 6)
-```    
+```
 
 ## 📌 Estratégias para Intensidade:
 ```bash
@@ -90,7 +90,7 @@
     Seguir plano de alimentação sempre quando for treinar.
     Quando não treinar, diminuir ingestão calorica de carbo.
 
-```    
+```
 
 
 Bora 💪🔥

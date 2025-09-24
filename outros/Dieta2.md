@@ -30,7 +30,7 @@ OU
 
 > Macros: 18g P / 35g C / 12g G.
 
- 
+
 🕙 Lanche da Manhã (9h)
 
 - 1 iogurte natural (150g) + 10g de chia.
@@ -67,7 +67,7 @@ Macros: 15g P / 45g C / 5g G.
 - 200ml de chá de gengibre.
 OU
 - Omelete de 2 ovos (100g)
-- 30g de cuscuz 
+- 30g de cuscuz
 - 10g de azeitonas.
 
 > Macros: 18g P / 20g C / 12g G.
