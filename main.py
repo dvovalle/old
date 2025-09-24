@@ -345,7 +345,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
     result: bool = False
     msgerror: str = 'OK'
     try:
-        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=5, verify=True, allow_redirects=True)
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=15, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
@@ -442,7 +442,37 @@ def __analise(grupo: str = '*', verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = []
+    list_gr: list[str] = [
+"CANAIS | HBO",
+"CANAIS | VARIEDADES",
+"FILMES | 2025",
+"FILMES | ANTIGOS",
+"FILMES | DESENHOS",
+"FILMES | EXTERMINADOR DO FUTURO",
+"FILMES | HARY POTTER",
+"FILMES | KARATE KID",
+"FILMES | MARVEL DC",
+"FILMES | PIRATAS DO CARIBE",
+"FILMES | RAMBO",
+"FILMES | ROCKY UM LUTADOR",
+"FILMES | TRIBUNAL",
+"FILMES | XMEN",
+"SERIES | ACIMA Q SUSPEITA",
+"SERIES | BELAIR",
+"SERIES | CHEFE DE GUERRA",
+"SERIES | CIDADE DE DEUS",
+"SERIES | COBRA KAI",
+"SERIES | GOT",
+"SERIES | HOUSE DRAGON",
+"SERIES | LADROES DE DROGAS",
+"SERIES | LOKI",
+"SERIES | MARVEL DC",
+"SERIES | OZ",
+"SERIES | PACIFICADOR",
+"SERIES | RUPTURA",
+"SERIES | SHEHULK",
+"SERIES | SILO",
+"SERIES | SWAGGER",]
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -500,10 +530,10 @@ def __valida_grupos() -> None:
 
 if __name__ == '__main__':
     try:
-        __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=True)
         # __valida_grupos()
-        # create_file(arquivo=__LISTA_COMPLETA, is_full=False)
+        create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
     except Exception as err:
         print(f"******** -> Erro: {err}")
