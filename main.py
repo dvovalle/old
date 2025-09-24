@@ -357,8 +357,8 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
             verify = False
             print(url)
 
-        if result and verify:
-            result = verificar_stream(url=url)
+        # if result and verify:
+        #    result = verificar_stream(url=url)
 
         if not response:
             print(f"URl invalida: {url}")
@@ -381,6 +381,28 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
 
     return result
 
+
+def __analise_all(x) -> bool:
+    result: bool = False
+    msg: str = ""        
+    try:
+        url: str = str(x[0]).strip()
+        codid: str = str(x[1])
+        rs_grupo: str = str(x[2])
+        result = __consulta_status(url=url, verify=True)
+        if result:
+            msg = f"ID {codid} - {rs_grupo} - OK!!!!"
+        else:
+            msg = f"ID {codid} - {rs_grupo} - erro"
+            cursor.execute("UPDATE tb_iptv SET ativo=?, name=? WHERE codid=?;", ("0", "Erro para exibir", codid))
+            conn.commit()
+        print(msg)
+
+    except Exception as err:
+        print(f"Erro analise: {err}")
+
+    return result
+     
 
 def __analise(grupo: str = "*", verify: bool = True) -> bool:
     result: bool = False
@@ -424,18 +446,23 @@ def __analise(grupo: str = "*", verify: bool = True) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = ["FILMES | STAR WARS"] 
-
+    list_gr: list[str] = []
+    cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
-            cpu_count: int = min(__MY_CPU_COUNT, len(list_gr))
+            cpu_count = min(__MY_CPU_COUNT, len(list_gr))
             with Pool(processes=cpu_count) as p:
                 p.map(__analise, list_gr)
         else:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        __analise(grupo="*", verify=verify)
+        res = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 order by grupo ASC, codid ASC;")
+        obj: list = res.fetchall()
+        if len(obj) > 0:
+            cpu_count = min(__MY_CPU_COUNT, len(obj))
+            with Pool(processes=cpu_count) as p:
+                p.map(__analise_all, obj)
 
 
 def __read_all_files(sqlAction: SQLAction) -> None:
