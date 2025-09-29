@@ -47,6 +47,7 @@ CREATE TABLE tb_iptv (
  titulo TEXT(128) NOT NULL,
  ativo INTEGER NOT NULL,
  expire datetime NOT NULL,
+ dtanalise datetime NOT NULL,
  CONSTRAINT ix_tb_iptv_url UNIQUE (url)
 );
 
@@ -62,7 +63,7 @@ where ativo = 1
 group by grupo
 order by grupo ASC;
 
-UPDATE tb_iptv SET ativo = 0, grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo);
+UPDATE tb_iptv SET grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo);
 
 UPDATE tb_iptv SET  ativo = 1, grupo = 'SERIES | SUPERMAN E LOIS'
 where name like '%Superman e Lois%'
