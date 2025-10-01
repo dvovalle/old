@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: WWW",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "flask",
+      "console": "integratedTerminal",
+      "env": {
+        "PRODUCTION": "True",
+        "REDIS_ACTIVE": "False",
+        "SQL_READONLY": "False"
+      },
+      "args": ["run", "--no-debugger"],
+      "jinja": true,
+      "autoStartBrowser": true,
+      "autoReload": {
+        "enable": true
+      }
+    }
+  ]
+}

@@ -347,7 +347,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
     result: bool = False
     msgerror: str = 'OK'
     try:
-        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=5, verify=True, allow_redirects=True)
+        response = requests.head(url=url, headers=__HEADERS, data={}, timeout=2, verify=True, allow_redirects=True)
 
         if response is not None and int(response.status_code) == 200:
             result = True
@@ -461,11 +461,11 @@ def __start_analise(verify: bool = True) -> None:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-09-20' order by codid ASC;")
+        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-09-30' order by codid ASC;")
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
-            cpu_count: int = min(4, total_itens, multiprocessing.cpu_count())            
+            cpu_count: int = min(total_itens, __MY_CPU_COUNT)            
             chunksize: int = max(1, total_itens // (cpu_count * 3))
             maxtasks = min(100, max(20, total_itens // cpu_count))
             with Pool(processes=cpu_count, maxtasksperchild=maxtasks) as p:
