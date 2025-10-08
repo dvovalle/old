@@ -63,7 +63,7 @@ where ativo = 1
 group by grupo
 order by grupo ASC;
 
-UPDATE tb_iptv SET grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo);
+UPDATE tb_iptv SET grupo = TRIM(UPPER(grupo)), name = TRIM(name), titulo = TRIM(titulo), dtanalise = '1910-01-01';
 
 UPDATE tb_iptv SET  ativo = 1, grupo = 'SERIES | SUPERMAN E LOIS'
 where name like '%Superman e Lois%'

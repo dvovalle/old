@@ -384,39 +384,42 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
 def __analise_all(x) -> bool:
     result: bool = False
     msg: str = ''
+    codid: str = '0'    
     try:
         data_atual: datetime = datetime.now()
         data_formatada: str = data_atual.strftime('%Y-%m-%d')
         url: str = str(x[0]).strip()
-        codid: str = str(x[1])
+        codid = str(x[1])
         rs_grupo: str = str(x[2])
-        result = __consulta_status(url=url, verify=False)
+        result = __consulta_status(url=url, verify=True)
         if result:
             msg = f"ID {codid} - {rs_grupo} - OK!!!!"
-            cursor.execute('UPDATE tb_iptv SET dtanalise=? WHERE codid=?;', (data_formatada, codid))        
+            cursor.execute(f'UPDATE tb_iptv SET dtanalise="{data_formatada}" WHERE codid={codid};')
         else:
             msg = f"ID {codid} - {rs_grupo} - erro"
-            cursor.execute('UPDATE tb_iptv SET ativo=?, name=?, dtanalise=? WHERE codid=?;', ('0', 'Erro para exibir', data_formatada, codid))
+            cursor.execute(f'DELETE FROM tb_iptv WHERE codid={codid};')
         conn.commit()
         print(msg)
 
     except Exception as err:
-        print(f"Erro analise: {err}")
+        print(f"Erro analise ({codid}): {err}")
 
     return result
 
 
-def __analise(grupo: str = '*', verify: bool = True) -> bool:
+def __analise(grupo: str = '*', verify: bool = False) -> bool:
     result: bool = False
     index: int = 0
     msg: str = ''
 
+    verify = False
+
     try:
         data_atual: datetime = datetime.now()
         data_formatada: str = data_atual.strftime('%Y-%m-%d')
-        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and dtanalise <= '2025-09-01' order by codid ASC;"
+        command: str = f"SELECT url, codid, grupo FROM tb_iptv WHERE grupo = '{grupo}' and ativo = 1 and dtanalise <= '2025-10-01' order by codid ASC;"
         if grupo == '*':
-            command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-09-01' order by grupo ASC, codid ASC;"
+            command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-01' order by grupo ASC, codid ASC;"
 
         res = cursor.execute(command)
         obj: list = res.fetchall()
@@ -436,7 +439,8 @@ def __analise(grupo: str = '*', verify: bool = True) -> bool:
                         cursor.execute('UPDATE tb_iptv SET dtanalise=? WHERE codid=?;', (data_formatada, codid))
                     else:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - erro"
-                        cursor.execute('UPDATE tb_iptv SET ativo=?, name=?, dtanalise=? WHERE codid=?;', ('0', 'Erro para exibir', data_formatada, codid))
+                        # cursor.execute('UPDATE tb_iptv SET ativo=?, name=?, dtanalise=? WHERE codid=?;', ('0', 'Erro para exibir', data_formatada, codid))
+                        cursor.execute('DELETE FROM tb_iptv WHERE codid=?;', (codid))
                     conn.commit()
                     print(msg)
 
@@ -461,7 +465,7 @@ def __start_analise(verify: bool = True) -> None:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-09-30' order by codid ASC;")
+        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-07' order by codid ASC;")
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
@@ -483,37 +487,28 @@ def __read_all_files(sqlAction: SQLAction) -> None:
             read_file(file_m3u=m3u, action=sqlAction, expire='2026-12-12', origem='')
 
 
-def __valida_grupos() -> None:
-    command: str = 'SELECT grupo, count(name) AS QtdLinhas FROM tb_iptv where ativo = 1 group by grupo order by grupo ASC;'
-    res = cursor.execute(command)
-    grupos: list = res.fetchall()
-    grupos.sort()
-    if grupos is not None and len(grupos) > 0:
-        grupos.sort()
-        print('Defina Sim(s) Não(n) ou Rename(r) grupo')
-        for x in grupos:
-            grupo_name: str = str(x[0])
-            value: str = input(f"{x} - s/n or r: ").upper()
-            is_commit: bool = False
-            if value == 'N':
-                is_commit = True
-                cursor.execute('UPDATE tb_iptv SET ativo=? where grupo=?;', ('0', grupo_name))
-            if value == 'R':
-                is_commit = True
-                new_group: str = input(f"Informe o novo grupo -> {grupo_name}: ").strip()
-                if new_group is None or (new_group is not None and len(new_group) <= 1):
-                    new_group = grupo_name
-                cursor.execute('UPDATE tb_iptv SET ativo=1, grupo=? where grupo=?;', (new_group, grupo_name))
-
-            if is_commit:
-                conn.commit()
+def __start_analise_all() -> None:
+    res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-07' order by codid ASC;")
+    obj: list = res.fetchall()
+    if obj is not None and len(obj) > 0:
+        total_itens: int = len(obj)
+        print(f'total_itens: {total_itens}')
+        if total_itens <= 3:
+            for grupo in obj:
+                __analise(grupo=grupo, verify=False)
+        else:
+            cpu_count: int = min(total_itens, __MY_CPU_COUNT)            
+            chunksize: int = max(1, total_itens // (cpu_count * 3))
+            maxtasks = min(100, max(20, total_itens // cpu_count))
+            with Pool(processes=cpu_count, maxtasksperchild=maxtasks) as p:
+                p.map(__analise_all, obj, chunksize=chunksize)
 
 
 if __name__ == '__main__':
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=False)
-        # __valida_grupos()
+        # __start_analise_all()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
     except Exception as err:

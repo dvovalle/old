@@ -413,7 +413,7 @@ async def __analise_all(item: tuple, db: aiosqlite.Connection) -> bool:
 async def __start_analise(db: aiosqlite.Connection, verify: bool = True) -> None:
 
     try:
-        command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-09-20' order by codid ASC;"
+        command = "SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-07' order by codid ASC;"
         
         async with db.execute(command) as cursor:
             obj = await cursor.fetchall()
