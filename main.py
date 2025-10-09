@@ -4,12 +4,12 @@ import re
 import sqlite3
 import subprocess
 import unicodedata
+from datetime import datetime
 from enum import Enum
 from multiprocessing import Pool
 from os import listdir
 from os import path
 from os import remove
-from datetime import datetime
 
 import requests
 
@@ -242,7 +242,7 @@ def read_file(file_m3u: str, action: SQLAction, expire: str, origem: str) -> Non
                                         title,
                                         ativo,
                                         expire,
-                                        '1990-01-01'
+                                        '1990-01-01',
                                     ),
                                 )
 
@@ -356,6 +356,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
             verify = False
             print(url)
 
+        verify = True
         if result and verify:
             result = verificar_stream(url=url)
 
@@ -384,7 +385,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
 def __analise_all(x) -> bool:
     result: bool = False
     msg: str = ''
-    codid: str = '0'    
+    codid: str = '0'
     try:
         data_atual: datetime = datetime.now()
         data_formatada: str = data_atual.strftime('%Y-%m-%d')
@@ -412,8 +413,6 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
     index: int = 0
     msg: str = ''
 
-    verify = False
-
     try:
         data_atual: datetime = datetime.now()
         data_formatada: str = data_atual.strftime('%Y-%m-%d')
@@ -436,11 +435,11 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
                     result = __consulta_status(url=url, verify=verify)
                     if result:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - OK!!!!"
-                        cursor.execute('UPDATE tb_iptv SET dtanalise=? WHERE codid=?;', (data_formatada, codid))
+                        cursor.execute(f'UPDATE tb_iptv SET dtanalise="{data_formatada}" WHERE codid={codid};')
                     else:
                         msg = f"{index} de {total} ID {codid} - {rs_grupo} - erro"
                         # cursor.execute('UPDATE tb_iptv SET ativo=?, name=?, dtanalise=? WHERE codid=?;', ('0', 'Erro para exibir', data_formatada, codid))
-                        cursor.execute('DELETE FROM tb_iptv WHERE codid=?;', (codid))
+                        cursor.execute(f'DELETE FROM tb_iptv WHERE codid={codid};')
                     conn.commit()
                     print(msg)
 
@@ -454,7 +453,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = []
+    list_gr: list[str] = ['SERIES | PACIFICADOR']
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -469,7 +468,7 @@ def __start_analise(verify: bool = True) -> None:
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
-            cpu_count: int = min(total_itens, __MY_CPU_COUNT)            
+            cpu_count = min(total_itens, __MY_CPU_COUNT)
             chunksize: int = max(1, total_itens // (cpu_count * 3))
             maxtasks = min(100, max(20, total_itens // cpu_count))
             with Pool(processes=cpu_count, maxtasksperchild=maxtasks) as p:
@@ -497,7 +496,7 @@ def __start_analise_all() -> None:
             for grupo in obj:
                 __analise(grupo=grupo, verify=False)
         else:
-            cpu_count: int = min(total_itens, __MY_CPU_COUNT)            
+            cpu_count: int = min(total_itens, __MY_CPU_COUNT)
             chunksize: int = max(1, total_itens // (cpu_count * 3))
             maxtasks = min(100, max(20, total_itens // cpu_count))
             with Pool(processes=cpu_count, maxtasksperchild=maxtasks) as p:

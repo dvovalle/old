@@ -32,9 +32,6 @@ gulp
 
 ```sql
 
-https://raw.githubusercontent.com/dvovalle/old/main/M3UListas/listaCompleta.m3u
-
-
 # database.db
 
 CREATE TABLE tb_iptv (
