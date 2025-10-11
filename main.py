@@ -13,6 +13,7 @@ from os import remove
 
 import requests
 
+__CONSULTAR_STREAM: bool = True
 __HEADERS: dict[str, str] = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0'}
 __MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2) + 1
 
@@ -349,6 +350,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
     try:
         response = requests.head(url=url, headers=__HEADERS, data={}, timeout=2, verify=True, allow_redirects=True)
 
+        verify = True
         if response is not None and int(response.status_code) == 200:
             result = True
         else:
@@ -356,7 +358,6 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
             verify = False
             print(url)
 
-        verify = True
         if result and verify:
             result = verificar_stream(url=url)
 
@@ -403,7 +404,8 @@ def __analise_all(x) -> bool:
         print(msg)
 
     except Exception as err:
-        print(f"Erro analise ({codid}): {err}")
+        print(f"__analise_all Erro analise ({codid}): {err}")
+   
 
     return result
 
@@ -412,7 +414,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
     result: bool = False
     index: int = 0
     msg: str = ''
-
+    codid: str = ''
     try:
         data_atual: datetime = datetime.now()
         data_formatada: str = data_atual.strftime('%Y-%m-%d')
@@ -430,7 +432,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
                 msg = f"{index} de {total}"
                 try:
                     url: str = str(x[0]).strip()
-                    codid: str = str(x[1])
+                    codid = str(x[1])
                     rs_grupo: str = str(x[2])
                     result = __consulta_status(url=url, verify=verify)
                     if result:
@@ -444,10 +446,10 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
                     print(msg)
 
                 except Exception as err:
-                    print(f"Erro analise: {err}")
+                    print(f"1 __analise - Erro analise: {err}")
 
     except Exception as err:
-        print(f"Erro analise: {err}")
+        print(f"2 __analise - Erro analise: {err} - f'DELETE FROM tb_iptv WHERE codid={codid};'")
 
     return result
 
@@ -494,7 +496,7 @@ def __start_analise_all() -> None:
         print(f'total_itens: {total_itens}')
         if total_itens <= 3:
             for grupo in obj:
-                __analise(grupo=grupo, verify=False)
+                __analise(grupo=grupo, verify=True)
         else:
             cpu_count: int = min(total_itens, __MY_CPU_COUNT)
             chunksize: int = max(1, total_itens // (cpu_count * 3))
@@ -507,6 +509,7 @@ if __name__ == '__main__':
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=False)
+        __CONSULTAR_STREAM = True
         # __start_analise_all()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False)
 
