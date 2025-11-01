@@ -455,7 +455,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = []
+    list_gr: list[str] = ["CANAIS | COMBATE","SERIES | PACIFICADOR",]
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -466,7 +466,7 @@ def __start_analise(verify: bool = True) -> None:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-07' order by codid ASC;")
+        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-30' order by codid ASC;")
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
