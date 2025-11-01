@@ -276,12 +276,15 @@ def get_sql(is_full: bool, grupo: str) -> list:
     return res.fetchall()
 
 
-def create_file(arquivo: str, is_full: bool) -> None:
+def create_file(arquivo: str, is_full: bool, gruposel: str = '*') -> None:
     head: str = '#EXTM3U\n'
-    obj: list = get_sql(is_full=is_full, grupo='*')
+    obj: list = get_sql(is_full=is_full, grupo=gruposel)
 
     if is_full:
         arquivo = __LISTA_ALL
+
+    if len(gruposel) > 5:
+        arquivo = f"{__DIR_PATH}/M3UListas/gruposel.m3u"
 
     if obj is not None:
         if path.exists(arquivo):
@@ -368,6 +371,8 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
         msgerror = f"Erro: {ex}"
         if contem(msgerror, 'ConnectTimeout'):
             result = True
+        elif contem(msgerror, 'certific'):
+            result = True            
         else:
             print(f"Consulta: {url} {msgerror}")
             result = False
@@ -455,7 +460,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = ["CANAIS | COMBATE","SERIES | PACIFICADOR",]
+    list_gr: list[str] = ["CANAIS | COMBATE", "SERIES | PACIFICADOR","CANAIS | UFC"]
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -511,7 +516,7 @@ if __name__ == '__main__':
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=False)
         # __start_analise_all()
-        create_file(arquivo=__LISTA_COMPLETA, is_full=False)
+        create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel="*")
 
     except Exception as err:
         print(f"******** -> Erro: {err}")
