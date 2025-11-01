@@ -78,3 +78,10 @@ curl -o M3UListas/027.m3u "https://gist.githubusercontent.com/tricolorpaulista/a
 
 echo "028------------------------------"
 curl -o M3UListas/028.m3u "http://vtvbr.com:80/get.php?username=299662397&password=6187389792&type=m3u_plus&output=mpegts"
+
+
+
+curl -o M3UListas/101.m3u https://raw.githubusercontent.com/pmachad0/OnSerieS/playlistv/onseries.m3u8
+curl -o M3UListas/102.m3u https://raw.githubusercontent.com/claudiogames/topcine.m3u/master/topcine.txt
+curl -o M3UListas/103.m3u https://raw.githubusercontent.com/pmachad0/OnSerieS/playlistv/onseries.m3u8
+curl -o M3UListas/104.m3u https://raw.githubusercontent.com/claudiogames/topcine.m3u/master/topcine.txt

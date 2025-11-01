@@ -7,12 +7,24 @@ http://158.58.172.5:8081/looktvs/combate/playlist.m3u8
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/116628
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE 4K" tvg-logo="http://7logos.top/logos/combate4k.png" group-title="CANAIS | COMBATE",COMBATE 4K
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/336462
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE 4K" tvg-logo="http://7logos.top/logos/combate4k.png" group-title="CANAIS | COMBATE",COMBATE 4K
+http://trabalho724.top:8080/5193271958/5193271ips1/116628
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE 4K" tvg-logo="http://7logos.top/logos/combate4k.png" group-title="CANAIS | COMBATE",COMBATE 4K
+http://trabalho724.top:8080/5193271958/5193271ips1/336462
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE FHD" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE FHD
 http://nxczs.top/live/nbayhd/6kzvbg/234936.m3u8
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FHD" tvg-logo="http://7logos.top/logos/combatefhd.png" group-title="CANAIS | COMBATE",COMBATE FHD
+http://trabalho724.top:8080/5193271958/5193271ips1/18657
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FHD" tvg-logo="http://7logos.top/logos/combatefhd.png" group-title="CANAIS | COMBATE",COMBATE FHD
+http://trabalho724.top:8080/5193271958/5193271ips1/22656
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE FHD H265" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE FHD H265
 http://nxczs.top/live/nbayhd/6kzvbg/39.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE FHD H265" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE FHD H265
 http://nxczs.top/live/nbayhd/6kzvbg/234935.m3u8
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FHD MAX" tvg-logo="http://7logos.top/logos/combatefhdmax.png" group-title="CANAIS | COMBATE",COMBATE FHD MAX
+http://trabalho724.top:8080/5193271958/5193271ips1/72974
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FHD MAX" tvg-logo="http://7logos.top/logos/combatefhdmax.png" group-title="CANAIS | COMBATE",COMBATE FHD MAX
+http://trabalho724.top:8080/5193271958/5193271ips1/18658
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 1
 https://bit.com.vc:443/20242024/20242024/2246016
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 1
@@ -23,6 +35,8 @@ https://bit.com.vc:443/randi123/randi123/2246016
 https://bit.com.vc:443/flavio321/flavio321/2246016
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 1
 https://bit.com.vc:443/Andersonrs/ruadomerina/2246016
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2246016
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 2
 https://bit.com.vc:443/20242024/20242024/1729875
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 2
@@ -33,6 +47,8 @@ https://bit.com.vc:443/randi123/randi123/1729875
 https://bit.com.vc:443/flavio321/flavio321/1729875
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 2
 https://bit.com.vc:443/Andersonrs/ruadomerina/1729875
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1729875
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 3
 https://bit.com.vc:443/20242024/20242024/454797
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 3
@@ -43,10 +59,16 @@ https://bit.com.vc:443/randi123/randi123/454797
 https://bit.com.vc:443/flavio321/flavio321/454797
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 3
 https://bit.com.vc:443/Andersonrs/ruadomerina/454797
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE FONTE 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/Canal-combate-logo.png" group-title="CANAIS | COMBATE",COMBATE FONTE 3
+https://bit.com.vc:443/kayllane/12345678/454797
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE HD" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE HD
 http://nxczs.top/live/nbayhd/6kzvbg/340.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE HD" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE HD
 http://nxczs.top/live/nbayhd/6kzvbg/234937.m3u8
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE HD" tvg-logo="http://7logos.top/logos/combatehd.png" group-title="CANAIS | COMBATE",COMBATE HD
+http://trabalho724.top:8080/5193271958/5193271ips1/18685
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE HD" tvg-logo="http://7logos.top/logos/combatehd.png" group-title="CANAIS | COMBATE",COMBATE HD
+http://trabalho724.top:8080/5193271958/5193271ips1/22492
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE SD" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE SD
 http://nxczs.top/live/nbayhd/6kzvbg/202.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="COMBATE SD" tvg-logo="http://www.imgscc.top/logos/combat250.png" group-title="CANAIS | COMBATE",COMBATE SD
@@ -55,250 +77,78 @@ http://nxczs.top/live/nbayhd/6kzvbg/234938.m3u8
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/18684
 #EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE SD" tvg-logo="http://7logos.top/logos/combatesd.png" group-title="CANAIS | COMBATE",COMBATE SD
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/22309
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE SD" tvg-logo="http://7logos.top/logos/combatesd.png" group-title="CANAIS | COMBATE",COMBATE SD
+http://trabalho724.top:8080/5193271958/5193271ips1/18684
+#EXTINF:-1 tvg-id="combate.br" tvg-name="COMBATE SD" tvg-logo="http://7logos.top/logos/combatesd.png" group-title="CANAIS | COMBATE",COMBATE SD
+http://trabalho724.top:8080/5193271958/5193271ips1/22309
+#EXTINF:-1 tvg-id="" tvg-name="COMBATENTES DA LIBERDADE RAY DUB" tvg-logo="http://sv1.cinecriciuma.com.br:8080/images/vH6xVfAfgE1Toe5CMjHit8DPqMQ_small.jpg" group-title="CANAIS | COMBATE",COMBATENTES DA LIBERDADE RAY DUB
+http://sv1.ccdns.xyz:8080/movie/alfadelta/alfadeltagf37/7479.mp4
+#EXTINF:-1 tvg-id="" tvg-name="COMBATENTES DA LIBERDADE RAY DUB" tvg-logo="http://sv1.ccdns.xyz:8080/images/vH6xVfAfgE1Toe5CMjHit8DPqMQ_small.jpg" group-title="CANAIS | COMBATE",COMBATENTES DA LIBERDADE RAY DUB
+http://sv1.cinecriciuma.com.br:8080/movie/asgardtv/93207f5004/7479.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Combate" tvg-logo="https://image.jimcdn.com/app/cms/image/transf/dimension=320x10000:format=jpg/path/s08737a366136fc33/image/ic97ee3eaa7572aa9/version/1465012200/image.jpg" group-title="CANAIS | COMBATE",Combate
 http://213.163.65.9:8081/live/combatez/playlist.m3u8
+#EXTINF:-1 tvg-id="Combate" tvg-name="Combate" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/1915.m3u8
+#EXTINF:-1 tvg-id="Combate" tvg-name="Combate 2" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate 2
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/12206.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
 https://bit.com.vc:443/movie/20242024/20242024/2754316.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/dBPa6MJw6yzCu6eUVI2rL9mk9nl.jpg" group-title="CANAIS | COMBATE",Combate 2015
 http://trabalho724.top:8080/movie/Joaol0607/Wxmzpayt3/274247.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
+https://bit.com.vc:443/movie/AdrianoRibeiro/adriano2468/2754316.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
+https://bit.com.vc:443/movie/randi123/randi123/2754316.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
+https://bit.com.vc:443/movie/flavio321/flavio321/2754316.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
+https://bit.com.vc:443/movie/Andersonrs/ruadomerina/2754316.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mChmARBkGqSeCQrjDut8auQcT7V.jpg" group-title="CANAIS | COMBATE",Combate 2015
+https://bit.com.vc:443/movie/kayllane/12345678/2754316.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combate 2015" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/dBPa6MJw6yzCu6eUVI2rL9mk9nl.jpg" group-title="CANAIS | COMBATE",Combate 2015
+http://trabalho724.top:8080/movie/5193271958/5193271ips1/274247.mp4
+#EXTINF:-1 tvg-id="Combate" tvg-name="Combate BR" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate BR
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/8818.m3u8
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate FullHD" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate FullHD
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/10170.m3u8
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate FullHD 2" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate FullHD 2
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/12208.m3u8
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate FullHD BR" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate FullHD BR
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/10171.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Combate HD" tvg-logo="https://i.imgur.com/R8qQGoZ.png" group-title="CANAIS | COMBATE",Combate HD
 https://peertube.co.uk/static/webseed/2d73a338-9811-4bef-a79e-c2be8ade1a32-720.mp4?IMDSFULL9
 #EXTINF:-1 tvg-id="" tvg-name="Combate HD" tvg-logo="https://i.imgur.com/R8qQGoZ.png" group-title="CANAIS | COMBATE",Combate HD
 https://peertube.co.uk/static/webseed/2d73a338-9811-4bef-a79e-c2be8ade1a32-720.mp4?IMDSFULL9?IMDSFULL
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate HD" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate HD
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/1916.m3u8
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate HD 2" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate HD 2
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/12207.m3u8
+#EXTINF:-1 tvg-id="Combate HD" tvg-name="Combate HD BR" tvg-logo="https://lh3.googleusercontent.com/-TcF9NyqfiLs/W6aExDVVtaI/AAAAAAAAAOM/-HY3SCXy41QcILNibAXrTurea87S9u8xwCEwYBhgL/w140-h84-p/combate.png" group-title="CANAIS | COMBATE",Combate HD BR
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/8819.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Combate SD" tvg-logo="https://i.imgur.com/R8qQGoZ.png" group-title="CANAIS | COMBATE",Combate SD
 https://peertube.co.uk/static/webseed/2d73a338-9811-4bef-a79e-c2be8ade1a32-720.mp4?IMDSFULL8?IMDSFULL
+#EXTINF:-1 tvg-id="" tvg-name="Combate lista paga" tvg-logo="https://uploaddeimagens.com.br/images/001/279/617/full/91f1eda9bc5662589a9a742c82573ee0_icon.png?1517931158" group-title="CANAIS | COMBATE",Combate lista paga
+http://painel.iptvmove.com:25461/live/jfgjhsdguyk/dfbfdbgsduyfgudyg/1337.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Combatentes Da Liberdade Ray" tvg-logo="http://i.imgscc.top:80/images/f55e7d37061f2e4a13e56de53d1162e8.jpg" group-title="CANAIS | COMBATE",Combatentes Da Liberdade Ray
 http://nxczs.top/live/nbayhd/6kzvbg/183157.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
 https://bit.com.vc:443/movie/20242024/20242024/2754576.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
 http://trabalho724.top:8080/movie/Joaol0607/Wxmzpayt3/32870.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+https://bit.com.vc:443/movie/AdrianoRibeiro/adriano2468/2754576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+https://bit.com.vc:443/movie/randi123/randi123/2754576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+https://bit.com.vc:443/movie/flavio321/flavio321/2754576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+https://bit.com.vc:443/movie/Andersonrs/ruadomerina/2754576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+https://bit.com.vc:443/movie/kayllane/12345678/2754576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Combatentes da Liberdade Ray 2018" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/vH6xVfAfgE1Toe5CMjHit8DPqMQ.jpg" group-title="CANAIS | COMBATE",Combatentes da Liberdade Ray 2018
+http://trabalho724.top:8080/movie/5193271958/5193271ips1/32870.mp4
 #EXTINF:-1 tvg-id="" tvg-name="PT UFC FIGTH PASS FHD" tvg-logo="http://7logos.top/logos/ufcfightpassfhd.png" group-title="CANAIS | COMBATE",PT UFC FIGTH PASS FHD
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/307478
-#EXTINF:-1 tvg-id="" tvg-name="UFC 246 McGregor vs Cowboy 2020" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/plHqmHsiLrI0DROTrqpYQgg6trB.jpg" group-title="CANAIS | COMBATE",UFC 246 McGregor vs Cowboy 2020
-http://nxczs.top/live/nbayhd/6kzvbg/204546.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 311 Makhachev vs Moicano Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/osB5inl8PzaZiC3OYRr2WOepjwr.jpg" group-title="CANAIS | COMBATE",UFC 311 Makhachev vs Moicano Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/447229.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 312 Du Plessis vs Strickland 2 Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/y2z4tLCbLwFSu9KU44tIZGdpuOs.jpg" group-title="CANAIS | COMBATE",UFC 312 Du Plessis vs Strickland 2 Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/447230.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 313 Pereira vs Ankalaev Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/lOKaLq4i16KZg2nzo0q1vdGKlip.jpg" group-title="CANAIS | COMBATE",UFC 313 Pereira vs Ankalaev Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/449164.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 317 Topuria vs Oliveira" tvg-logo="https://image.tmdb.org/t/p/w500/nMdjudaUKePXVSaCaqYFTTGZIik.jpg" group-title="CANAIS | COMBATE",UFC 317 Topuria vs Oliveira
-http://nxczs.top/live/nbayhd/6kzvbg/477199.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 318 Holloway vs Poirier 3" tvg-logo="https://image.tmdb.org/t/p/w500/j7cPZPCO9jo0xxfghfChAWVpjuz.jpg" group-title="CANAIS | COMBATE",UFC 318 Holloway vs Poirier 3
-http://nxczs.top/live/nbayhd/6kzvbg/484147.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC 319 du Plessis vs Chimaev" tvg-logo="https://image.tmdb.org/t/p/w500/sllTo8ajL9P76k6hL80glCiJGAq.jpg" group-title="CANAIS | COMBATE",UFC 319 du Plessis vs Chimaev
-http://nxczs.top/live/nbayhd/6kzvbg/495015.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 1
-https://bit.com.vc:443/20242024/20242024/2757771
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 1
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757771
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 1
-https://bit.com.vc:443/randi123/randi123/2757771
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 1
-https://bit.com.vc:443/flavio321/flavio321/2757771
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 1
-https://bit.com.vc:443/Andersonrs/ruadomerina/2757771
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 2
-https://bit.com.vc:443/20242024/20242024/1729294
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 2
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729294
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 2
-https://bit.com.vc:443/randi123/randi123/1729294
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 2
-https://bit.com.vc:443/flavio321/flavio321/1729294
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 2
-https://bit.com.vc:443/Andersonrs/ruadomerina/1729294
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 3
-https://bit.com.vc:443/20242024/20242024/2247371
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 3
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247371
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 3
-https://bit.com.vc:443/randi123/randi123/2247371
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 3
-https://bit.com.vc:443/flavio321/flavio321/2247371
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 FONTE 3
-https://bit.com.vc:443/Andersonrs/ruadomerina/2247371
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 HD
-http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/293070
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 01 HD
-http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300039
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/20242024/20242024/2245952
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/20242024/20242024/2757772
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2245952
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757772
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/randi123/randi123/2245952
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/randi123/randi123/2757772
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/flavio321/flavio321/2245952
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/flavio321/flavio321/2757772
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/Andersonrs/ruadomerina/2245952
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 1
-https://bit.com.vc:443/Andersonrs/ruadomerina/2757772
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 2
-https://bit.com.vc:443/20242024/20242024/1729222
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 2
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729222
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 2
-https://bit.com.vc:443/randi123/randi123/1729222
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 2
-https://bit.com.vc:443/flavio321/flavio321/1729222
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 2
-https://bit.com.vc:443/Andersonrs/ruadomerina/1729222
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 3
-https://bit.com.vc:443/20242024/20242024/2247373
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 3
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247373
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 3
-https://bit.com.vc:443/randi123/randi123/2247373
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 3
-https://bit.com.vc:443/flavio321/flavio321/2247373
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 FONTE 3
-https://bit.com.vc:443/Andersonrs/ruadomerina/2247373
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 02 HD
-http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300040
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/20242024/20242024/2245953
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/20242024/20242024/2757773
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2245953
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757773
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/randi123/randi123/2245953
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/randi123/randi123/2757773
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/flavio321/flavio321/2245953
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/flavio321/flavio321/2757773
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/Andersonrs/ruadomerina/2245953
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 1
-https://bit.com.vc:443/Andersonrs/ruadomerina/2757773
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 2
-https://bit.com.vc:443/20242024/20242024/1729221
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 2
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729221
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 2
-https://bit.com.vc:443/randi123/randi123/1729221
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 2
-https://bit.com.vc:443/flavio321/flavio321/1729221
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 2
-https://bit.com.vc:443/Andersonrs/ruadomerina/1729221
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 3
-https://bit.com.vc:443/20242024/20242024/2247379
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 3
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247379
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 3
-https://bit.com.vc:443/randi123/randi123/2247379
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 3
-https://bit.com.vc:443/flavio321/flavio321/2247379
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 FONTE 3
-https://bit.com.vc:443/Andersonrs/ruadomerina/2247379
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 03 HD
-http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300041
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 04 FONTE 2
-https://bit.com.vc:443/20242024/20242024/1729220
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 04 FONTE 2
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729220
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 04 FONTE 2
-https://bit.com.vc:443/randi123/randi123/1729220
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 04 FONTE 2
-https://bit.com.vc:443/flavio321/flavio321/1729220
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 04 FONTE 2
-https://bit.com.vc:443/Andersonrs/ruadomerina/1729220
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 2
-https://bit.com.vc:443/20242024/20242024/1730126
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 2
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1730126
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 2
-https://bit.com.vc:443/randi123/randi123/1730126
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 2
-https://bit.com.vc:443/flavio321/flavio321/1730126
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 2
-https://bit.com.vc:443/Andersonrs/ruadomerina/1730126
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 3
-https://bit.com.vc:443/20242024/20242024/2247372
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 3
-https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247372
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 3
-https://bit.com.vc:443/randi123/randi123/2247372
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 3
-https://bit.com.vc:443/flavio321/flavio321/2247372
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | COMBATE",UFC FIGHT PASS 05 FONTE 3
-https://bit.com.vc:443/Andersonrs/ruadomerina/2247372
-#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS FHD" tvg-logo="http://7logos.top/logos/ufcfightpassfhd.png" group-title="CANAIS | COMBATE",UFC FIGHT PASS FHD
-http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/282008
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 248 Yan vs Figueiredo Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jEN2w7RzcSh5tyRANwZWciYFZl5.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 248 Yan vs Figueiredo Card Preliminar
-http://nxczs.top/live/nbayhd/6kzvbg/447231.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 248 Yan vs Figueiredo Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jEN2w7RzcSh5tyRANwZWciYFZl5.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 248 Yan vs Figueiredo Card Principal
-http://nxczs.top/live/nbayhd/6kzvbg/447232.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 249 Dern vs Ribas 2 Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/yhRcGVGkxhyqRz0BQZfdQQE5sE1.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 249 Dern vs Ribas 2 Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/447233.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 250 Adesanya vs Imavov Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/pQdyzQ6Ecu9AhGRQAN5Roww2c7r.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 250 Adesanya vs Imavov Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/447234.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 251 Cannonier vs Rodrigues Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jPdE6xFuyPrRV9BnIWDcm20TJpj.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 251 Cannonier vs Rodrigues Card Preliminar
-http://nxczs.top/live/nbayhd/6kzvbg/447236.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 251 Cannonier vs Rodrigues Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jPdE6xFuyPrRV9BnIWDcm20TJpj.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 251 Cannonier vs Rodrigues Card Principal
-http://nxczs.top/live/nbayhd/6kzvbg/447235.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 252 Cejudo vs Song Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/2Hhtx7DSoiFvPbr3cxtgp191UAh.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 252 Cejudo vs Song Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/447994.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 253 Kape vs Almabayev Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/8m51y7cfcwotQMtsUoKKBI1THdo.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 253 Kape vs Almabayev Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/448734.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 254 Vettori vs Dolidze 2 Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/gyMRwMVbbA4yOeiKJ13E9zZwyWs.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 254 Vettori vs Dolidze 2 Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/449881.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 255 Edwards vs Brady Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/AxsKPUehJJXdRDWmM16AbULP21.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 255 Edwards vs Brady Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/451917.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 256 Burns vs Morales" tvg-logo="https://image.tmdb.org/t/p/w500/4QSAYIHkg5IfHL3tvmvhXXlZWwF.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 256 Burns vs Morales
-http://nxczs.top/live/nbayhd/6kzvbg/461202.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 257 Walker vs Zhang" tvg-logo="https://image.tmdb.org/t/p/w500/ccmc8OMG9jH13IKhOJS8FUZMiYz.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 257 Walker vs Zhang
-http://nxczs.top/live/nbayhd/6kzvbg/495016.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 258 Imavov vs Borralho" tvg-logo="https://image.tmdb.org/t/p/w500/mj3S0pMp5kHccFmyVZ1L49c2Xtp.jpg" group-title="CANAIS | COMBATE",UFC Fight Night 258 Imavov vs Borralho
-http://nxczs.top/live/nbayhd/6kzvbg/497418.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 01" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 01
-http://nxczs.top/live/nbayhd/6kzvbg/289465.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 02" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 02
-http://nxczs.top/live/nbayhd/6kzvbg/291092.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 03" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 03
-http://nxczs.top/live/nbayhd/6kzvbg/313225.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 04" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 04
-http://nxczs.top/live/nbayhd/6kzvbg/313226.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 05" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 05
-http://nxczs.top/live/nbayhd/6kzvbg/313227.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC TV 06" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",UFC TV 06
-http://nxczs.top/live/nbayhd/6kzvbg/313228.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ABC 8 Hill vs Rountree Jr" tvg-logo="https://image.tmdb.org/t/p/w500/yjA69XE8phBEJIlQCGcEsLgwA7W.jpg" group-title="CANAIS | COMBATE",UFC on ABC 8 Hill vs Rountree Jr
-http://nxczs.top/live/nbayhd/6kzvbg/477172.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 63 Covington vs Buckley Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jdQNHiJW2IYSs7XNgedsOWlBZGs.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 63 Covington vs Buckley Card Preliminar
-http://nxczs.top/live/nbayhd/6kzvbg/447237.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 63 Covington vs Buckley Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jdQNHiJW2IYSs7XNgedsOWlBZGs.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 63 Covington vs Buckley Card Principal
-http://nxczs.top/live/nbayhd/6kzvbg/447238.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 64 Moreno vs Erceg Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/dx87XigdvTHNdESjLbSeLQnIoBC.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 64 Moreno vs Erceg Card Completo
-http://nxczs.top/live/nbayhd/6kzvbg/452789.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 65 Emmett vs Murphy Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/nIziqtXhtaJVqUwnSH9GslTtiNy.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 65 Emmett vs Murphy Card Principal
-http://nxczs.top/live/nbayhd/6kzvbg/456820.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 66 Machado Garry vs Prates" tvg-logo="https://image.tmdb.org/t/p/w500/1QwNcc1FS8GzVbno8KzxCE5XbVw.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 66 Machado Garry vs Prates
-http://nxczs.top/live/nbayhd/6kzvbg/460883.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 67 Sandhagen vs Figueiredo" tvg-logo="https://image.tmdb.org/t/p/w500/bRiuuMKG5wsdEuGUaF4TM0UPPN5.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 67 Sandhagen vs Figueiredo
-http://nxczs.top/live/nbayhd/6kzvbg/460884.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 69 Usman vs Buckley" tvg-logo="https://image.tmdb.org/t/p/w500/izxUQUR7IBUBYZaavFcbsRVFX66.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 69 Usman vs Buckley
-http://nxczs.top/live/nbayhd/6kzvbg/472425.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 70 Lewis vs Teixeira" tvg-logo="https://image.tmdb.org/t/p/w500/hRgqZkmQj4f5lA5uWY1sLZqWifC.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 70 Lewis vs Teixeira
-http://nxczs.top/live/nbayhd/6kzvbg/483796.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 71 Taira vs Park" tvg-logo="https://image.tmdb.org/t/p/w500/pxLnN5ZnVLn3DOM9jLxU3OGw53M.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 71 Taira vs Park
-http://nxczs.top/live/nbayhd/6kzvbg/491235.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 72 Dolidze vs Hernandez" tvg-logo="https://image.tmdb.org/t/p/w500/V3vkYcsxDw6x1lg31SKhSoJRXz.jpg" group-title="CANAIS | COMBATE",UFC on ESPN 72 Dolidze vs Hernandez
-http://nxczs.top/live/nbayhd/6kzvbg/492845.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US UFC FIGHT PASS HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | COMBATE",US UFC FIGHT PASS HD
 http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/305089
 #EXTINF:-1 tvg-id="" tvg-name="USA UFC FIGHT PASS 247" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | COMBATE",USA UFC FIGHT PASS 247
@@ -627,6 +477,268 @@ https://bit.com.vc:443/AdrianoRibeiro/adriano2468/454868
 http://89.248.168.205:8088/live/tcacionaovivo2/playlist.m3u8?id=24831&wowzasessionid=730930509&pk=5d103d2ec658a5719dea4fccf800105017cded0296af8f422cddaa306347d10a
 #EXTINF:-1 tvg-id="" tvg-name="Telecine Premium" tvg-logo="" group-title="CANAIS | TELECINE",Telecine Premium
 http://80.82.64.144:8088/live/tvtcpremumaovivo/playlist.m3u8?wowzasessionid=667237974&pk=5d103d2ec658a5719dea4fccf800105017cded0296af8f422cddaa306347d10a
+#EXTINF:-1 tvg-id="" tvg-name="UFC 246 McGregor vs Cowboy 2020" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/plHqmHsiLrI0DROTrqpYQgg6trB.jpg" group-title="CANAIS | UFC",UFC 246 McGregor vs Cowboy 2020
+http://nxczs.top/live/nbayhd/6kzvbg/204546.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 311 Makhachev vs Moicano Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/osB5inl8PzaZiC3OYRr2WOepjwr.jpg" group-title="CANAIS | UFC",UFC 311 Makhachev vs Moicano Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/447229.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 312 Du Plessis vs Strickland 2 Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/y2z4tLCbLwFSu9KU44tIZGdpuOs.jpg" group-title="CANAIS | UFC",UFC 312 Du Plessis vs Strickland 2 Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/447230.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 313 Pereira vs Ankalaev Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/lOKaLq4i16KZg2nzo0q1vdGKlip.jpg" group-title="CANAIS | UFC",UFC 313 Pereira vs Ankalaev Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/449164.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 317 Topuria vs Oliveira" tvg-logo="https://image.tmdb.org/t/p/w500/nMdjudaUKePXVSaCaqYFTTGZIik.jpg" group-title="CANAIS | UFC",UFC 317 Topuria vs Oliveira
+http://nxczs.top/live/nbayhd/6kzvbg/477199.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 318 Holloway vs Poirier 3" tvg-logo="https://image.tmdb.org/t/p/w500/j7cPZPCO9jo0xxfghfChAWVpjuz.jpg" group-title="CANAIS | UFC",UFC 318 Holloway vs Poirier 3
+http://nxczs.top/live/nbayhd/6kzvbg/484147.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC 319 du Plessis vs Chimaev" tvg-logo="https://image.tmdb.org/t/p/w500/sllTo8ajL9P76k6hL80glCiJGAq.jpg" group-title="CANAIS | UFC",UFC 319 du Plessis vs Chimaev
+http://nxczs.top/live/nbayhd/6kzvbg/495015.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/20242024/20242024/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/randi123/randi123/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/flavio321/flavio321/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/Andersonrs/ruadomerina/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2757771
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/20242024/20242024/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/randi123/randi123/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/flavio321/flavio321/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/Andersonrs/ruadomerina/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1729294
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/20242024/20242024/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/randi123/randi123/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/flavio321/flavio321/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/Andersonrs/ruadomerina/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 FONTE 3
+https://bit.com.vc:443/kayllane/12345678/2247371
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 HD
+http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/293070
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 HD
+http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300039
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 HD
+http://trabalho724.top:8080/5193271958/5193271ips1/293070
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 01 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 01 HD
+http://trabalho724.top:8080/5193271958/5193271ips1/300039
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/20242024/20242024/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/20242024/20242024/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/randi123/randi123/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/randi123/randi123/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/flavio321/flavio321/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/flavio321/flavio321/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/Andersonrs/ruadomerina/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/Andersonrs/ruadomerina/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2245952
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2757772
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/20242024/20242024/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/randi123/randi123/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/flavio321/flavio321/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/Andersonrs/ruadomerina/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1729222
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/20242024/20242024/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/randi123/randi123/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/flavio321/flavio321/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/Andersonrs/ruadomerina/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 FONTE 3
+https://bit.com.vc:443/kayllane/12345678/2247373
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 HD
+http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300040
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 02 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 02 HD
+http://trabalho724.top:8080/5193271958/5193271ips1/300040
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/20242024/20242024/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/20242024/20242024/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/randi123/randi123/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/randi123/randi123/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/flavio321/flavio321/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/flavio321/flavio321/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/Andersonrs/ruadomerina/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/Andersonrs/ruadomerina/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2245953
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 1" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 1
+https://bit.com.vc:443/kayllane/12345678/2757773
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/20242024/20242024/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/randi123/randi123/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/flavio321/flavio321/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/Andersonrs/ruadomerina/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1729221
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/20242024/20242024/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/randi123/randi123/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/flavio321/flavio321/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/Andersonrs/ruadomerina/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 FONTE 3
+https://bit.com.vc:443/kayllane/12345678/2247379
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 HD
+http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/300041
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 03 HD" tvg-logo="http://7logos.top/logos/ufcfightpasshd.png" group-title="CANAIS | UFC",UFC FIGHT PASS 03 HD
+http://trabalho724.top:8080/5193271958/5193271ips1/300041
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/20242024/20242024/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/randi123/randi123/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/flavio321/flavio321/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/Andersonrs/ruadomerina/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 04 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 04 FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1729220
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/20242024/20242024/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/randi123/randi123/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/flavio321/flavio321/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/Andersonrs/ruadomerina/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 2" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 2
+https://bit.com.vc:443/kayllane/12345678/1730126
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/20242024/20242024/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/AdrianoRibeiro/adriano2468/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/randi123/randi123/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/flavio321/flavio321/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/Andersonrs/ruadomerina/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS 05 FONTE 3" tvg-logo="https://aibnews.com.br/wp-content/uploads/2023/01/UFC..png" group-title="CANAIS | UFC",UFC FIGHT PASS 05 FONTE 3
+https://bit.com.vc:443/kayllane/12345678/2247372
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS FHD" tvg-logo="http://7logos.top/logos/ufcfightpassfhd.png" group-title="CANAIS | UFC",UFC FIGHT PASS FHD
+http://trabalho724.top:8080/Joaol0607/Wxmzpayt3/282008
+#EXTINF:-1 tvg-id="" tvg-name="UFC FIGHT PASS FHD" tvg-logo="http://7logos.top/logos/ufcfightpassfhd.png" group-title="CANAIS | UFC",UFC FIGHT PASS FHD
+http://trabalho724.top:8080/5193271958/5193271ips1/282008
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 248 Yan vs Figueiredo Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jEN2w7RzcSh5tyRANwZWciYFZl5.jpg" group-title="CANAIS | UFC",UFC Fight Night 248 Yan vs Figueiredo Card Preliminar
+http://nxczs.top/live/nbayhd/6kzvbg/447231.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 248 Yan vs Figueiredo Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jEN2w7RzcSh5tyRANwZWciYFZl5.jpg" group-title="CANAIS | UFC",UFC Fight Night 248 Yan vs Figueiredo Card Principal
+http://nxczs.top/live/nbayhd/6kzvbg/447232.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 249 Dern vs Ribas 2 Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/yhRcGVGkxhyqRz0BQZfdQQE5sE1.jpg" group-title="CANAIS | UFC",UFC Fight Night 249 Dern vs Ribas 2 Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/447233.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 250 Adesanya vs Imavov Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/pQdyzQ6Ecu9AhGRQAN5Roww2c7r.jpg" group-title="CANAIS | UFC",UFC Fight Night 250 Adesanya vs Imavov Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/447234.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 251 Cannonier vs Rodrigues Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jPdE6xFuyPrRV9BnIWDcm20TJpj.jpg" group-title="CANAIS | UFC",UFC Fight Night 251 Cannonier vs Rodrigues Card Preliminar
+http://nxczs.top/live/nbayhd/6kzvbg/447236.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 251 Cannonier vs Rodrigues Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jPdE6xFuyPrRV9BnIWDcm20TJpj.jpg" group-title="CANAIS | UFC",UFC Fight Night 251 Cannonier vs Rodrigues Card Principal
+http://nxczs.top/live/nbayhd/6kzvbg/447235.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 252 Cejudo vs Song Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/2Hhtx7DSoiFvPbr3cxtgp191UAh.jpg" group-title="CANAIS | UFC",UFC Fight Night 252 Cejudo vs Song Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/447994.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 253 Kape vs Almabayev Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/8m51y7cfcwotQMtsUoKKBI1THdo.jpg" group-title="CANAIS | UFC",UFC Fight Night 253 Kape vs Almabayev Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/448734.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 254 Vettori vs Dolidze 2 Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/gyMRwMVbbA4yOeiKJ13E9zZwyWs.jpg" group-title="CANAIS | UFC",UFC Fight Night 254 Vettori vs Dolidze 2 Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/449881.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 255 Edwards vs Brady Card Completo" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/AxsKPUehJJXdRDWmM16AbULP21.jpg" group-title="CANAIS | UFC",UFC Fight Night 255 Edwards vs Brady Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/451917.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 256 Burns vs Morales" tvg-logo="https://image.tmdb.org/t/p/w500/4QSAYIHkg5IfHL3tvmvhXXlZWwF.jpg" group-title="CANAIS | UFC",UFC Fight Night 256 Burns vs Morales
+http://nxczs.top/live/nbayhd/6kzvbg/461202.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 257 Walker vs Zhang" tvg-logo="https://image.tmdb.org/t/p/w500/ccmc8OMG9jH13IKhOJS8FUZMiYz.jpg" group-title="CANAIS | UFC",UFC Fight Night 257 Walker vs Zhang
+http://nxczs.top/live/nbayhd/6kzvbg/495016.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC Fight Night 258 Imavov vs Borralho" tvg-logo="https://image.tmdb.org/t/p/w500/mj3S0pMp5kHccFmyVZ1L49c2Xtp.jpg" group-title="CANAIS | UFC",UFC Fight Night 258 Imavov vs Borralho
+http://nxczs.top/live/nbayhd/6kzvbg/497418.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 01" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 01
+http://nxczs.top/live/nbayhd/6kzvbg/289465.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 02" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 02
+http://nxczs.top/live/nbayhd/6kzvbg/291092.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 03" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 03
+http://nxczs.top/live/nbayhd/6kzvbg/313225.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 04" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 04
+http://nxczs.top/live/nbayhd/6kzvbg/313226.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 05" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 05
+http://nxczs.top/live/nbayhd/6kzvbg/313227.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC TV 06" tvg-logo="https://imgscc.top/logos/logoufc.png" group-title="CANAIS | UFC",UFC TV 06
+http://nxczs.top/live/nbayhd/6kzvbg/313228.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ABC 8 Hill vs Rountree Jr" tvg-logo="https://image.tmdb.org/t/p/w500/yjA69XE8phBEJIlQCGcEsLgwA7W.jpg" group-title="CANAIS | UFC",UFC on ABC 8 Hill vs Rountree Jr
+http://nxczs.top/live/nbayhd/6kzvbg/477172.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 63 Covington vs Buckley Card Preliminar" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jdQNHiJW2IYSs7XNgedsOWlBZGs.jpg" group-title="CANAIS | UFC",UFC on ESPN 63 Covington vs Buckley Card Preliminar
+http://nxczs.top/live/nbayhd/6kzvbg/447237.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 63 Covington vs Buckley Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/jdQNHiJW2IYSs7XNgedsOWlBZGs.jpg" group-title="CANAIS | UFC",UFC on ESPN 63 Covington vs Buckley Card Principal
+http://nxczs.top/live/nbayhd/6kzvbg/447238.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 64 Moreno vs Erceg Card Completo" tvg-logo="https://image.tmdb.org/t/p/w500/dx87XigdvTHNdESjLbSeLQnIoBC.jpg" group-title="CANAIS | UFC",UFC on ESPN 64 Moreno vs Erceg Card Completo
+http://nxczs.top/live/nbayhd/6kzvbg/452789.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 65 Emmett vs Murphy Card Principal" tvg-logo="http://file.gstaticontent.com//t/p/w600_and_h900_bestv2/nIziqtXhtaJVqUwnSH9GslTtiNy.jpg" group-title="CANAIS | UFC",UFC on ESPN 65 Emmett vs Murphy Card Principal
+http://nxczs.top/live/nbayhd/6kzvbg/456820.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 66 Machado Garry vs Prates" tvg-logo="https://image.tmdb.org/t/p/w500/1QwNcc1FS8GzVbno8KzxCE5XbVw.jpg" group-title="CANAIS | UFC",UFC on ESPN 66 Machado Garry vs Prates
+http://nxczs.top/live/nbayhd/6kzvbg/460883.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 67 Sandhagen vs Figueiredo" tvg-logo="https://image.tmdb.org/t/p/w500/bRiuuMKG5wsdEuGUaF4TM0UPPN5.jpg" group-title="CANAIS | UFC",UFC on ESPN 67 Sandhagen vs Figueiredo
+http://nxczs.top/live/nbayhd/6kzvbg/460884.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 69 Usman vs Buckley" tvg-logo="https://image.tmdb.org/t/p/w500/izxUQUR7IBUBYZaavFcbsRVFX66.jpg" group-title="CANAIS | UFC",UFC on ESPN 69 Usman vs Buckley
+http://nxczs.top/live/nbayhd/6kzvbg/472425.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 70 Lewis vs Teixeira" tvg-logo="https://image.tmdb.org/t/p/w500/hRgqZkmQj4f5lA5uWY1sLZqWifC.jpg" group-title="CANAIS | UFC",UFC on ESPN 70 Lewis vs Teixeira
+http://nxczs.top/live/nbayhd/6kzvbg/483796.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 71 Taira vs Park" tvg-logo="https://image.tmdb.org/t/p/w500/pxLnN5ZnVLn3DOM9jLxU3OGw53M.jpg" group-title="CANAIS | UFC",UFC on ESPN 71 Taira vs Park
+http://nxczs.top/live/nbayhd/6kzvbg/491235.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UFC on ESPN 72 Dolidze vs Hernandez" tvg-logo="https://image.tmdb.org/t/p/w500/V3vkYcsxDw6x1lg31SKhSoJRXz.jpg" group-title="CANAIS | UFC",UFC on ESPN 72 Dolidze vs Hernandez
+http://nxczs.top/live/nbayhd/6kzvbg/492845.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Ultima Fronteira 2025 S01E01" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/arN4X4AJUTYcXli81wPc1IA2xkA.jpg" group-title="SERIES | A ULTIMA FRONTEIRA",A Ultima Fronteira 2025 S01E01
 https://bit.com.vc:443/series/20242024/20242024/3348400.mp4
 #EXTINF:-1 tvg-id="" tvg-name="A Ultima Fronteira 2025 S01E01" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/arN4X4AJUTYcXli81wPc1IA2xkA.jpg" group-title="SERIES | A ULTIMA FRONTEIRA",A Ultima Fronteira 2025 S01E01
@@ -2753,22 +2865,48 @@ http://nxczs.top/live/nbayhd/6kzvbg/318909.m3u8
 https://bit.com.vc:443/movie/flavio321/flavio321/1795449.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
 https://bit.com.vc:443/movie/Andersonrs/ruadomerina/1795449.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
+https://bit.com.vc:443/movie/20242024/20242024/1795449.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
+https://bit.com.vc:443/movie/AdrianoRibeiro/adriano2468/1795449.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
+https://bit.com.vc:443/movie/randi123/randi123/1795449.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
+https://bit.com.vc:443/movie/kayllane/12345678/1795449.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificado 2022" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/tnJvroCbINCUFViNjSMJJ7ZQLhf.jpg" group-title="SERIES | PACIFICADOR",Pacificado 2022
+http://trabalho724.top:8080/movie/5193271958/5193271ips1/345261.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E01" tvg-logo="http://free-image-hosting.top/images/5cb5837cc9a30910b71cdcc9fd1431ec.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E01
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/103139.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E01" tvg-logo="http://free-image-hosting.top/images/5cb5837cc9a30910b71cdcc9fd1431ec.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E01
+http://trabalho724.top:8080/series/5193271958/5193271ips1/103139.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E02" tvg-logo="http://free-image-hosting.top/images/46434991ff9a6f4d923eebd1cd71b18f.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E02
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/103140.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E02" tvg-logo="http://free-image-hosting.top/images/46434991ff9a6f4d923eebd1cd71b18f.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E02
+http://trabalho724.top:8080/series/5193271958/5193271ips1/103140.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E03" tvg-logo="http://free-image-hosting.top/images/fdcf7bb7e12547b8b5b0e8150b49f3b0.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E03
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/103141.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E03" tvg-logo="http://free-image-hosting.top/images/fdcf7bb7e12547b8b5b0e8150b49f3b0.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E03
+http://trabalho724.top:8080/series/5193271958/5193271ips1/103141.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E04" tvg-logo="http://free-image-hosting.top/images/4bc5d352d5b10061661ac2ac3c1d25ff.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E04
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/106466.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E04" tvg-logo="http://free-image-hosting.top/images/4bc5d352d5b10061661ac2ac3c1d25ff.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E04
+http://trabalho724.top:8080/series/5193271958/5193271ips1/106466.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E05" tvg-logo="http://free-image-hosting.top/images/930954a9fe3162b32fa2373f40066e73.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E05
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/199504.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E05" tvg-logo="http://free-image-hosting.top/images/930954a9fe3162b32fa2373f40066e73.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E05
+http://trabalho724.top:8080/series/5193271958/5193271ips1/199504.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E06" tvg-logo="http://free-image-hosting.top/images/e7dbe14226ed3e3c01f31e0c864a9aca.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E06
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/199505.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E06" tvg-logo="http://free-image-hosting.top/images/e7dbe14226ed3e3c01f31e0c864a9aca.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E06
+http://trabalho724.top:8080/series/5193271958/5193271ips1/199505.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E07" tvg-logo="http://free-image-hosting.top/images/2f807f48a48a6701cdc4b3a807072cab.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E07
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/199506.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E07" tvg-logo="http://free-image-hosting.top/images/2f807f48a48a6701cdc4b3a807072cab.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E07
+http://trabalho724.top:8080/series/5193271958/5193271ips1/199506.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E08" tvg-logo="http://free-image-hosting.top/images/bb4f503a5d0cac66cdb3842c53d687e6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E08
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/199507.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01 E08" tvg-logo="http://free-image-hosting.top/images/bb4f503a5d0cac66cdb3842c53d687e6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01 E08
+http://trabalho724.top:8080/series/5193271958/5193271ips1/199507.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E01
 https://bit.com.vc:443/series/20242024/20242024/3089457.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E01
@@ -2779,6 +2917,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089457.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089457.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E01
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089457.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E01
+https://bit.com.vc:443/series/kayllane/12345678/3089457.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E02
 https://bit.com.vc:443/series/20242024/20242024/3089458.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E02
@@ -2789,6 +2929,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089458.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089458.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E02
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089458.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E02
+https://bit.com.vc:443/series/kayllane/12345678/3089458.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E03
 https://bit.com.vc:443/series/20242024/20242024/3089459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E03
@@ -2799,6 +2941,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089459.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E03
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089459.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E03
+https://bit.com.vc:443/series/kayllane/12345678/3089459.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E04
 https://bit.com.vc:443/series/20242024/20242024/3089460.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E04
@@ -2809,6 +2953,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089460.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089460.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E04
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089460.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E04
+https://bit.com.vc:443/series/kayllane/12345678/3089460.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E05
 https://bit.com.vc:443/series/20242024/20242024/3089461.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E05
@@ -2819,6 +2965,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089461.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089461.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E05
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089461.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E05
+https://bit.com.vc:443/series/kayllane/12345678/3089461.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E06
 https://bit.com.vc:443/series/20242024/20242024/3089462.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E06
@@ -2829,6 +2977,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089462.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089462.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E06
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089462.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E06
+https://bit.com.vc:443/series/kayllane/12345678/3089462.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E07
 https://bit.com.vc:443/series/20242024/20242024/3089463.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E07
@@ -2839,6 +2989,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089463.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089463.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E07
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089463.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E07
+https://bit.com.vc:443/series/kayllane/12345678/3089463.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E08
 https://bit.com.vc:443/series/20242024/20242024/3089464.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E08
@@ -2849,20 +3001,36 @@ https://bit.com.vc:443/series/randi123/randi123/3089464.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089464.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E08
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089464.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S01E08
+https://bit.com.vc:443/series/kayllane/12345678/3089464.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E01" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E01
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/354659.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E01" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E01
+http://trabalho724.top:8080/series/5193271958/5193271ips1/354659.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E02" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E02
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/355482.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E02" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E02
+http://trabalho724.top:8080/series/5193271958/5193271ips1/355482.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E03" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E03
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/355483.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E03" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E03
+http://trabalho724.top:8080/series/5193271958/5193271ips1/355483.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E04" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E04
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/355835.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E04" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E04
+http://trabalho724.top:8080/series/5193271958/5193271ips1/355835.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E05" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E05
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/357173.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E05" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E05
+http://trabalho724.top:8080/series/5193271958/5193271ips1/357173.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E06" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E06
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/357174.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E06" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E06
+http://trabalho724.top:8080/series/5193271958/5193271ips1/357174.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E07" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E07
 http://trabalho724.top:8080/series/Joaol0607/Wxmzpayt3/357175.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02 E07" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02 E07
+http://trabalho724.top:8080/series/5193271958/5193271ips1/357175.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E01
 https://bit.com.vc:443/series/20242024/20242024/3089465.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E01
@@ -2873,6 +3041,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089465.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089465.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E01
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089465.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E01
+https://bit.com.vc:443/series/kayllane/12345678/3089465.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E02
 https://bit.com.vc:443/series/20242024/20242024/3089466.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E02
@@ -2883,6 +3053,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089466.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089466.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E02
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089466.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/prYjRog9hQkmGEzeWrLJwpBNgBz.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E02
+https://bit.com.vc:443/series/kayllane/12345678/3089466.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E03
 https://bit.com.vc:443/series/20242024/20242024/3089467.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E03
@@ -2893,6 +3065,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089467.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089467.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E03
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089467.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E03
+https://bit.com.vc:443/series/kayllane/12345678/3089467.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E04
 https://bit.com.vc:443/series/20242024/20242024/3089468.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E04
@@ -2903,6 +3077,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089468.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089468.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E04
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089468.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E04
+https://bit.com.vc:443/series/kayllane/12345678/3089468.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E05
 https://bit.com.vc:443/series/20242024/20242024/3089469.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E05
@@ -2913,6 +3089,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089469.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089469.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E05
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089469.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E05
+https://bit.com.vc:443/series/kayllane/12345678/3089469.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E06
 https://bit.com.vc:443/series/20242024/20242024/3089470.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E06
@@ -2923,6 +3101,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089470.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089470.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E06
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089470.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E06
+https://bit.com.vc:443/series/kayllane/12345678/3089470.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E07
 https://bit.com.vc:443/series/20242024/20242024/3089471.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E07
@@ -2933,6 +3113,8 @@ https://bit.com.vc:443/series/randi123/randi123/3089471.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3089471.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E07
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3089471.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E07
+https://bit.com.vc:443/series/kayllane/12345678/3089471.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E08
 https://bit.com.vc:443/series/20242024/20242024/3348408.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E08
@@ -2943,100 +3125,200 @@ https://bit.com.vc:443/series/randi123/randi123/3348408.mp4
 https://bit.com.vc:443/series/flavio321/flavio321/3348408.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E08
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3348408.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador 2022 S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador 2022 S02E08
+https://bit.com.vc:443/series/kayllane/12345678/3348408.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
 https://bit.com.vc:443/series/randi123/randi123/2692342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
 https://bit.com.vc:443/series/flavio321/flavio321/2692342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
+https://bit.com.vc:443/series/20242024/20242024/2692342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E01" tvg-logo="https://image.tmdb.org/t/p/w1280/538eLa2f3FoSwNNzHpHi0J1ZXl6.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E01
+https://bit.com.vc:443/series/kayllane/12345678/2692342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
 https://bit.com.vc:443/series/randi123/randi123/2692346.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
 https://bit.com.vc:443/series/flavio321/flavio321/2692346.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692346.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
+https://bit.com.vc:443/series/20242024/20242024/2692346.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692346.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E02" tvg-logo="https://image.tmdb.org/t/p/w1280/dUAS7fZqjdPcfYnLnxCm40U0LUa.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E02
+https://bit.com.vc:443/series/kayllane/12345678/2692346.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
 https://bit.com.vc:443/series/randi123/randi123/2692339.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
 https://bit.com.vc:443/series/flavio321/flavio321/2692339.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692339.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
+https://bit.com.vc:443/series/20242024/20242024/2692339.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692339.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E03" tvg-logo="https://image.tmdb.org/t/p/w1280/wyZXot4qqZEOCOOB3Vrv5F4KXRR.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E03
+https://bit.com.vc:443/series/kayllane/12345678/2692339.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
 https://bit.com.vc:443/series/randi123/randi123/2692344.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
 https://bit.com.vc:443/series/flavio321/flavio321/2692344.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692344.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
+https://bit.com.vc:443/series/20242024/20242024/2692344.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692344.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E04" tvg-logo="https://image.tmdb.org/t/p/w1280/b0jdRtuGm7blKJZamhU30Z1XlP5.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E04
+https://bit.com.vc:443/series/kayllane/12345678/2692344.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
 https://bit.com.vc:443/series/randi123/randi123/2692349.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
 https://bit.com.vc:443/series/flavio321/flavio321/2692349.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692349.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
+https://bit.com.vc:443/series/20242024/20242024/2692349.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692349.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E05" tvg-logo="https://image.tmdb.org/t/p/w1280/hUAnjCnWPn7SulqtNTe7xJhv38A.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E05
+https://bit.com.vc:443/series/kayllane/12345678/2692349.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
 https://bit.com.vc:443/series/randi123/randi123/2692336.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
 https://bit.com.vc:443/series/flavio321/flavio321/2692336.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692336.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
+https://bit.com.vc:443/series/20242024/20242024/2692336.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692336.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E06" tvg-logo="https://image.tmdb.org/t/p/w1280/4IIMkGmzSsC02fjfqiFRQp7ySAM.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E06
+https://bit.com.vc:443/series/kayllane/12345678/2692336.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
 https://bit.com.vc:443/series/randi123/randi123/2692340.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
 https://bit.com.vc:443/series/flavio321/flavio321/2692340.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692340.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
+https://bit.com.vc:443/series/20242024/20242024/2692340.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692340.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E07" tvg-logo="https://image.tmdb.org/t/p/w1280/bzdhWTRUb9CFF3tDT4SyBn0QGd.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E07
+https://bit.com.vc:443/series/kayllane/12345678/2692340.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
 https://bit.com.vc:443/series/randi123/randi123/2692332.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
 https://bit.com.vc:443/series/flavio321/flavio321/2692332.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/2692332.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
+https://bit.com.vc:443/series/20242024/20242024/2692332.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/2692332.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S01E08" tvg-logo="https://image.tmdb.org/t/p/w1280/9oi9FPSEYlDmMvHSQaCmhsDO6PU.jpg" group-title="SERIES | PACIFICADOR",Pacificador S01E08
+https://bit.com.vc:443/series/kayllane/12345678/2692332.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
 https://bit.com.vc:443/series/randi123/randi123/3018160.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
 https://bit.com.vc:443/series/flavio321/flavio321/3018160.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3018160.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
+https://bit.com.vc:443/series/20242024/20242024/3018160.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3018160.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E01" tvg-logo="https://image.tmdb.org/t/p/w1280/hoL20ZxHYTyNqzYZw5AAgwhHZPP.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E01
+https://bit.com.vc:443/series/kayllane/12345678/3018160.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
 https://bit.com.vc:443/series/randi123/randi123/3053902.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
 https://bit.com.vc:443/series/flavio321/flavio321/3053902.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3053902.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
+https://bit.com.vc:443/series/20242024/20242024/3053902.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3053902.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E02" tvg-logo="https://image.tmdb.org/t/p/w1280/sAqQYYUMaS9FqHNACCQL9LRwsYn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E02
+https://bit.com.vc:443/series/kayllane/12345678/3053902.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
 https://bit.com.vc:443/series/randi123/randi123/3070675.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
 https://bit.com.vc:443/series/flavio321/flavio321/3070675.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3070675.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
+https://bit.com.vc:443/series/20242024/20242024/3070675.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3070675.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E03" tvg-logo="https://image.tmdb.org/t/p/w1280/a8TIhxg98a8BLVOMP8p24c3lFaC.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E03
+https://bit.com.vc:443/series/kayllane/12345678/3070675.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
 https://bit.com.vc:443/series/randi123/randi123/3070831.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
 https://bit.com.vc:443/series/flavio321/flavio321/3070831.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3070831.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
+https://bit.com.vc:443/series/20242024/20242024/3070831.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3070831.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E04" tvg-logo="https://image.tmdb.org/t/p/w1280/6bdIgolsJzPHyJE7RLGeca1YKLn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E04
+https://bit.com.vc:443/series/kayllane/12345678/3070831.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
 https://bit.com.vc:443/series/randi123/randi123/3071072.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
 https://bit.com.vc:443/series/flavio321/flavio321/3071072.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3071072.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
+https://bit.com.vc:443/series/20242024/20242024/3071072.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3071072.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E05" tvg-logo="https://image.tmdb.org/t/p/w1280/c8LmcPtTvxqE708zBo1bD8RYqGw.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E05
+https://bit.com.vc:443/series/kayllane/12345678/3071072.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
 https://bit.com.vc:443/series/randi123/randi123/3074441.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
 https://bit.com.vc:443/series/flavio321/flavio321/3074441.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3074441.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
+https://bit.com.vc:443/series/20242024/20242024/3074441.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3074441.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E06" tvg-logo="https://image.tmdb.org/t/p/w1280/l55bH1tdPjWjCVaOe0yaXHVC2wn.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E06
+https://bit.com.vc:443/series/kayllane/12345678/3074441.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
 https://bit.com.vc:443/series/randi123/randi123/3084115.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
 https://bit.com.vc:443/series/flavio321/flavio321/3084115.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3084115.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
+https://bit.com.vc:443/series/20242024/20242024/3084115.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3084115.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E07" tvg-logo="https://image.tmdb.org/t/p/w1280/zGwyJ5w7SKznoR336cK3UFldkx1.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E07
+https://bit.com.vc:443/series/kayllane/12345678/3084115.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
 https://bit.com.vc:443/series/flavio321/flavio321/3348342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
 https://bit.com.vc:443/series/Andersonrs/ruadomerina/3348342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
+https://bit.com.vc:443/series/20242024/20242024/3348342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
+https://bit.com.vc:443/series/AdrianoRibeiro/adriano2468/3348342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
+https://bit.com.vc:443/series/randi123/randi123/3348342.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pacificador S02E08" tvg-logo="https://image.tmdb.org/t/p/w1280/xxcurGIZRflwVqNVvJ7kG5CTaVs.jpg" group-title="SERIES | PACIFICADOR",Pacificador S02E08
+https://bit.com.vc:443/series/kayllane/12345678/3348342.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Ruptura 2022 S01E01" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/sP3GZe9j7BY3CAyZGFuZxxnGpN1.jpg" group-title="SERIES | RUPTURA",Ruptura 2022 S01E01
 https://bit.com.vc:443/series/20242024/20242024/3135406.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Ruptura 2022 S01E01" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/sP3GZe9j7BY3CAyZGFuZxxnGpN1.jpg" group-title="SERIES | RUPTURA",Ruptura 2022 S01E01
