@@ -372,7 +372,7 @@ def __consulta_status(url: str, verify: bool = True) -> bool:
         if contem(msgerror, 'ConnectTimeout'):
             result = True
         elif contem(msgerror, 'certific'):
-            result = True            
+            result = True
         else:
             print(f"Consulta: {url} {msgerror}")
             result = False
@@ -410,7 +410,6 @@ def __analise_all(x) -> bool:
 
     except Exception as err:
         print(f"__analise_all Erro analise ({codid}): {err}")
-   
 
     return result
 
@@ -460,7 +459,7 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = ["CANAIS | COMBATE", "SERIES | PACIFICADOR","CANAIS | UFC"]
+    list_gr: list[str] = []
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
@@ -471,7 +470,7 @@ def __start_analise(verify: bool = True) -> None:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-10-30' order by codid ASC;")
+        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-11-01' order by codid ASC;")
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
@@ -514,9 +513,9 @@ if __name__ == '__main__':
     __CONSULTAR_STREAM = False
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        # __start_analise(verify=False)
+        # __start_analise(verify=True)
         # __start_analise_all()
-        create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel="*")
+        create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel='*')
 
     except Exception as err:
         print(f"******** -> Erro: {err}")
