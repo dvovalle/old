@@ -513,7 +513,7 @@ if __name__ == '__main__':
     __CONSULTAR_STREAM = False
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        # __start_analise(verify=True)
+        __start_analise(verify=True)
         # __start_analise_all()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel='*')
 
