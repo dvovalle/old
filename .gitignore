@@ -82,5 +82,3 @@ cython_debug/
 *.db
 iptv.db
 database.db
-sites.txt
-lista.txt
