@@ -459,11 +459,22 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 
 def __start_analise(verify: bool = True) -> None:
-    list_gr: list[str] = []
+    list_gr: list[str] = [
+        'CANAIS | DISCOVERY',
+        'CANAIS | HBO',
+        'CANAIS | PARAMOUNT',
+        'CANAIS | TELECINE',
+        'FILMES | 2025',
+        'FILMES | DESENHOS',
+        'SERIES | PLURIBUS',
+        'SERIES | SIMPSONS',
+        'SERIES | SPARTACUS',
+        'SERIES | STRANGER THINGS',
+    ]
     cpu_count: int = __MY_CPU_COUNT
     if list_gr is not None and len(list_gr) > 0:
         if len(list_gr) > 1:
-            cpu_count = min(4, __MY_CPU_COUNT, len(list_gr))
+            cpu_count = min(__MY_CPU_COUNT, len(list_gr))
             with Pool(processes=cpu_count) as p:
                 p.map(__analise, list_gr)
         else:
@@ -512,8 +523,8 @@ def __start_analise_all() -> None:
 if __name__ == '__main__':
     __CONSULTAR_STREAM = False
     try:
-        __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
-        __start_analise(verify=True)
+        # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
+        # __start_analise(verify=False)
         # __start_analise_all()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel='*')
 
