@@ -6,6 +6,6 @@ do
     sed -i '/#EXTM3U/d' M3UListas/$x
     sed -i '/TUTORIAIS/d' M3UListas/$x
     sed -i '/##/d' M3UListas/$x
-    sed -i '/^[[:space:]]*$/d' M3UListas/$x
+    sed -i  M3UListas/$x
     sed -i '/#EXT-X-SESSION/d' M3UListas/$x
 done

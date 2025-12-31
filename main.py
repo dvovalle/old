@@ -460,15 +460,8 @@ def __analise(grupo: str = '*', verify: bool = False) -> bool:
 
 def __start_analise(verify: bool = True) -> None:
     list_gr: list[str] = [
-        'CANAIS | DISCOVERY',
-        'CANAIS | HBO',
-        'CANAIS | PARAMOUNT',
-        'CANAIS | TELECINE',
-        'FILMES | 2025',
-        'FILMES | DESENHOS',
-        'SERIES | PLURIBUS',
-        'SERIES | SIMPSONS',
-        'SERIES | SPARTACUS',
+        'SERIES | DARK',
+        'SERIES | O JOGO QUE MUDOU A HISTORIA',
         'SERIES | STRANGER THINGS',
     ]
     cpu_count: int = __MY_CPU_COUNT
@@ -481,7 +474,7 @@ def __start_analise(verify: bool = True) -> None:
             for grupo in list_gr:
                 __analise(grupo=grupo, verify=verify)
     else:
-        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-11-01' order by codid ASC;")
+        res: sqlite3.Cursor = cursor.execute("SELECT url, codid, grupo FROM tb_iptv WHERE ativo = 1 and dtanalise <= '2025-12-29' order by codid ASC;")
         obj: list = res.fetchall()
         if obj is not None and len(obj) > 0:
             total_itens: int = len(obj)
@@ -525,7 +518,6 @@ if __name__ == '__main__':
     try:
         # __read_all_files(sqlAction=SQLAction.INSERT_AND_REMOVE)
         # __start_analise(verify=False)
-        # __start_analise_all()
         create_file(arquivo=__LISTA_COMPLETA, is_full=False, gruposel='*')
 
     except Exception as err:
