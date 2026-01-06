@@ -1,12 +1,12 @@
 # Plano de treino ABC
 
-Frequência: ABC (6x na semana, alternando os treinos)
+Frequência: ABC (6x na semana, alternando os treinos). Treina ABC, descansa.
 
 ## Informações
 
-- Nome: Adriana
-- Idade: 52 anos
-- Altura: 173cm e 68kg treina a 5 anos
+- Nome: Adriana Valle.
+- Idade: 52 anos.
+- Altura: 173cm e 68kg treina a mais de 5 anos.
 
 ### Análise Inicial e Diretrizes
 
@@ -60,41 +60,58 @@ Dor é um Sinal: Nunca treine através da dor aguda no joelho. Desconforto muscu
 4. Alongamento de Glúteos Sentado - Sentada, cruze um tornozelo sobre o joelho oposto. Incline-se para frente, mantendo a coluna reta.
 5. Alongamento de Quadril e Lombar Glúteos e Piriforme - De costas, cruze um tornozelo sobre o joelho oposto. Passe as mãos atrás da coxa da perna de apoio e puxe em direção ao peito.
 
-## TREINO A (Foco: Membros Inferiores com Ênfase em Segurança)
+## 🔥 TREINO A (Foco: Membros Inferiores com Ênfase em Segurança)
 
 > Objetivo: Desenvolver musculatura das pernas.
 
-1. Cadeira Extensora 4 x 10 + 10 unilateral cada perna.
-2. Mesa Flexora 4 x 12 Contraia bem no topo.
-3. Agachamento Livre: 4 x 20,15,10,8. Aumentando carga em cada..
-4. Stiff com Barra 3 x 10
-5. Leg Press: 4 x 12 Pés ALTO e AFIRMADOS na plataforma. Empurre com os calcanhares.
-6. Elevação Pélvica (Hip Thrust) 4 x 12. Contraia o glúteo no topo.
-7. Panturrilha no Leg Press 4 x 15-20 Pés paralelos. Amplitude total.
+1. Cadeira Extensora 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
+2. Cadeira Extensora 4 x 15-12-10-10 progressão de carga.
+3. Cadeira Extensora 3 x 10 unilateral.
+4. Mesa Flexora 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
+5. Mesa Flexora 4 x 15-12-10-8 progressão de carga
+6. Agachamento Livre: 3 x 12-10-8 progressão de carga
+7. Agachamento Livre Frontal: 3 x 10
+8. Stiff com Barra 3 x 12
+9. Leg Press: 4 x 10 progressão de carga.
+10. Cadeira Flexora 3 x 10
+11. Cadeira Abdutora 3 x 10
+12. Elevação Pélvica (Hip Thrust) 4 x 12. Contraia o glúteo no topo.
+13. Cadeira Adutora 3 x 10
+14. Panturrilha em Pé 4 x 20-15-12-10 progressão de carga.
+15. Panturrilha Sentado 3 x Max
 
 ## TREINO B (Foco: Superiores - Puxar)
 
 > Objetivo: Desenvolver musculatura dorsal e bíceps.
 
-1. Puxador Frente 4 x 10.
-2. Puxador Triangulo 4 x 10.
-3. Remada Fechada Sentada (Triângulo) 4 x 10. Progressão de Carga.
-4. Face Pull 3 x Maximas Usar corda.
-5. Rosca Direta Barra W 3 x 10.
-6. Rosca Martelo Unilateral 3 x 12.
-7. Rosca Concentrada no Banco 3 x 10.
+1. Puxador Frente 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
+2. Puxador Frente 4 x 15-12-10-8 progressão de carga.
+3. Puxador Triangulo 4 x 10
+4. Remada Fechada 2 x 10, carga leve, reconhecimento do exercício, aquecimento.
+5. Remada Fechada Sentada (Triângulo) 4 x 15-12-10-8 progressão de carga.
+6. Face Pull 3 x Maximas Usar corda.
+7. Serrote 3 x 12
+8. Rosca Direta Barra W 2 x 8, carga leve, reconhecimento do exercício, aquecimento.
+9. Rosca Direta Barra W 3 x 10.
+10. Rosca Martelo Unilateral 3 x 12.
+11. Rosca Scoot 3 x 10.
 
 ## TREINO C (Foco: Superiores - Empurrar + Core)
 
 > Objetivo: Desenvolver peito, ombros e tríceps
 
-1. Supino Inclinado com Halteres (Peitoral) 4 x 12.
-2. Desenvolvimento (Ombro) 4 x 12.
-3. Crucifixo Máquina (Peitoral) 4 x 12 Amplitude controlada, foque na sensação de alongamento e contração.
-4. Tríceps Testa (Skull Crusher) 3 x 10.
-5. Elevação Lateral (Ombro) 4 x 10 progressao de carga.
-6. Tríceps PULLEY + PULLEY INVERSO - 3X10+10 BI-SET
-7. Pullover Banco 4 x 10
+1. Supino Inclinado com Halteres (Peitoral) 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
+2. Supino Inclinado com Halteres (Peitoral) 3 x 15-12-10 progressão de carga.
+3. Desenvolvimento (Ombro) 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
+4. Desenvolvimento (Ombro) 3 x 20-15-10 progressão de carga.
+5. Crucifixo Máquina (Peitoral) 4 x 12 Amplitude controlada, foque na sensação de alongamento e contração.
+6. Tríceps Testa com Halter 2 x 10, carga leve, reconhecimento do exercício, aquecimento.
+7. Tríceps Testa Barra W (Skull Crusher) 3 x 10.
+8. Elevação Lateral (Ombro) 2 x 20-15, carga leve, reconhecimento do exercício, aquecimento.
+9. Elevação Lateral (Ombro) 4 x 15-12-10-10 progressao de carga.
+10. Tríceps PULLEY 4 x 15-12-10-10 progressão de carga.
+11. Pullover Banco 3 x 10
+12. Cardio 20 minutos
 
 ## Abdominais
 
