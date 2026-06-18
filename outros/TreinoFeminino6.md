@@ -1,118 +1,85 @@
-# Plano de treino ABC
+# 📋 Plano de Treino ABC
 
-Frequência: ABC (6x na semana, alternando os treinos). Treina ABC, descansa.
+**Nome:** Adriana Valle | **Idade:** 52 anos | **Altura:** 173 cm | **Peso:** 70 kg
 
-## Informações
+### Estrutura de Divisão Semanal
 
-- Nome: Adriana Valle.
-- Idade: 52 anos.
-- Altura: 173cm e 68kg treina a mais de 5 anos.
+- **Segunda:** Treino A (Coxas e Glúteos)
+- **Terça:** Treino B (Costas, Ombros e Bíceps)
+- **Quarta:** Treino C (Peito, Tríceps e Core)
+- **Quinta:** Descanso Ativo (Cardio Leve) -> _Alinhado ao Protocolo B da Dieta (Baixo Carboidrato)_
 
-### Análise Inicial e Diretrizes
+- **Sexta:** Repete Treino A
+- **Sábado:** Repete Treino B (ou C)
+- **Domingo:** Descanso Total
 
-- ***Objetivo***: Hipertrofia/manutenção muscular, com foco absoluto em saúde articular dos joelhos.
-- ***Princípio Chave***: "Proteger o joelho fortalecendo o quadril e o core". Muitos problemas no joelho têm origem na fraqueza ou falta de ativação dos glúteos e estabilizadores do quadril.
-- ***Estratégias para os Joelhos***:
-  - Evitar: Profundidade excessiva no agachamento, exercícios com impacto, flexão excessiva de joelho sob carga (ex.: leg press muito fechado).
-  - Priorizar: Movimentos controlados, amplitude segura, fortalecimento de glúteos (máximo, médio) e posterior de coxa.
-  - Sempre: Aquecimento articular específico e mobilidade.
+---
 
-### Aquecimento Geral/Alongamento/Mobilidade
+## ⚡ TREINO A: Coxas e Glúteos (Foco: Quadríceps, Glúteo Máximo e Médio)
 
-Fazer antes de TODO treino - 5-10 min
+Utilizar o protocolo de Água com Sal Integral 30 minutos antes para otimizar o fluxo sanguíneo.
 
-### Observações
+#### **Aquecimento e Ativação Articular (Obrigatório)**
 
-Dor é um Sinal: Nunca treine através da dor aguda no joelho. Desconforto muscular é normal, dor articular não. Se um exercício causar dor, PARE e substitua.
+- **Mobilidade de Quadril:** séries de 20 segundos por lado.
+- **Cadeira Extensora:** 2 séries de 15 repetições (carga bem leve, focando em "acordar" o joelho).
 
-- Progressão: Aumente a carga progressivamente apenas quando dominar a técnica e não sentir dor.
+#### **Bloco Principal**
 
-#### ALONGAMENTOS PARA O DIA A (PERNAS)
+1. **Cadeira Extensora (Série Pirâmide):** - 4 x 15-12-10-8 (Subindo carga a cada série). Na última repetição de cada série, faça **10 segundos de isometria** no topo.
+2. **Agachamento Livre (Até 90º - Preservando Joelhos):** - 3 x 10 repetições. _Cadência:_ 4 segundos descendo, subida explosiva. Parar antes de bloquear os joelhos no topo.
+3. **Leg Press 45º (Pés Altos e Afastados - Ênfase em Glúteo e Posterior):** - 4 x 12 repetições. Mantendo a lombar totalmente colada no banco para proteger a coluna.
+4. Mesa Flexora: 3 x 12 repetições (Trazida para o meio para descanso do quadríceps).
+5. **Elevação Pélvica (Hip Thrust) com Barra ou Máquina:** - 4 x 10 repetições. Segurar 2 segundos em contração máxima no topo (foco total na linha estética de glúteo de atleta).
+6. **Cadeira Abdutora (Tronco inclinado para frente):** - 3 x 15 repetições + Drop-set na última série (reduz 30% da carga e vai até a falha). _Foco: Glúteo médio/desenho lateral do quadril._
+7. **Stiff com Halteres:** - 3 x 12 repetições. Movimento controlado, empurrando o quadril para trás para alongar os isquiotibiais.
+8. **Panturrilha em Pé (na Máquina ou Degrau):** - 4 x 20 repetições (com 2 segundos de pausa no topo e 2 no alongamento).
 
-> Ordem Exercício:
+---
 
-1. Alongamento de Quadríceps (em pé ou de lado) - Segure o pé, puxando-o gentilmente em direção ao glúteo. Mantenha os joelhos alinhados (não abra). Sinta o alongamento na frente da coxa. Importante para aliviar a tensão na patela.
-2. Alongamento de Posterior da coxa (Isquiotibiais) - Sentada no chão, estenda uma perna e dobre a outra. Incline o tronco para frente sobre a perna estendida, mantendo a coluna reta.
-3. "Pigeon Pose" Glúteos e Rotadores do Quadril (Adaptada) - Na posição de 4 apoios, traga um joelho para frente e para o lado, apoiando o tornozelo próximo ao quadril oposto. Estenda a outra perna para trás. Incline o tronco para frente. Excelente para mobilidade de quadril.
-4. Alongamento de Adutores (parte interna da coxa)  (Borboleta) - Sentada, junte as solas dos pés e deixe os joelhos caírem para os lados. Segure os pés e incline o tronco levemente para frente.
-5. Alongamento de Panturrilha - Gastrocnêmicos e Sóleo (na parede) - Apoie as mãos na parede, coloque um pé atrás, com o calcanhar no chão e a perna estendida. Dobre o joelho da frente. Para alongar o sóleo (mais profundo), dobre levemente o joelho de trás.
-6. Alongamento de Flexor de Quadril (Ajoelhado) - Ajoelhe-se em um joelho (use um tapete). Leve o outro pé à frente em um ângulo de 90º. Empurre o quadril para frente, mantendo o tronco ereto. Sinta na frente do quadril da perna que está atrás.
-7. Torção de Coluna Sentada Coluna Torácica e Lombar - Sentada com as pernas estendidas, cruze uma perna sobre a outra. Gire o tronco para o lado da perna que está por cima, usando o braço como alavanca.
+## ⚡ TREINO B: Superiores (Foco: Puxar, Desenho de Costas e Ombros Tridimensionais)
 
-#### ALONGAMENTOS PARA O DIA B (COSTAS / PUXAR)
+_O objetivo aqui é criar a ilusão de cintura mais fina através do desenvolvimento do Latíssimo do Dorso e dos Deltóides (Estética Wellness)._
 
-> Ordem Exercício
+#### **Aquecimento e Ativação Articular**
 
-1. Alongamento de Peitoral (na porta) Peitoral Maior e Menor - Fique na porta, apoie os antebraços nos batentes e dê um passo à frente, sentindo o alongamento no peito. Varie a altura dos braços.
-2. Alongamento de Dorsal (Child's Pose) Latíssimo do Dorso - Ajoelhe-se e sente-se sobre os calcanhares. Estenda os braços para frente no chão, levando o peito em direção ao solo.
-3. Alongamento de Bíceps Braquial - Estique o braço para frente, com a palma para cima. Com a outra mão, puxe os dedos para baixo e para trás.
-4. Alongamento de Trapézio e Pescoço - Sente-se ereta. Incline a cabeça para um lado, como se fosse tocar a orelha no ombro. Use a mão do mesmo lado para uma leve pressão. Muito importante para aliviar tensão.
-5. Alongamento de Ombros (Braço Cruzado) Deltóide Posterior - Estique um braço para frente na altura do peito e, com o outro braço, puxe-o suavemente para dentro, cruzando o corpo.
-6. Torção de Coluna (Opção Deitada) Coluna Torácica e Lombar - Deite-se de costas, abra os braços em "T". Dobre os joelhos e deixe-os cair para um lado, girando a cabeça para o lado oposto.
+- **Manguito Rotador no Cabo (Rotação Externa):** 3 séries de 15 repetições (carga leve). _Essencial para a saúde dos ombros._
 
-#### ALONGAMENTOS PARA O DIA C (PEITO / EMPURRAR + CORE)
+#### **Bloco Principal**
 
-> Ordem Exercício
+1. **Puxador Frente (Pegada Pronada Aberta):** - 4 x 12-10-10-8 (Progressão de carga). Foco em puxar com os cotovelos, não com as mãos.
+2. **Remada Baixa Sentada (Triângulo):** - 3 x 10 repetições. Segurar 1 segundo no peito, esmagando as costas.
+3. **Face Pull (Corda na Polia Alta):** - 4 x 12 repetições. _Foco duplo:_ Construção do deltóide posterior e fortalecimento dos estabilizadores da escápula.
+4. **Elevação Lateral com Halteres (O "Segredo" dos Ombros Marcados):** - 4 x 12 repetições. Faça o movimento jogando os halteres _para fora_ e não para cima, mantendo os cotovelos levemente flexionados.
+5. **Rosca Direta com Barra W:** - 3 x 10 repetições. Descida controlada para proteger os tendões do cotovelo.
+6. **Rosca Martelo com Halteres:** - 3 x 12 repetições. Excelente para a estética do antebraço e porção braquial, blindando a articulação do cotovelo.
 
-1. Alongamento de Tríceps - Levante um braço, dobre o cotovelo e deixe a mão cair atrás da cabeça. Com a outra mão, puxe o cotovelo suavemente para baixo.
-2. Alongamento de Peitoral (no banco) - Sente-se na borda de um banco, entrelace as mãos atrás da cabeça. Abra os cotovelos para trás, abrindo o peito.
-3. Alongamento de Core (Cobra / Sphinx) Abdômen Reto e Oblíquos - Deite-se de bruços, apoie os antebraços no chão e eleve o peito, mantendo o quadril no chão. Alongue a frente do torso.
-4. Alongamento de Glúteos Sentado - Sentada, cruze um tornozelo sobre o joelho oposto. Incline-se para frente, mantendo a coluna reta.
-5. Alongamento de Quadril e Lombar Glúteos e Piriforme - De costas, cruze um tornozelo sobre o joelho oposto. Passe as mãos atrás da coxa da perna de apoio e puxe em direção ao peito.
+---
 
-## 🔥 TREINO A (Foco: Membros Inferiores com Ênfase em Segurança)
+## ⚡ TREINO C: Superiores e Core (Foco: Empurrar, Tríceps Marcado e Estabilização)
 
-> Objetivo: Desenvolver musculatura das pernas.
+#### **Aquecimento e Ativação Articular**
 
-1. Cadeira Extensora 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
-2. Cadeira Extensora 4 x 15-12-10-10 progressão de carga.
-3. Cadeira Extensora 3 x 10 unilateral.
-4. Mesa Flexora 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
-5. Mesa Flexora 4 x 15-12-10-8 progressão de carga
-6. Agachamento Livre: 3 x 12-10-8 progressão de carga
-7. Agachamento Livre Frontal: 3 x 10
-8. Stiff com Barra 3 x 12
-9. Leg Press: 4 x 10 progressão de carga.
-10. Cadeira Flexora 3 x 10
-11. Cadeira Abdutora 3 x 10
-12. Elevação Pélvica (Hip Thrust) 4 x 12. Contraia o glúteo no topo.
-13. Cadeira Adutora 3 x 10
-14. Panturrilha em Pé 4 x 20-15-12-10 progressão de carga.
-15. Panturrilha Sentado 3 x Max
+- **Alongamento de Peitoral:** 2 séries de 30 segundos.
 
-## TREINO B (Foco: Superiores - Puxar)
+#### **Bloco Principal**
 
-> Objetivo: Desenvolver musculatura dorsal e bíceps.
+1. **Desenvolvimento com Halteres (Sentada com banco a 80º):** - 4 x 10 repetições. Protege a lombar e foca no deltóide anterior e clavicular.
+2. **Supino Inclinado com Halteres:** - 3 x 12 repetições. Excelente para desenhar a porção superior do peitoral, conferindo sustentação estética.
+3. **Crucifixo Invertido na Máquina ou Halteres:** - 3 x 12 repetições. Melhora a postura geral e a transição entre costas e ombros.
+4. **Tríceps Pulley (Corda):** - 4 x 12 repetições. Afaste as mãos no final do movimento para contração máxima da porção lateral do tríceps.
+5. **Tríceps Testa com Halteres (No Banco Plano):** - 3 x 10 repetições. Usar halteres em vez de barra permite um movimento mais natural e anatômico para o cotovelo.
 
-1. Puxador Frente 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
-2. Puxador Frente 4 x 15-12-10-8 progressão de carga.
-3. Puxador Triangulo 4 x 10
-4. Remada Fechada 2 x 10, carga leve, reconhecimento do exercício, aquecimento.
-5. Remada Fechada Sentada (Triângulo) 4 x 15-12-10-8 progressão de carga.
-6. Face Pull 3 x Maximas Usar corda.
-7. Serrote 3 x 12
-8. Rosca Direta Barra W 2 x 8, carga leve, reconhecimento do exercício, aquecimento.
-9. Rosca Direta Barra W 3 x 10.
-10. Rosca Martelo Unilateral 3 x 12.
-11. Rosca Scoot 3 x 10.
+#### **⚡ Bloco de Fortalecimento do Core (Essencial para Proteger a Coluna e Linha de Cintura)**
 
-## TREINO C (Foco: Superiores - Empurrar + Core)
+6. **Prancha Frontal Isotônica:** - 3 x 45 a 60 segundos. Foco em contrair o abdômen e os glúteos simultaneamente (ativando o vácuo natural).
+7. **Abdominal Infra na Paralela (ou deitada com apoio lombar):** - 3 x 15 repetições. Movimento lento e concentrado.
+8. **Cardio Pós-Treino:** - 20 minutos de caminhada em esteira com inclinação moderada (foco em usar gordura como fonte de energia e manter a saúde cardiovascular).
 
-> Objetivo: Desenvolver peito, ombros e tríceps
+---
 
-1. Supino Inclinado com Halteres (Peitoral) 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
-2. Supino Inclinado com Halteres (Peitoral) 3 x 15-12-10 progressão de carga.
-3. Desenvolvimento (Ombro) 2 x 6-10, carga leve, reconhecimento do exercício, aquecimento.
-4. Desenvolvimento (Ombro) 3 x 20-15-10 progressão de carga.
-5. Crucifixo Máquina (Peitoral) 4 x 12 Amplitude controlada, foque na sensação de alongamento e contração.
-6. Tríceps Testa com Halter 2 x 10, carga leve, reconhecimento do exercício, aquecimento.
-7. Tríceps Testa Barra W (Skull Crusher) 3 x 10.
-8. Elevação Lateral (Ombro) 2 x 20-15, carga leve, reconhecimento do exercício, aquecimento.
-9. Elevação Lateral (Ombro) 4 x 15-12-10-10 progressao de carga.
-10. Tríceps PULLEY 4 x 15-12-10-10 progressão de carga.
-11. Pullover Banco 3 x 10
-12. Cardio 20 minutos
+## 💡 Dicas de Atleta Master para Consolidação dos Resultados
 
-## Abdominais
-
-2x na semana
+- **Cadência é tudo:** Mulheres que constroem físicos exuberantes após os 50 anos (como Monica Bousquet) não focam em erguer cargas absurdas com técnica feia. Foque na **conexão mente-músculo**. Sinta o quadríceps e o glúteo trabalhando em cada centímetro do movimento.
+- **Gerenciamento de Hidratação:** Lembre-se da sua meta rígida de **3,5 litros de água por dia**. Músculo hidratado é músculo forte e seguro contra estiramentos. Evite ingerir água durante as refeições principais para garantir a quebra ideal das proteínas.
+- **Recuperação nos Dias de Descanso:** Nos dias sem treino (Protocolo B), aproveite para focar no sono profundo (apoiado pelo seu Magnésio noturno), pois é na janela de repouso que a mágica da hipertrofia master acontece.
