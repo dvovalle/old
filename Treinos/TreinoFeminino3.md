@@ -1,87 +1,66 @@
-# 📅 Treino Feminino 3 (Julho 2025)
+# Planilha de Treino de Musculação — Julho 2026
 
-- Nível: Intermediário/Avançado (5 anos de treino)
-- Objetivo: Força e hipertrofia (ênfase em membros inferiores)
-- Frequência: 5x/semana
+Treino estruturado com foco na estética **Wellness**. Atletas Wellness treinam com conexões mente-músculo impecáveis, técnicas de alta intensidade e máxima estabilização central (core). Abaixo, protocolo de treino de segunda a sábado adaptado aos seus dados físicos atuais (29,5kg de massa muscular) e estruturado com a metodologia.
+Incluir series de abdominal 2x na semana. Incluir cardio 3x na semana.
 
-## 🔄 Estrutura Semanal
+> Divisão Semanal Wellness (Alta Frequência)
 
-Dia	 | Foco Principal  | Dica Chave
------|-----------------|------------
-Segunda	|Quadríceps + Glúteos (Força)	|Carga pesada, cadência controlada
-Terça	|Costas + Ombros (Volume Moderado)	|Evitar sobrecarga articular
-Quarta	|Posterior + Glúteos (Hipertrofia)	|Ênfase em alongamento excêntrico
-Quinta	|Full Lower (Glúteo Dominante)	|Dropsets e isometria
-Sexta	|Peito + Tríceps	|Exercícios articulação-friendly
-Sábado/Domingo	|Descanso ou Cardio Leve |(10min esteira inclinada)
+- **Segunda-feira:** Dia 1 – Quadríceps + Glúteos (Força e Cluster Sets)
+- **Terça-feira:** Dia 2 – Dorsais + Ombros + Linha de Cintura (V-Taper)
+- **Quarta-feira:** Dia 3 – Posterior de Coxa + Glúteos (Hipertrofia Excêntrica)
+- **Quinta-feira:** Dia 4 – Full Lower (Glúteo Dominante + Drop Sets)
+- **Sexta-feira:** Dia 5 – Peitoral + Tríceps + Estabilização de Core
+- **Sábado:** Dia 6 – Caminhada Regenerativa (Mínimo 1h30 em Parques/Ruas)
 
-## 🔥 Dia 1: Quadríceps + Glúteos (Força e Volume)
+---
 
-- Agachamento Livre – 4x15-12-10-8 (progressao de carga) - Caso dor lombar: substituir por Agachamento Smith
-- Leg Press 45° – 3x10-12 + 1 dropset (reduzir 30% da carga)
-- Agachamento Bulgaro – 3x10 (2s excêntrico)
-- Cadeira Extensora – 3x12 (pico de contração)
-- Hip Thrust com Barra – 4x10 (2s pausa no topo) *Priorizar progressão de carga (+2,5kg/semana)*
-- Panturrilha em Pé – 4x15-20 (amplitude máxima)
+### Segunda: Dia 1 – Quadríceps + Glúteos (Foco Força)
 
-## 🔥 Dia 2: Costas + Ombros (Volume Controlado)
+- **Agachamento Aquecimento:** 2 séries x 20 repetições (carga bem leve, foco em lubrificação articular).
+- **Agachamento Livre ou no Smith:** 4 séries x 12/10/8 + **1 Cluster Set na última série** _(4 rep. / 15s desc. / 4 rep. / 15s desc. / 3 rep. com carga máxima)_.
+- **Leg Press 45°:** 4 séries de 12 repetições + **1 Drop Set agressivo na última série** _(reduza 30% da carga imediatamente e vá até a falha)_.
+- **Agachamento Búlgaro (Foco em Quadríceps):** 4 séries x 10 repetições _(descida lenta de 2 segundos, tronco vertical)_.
+- **Cadeira Extensora:** 4 séries x 12 repetições _(pausa de 2 segundos em contração máxima no topo de cada repetição)_.
+- **Hip Thrust (Elevação Pélvica) com Barra:** 4 séries x 10 repetições _(foco em progressão de carga e contração máxima)_.
 
-- Barra Fixa Assistida – 4x10
-- Puxador Triângulo – 3x10 + 8 DROP
-- Remada Curvada com Halteres – 3x10 (serrote)
-- Face Pull com Corda – 3x12 (ênfase em rotação externa)
-- Elevação Lateral – 3x10 (peso moderado)
-- Encolhimento Trapézio – 4x10
+### Terça: Dia 2 – Costas + Ombros + Abdômen (Construção do V-Taper)
 
-## 🔥 Dia 3: Posterior + Glúteos (Hipertrofia Excêntrica)
+- **Barra Fixa Assistida (Graviton):** 4 séries x 12 repetições.
+- **Remada Curvada com Barra:** 3 séries x 12 repetições.
+- **Puxador Triângulo:** 4 séries x 10 repetições + **1 Drop Set final** _(reduza o peso e faça mais 8 repetições)_.
+- **Remada Curvada com Halteres (Serrote):** 3 séries x 10 repetições.
+- **Face Pull com Corda:** 3 séries x 12 repetições _(ênfase na rotação externa)_.
+- **Elevação Lateral para Ombros:** 4 séries x 10 repetições. _A última série será um **Cluster Set**: 5 rep. / 15s desc. / 5 rep. / 15s desc. / 5 rep._
+- **Hanging Leg Raise (Elevação de pernas suspenso ou apoiado):** 4 séries x 15 repetições _(Core)_.
 
-- Stiff com Barra – 3x10
-- Mesa Flexora (Isometria) – 4x10 (segurar 2s no topo)
-- Cadeira Flexora (Isometria) – 3x10+10 DROP
-- Glúteo na Polia Baixa – 3x15-18/perna
-- Adutora na Máquina com Pausa – 3x10 (2s pausa no topo)
-- Panturrilha Sentado – 4x15 (peso progressivo)
+### Quarta: Dia 3 – Posterior + Glúteos (Hipertrofia Excêntrica)
 
-## 🔥 Dia 4: Full Lower (Glúteo Dominante + Dropsets)
+- **Mesa Flexora:** 4 séries x 10 repetições _(segurando 2 segundos na contração máxima embaixo)_.
+- **Stiff com Barra:** 4 séries x 10 repetições _(empurre o quadril bem para trás, alongando os posteriores)_.
+- **Cadeira Flexora:** 4 séries x 10 repetições + **1 Drop Set final** _(reduza o peso e faça mais 10 repetições rápidas)_.
+- **Glúteo na Polia Baixa (Cabo / Perna Estendida):** 4 séries x 15 repetições por perna.
+- **Panturrilha Sentado:** 4 séries x 15 repetições _(cadência controlada, foco no músculo sóleo)_.
+- **Adução na Máquina:** 3 séries x 15 repetições _(com pausa de 2 segundos no final de cada abertura)_.
 
-- Hip Thrust com Banda – 4x12 (banda acima dos joelhos)
-- Agachamento Sumô – 4x12 (profundidade máxima)
-- Leg Press (Pés altos) – 4x12 → Dropset final
-- Afundo Bulgariano – 3x10 (controle excêntrico)
-- Abdução na Máquina com Pausa – 3x15 (2s pausa no topo)
-- Hanging leg raise: (Íliopsoas (músculo do quadril)) - Elevacao de pernas apoiado 3x10-15
+### Quinta: Dia 4 – Full Lower (Glúteo Dominante + Drop Sets)
 
-## 🔥 Dia 5: Peito + Tríceps (Articulação Segura)
+- **Hip Thrust (Elevação Pélvica) com Banda:** 4 séries x 12 repetições _(miniband acima dos joelhos forçando para fora)_.
+- **Agachamento Sumô (Halter pesado):** 4 séries x 12 repetições _(profundidade máxima e descida controlada)_.
+- **Leg Press 45° (Pés Altos e Afastados):** 4 séries x 12 repetições. _Na última série, execute um **Drop Set triplo**: faz 12 rep. / retira peso / falha / retira peso / falha._
+- **Afundo Búlgaro:** 4 séries x 10 repetições _(tronco ligeiramente inclinado para a frente para focar no glúteo)_.
+- **Abdução na Máquina:** 3 séries x 15 repetições _(com pausa de 2 segundos no final de cada abertura)_.
+- **Panturrilha Unilateral Livre:** 4 séries x 12 repetições _(cadência lenta usando o peso do corpo)_.
 
-- Supino Inclinado com Halteres – 4x10
-- Tríceps Francês com Corda – 4x12
-- Crucifixo na Máquina – 4x12
-- Tríceps Barra W – 4x20 (peso leve)
-- Tríceps Testa Barra W – 3x10
-- Desenvolvimento maquina 3x10
+### Sexta: Dia 5 – Peito + Tríceps + Estabilização de Core
 
-## 🎯 Estratégias de Intensidade e Segurança
+- **Supino Inclinado com Halteres:** 4 séries x 12 repetições.
+- **Crucifixo na Máquina (Peck Deck):** 4 séries x 12 repetições.
+- **Tríceps Francês com Corda na Polia:** 4 séries x 12 repetições.
+- **Tríceps Testa com Barra W:** 4 séries x 10 repetições.
+- **Tríceps na Polia (Barra reta ou V):** 3 séries x 10 repetições.
+- **Desenvolvimento de Ombros na Máquina:** 4 séries x 10 repetições.
+- **Prancha Frontal Estática:** 3 séries de 45 a 60 segundos _(puxando o umbigo para dentro)_.
 
-- Progressão de Carga: Aumentar semanalmente apenas em Hip Thrust (+2,5kg) e Agachamento (+1-2kg).
+### Sábado: Dia 6 – Caminhada Regenerativa
 
-- Técnicas:
-    - Dropsets 1x/semana por grupo muscular.
-    - Isometria para glúteos/posterior (evitar sobrecarga lombar).
-
-- Recuperação:
-    - Alongamento dinâmico pós-treino + rolo de espuma (foco em quadríceps/glúteos).
-    - Cardio leve 3x/semana (10min esteira inclinada).
-
-## 📌 Observações Finais
-
-1. Substituições Seguras:
-Dor no joelho: Trocar Leg Press por Agachamento Smith.
-Dor lombar: Trocar Stiff por Flexora Sentada.
-
-2. Suplementação:
-Creatina (5g/dia) para força e recuperação.
-Colágeno tipo II para saúde articular.
-
-3. Alimentação: Ajustar carboidratos conforme dias de treino (reduzir em dias de descanso).
-
-Bora pra cima! 💪🔥
+- **Atividade:** Mínimo de 1h30 de caminhada leve em parques ou ruas. Excelente para oxigenar a musculatura das pernas após a semana intensa e auxiliar na recuperação sem impacto mecânico elevado.

@@ -14,8 +14,8 @@ from os import remove
 import requests
 
 __CONSULTAR_STREAM: bool = True
-__HEADERS: dict[str, str] = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0'}
-__MY_CPU_COUNT: int = int(multiprocessing.cpu_count() * 2) + 1
+__HEADERS: dict[str, str] = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0'}
+__MY_CPU_COUNT: int = multiprocessing.cpu_count() * 2
 
 conn = sqlite3.connect(database='database.db', timeout=2.0)
 cursor = conn.cursor()
